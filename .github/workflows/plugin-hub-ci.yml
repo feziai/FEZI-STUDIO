@@ -16,5 +16,5 @@ jobs:
           node-version: '22'
       - name: Validate plugin hub source
         run: node --test tests/plugin-hub-mcp.test.mjs
-      - name: Check registry count and manifests
+      - name: Check private hub manifests and catalog-only entries
         run: node scripts/check-plugin-hub-release.mjs

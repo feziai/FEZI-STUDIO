@@ -1,7 +1,7 @@
 {
   "slug": "plugin-boss",
   "name": "Plugin Boss",
-  "chatgptPluginId": "plugins_6af16b9fffc0819187d1c0b7fc7840c",
+  "chatgptPluginId": "plugins_6af16b9fffc0819187d1c0b7fc7840c5",
   "currentChatgptVersion": "1.0.3",
   "chatgptVisibility": "PRIVATE",
   "githubSourceStatus": "metadata-only-no-current-source-export",

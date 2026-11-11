@@ -1,6 +1,6 @@
 # Plugin Boss
 
-- ChatGPT plugin ID: `plugins_6af16b9fffc0819187d1c0b7fc7840c`
+- ChatGPT plugin ID: `plugins_6af16b9fffc0819187d1c0b7fc7840c5`
 - Latest catalog version: `1.0.3`
 - Private ChatGPT plugin: **not auto-shared from GitHub**
 - Gateway path: `/mcp/hub/plugin-boss` (after deploying FEZI Studio)
