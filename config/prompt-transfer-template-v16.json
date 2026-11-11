@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "my-transferable-fashion-prompt",
+    "title": "My Transferable Fashion Prompt",
+    "titleFa": "پرامپت فشن اختصاصی",
+    "description": "A prompt owned by the FEZI operator, licensed for republication",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion",
+      "Editorial"
+    ],
+    "prompt": "An original full-body editorial fashion photo of an adult subject, studio softbox lighting, elegant pose and an ivory backdrop.",
+    "rights": "original",
+    "transferAllowed": true,
+    "sourceId": "owner-upload",
+    "sourceUrl": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://example.com/your-owned-image.jpg",
+        "transferAllowed": true
+      }
+    ]
+  }
+]

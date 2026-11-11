@@ -1,0 +1,19 @@
+{
+  "slug": "fezi-website-builder-pro",
+  "name": "FEZI Website Builder Pro",
+  "chatgptPluginId": "plugins_6af11167471c81919bafaa4c613e1747",
+  "currentChatgptVersion": "1.2.5",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/fezi-website-builder-pro",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

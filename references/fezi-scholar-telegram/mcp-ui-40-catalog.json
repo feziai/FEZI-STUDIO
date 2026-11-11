@@ -1,0 +1,333 @@
+{
+  "title": "FEZI 40 MCP Apps UI source and adapter catalog",
+  "date": "2026-11-09",
+  "count": 40,
+  "sources": [
+    "https://github.com/modelcontextprotocol/ext-apps",
+    "https://github.com/vercel-labs/agent-skills",
+    "https://github.com/modelcontextprotocol/servers",
+    "https://developers.openai.com/plugins/build/app-quickstart"
+  ],
+  "entries": [
+    {
+      "name": "create-mcp-app",
+      "source": "https://github.com/modelcontextprotocol/ext-apps",
+      "kind": "upstream Agent Skill",
+      "area": "MCP UI",
+      "implementation": "Scaffold an MCP tool with a UI resource and test it in a compatible host",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "migrate-oai-app",
+      "source": "https://github.com/modelcontextprotocol/ext-apps",
+      "kind": "upstream Agent Skill",
+      "area": "MCP UI",
+      "implementation": "Migrate existing OpenAI UI implementation preserving tool behavior",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "add-app-to-server",
+      "source": "https://github.com/modelcontextprotocol/ext-apps",
+      "kind": "upstream Agent Skill",
+      "area": "MCP UI",
+      "implementation": "Attach UI resource to an existing MCP server",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "convert-web-app",
+      "source": "https://github.com/modelcontextprotocol/ext-apps",
+      "kind": "upstream Agent Skill",
+      "area": "MCP UI",
+      "implementation": "Convert a web app to hybrid web plus MCP App",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "react-best-practices",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "kind": "upstream Agent Skill",
+      "area": "UI/Quality",
+      "implementation": "Review waterfall, bundle, data loading and render optimization",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "web-design-guidelines",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "kind": "upstream Agent Skill",
+      "area": "UI/Quality",
+      "implementation": "Audit accessibility, forms, keyboard, responsive layout",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "kind": "upstream Agent Skill",
+      "area": "UI/Quality",
+      "implementation": "Review component API and composition",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "kind": "upstream Agent Skill",
+      "area": "UI/Quality",
+      "implementation": "Guard transitions and reduced-motion",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "kind": "upstream Agent Skill",
+      "area": "UI/Quality",
+      "implementation": "Adapt mobile-facing panels",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "deploy-to-vercel",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "kind": "upstream Agent Skill",
+      "area": "UI/Quality",
+      "implementation": "Plan authorized preview deployment",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "mcp-reference-filesystem",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "kind": "reference MCP server (not skill)",
+      "area": "MCP infrastructure",
+      "implementation": "Scoped file operations only",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "mcp-reference-git",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "kind": "reference MCP server (not skill)",
+      "area": "MCP infrastructure",
+      "implementation": "Inspect and update versioned repositories with approval",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "mcp-reference-fetch",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "kind": "reference MCP server (not skill)",
+      "area": "MCP infrastructure",
+      "implementation": "Fetch approved URLs with SSRF constraints",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "mcp-reference-memory",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "kind": "reference MCP server (not skill)",
+      "area": "MCP infrastructure",
+      "implementation": "Persist approved state with access controls",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "mcp-reference-sequential-thinking",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "kind": "reference MCP server (not skill)",
+      "area": "MCP infrastructure",
+      "implementation": "Structured planning and review",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "mcp-reference-time",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "kind": "reference MCP server (not skill)",
+      "area": "MCP infrastructure",
+      "implementation": "Time and timezone normalization",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "mcp-reference-everything",
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "kind": "reference MCP server (not skill)",
+      "area": "MCP infrastructure",
+      "implementation": "Test MCP interoperability with synthetic data",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "openai-plugin-ui-quickstart",
+      "source": "https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "official implementation guide (not skill)",
+      "area": "OpenAI UI",
+      "implementation": "Register tools and HTML UI resource for a supported host",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-tool-ui-contract",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/MCP Apps",
+      "implementation": "Define UI resource and tool contract with versioned schema",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-ui-resource-registry",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/MCP Apps",
+      "implementation": "Track ui:// resources and MIME types per plugin",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-chatgpt-app-handshake",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/MCP Apps",
+      "implementation": "Implement host-message handshake and capability detection",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-tool-result-rendering",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/MCP Apps",
+      "implementation": "Render sanitized structured tool results",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-form-validation",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Forms",
+      "implementation": "Validate fields client and server side",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-action-confirmation",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Safety",
+      "implementation": "Require explicit confirmation for irreversible writes",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-oauth-permission-gate",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Auth",
+      "implementation": "Request and verify minimum OAuth scopes",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-secret-separation",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Security",
+      "implementation": "Keep credentials server side and never log tokens",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-origin-csp-audit",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Security",
+      "implementation": "Restrict origins, headers and iframe resources",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-webhook-signature-check",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Webhooks",
+      "implementation": "Validate webhook signature, replay and timestamps",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-idempotency-check",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Reliability",
+      "implementation": "Store durable event keys for external writes",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-timeout-reconciliation",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Reliability",
+      "implementation": "Inspect effect after ambiguous timeout before retry",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-multi-tenant-boundaries",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Auth",
+      "implementation": "Enforce tenant scoping and role checks",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-plugin-creator-packaging",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Plugin Creator",
+      "implementation": "Validate plugin manifest, skill paths, logo and archive",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-plugin-version-update",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Plugin Creator",
+      "implementation": "Preserve original manifest and assets on guarded update",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-panel-preview-tests",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Testing",
+      "implementation": "Test previews with synthetic host data",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-mobile-accessibility",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/UX",
+      "implementation": "Test keyboard, screen readers, touch sizes, reduced motion",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-rtl-locale",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Localization",
+      "implementation": "Provide Persian RTL and English LTR without layout breaks",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-error-loading-states",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/UX",
+      "implementation": "Build empty, loading, success, unauthorized and error states",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-telemetry-redaction",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Observability",
+      "implementation": "Expose request IDs while redacting secrets and PII",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-github-ci-validation",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/GitHub",
+      "implementation": "Lint UI and schemas using isolated CI before release",
+      "status": "reference only; not automatically installed"
+    },
+    {
+      "name": "fezi-plugin-rollback",
+      "source": "FEZI original adapter informed by https://github.com/modelcontextprotocol/ext-apps and https://developers.openai.com/plugins/build/app-quickstart",
+      "kind": "original FEZI adapter skill",
+      "area": "UI/Plugin Creator",
+      "implementation": "Keep release ID and rollback guide after failed deployment",
+      "status": "reference only; not automatically installed"
+    }
+  ]
+}

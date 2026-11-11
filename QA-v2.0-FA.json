@@ -1,0 +1,78 @@
+{
+  "release": "FEZI Studio v2.0, prompt archive importer + training batch01",
+  "date": "2026-11-03",
+  "from_release": "v1.9 full",
+  "original_files": 1168,
+  "preserved_original_files": 1168,
+  "removed_files": [],
+  "new_total_files": 1201,
+  "prompt_library": {
+    "seed_records": 95,
+    "copy_ready": 91,
+    "generateprompt_real_new_records_included": 0,
+    "importer_formats": [
+      "JSON",
+      "JSON.GZ",
+      "JSONL",
+      "JSONL.GZ",
+      "NDJSON",
+      "NDJSON.GZ"
+    ],
+    "live_crawl": "not_run: no outbound DNS access"
+  },
+  "curriculum": {
+    "total_ids": 100000,
+    "categories": 10,
+    "lesson_files": 25,
+    "status": "drafted, not RAG published",
+    "local_checks": 250,
+    "local_passed": 250,
+    "local_failed": 0,
+    "lesson_rag_verified": 0,
+    "model_weights_updated": false
+  },
+  "project_tests": {
+    "total": 5471,
+    "passed": 5471,
+    "failed": 0
+  },
+  "logo_unchanged": true,
+  "source_digests": {
+    "curriculum_sha256": "a4e36aa57118f62031790c0d7d4778d52d08207458b78424b00bfc7fc4f6e03d",
+    "master_sha256": "74a498e146a8753be14cae22673086cd2150d97c189da97ef86f939f5f9061be",
+    "lessons": {
+      "CODE-00001": "6e36f8bc9ab7610e9d4253365d66f934d9d1adefb1788ce270299a75e3d67cbb",
+      "CODE-00002": "ab754b6754a6b4054720ab5faea12489b00742bb7fdc2a7da6d5f9bf4fb9b32e",
+      "CODE-00003": "9751f14dd8327644f906bb2f8289eb9eee0a7ba7bb5b70fc7f3c80e2ee95b3a4",
+      "CODE-00004": "eaaa6d2e8b980098e5a936b69f892f53203ad89b389a177789476e47ac2d2bab",
+      "CODE-00005": "b77a86f8d9d7292f86d52ab4977d6c82dcf08dcb452c6c07a30f84bbc8329e81",
+      "CODE-00006": "37c7e1c0bb200fa90779ca7c2fd97a56032c9b092e309845f048b53ba2030141",
+      "CODE-00007": "0be1c611728c4197aa42e72619bacf84066c3a47b899c3815f2be319f9f08c6f",
+      "CODE-00008": "31648f8be29844adf355a92d2a55fd91a77d4ac2c78efb63337bd8bbcc423f71",
+      "CODE-00009": "eb1983a0af8551c4010c5b81efd1c561df58888e67cfffa1905c5eab5c7b8006",
+      "CODE-00010": "78ec14f33b2281a7e96d088cd7723122d2aea29dd2bbe11b28131265137ea4b9",
+      "CODE-00011": "f2819c7eb18503560841ec1961805698584f23ec0878f1dda43826e5f8b57b2a",
+      "CODE-00012": "9480ede135ac8b4474ca715512119b50aee922fbfcc20516f781ecb3f15a9f34",
+      "CODE-00013": "f8a7c4e5999fc4ab8823b19b32bc7164fa52bcf54368a74b6dd89af094113549",
+      "CODE-00014": "0bf4e2a14e1004c2ff0c7d8344e8c7beaa2d40e2fbfbdf7398784292f518a179",
+      "CODE-00015": "6368dcf8df355d405c2acb5685da5b59a0a95f0f09c50b2677907ca999ad5076",
+      "CODE-00016": "08d782f583a83374c6d913272ac65afc4886daaf66c5b212eb890439f5f4f919",
+      "CODE-00017": "6d804c49c1807b8515b6eee6499f5b7bf52aad9ddca6595d7cb82bf4fb861387",
+      "CODE-00018": "541396b1f5df8f187662f4e1fec3fbcffd7bd73c7f37f74eb9c5a2f9df9154e3",
+      "CODE-00019": "53985b24ae4dd27d7b1abe36614592f666b0d7dd27eab95e3438a91140e12ebe",
+      "CODE-00020": "f69d6f4e467c5352a8f64ab9aa0f1eb2fcd30736fd4369e39cf9beeea9ff59c2",
+      "CODE-00021": "e9aeb7ad53560788b72c0d8fa1b4ecfb94daa41c5bcac755db0d6ba2c04cf289",
+      "CODE-00022": "096d24bcae91164b8739b64add97b31eb4ffd6111705bbb158de8b36ef9184b9",
+      "CODE-00023": "e33b57ca28c005460932158f0fed0b87df8794207e3ed3e27631e71fc2ed2443",
+      "CODE-00024": "d400e9d9caff283cc2a394d36cbbe74d36ca2e66ccde223796b77efff45bc8b9",
+      "CODE-00025": "4581bc2a38d262a4e181d3418899db7e98417a9266f430d1ef4e7e2a266ff372"
+    }
+  },
+  "unverified": [
+    "full GeneratePrompt archive transfer",
+    "live Telegram send",
+    "real cPanel deploy",
+    "model fine tuning",
+    "human lesson review"
+  ]
+}

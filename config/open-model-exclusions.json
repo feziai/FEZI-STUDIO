@@ -1,0 +1,22 @@
+[
+  {
+    "model": "FLUX.1 Dev",
+    "reason": "Non-commercial model-weights license; exclude from unrestricted commercial model router",
+    "source": "https://github.com/black-forest-labs/flux"
+  },
+  {
+    "model": "LTX-2.3",
+    "reason": "Community license; revenue threshold and competition/use restrictions; review separately",
+    "source": "https://huggingface.co/Lightricks/LTX-2.3/blob/main/LICENSE"
+  },
+  {
+    "model": "HunyuanVideo 1.5",
+    "reason": "Community license excludes EU, UK and South Korea; do not include in default stack",
+    "source": "https://huggingface.co/tencent/HunyuanVideo-1.5/blob/main/LICENSE"
+  },
+  {
+    "model": "CogVideoX 1.5",
+    "reason": "Commercial registration and traffic conditions under custom license; review separately",
+    "source": "https://huggingface.co/zai-org/CogVideoX1.5-5B/blob/main/LICENSE"
+  }
+]

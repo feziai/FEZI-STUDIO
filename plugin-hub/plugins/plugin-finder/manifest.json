@@ -1,0 +1,19 @@
+{
+  "slug": "plugin-finder",
+  "name": "Plugin Finder",
+  "chatgptPluginId": "plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+  "currentChatgptVersion": "1.0.16",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/plugin-finder",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

@@ -1,0 +1,20 @@
+name: FEZI Plugin Hub Tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate plugin hub source
+        run: node --test tests/plugin-hub-mcp.test.mjs
+      - name: Check registry count and manifests
+        run: node scripts/check-plugin-hub-release.mjs

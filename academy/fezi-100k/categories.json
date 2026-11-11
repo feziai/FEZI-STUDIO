@@ -1,0 +1,43 @@
+{
+  "categories": {
+    "VIDEO": 10000,
+    "IMAGE": 10000,
+    "CODE": 10000,
+    "AVATAR": 10000,
+    "NETSEC": 10000,
+    "WEB": 10000,
+    "APP": 10000,
+    "ETHHACK": 10000,
+    "SELF": 10000,
+    "AIFOUND": 10000
+  },
+  "total": 100000,
+  "duplicates": [],
+  "queued_course_ids": [
+    "CODE-00001",
+    "CODE-00002",
+    "CODE-00003",
+    "CODE-00004",
+    "CODE-00005",
+    "CODE-00006",
+    "CODE-00007",
+    "CODE-00008",
+    "CODE-00009",
+    "CODE-00010",
+    "CODE-00011",
+    "CODE-00012",
+    "CODE-00013",
+    "CODE-00014",
+    "CODE-00015",
+    "CODE-00016",
+    "CODE-00017",
+    "CODE-00018",
+    "CODE-00019",
+    "CODE-00020",
+    "CODE-00021",
+    "CODE-00022",
+    "CODE-00023",
+    "CODE-00024",
+    "CODE-00025"
+  ]
+}

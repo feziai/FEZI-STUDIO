@@ -1,0 +1,19 @@
+{
+  "slug": "skill-creator",
+  "name": "FEZI Skill Creator",
+  "chatgptPluginId": "plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+  "currentChatgptVersion": "1.1.0",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/skill-creator",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

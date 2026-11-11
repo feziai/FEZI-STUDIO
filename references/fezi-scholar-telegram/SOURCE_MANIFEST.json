@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "buildDate": "2026-11-09",
+  "title": "FEZI Scholar, Video5 & Telegram Knowledge",
+  "scope": "Original archived source content; references are not installed external APIs",
+  "sourceArtifacts": [
+    {
+      "name": "FEZI_All_Plugins_Video5_Scholar_Update_Pack.zip",
+      "type": "historical plugin skill overlays"
+    },
+    {
+      "name": "Telegram_Knowledge_for_Custom_GPT_FA.md",
+      "type": "user-supplied Telegram knowledge document"
+    },
+    {
+      "name": "FEZI_Telegram_Knowledge_15_Plugins_With_Report.zip",
+      "type": "prior plugin update report and overlays"
+    },
+    {
+      "name": "FEZI_Telegram_Bot_Maker_Knowledge_Patch_v2.zip",
+      "type": "Telegram foundation skill"
+    },
+    {
+      "name": "FEZI_All_Plugins_MCP_UI_40_Update_Pack.zip",
+      "type": "MCP Apps UI 40 reference catalog; not active MCP apps"
+    }
+  ],
+  "includedImages": [
+    {
+      "file": "public/fezi-agent/assets/fezi-website-controller.png",
+      "role": "existing controller brand asset",
+      "scholarChatProvenance": false
+    }
+  ],
+  "unresolvedImages": "No source-verified images from the Scholar conversation were present in the identified Scholar ZIP or Telegram knowledge artifacts; do not claim images were recovered.",
+  "documentIndex": [
+    {
+      "filename": "mcp-ui-40-SKILL.md",
+      "bytes": 2306,
+      "sha256": "03232599cee9a161d8e936cf8513dbf31d47b53b5cdd052138d830c8ca6d60d7"
+    },
+    {
+      "filename": "mcp-ui-40-catalog.json",
+      "bytes": 15806,
+      "sha256": "1f61ba843279539afbe85fc7952025611dd0c8f66d19125f04f053de2be22398"
+    },
+    {
+      "filename": "mcp-ui-40-readme.md",
+      "bytes": 900,
+      "sha256": "d4a68da09ea48fff0de3389687dcddd306e0432a0fa83a1155f72c1764aa4932"
+    },
+    {
+      "filename": "mcp-ui-40-status.json",
+      "bytes": 1021,
+      "sha256": "b5edef9b18b64a6d853166415767c0cbe1b37f0e27443b4411d30ab83a3fb52c"
+    },
+    {
+      "filename": "scholar-original-rollout-status.json",
+      "bytes": 691,
+      "sha256": "f5aff3423694f762deb4b5639cbbb214cc1947daa29c8815f6c33d32f9b99703"
+    },
+    {
+      "filename": "scholar-research-SKILL.md",
+      "bytes": 3130,
+      "sha256": "e07ba3507e022040169e478742986287dfa8c240d7dfd54a5f4d88deda6a7e72"
+    },
+    {
+      "filename": "scholar-video-registry.json",
+      "bytes": 2605,
+      "sha256": "bf398d7d754c6edaf69e60da4763663d147fcc9f9a76c667a5be1cb30a5b08df"
+    },
+    {
+      "filename": "scholar-video-rollout.md",
+      "bytes": 766,
+      "sha256": "406c99455311f013f00cbc5278041903062cbc1e161b7234e399f37595edf336"
+    },
+    {
+      "filename": "telegram-bot-maker-foundation-SKILL.md",
+      "bytes": 1955,
+      "sha256": "1877b3f4a0a12db014b09019bc9de944aa7abc1bcd1939e2d778e45d3b2bc1df"
+    },
+    {
+      "filename": "telegram-knowledge-fa.md",
+      "bytes": 12717,
+      "sha256": "e45e4823223316e37df271b7575852ced8d69465e84c840eb54917dc1b9b0504"
+    },
+    {
+      "filename": "telegram-plugins-status-fa.md",
+      "bytes": 6689,
+      "sha256": "34c5a88817676a495176888384336d401082c0a35b16761181381c21f791b28e"
+    },
+    {
+      "filename": "telegram-plugins-updates-manifest.json",
+      "bytes": 4391,
+      "sha256": "71740b1c265b8683904181ee06bcddd4461148b9e3b86c7f1cb3d4ec69b4824f"
+    },
+    {
+      "filename": "video5-SKILL.md",
+      "bytes": 3110,
+      "sha256": "e3a368e343f19be6953caf9a190a00adb2e587e221a6d2d4daa19f03831d4e9b"
+    }
+  ]
+}

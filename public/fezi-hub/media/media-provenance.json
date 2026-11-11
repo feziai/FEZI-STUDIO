@@ -1,0 +1,110 @@
+[
+  {
+    "id": "action-01",
+    "sample": "Manga Action",
+    "listed_model": "Seedance",
+    "tool_url": "https://dreamina.capcut.com/",
+    "source_filename": "1793776141272_i1h3na_Seedance-2.5-Manga-to-Video-Workflow-Prompt.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-01.mp4",
+    "poster": "/fezi-hub/media/action-01.jpg",
+    "bytes": 219853
+  },
+  {
+    "id": "action-02",
+    "sample": "Train Thriller",
+    "listed_model": "Kling AI",
+    "tool_url": "https://kling.ai/",
+    "source_filename": "1793690509585_75nfjf_Mysterious-Train-Thriller-Sequence.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-02.mp4",
+    "poster": "/fezi-hub/media/action-02.jpg",
+    "bytes": 14420
+  },
+  {
+    "id": "action-03",
+    "sample": "Halloween",
+    "listed_model": "Grok Imagine",
+    "tool_url": "https://grok.com/",
+    "source_filename": "1793605240772_8cpu2d_Grok-Imagine-Prompt--Halloween-Celebration.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-03.mp4",
+    "poster": "/fezi-hub/media/action-03.jpg",
+    "bytes": 512002
+  },
+  {
+    "id": "action-04",
+    "sample": "Masked Editorial",
+    "listed_model": "Runway",
+    "tool_url": "https://runwayml.com/",
+    "source_filename": "1793776129289_sl21z2_Fashion-Editorial-Masked-Men-Cult.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-04.mp4",
+    "poster": "/fezi-hub/media/action-04.jpg",
+    "bytes": 86391
+  },
+  {
+    "id": "action-05",
+    "sample": "Action Portrait",
+    "listed_model": "Hailuo",
+    "tool_url": "https://hailuoai.video/",
+    "source_filename": "1793776121532_86enlw_Korean-Schoolgirl-Action-Film-Style-Portrait.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-05.mp4",
+    "poster": "/fezi-hub/media/action-05.jpg",
+    "bytes": 138892
+  },
+  {
+    "id": "action-06",
+    "sample": "Aerial Cinema",
+    "listed_model": "Google Veo",
+    "tool_url": "https://deepmind.google/models/veo/",
+    "source_filename": "2043707867463844234-a-hyper-realistic-high-cinematic-aerial-drone-shot-of-a.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-06.mp4",
+    "poster": "/fezi-hub/media/action-06.jpg",
+    "bytes": 184280
+  },
+  {
+    "id": "action-07",
+    "sample": "Museum Heist",
+    "listed_model": "Luma",
+    "tool_url": "https://lumalabs.ai/dream-machine",
+    "source_filename": "2063169581473317099-style-3d-cinematic-animation-stylish-museum-heist-comed.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-07.mp4",
+    "poster": "/fezi-hub/media/action-07.jpg",
+    "bytes": 96416
+  },
+  {
+    "id": "action-08",
+    "sample": "Fantasy Duel",
+    "listed_model": "Wan Video",
+    "tool_url": "https://wan.video/",
+    "source_filename": "community-fe658409-e901-455f-abed-077be9d1a936-the-lost-centurychapter-5elara-valdrake-vs-the-black-swor.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-08.mp4",
+    "poster": "/fezi-hub/media/action-08.jpg",
+    "bytes": 259092
+  },
+  {
+    "id": "action-09",
+    "sample": "Epic Action",
+    "listed_model": "Pika",
+    "tool_url": "https://pika.art/",
+    "source_filename": "2043463569354998093-a-hyper-realistic-high-octane-cinematic-video-a-colossa.mp4",
+    "source": "User-supplied media, described as sourced from GeneratePrompts.net; reuse rights not verified",
+    "model_attribution": "not verified",
+    "preview_mp4": "/fezi-hub/media/action-09.mp4",
+    "poster": "/fezi-hub/media/action-09.jpg",
+    "bytes": 150023
+  }
+]

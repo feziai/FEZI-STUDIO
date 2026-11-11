@@ -1,0 +1,269 @@
+{
+  "snapshotDate": "2026-11-11",
+  "total": 26,
+  "visibility": "PRIVATE",
+  "runtime": "NOT_VERIFIED",
+  "source": "Plugin Creator private list",
+  "plugins": [
+    {
+      "slug": "fezi-studio",
+      "name": "فضی استودیو",
+      "nameEn": "FEZI Studio",
+      "version": "0.3.19",
+      "category": "studio",
+      "pluginId": "plugins_6aee66d7da5c8191878e86e2a54dbc49",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee66d7da5c8191878e86e2a54dbc49",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-studio/"
+    },
+    {
+      "slug": "premium",
+      "name": "فضی استودیو Premium",
+      "nameEn": "FEZI Studio Premium",
+      "version": "1.1.9",
+      "category": "studio",
+      "pluginId": "plugins_6aee769dcc7881919cd7829f1166dfcf",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee769dcc7881919cd7829f1166dfcf",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/premium/"
+    },
+    {
+      "slug": "super-plugin",
+      "name": "سوپر پلاگین",
+      "nameEn": "Super Plugin",
+      "version": "0.3.22",
+      "category": "developer",
+      "pluginId": "plugins_6aee704a03fc8191b211748176057f35",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee704a03fc8191b211748176057f35",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/super-plugin/"
+    },
+    {
+      "slug": "gitfez",
+      "name": "گیت‌فز — Host Manager",
+      "nameEn": "GitFez / Host Manager",
+      "version": "0.3.14",
+      "category": "developer",
+      "pluginId": "plugins_6aee5e023dc4819188cd987094cf5441",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee5e023dc4819188cd987094cf5441",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/gitfez/"
+    },
+    {
+      "slug": "git-pusher",
+      "name": "فضی گیت پوشِر",
+      "nameEn": "FEZI Git Pusher",
+      "version": "0.6.16",
+      "category": "developer",
+      "pluginId": "plugins_6aee597b2af081918f3dcb35530cf384",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee597b2af081918f3dcb35530cf384",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/git-pusher/"
+    },
+    {
+      "slug": "arina",
+      "name": "آرینا لایو",
+      "nameEn": "Arina Live",
+      "version": "0.1.10",
+      "category": "creative",
+      "pluginId": "plugins_6aeea11809e88191a73963704e2ba340",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aeea11809e88191a73963704e2ba340",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/arina/"
+    },
+    {
+      "slug": "uncensored",
+      "name": "Uncensored GPT",
+      "nameEn": "Uncensored GPT",
+      "version": "0.4.14",
+      "category": "creative",
+      "pluginId": "plugins_6aee79b01fd081918e1e4898a67a4253",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee79b01fd081918e1e4898a67a4253",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/uncensored/"
+    },
+    {
+      "slug": "fezipay",
+      "name": "فضی‌پی",
+      "nameEn": "FeziPay",
+      "version": "0.8.15",
+      "category": "finance",
+      "pluginId": "plugins_6aee634490288191b707850d23b96c03",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee634490288191b707850d23b96c03",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezipay/"
+    },
+    {
+      "slug": "hostgpt",
+      "name": "HostGPT AI — مدیریت انتشار",
+      "nameEn": "HostGPT AI Deploy Manager",
+      "version": "1.0.15",
+      "category": "developer",
+      "pluginId": "plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/hostgpt/"
+    },
+    {
+      "slug": "fezi-agent-builder",
+      "name": "فضی ایجنت — سازنده حرفه‌ای",
+      "nameEn": "FEZI Agent Builder",
+      "version": "0.1.10",
+      "category": "developer",
+      "pluginId": "plugins_6af010f67fac8191a27194c5258fd239",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af010f67fac8191a27194c5258fd239",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-agent-builder/"
+    },
+    {
+      "slug": "fezi-telegram-bot-maker",
+      "name": "ربات‌ساز تلگرام FEZI",
+      "nameEn": "FEZI Telegram Bot Maker",
+      "version": "0.5.7",
+      "category": "developer",
+      "pluginId": "plugins_6af005cefac8819186b101bfdd77ed74",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af005cefac8819186b101bfdd77ed74",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-telegram-bot-maker/"
+    },
+    {
+      "slug": "skill-creator",
+      "name": "سازنده اسکیل",
+      "nameEn": "FEZI Skill Creator",
+      "version": "1.1.1",
+      "category": "developer",
+      "pluginId": "plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/skill-creator/"
+    },
+    {
+      "slug": "plugin-finder",
+      "name": "پلاگین‌یاب",
+      "nameEn": "Plugin Finder",
+      "version": "1.0.17",
+      "category": "developer",
+      "pluginId": "plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/plugin-finder/"
+    },
+    {
+      "slug": "easygit",
+      "name": "ایزی‌گیت",
+      "nameEn": "EasyGit",
+      "version": "0.1.1",
+      "category": "developer",
+      "pluginId": "plugins_6af3db32a214819185f3f0e82736c173",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3db32a214819185f3f0e82736c173",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/easygit/"
+    },
+    {
+      "slug": "persian-type-studio",
+      "name": "تایپوگرافی فارسی · Persian Fonts",
+      "nameEn": "Persian Type Studio",
+      "version": "0.2.2",
+      "category": "creative",
+      "pluginId": "plugins_6af3d85d8ac881918e82951d8185edef",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3d85d8ac881918e82951d8185edef",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/persian-type-studio/"
+    },
+    {
+      "slug": "fezi-ai",
+      "name": "فضی AI",
+      "nameEn": "FEZI AI",
+      "version": "1.0.2",
+      "category": "studio",
+      "pluginId": "plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-ai/"
+    },
+    {
+      "slug": "replit-websites-deployer",
+      "name": "استقراردهنده وب‌سایت رپلیت",
+      "nameEn": "Replit Websites Deployer",
+      "version": "1.0.1",
+      "category": "developer",
+      "pluginId": "plugins_6af3d2e8ad34819184969f276177c2ca",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3d2e8ad34819184969f276177c2ca",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/replit-websites-deployer/"
+    },
+    {
+      "slug": "fezi-site-control",
+      "name": "کنترل سایت برای همه کاربران",
+      "nameEn": "FEZI Site Control",
+      "version": "1.0.1",
+      "category": "developer",
+      "pluginId": "plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-site-control/"
+    },
+    {
+      "slug": "plugin-boss",
+      "name": "مدیر پلاگین‌ها",
+      "nameEn": "Plugin Boss",
+      "version": "1.0.4",
+      "category": "developer",
+      "pluginId": "plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/plugin-boss/"
+    },
+    {
+      "slug": "fezi-website-controller",
+      "name": "کنترلر خصوصی وب‌سایت فضی",
+      "nameEn": "FEZI Website Controller",
+      "version": "1.0.7",
+      "category": "developer",
+      "pluginId": "plugins_6af12c828d708191bbc2155205c342b0",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af12c828d708191bbc2155205c342b0",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-website-controller/"
+    },
+    {
+      "slug": "fezi-ai-command-center",
+      "name": "مرکز فرماندهی هوش مصنوعی",
+      "nameEn": "FEZI AI Command Center",
+      "version": "1.0.5",
+      "category": "studio",
+      "pluginId": "plugins_6af12b7fe94881919815cc5b117849ab",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af12b7fe94881919815cc5b117849ab",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-ai-command-center/"
+    },
+    {
+      "slug": "wan2-free",
+      "name": "وان ۲ فری",
+      "nameEn": "Wan2 Free",
+      "version": "1.0.5",
+      "category": "creative",
+      "pluginId": "plugins_6af12a28838481919c2cc8d30dde6f7a",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af12a28838481919c2cc8d30dde6f7a",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/wan2-free/"
+    },
+    {
+      "slug": "unlimited-email",
+      "name": "ایمیل نامحدود",
+      "nameEn": "Unlimited Email",
+      "version": "0.1.4",
+      "category": "communication",
+      "pluginId": "plugins_6af1241521248191a545a332773839ec",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af1241521248191a545a332773839ec",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/unlimited-email/"
+    },
+    {
+      "slug": "fezi-automation",
+      "name": "اتوماسیون فضی",
+      "nameEn": "FEZI Automation",
+      "version": "1.1.7",
+      "category": "developer",
+      "pluginId": "plugins_6af11f2ec0e48191845816afe7260920",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af11f2ec0e48191845816afe7260920",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-automation/"
+    },
+    {
+      "slug": "fezi-website-builder-pro",
+      "name": "سایت‌ساز حرفه‌ای فضی",
+      "nameEn": "FEZI Website Builder Pro",
+      "version": "1.2.6",
+      "category": "developer",
+      "pluginId": "plugins_6af11167471c81919bafaa4c613e1747",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af11167471c81919bafaa4c613e1747",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/fezi-website-builder-pro/"
+    },
+    {
+      "slug": "plugin-saz",
+      "name": "پلاگین‌ساز",
+      "nameEn": "Plugin-saz",
+      "version": "1.0.2",
+      "category": "developer",
+      "pluginId": "plugins_6af3e2b7cdb081918d7991c0db2f9037",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3e2b7cdb081918d7991c0db2f9037",
+      "pageUrl": "https://feziai.github.io/FEZI-STUDIO/plugins/plugin-saz/"
+    }
+  ]
+}

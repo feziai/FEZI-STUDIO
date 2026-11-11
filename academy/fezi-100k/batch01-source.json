@@ -1,0 +1,202 @@
+[
+  {
+    "id": "CODE-00001",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00002",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00003",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00004",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00005",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00006",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00007",
+    "category": "CODE",
+    "level": 3,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00008",
+    "category": "CODE",
+    "level": 3,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00009",
+    "category": "CODE",
+    "level": 3,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00010",
+    "category": "CODE",
+    "level": 4,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "کتابخانه Python قابل نصب",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00011",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00012",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00013",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00014",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00015",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00016",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00017",
+    "category": "CODE",
+    "level": 3,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00018",
+    "category": "CODE",
+    "level": 3,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00019",
+    "category": "CODE",
+    "level": 3,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00020",
+    "category": "CODE",
+    "level": 4,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "سرویس Node.js در cPanel",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00021",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "ربات تلگرام دارای تست",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00022",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "ربات تلگرام دارای تست",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00023",
+    "category": "CODE",
+    "level": 1,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "ربات تلگرام دارای تست",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00024",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "ربات تلگرام دارای تست",
+    "status": "planned"
+  },
+  {
+    "id": "CODE-00025",
+    "category": "CODE",
+    "level": 2,
+    "topic": "اصول زبان / متغیر و نوع داده",
+    "scenario": "ربات تلگرام دارای تست",
+    "status": "planned"
+  }
+]

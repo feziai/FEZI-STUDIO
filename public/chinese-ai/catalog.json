@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Qwen Chat",
+    "category": "chat",
+    "url": "https://chat.qwen.ai",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Qwen Models",
+    "category": "chat",
+    "url": "https://huggingface.co/Qwen",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "DeepSeek",
+    "category": "chat",
+    "url": "https://chat.deepseek.com",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "DeepSeek Github",
+    "category": "chat",
+    "url": "https://github.com/deepseek-ai",
+    "type": "source",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "GLM / Z.ai",
+    "category": "chat",
+    "url": "https://chat.z.ai",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "GLM Models",
+    "category": "chat",
+    "url": "https://huggingface.co/zai-org",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Kimi",
+    "category": "chat",
+    "url": "https://www.kimi.com",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Kimi Github",
+    "category": "chat",
+    "url": "https://github.com/MoonshotAI",
+    "type": "source",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "MiniMax",
+    "category": "chat",
+    "url": "https://www.minimax.io",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "ERNIE / Baidu",
+    "category": "chat",
+    "url": "https://yiyan.baidu.com",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Kling AI",
+    "category": "video",
+    "url": "https://klingai.com",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Wan 2.2",
+    "category": "video",
+    "url": "https://github.com/Wan-Video/Wan2.2",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Hailuo AI",
+    "category": "video",
+    "url": "https://hailuoai.com",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Seedance / Jimeng",
+    "category": "video",
+    "url": "https://jimeng.jianying.com",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "HunyuanVideo",
+    "category": "video",
+    "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Vidu AI",
+    "category": "video",
+    "url": "https://www.vidu.cn",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "PixVerse",
+    "category": "video",
+    "url": "https://pixverse.ai",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "SkyReels V2",
+    "category": "video",
+    "url": "https://github.com/SkyworkAI/SkyReels-V2",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Wan2.Video Free Demos",
+    "category": "video",
+    "url": "https://wan2.video",
+    "type": "public-demo",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Public queue; not an FEZI-owned API. Check policies before use."
+  },
+  {
+    "name": "Qwen-Image",
+    "category": "image",
+    "url": "https://huggingface.co/Qwen",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Z-Image",
+    "category": "image",
+    "url": "https://huggingface.co/Tongyi-MAI",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "HunyuanImage",
+    "category": "image",
+    "url": "https://huggingface.co/tencent",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Qwen Audio / TTS",
+    "category": "audio",
+    "url": "https://huggingface.co/Qwen",
+    "type": "weights",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "MiniMax Audio",
+    "category": "audio",
+    "url": "https://www.minimax.io",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "ModelScope",
+    "category": "models",
+    "url": "https://www.modelscope.cn",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "LiblibAI",
+    "category": "models",
+    "url": "https://www.liblib.art",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "RunningHub",
+    "category": "models",
+    "url": "https://www.runninghub.ai",
+    "type": "site",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Spicy AI",
+    "category": "adult",
+    "url": "https://spicyai.app/uncensored-wan",
+    "type": "external",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Seedance Spicy",
+    "category": "adult",
+    "url": "https://muapi.ai/seedance-2.5-spicy",
+    "type": "external",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "Wan Spicy",
+    "category": "adult",
+    "url": "https://muapi.ai/wan-spicy",
+    "type": "external",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  },
+  {
+    "name": "MiniMax Spicy",
+    "category": "adult",
+    "url": "https://muapi.ai/ai-spicy-video-generator",
+    "type": "external",
+    "status": "source-link-only",
+    "integrated": false,
+    "reviewNeeded": true,
+    "note": "Requires license, API/worker and availability verification before FEZI integration."
+  }
+]

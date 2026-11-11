@@ -1,0 +1,15 @@
+# Mount model weights previously downloaded with npm run model:download.
+services:
+  fezi-studio-local:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    ports:
+      - '127.0.0.1:3000:3000'
+    env_file: .env
+    volumes:
+      - ./models:/app/models:ro
+      - ./data:/app/data
+    restart: unless-stopped
+    mem_limit: 4g
+    cpus: 2.0

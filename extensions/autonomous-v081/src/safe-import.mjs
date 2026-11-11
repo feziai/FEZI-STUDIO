@@ -1,0 +1,10 @@
+import {spawn} from 'node:child_process';
+import {mkdir,cp,realpath} from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+const root=path.resolve(process.env.FEZI_WORKSPACES??path.join(process.cwd(),'workspaces'));
+const name=()=>crypto.randomUUID();
+async function run(exe,args){return new Promise((resolve,reject)=>{const p=spawn(exe,args,{stdio:['ignore','pipe','pipe'],env:{...process.env,GIT_TERMINAL_PROMPT:'0'}});let err='';p.stderr.on('data',x=>{err+=x.toString().slice(0,512)});p.on('error',reject);p.on('close',code=>code===0?resolve():reject(new Error('Import failed: '+err.slice(0,250))))})}
+export async function importGithub(repo){if(!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo))throw Error('Provide owner/repo only');await mkdir(root,{recursive:true});const target=path.join(root,name());await run('git',['clone','--depth','1','--','https://github.com/'+repo+'.git',target]);return target}
+export async function importDirectory(source){const resolved=await realpath(source);if(resolved===root||resolved.startsWith(root+path.sep))throw Error('Recursive import denied');await mkdir(root,{recursive:true});const target=path.join(root,name());await cp(resolved,target,{recursive:true,force:false,filter:(s)=>!s.split(path.sep).some(x=>x==='.git'||x==='node_modules'||x==='.env')});return target}
+export async function importZip(source){const file=await realpath(source);if(!file.endsWith('.zip'))throw Error('ZIP only');await mkdir(root,{recursive:true});const target=path.join(root,name());await mkdir(target);await run('python3',['-c',`import sys,zipfile,os,pathlib,stat\nf,t=sys.argv[1:]\nwith zipfile.ZipFile(f) as z:\n infos=z.infolist()\n assert len(infos)<=5000,'Too many files'\n assert sum(x.file_size for x in infos)<=512*1024*1024,'Too large'\n for i in infos:\n  p=pathlib.PurePosixPath(i.filename)\n  assert not p.is_absolute() and '..' not in p.parts and not (i.external_attr>>16)&0o170000==stat.S_IFLNK,'Unsafe entry'\n  assert not i.filename.startswith('\\\\') and ':' not in i.filename,'Invalid path'\n z.extractall(t)`,file,target]);return target}

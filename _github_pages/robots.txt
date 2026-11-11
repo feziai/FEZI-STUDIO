@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://feziai.github.io/FEZI-STUDIO/sitemap.xml

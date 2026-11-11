@@ -1,0 +1,17 @@
+{
+  "product": "FEZI Studio",
+  "feature": "Telegram and ChatGPT single-host remote control plane",
+  "basePackage": "FEZI_STUDIO_FINAL_ONE_SITE_NODE22_2026_11_08.zip",
+  "node": ">=22",
+  "tested": {
+    "nodeTestsPassed": 5652,
+    "nodeTestsFailed": 0,
+    "serverSmoke": true,
+    "mcpUnauthorized": 401,
+    "mcpAuthorized": true,
+    "factoryBotCommands": 17
+  },
+  "liveTelegramBotConfigured": false,
+  "liveChatGPTMcpConnected": false,
+  "notes": "Deployment and external connector authentication must be configured by the owner. No secrets included."
+}

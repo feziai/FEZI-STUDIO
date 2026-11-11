@@ -1,0 +1,29 @@
+{
+  "product": "FEZI Studio",
+  "feature": "Heretic Optional Local Model Integration",
+  "date": "2026-11-05",
+  "original_base": "FEZI_STUDIO_GITHUB_READY_SOURCE_2026-11-05.zip",
+  "additional_preserved_feature": "ARINA_FLASH_CUT",
+  "status": "integration installed into source; CLI not installed or tested on GPU host",
+  "purpose": "Admin-controlled local LLM tool only; not hosted video/image censorship removal",
+  "upstream": "https://github.com/p-e-w/heretic",
+  "license_upstream": "AGPL-3.0-or-later",
+  "test_results": "5568 passed; 0 failed (full local media included)",
+  "upstream_not_bundled": true,
+  "secrets_included": false,
+  "outputs": {
+    "full": "FEZI_STUDIO_HERETIC_LOCAL_TOOL_FULL_2026_11_05.zip",
+    "patch": "FEZI_STUDIO_HERETIC_LOCAL_TOOL_PATCH_2026_11_05.zip"
+  },
+  "changed_files": [
+    "core/heretic-adapter.mjs",
+    "public/admin/heretic.html",
+    "public/admin/heretic.js",
+    "public/fezi-hub/models.html",
+    "public/fezi-hub/admin.html",
+    "server.js",
+    "tests/heretic-integration.test.js",
+    "tests/arina-fullhd-dance.test.js",
+    "HERETIC_LOCAL_MODEL_INTEGRATION_FA.md"
+  ]
+}

@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+data
+*.zip
+*.apk
+*.pyc
+__pycache__
+core/patch_server.py
+
+models/*.gguf

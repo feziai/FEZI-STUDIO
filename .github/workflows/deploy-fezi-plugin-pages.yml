@@ -1,0 +1,46 @@
+name: Publish FEZI Plugin Sites to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "public/plugins/registry.json"
+      - "scripts/build-github-pages.mjs"
+      - "_github_pages/**"
+      - ".github/workflows/deploy-fezi-plugin-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fezi-plugin-pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build 26 public plugin profile pages
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/build-github-pages.mjs
+      - name: Validate plugin directory and public static assets
+        run: node --test tests/github-pages-catalog.test.mjs
+      - name: Check source for exposed secrets
+        run: node scripts/github-public-safety-check.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _github_pages
+      - id: deployment
+        uses: actions/deploy-pages@v4

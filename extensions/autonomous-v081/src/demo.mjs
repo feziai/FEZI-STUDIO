@@ -1,0 +1,1 @@
+import data from '../config/tools.json' with {type:'json'};import {createRegistry} from './adapters.mjs';const r=createRegistry(data);console.log(JSON.stringify({catalog:r.list().length,enabled:r.list().filter(x=>x.enabled).length,adapters:['ollama','openai-compatible','comfyui']},null,2));

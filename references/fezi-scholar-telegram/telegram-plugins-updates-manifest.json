@@ -1,0 +1,122 @@
+[
+  {
+    "alias": "uncensored-gpt",
+    "plugin_id": "plugins_6aee79b01fd081918e1e4898a67a4253",
+    "current": "0.4.9",
+    "proposed": "0.4.10",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/uncensored-gpt-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-studio-premium-suite",
+    "plugin_id": "plugins_6aee769dcc7881919cd7829f1166dfcf",
+    "current": "1.1.7",
+    "proposed": "1.1.8",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-studio-premium-suite-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fedi-plugin-maker",
+    "plugin_id": "plugins_6aee704a03fc8191b211748176057f35",
+    "current": "0.3.16",
+    "proposed": "0.3.17",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fedi-plugin-maker-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-studio",
+    "plugin_id": "plugins_6aee66d7da5c8191878e86e2a54dbc49",
+    "current": "0.3.14",
+    "proposed": "0.3.15",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-studio-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezipay",
+    "plugin_id": "plugins_6aee634490288191b707850d23b96c03",
+    "current": "0.8.10",
+    "proposed": "0.8.11",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezipay-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-host-manager",
+    "plugin_id": "plugins_6aee5e023dc4819188cd987094cf5441",
+    "current": "0.3.11",
+    "proposed": "0.3.12",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-host-manager-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-git-pusher",
+    "plugin_id": "plugins_6aee597b2af081918f3dcb35530cf384",
+    "current": "0.6.11",
+    "proposed": "0.6.12",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-git-pusher-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-automation",
+    "plugin_id": "plugins_6af11f2ec0e48191845816afe7260920",
+    "current": "1.1.0",
+    "proposed": "1.1.1",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-automation-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-website-builder-pro",
+    "plugin_id": "plugins_6af11167471c81919bafaa4c613e1747",
+    "current": "1.2.1",
+    "proposed": "1.2.2",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-website-builder-pro-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-agent-builder",
+    "plugin_id": "plugins_6af010f67fac8191a27194c5258fd239",
+    "current": "0.1.2",
+    "proposed": "0.1.3",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-agent-builder-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "fezi-telegram-bot-maker",
+    "plugin_id": "plugins_6af005cefac8819186b101bfdd77ed74",
+    "current": "0.5.2",
+    "proposed": "0.5.3",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/fezi-telegram-bot-maker-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "skill-creator",
+    "plugin_id": "plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+    "current": "1.0.2",
+    "proposed": "1.0.3",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/skill-creator-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "arina-fezi-live",
+    "plugin_id": "plugins_6aeea11809e88191a73963704e2ba340",
+    "current": "0.1.4",
+    "proposed": "0.1.5",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/arina-fezi-live-telegram-knowledge-update.zip",
+    "app_backed": false
+  },
+  {
+    "alias": "hostgpt-site",
+    "plugin_id": "plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+    "current": "1.0.10",
+    "proposed": "1.0.11",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/hostgpt-site-telegram-knowledge-update.zip",
+    "app_backed": true
+  },
+  {
+    "alias": "plugin-finder",
+    "plugin_id": "plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+    "current": "1.0.11",
+    "proposed": "1.0.12",
+    "archive": "/mnt/data/fezi_telegram_knowledge/plugin_updates/plugin-finder-telegram-knowledge-update.zip",
+    "app_backed": true
+  }
+]

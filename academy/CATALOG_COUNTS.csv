@@ -1,0 +1,24 @@
+﻿category_id,title_fa,task_count,shard_count
+deployment,GitHub، هاست و استقرار,8000,32
+chatgpt_mcp,پلاگین ChatGPT و MCP,3000,12
+model_routing,انتخاب مدل و مدل‌های جدید,8000,32
+request_understanding,درک درخواست و پاسخ‌دهی,3000,12
+file_export,خروجی گرفتن از فایل,4567,19
+comprehension,پاسخگویی و درک مطلب,15000,60
+web_app,کدنویسی سایت و تغییر دامنه,2500,10
+framing,تناسب تصویر و ویدیو با قاب و تم,6500,26
+huggingface_discovery,کشف مدل‌ها و ابزارهای Hugging Face,850,4
+video_workflows,ساخت ویدیو,5500,22
+image_workflows,ساخت عکس,7000,28
+adult_content,محتوای بزرگسالان و NSFW,9000,36
+languages,آموزش زبان‌ها و چندزبانگی,9000,36
+site_security,امنیت وب‌سایت,6500,26
+crypto_social,ارز دیجیتال و شبکه‌های اجتماعی,6500,26
+feedback_memory,ثبت بازخورد و یادگیری از اشتباه,2000,8
+conversation,مکالمه,900,4
+image_understanding,درک تصویر,900,4
+video_understanding,درک ویدیو,800,4
+site_recreation,بازسازی وب‌سایت,850,4
+android_recreation,بازسازی اپ اندروید,900,4
+cross_platform,ساخت و بازسازی اپ Android/iOS,900,4
+self_learning,خودآموزی و بهبود,850,4

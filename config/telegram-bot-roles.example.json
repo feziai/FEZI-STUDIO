@@ -1,0 +1,35 @@
+{
+  "note": "Use fresh tokens in server environment. Never commit live tokens or set up webhooks from the public UI without authorization.",
+  "bots": [
+    {
+      "id": "fezi-studio",
+      "purpose": "Main FEZI Studio bot",
+      "tokenEnv": "TELEGRAM_FEZI_STUDIO_TOKEN",
+      "entry": "/plugins/telegram-builder"
+    },
+    {
+      "id": "arina",
+      "purpose": "Arina live and chats",
+      "tokenEnv": "TELEGRAM_ARINA_TOKEN",
+      "entry": "/arina-live"
+    },
+    {
+      "id": "fast-login",
+      "purpose": "Account login and bot Mini App",
+      "tokenEnv": "TELEGRAM_FAST_LOGIN_TOKEN",
+      "entry": "/auth/telegram"
+    },
+    {
+      "id": "news",
+      "purpose": "FEZI News announcements",
+      "tokenEnv": "TELEGRAM_FEZI_NEWS_TOKEN",
+      "entry": "/news"
+    },
+    {
+      "id": "fezipay",
+      "purpose": "FEZI Pay payment notifications",
+      "tokenEnv": "TELEGRAM_FEZIPAY_TOKEN",
+      "entry": "/purchase"
+    }
+  ]
+}

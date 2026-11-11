@@ -1,0 +1,113 @@
+{
+  "kind": "choreography-plan-not-video",
+  "source": "uploaded-storyboards + licensed motion-reference-footage",
+  "category": "pop",
+  "bpm": 128,
+  "durationSeconds": 60,
+  "requestedSeconds": 60,
+  "aspectRatio": "16:9",
+  "delivery": "1920x1080@30fps MP4",
+  "continuousCamera": true,
+  "segments": [
+    {
+      "moveId": "disco-step",
+      "category": "pop",
+      "startSecond": 0,
+      "endSecond": 7.5,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "pop-hair-flip",
+      "category": "pop",
+      "startSecond": 7.5,
+      "endSecond": 13.125,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "pop-hip-sway",
+      "category": "pop",
+      "startSecond": 13.125,
+      "endSecond": 20.625,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "funny-shimmy",
+      "category": "fun",
+      "startSecond": 20.625,
+      "endSecond": 28.125,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "disco-point",
+      "category": "pop",
+      "startSecond": 28.125,
+      "endSecond": 35.625,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "pop-groove",
+      "category": "pop",
+      "startSecond": 35.625,
+      "endSecond": 39.375,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "disco-step",
+      "category": "pop",
+      "startSecond": 39.375,
+      "endSecond": 46.875,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "happy-clap",
+      "category": "fun",
+      "startSecond": 46.875,
+      "endSecond": 50.625,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "disco-step",
+      "category": "pop",
+      "startSecond": 50.625,
+      "endSecond": 58.125,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "pop-heart",
+      "category": "pop",
+      "startSecond": 58.125,
+      "endSecond": 60,
+      "beats": 4,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    }
+  ]
+}

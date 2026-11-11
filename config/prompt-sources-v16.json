@@ -1,0 +1,91 @@
+[
+  {
+    "id": "generateprompt",
+    "name": "GeneratePrompt",
+    "url": "https://generateprompt.net/",
+    "kind": "Prompt generator",
+    "observedCategories": [
+      "Text",
+      "Image",
+      "Video",
+      "Website",
+      "Optimization"
+    ],
+    "importStatus": "source-reference-only",
+    "rights": "not-confirmed-for-full-republication"
+  },
+  {
+    "id": "mediaio",
+    "name": "Media.io Explore",
+    "url": "https://www.media.io/ai/explore",
+    "kind": "Creative tools / Explore",
+    "observedCategories": [
+      "Image",
+      "Video",
+      "Audio",
+      "Characters",
+      "AI Ads"
+    ],
+    "importStatus": "source-reference-only",
+    "rights": "not-confirmed-for-full-republication"
+  },
+  {
+    "id": "fashiondiffusion",
+    "name": "Fashion Diffusion",
+    "url": "https://www.fashiondiffusion.ai/ai-prompts/ai-hot-prompts",
+    "kind": "Fashion prompts",
+    "observedCategories": [
+      "Fashion",
+      "Portrait",
+      "Editorial",
+      "Lifestyle"
+    ],
+    "importStatus": "source-reference-only",
+    "rights": "not-confirmed-for-full-republication"
+  },
+  {
+    "id": "aixplore",
+    "name": "Aixplore",
+    "url": "https://aixplore.in/prompts",
+    "kind": "Image & video gallery",
+    "observedCategories": [
+      "Fashion",
+      "Cinematic",
+      "Portrait",
+      "Action",
+      "3D",
+      "Food"
+    ],
+    "importStatus": "source-reference-only",
+    "rights": "not-confirmed-for-full-republication"
+  },
+  {
+    "id": "promptbase",
+    "name": "PromptBase",
+    "url": "https://promptbase.com/",
+    "kind": "Prompt marketplace",
+    "observedCategories": [
+      "Design",
+      "Writing",
+      "Coding",
+      "Games",
+      "Image"
+    ],
+    "importStatus": "source-reference-only",
+    "rights": "not-confirmed-for-full-republication"
+  },
+  {
+    "id": "postcrest",
+    "name": "Postcrest",
+    "url": "https://postcrest.com/ai-image-prompts/best-ai-prompts-for-beautiful-girls",
+    "kind": "Photo prompt article",
+    "observedCategories": [
+      "Photography",
+      "Lifestyle",
+      "Studio",
+      "Editorial"
+    ],
+    "importStatus": "source-reference-only",
+    "rights": "not-confirmed-for-full-republication"
+  }
+]

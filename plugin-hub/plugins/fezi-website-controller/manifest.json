@@ -1,0 +1,19 @@
+{
+  "slug": "fezi-website-controller",
+  "name": "FEZI Website Controller",
+  "chatgptPluginId": "plugins_6af12c828d708191bbc2155205c342b0",
+  "currentChatgptVersion": "1.0.6",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/fezi-website-controller",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

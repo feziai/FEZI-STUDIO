@@ -1,0 +1,30 @@
+
+/* FEZI Studio original visual identity: quiet sky blue / white / blush pink. No dark admin UI. */
+.fezi-video-discovery{max-width:1340px;margin:18px auto 30px;padding:30px clamp(12px,3.4vw,46px) 26px;border-radius:28px;background:linear-gradient(135deg,#f0f9ff 0%,#fff 44%,#fff0f8 100%);color:#203d67;box-shadow:0 12px 44px #a1b6cd24;border:1px solid #e2ecfb;direction:rtl;box-sizing:border-box}
+.fezi-video-discovery *{box-sizing:border-box}
+.fezi-video-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:21px}
+.fezi-video-eyebrow{font:800 11px/1.4 system-ui,sans-serif;letter-spacing:1.7px;color:#3185cb}
+.fezi-video-heading h2{color:#1d4a85!important;font-size:clamp(22px,2.7vw,36px);line-height:1.5;margin:5px 0 2px;font-weight:900}
+.fezi-video-heading p{color:#617c9e;font-size:clamp(11px,1.2vw,14px);line-height:1.8;margin:0}
+.fezi-video-cta{color:#1c70c7;background:white;border:1px solid #cadcf5;border-radius:15px;text-align:center;padding:12px 16px;white-space:nowrap;font-size:12px;font-weight:800;text-decoration:none;box-shadow:0 6px 18px #81b1df1a}
+.fezi-video-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:stretch}
+.fezi-video-card{display:block;overflow:hidden;position:relative;border-radius:17px;border:1px solid #dbeaf8;background:#fff;color:#1a3f71;text-decoration:none!important;box-shadow:0 7px 23px #81a1c522;transition:transform .17s ease,border-color .17s ease,box-shadow .17s ease;min-width:0}
+.fezi-video-card:hover{transform:translateY(-3px);border-color:#b3cffa;box-shadow:0 13px 32px #789cc840}
+.fezi-video-card:focus-visible{outline:3px solid #217fda;outline-offset:3px}
+.fezi-video-screen{position:relative;background:linear-gradient(130deg,#dcf3ff,#fce5f4);aspect-ratio:16/9;overflow:hidden}
+.fezi-video-screen video{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;background:#eaf4fa}
+.fezi-video-dot{position:absolute;top:10px;right:10px;width:8px;height:8px;border-radius:50%;background:#bdf8ff;border:2px solid white;box-shadow:0 0 0 3px #5cb7e97d}
+.fezi-video-details{display:flex;gap:8px;align-items:center;justify-content:space-between;padding:12px 13px 14px;min-height:71px}
+.fezi-video-text{display:grid;gap:4px;min-width:0}.fezi-video-text strong{font-family:system-ui,sans-serif;font-size:14px;line-height:1.25;font-weight:850;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;direction:ltr;text-align:right}.fezi-video-text span{color:#7187a5;font-size:11px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.fezi-video-arrow{display:grid;place-items:center;border-radius:50%;background:#eff7ff;color:#2974c9;width:27px;height:27px;flex:0 0 27px;font-size:17px}
+.fezi-video-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:17px;font-size:11px;line-height:1.75;color:#667c9c}.fezi-video-footer>a{color:#2869b9;text-decoration:underline;text-underline-offset:3px;white-space:nowrap;font-weight:800}
+@media(max-width:1060px){.fezi-video-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.fezi-video-discovery{margin:13px}}
+@media(max-width:710px){.fezi-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.fezi-video-discovery{padding:21px 12px;border-radius:22px}.fezi-video-heading{align-items:stretch;flex-direction:column;gap:10px}.fezi-video-cta{align-self:flex-start;padding:9px 13px}.fezi-video-details{padding:10px 9px;min-height:60px}.fezi-video-text strong{font-size:12px}.fezi-video-text span{font-size:10px}.fezi-video-arrow{height:23px;width:23px;flex-basis:23px}.fezi-video-footer{align-items:flex-start;flex-direction:column}.fezi-video-dot{top:7px;right:7px}}
+@media(max-width:335px){.fezi-video-grid{grid-template-columns:1fr}}
+
+/* Show full model names, especially on phone screens. */
+.fezi-video-text strong{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;}
+@media(max-width:710px){.fezi-video-details{min-height:70px}.fezi-video-text strong{font-size:11.5px}}
+
+/* Show full model names, especially on phone screens. */
+.fezi-video-text strong{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;}
+@media(max-width:710px){.fezi-video-details{min-height:70px}.fezi-video-text strong{font-size:11.5px}}

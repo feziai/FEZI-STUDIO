@@ -1,0 +1,22 @@
+{
+  "name": "FEZI AGENT",
+  "version": "0.77.0",
+  "previous_version": "1.0.0",
+  "qa55m": 55000000,
+  "qa55mFailed": 0,
+  "nodeTests": 5368,
+  "nodeFailed": 0,
+  "additionalModels": 15,
+  "existingModels": 3,
+  "modelWeightsBundled": false,
+  "files": {
+    "package.json": "b98d77f5f8d4814c540a3812a393cadeacb1513bf49789a257a8830fe44d1c5f",
+    "core/model-registry.js": "06e2d4f650aa599f7b2db1e34cff1085127c9c23b613097b3ea0120e39675369",
+    "core/fezi-router.js": "094ccc39b4f79e97279f971d72f8613463fd4bf0adcc2741cb1c40b72d15f718",
+    "core/specialist-worker.js": "ba51f0f0a57093f81e399c2e4ee3ac19cdc4f523ec4187df9bceb62db0e5060b",
+    "server.js": "76cfc75f165017296ed048012485c945c852bc6f74fb239f2e8270866ffaaca6",
+    "scripts/qa-55m.mjs": "88e7157c964a096c59033e1307612538a77c4ac1b3032e505719e843139f56b6",
+    "QA/qa-55m-results.json": "d53af7a27c94bab4c104e18f2063e6957aeceea11644a3e6d5b60846b1a7f058",
+    "QA/npm-test-v077.tap": "526e638f1224c691495b8c4856d82bb605df3a00df8b97c150ef6cd5355a46ed"
+  }
+}

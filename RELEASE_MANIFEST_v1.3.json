@@ -1,0 +1,5169 @@
+{
+  "name": "FEZI Studio",
+  "version": "1.3",
+  "date": "2026-11-01",
+  "files": 1029,
+  "updatedFiles": 27,
+  "totalBytes": 44915315,
+  "logoSource": "original user-uploaded /mnt/data/1000266733.png",
+  "logoSha256": "79f9e735e2798f622b031b1ec5ceda59af44c7fdca386e7e8290ff71d99cadc7",
+  "toolboxEntries": 81,
+  "tests": {
+    "pass": 5432,
+    "failed": 0
+  },
+  "runtime": {
+    "Node22": true,
+    "OllamaInstalled": false,
+    "GPUModelWeightsInstalled": false,
+    "realGpuRenderingTested": false,
+    "chatGPTPublicOAuthReady": false
+  },
+  "checksums": [
+    {
+      "path": ".dockerignore",
+      "sha256": "2634cf3357e0d8a99f42364b35dd688c4b44fe9bca7cc538eeeef0477725e7ef",
+      "bytes": 94
+    },
+    {
+      "path": ".env.example",
+      "sha256": "eeb12b81a9d1833bb1b222b695ebc00e954b21bc30e2cbf961abcf35232e19dd",
+      "bytes": 4071
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "68c6b1cd97b41790f6d3da38ec9ea916a56b1784d019de2b2376f63d9473f058",
+      "bytes": 806
+    },
+    {
+      "path": ".github/workflows/deploy-cpanel.yml",
+      "sha256": "dcf8b3761ac24431834a6f5963379063c2edd070bca6d05a6b208ad68530bb87",
+      "bytes": 2038
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b1e5a819a737bad0cf2cf06509398652d0228664cea916ff80a47039b02eec38",
+      "bytes": 146
+    },
+    {
+      "path": "CHANGELOG-v0.7.md",
+      "sha256": "2dd1315609c7b01573caf28cfea0cf783fa7a8788b641c15e3a3bae12f192578",
+      "bytes": 179
+    },
+    {
+      "path": "CHANGELOG-v0.77.md",
+      "sha256": "ffba3ba93b7af4c12ec20c12d4d55b881c11d21e2f84f41e0bcd01a6939ddf0e",
+      "bytes": 928
+    },
+    {
+      "path": "CHANGELOG-v0.8.md",
+      "sha256": "0333234805448553097169f7f12cbde447e8a8e9b3abe1bd70db3bab039f0f58",
+      "bytes": 719
+    },
+    {
+      "path": "CHANGELOG-v0.9.md",
+      "sha256": "eaf9fb7115d0e4cf9e2057b85a441e6d207a108bb88f8838d3c2f51a109722df",
+      "bytes": 2286
+    },
+    {
+      "path": "CHANGELOG-v1.3.md",
+      "sha256": "9fe992ecea9123552bb5b690384b5fd03abf37c3c419254e8086f0f2da1602af",
+      "bytes": 1148
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "7684438cbec9176aa30f099cc1089abe64d2caa835402be1948c5fb64df054ca",
+      "bytes": 357
+    },
+    {
+      "path": "Dockerfile.local",
+      "sha256": "bb26d6baf2d74c6fb18332eb4d3a682bf95c29170095371678a6cecf519c8577",
+      "bytes": 557
+    },
+    {
+      "path": "FEATURE_STATUS.md",
+      "sha256": "a6f7967123047fda30cb56256e3a66220ac0aa5fe8e40213c1f74aa19dba37cc",
+      "bytes": 8272
+    },
+    {
+      "path": "INSTALL-FA.md",
+      "sha256": "6f91142ae349b5faa81e58d6a5102be61f5be0d03b585d5bdb4c6f1af3ded0a2",
+      "bytes": 3127
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "78432156a9c1e814c46cd9cae1b1ac20d03d1d3d4f9068bed66730bf2250afe7",
+      "bytes": 1081
+    },
+    {
+      "path": "QA_ARINA_GALLERY_2026-11-01.md",
+      "sha256": "ba4bb1c2b3d166c4cebdb66ac3b6b9bb93adef27480a103a529f3ab4dd601a92",
+      "bytes": 1801
+    },
+    {
+      "path": "QA_BRANDING_ROUTER_FA.md",
+      "sha256": "a79d61b92440d2fee528690e6a6ca7be56d096ede599952d225734b4465f0306",
+      "bytes": 3052
+    },
+    {
+      "path": "QA_DESKTOP_GITHUB_TELEGRAM_FA.md",
+      "sha256": "e7dc3e2d428235307be3b008eefd46108bc5177231eb19c38c5ba89d1d23c461",
+      "bytes": 3479
+    },
+    {
+      "path": "QA_OPEN_MODELS_2026-11-01.md",
+      "sha256": "79805587b3257ad3ad2e788f2bf9f540db299fb23f09ef6f404bc684aa6b906e",
+      "bytes": 2174
+    },
+    {
+      "path": "QA_REPORT_103017_FA.md",
+      "sha256": "49bf790796402f934deff205d23b516bf53115427753a5d05e3f3b19daddadd7",
+      "bytes": 4626
+    },
+    {
+      "path": "QA_REPORT_5000_FA.md",
+      "sha256": "01462ed323a898ba05b7a1b6f916b4f97b922d6156f8631d92f368280a01a195",
+      "bytes": 4643
+    },
+    {
+      "path": "QA_REPORT_55M_FA.md",
+      "sha256": "dc0363e053c235878a6afa04a7c792865683f454eac8940bbf27eaa883d52d77",
+      "bytes": 3596
+    },
+    {
+      "path": "QA_REPORT_FA.md",
+      "sha256": "7dbd0ec825fc39137a3a36ffd465856c4e9c3b1a024a6eb53ca1bd311487cbe9",
+      "bytes": 5680
+    },
+    {
+      "path": "README-ARINA-FUN-DANCE-FA.md",
+      "sha256": "b325627498e349985947764fff46a35b880d3241fdad9f7a2c49ea54c9ebc92b",
+      "bytes": 2561
+    },
+    {
+      "path": "README-ARINA-GALLERY-WALLET-FA.md",
+      "sha256": "9c9d8ddd046f091774e748d424077ef7cb6a1b1a47af3aaf11ee0e62611b9f0a",
+      "bytes": 2210
+    },
+    {
+      "path": "README-ARINA-LIVE-FA.md",
+      "sha256": "42b824ba234dd0b93e0d784d00ae20ca0d5a3af03e77b31f8586469df9d2144c",
+      "bytes": 3335
+    },
+    {
+      "path": "README-ARINA-UPDATE.md",
+      "sha256": "1d2201c17d18898214f3be463aa67baa9a957e7e0522fece0aa939ceabe9f5dc",
+      "bytes": 1147
+    },
+    {
+      "path": "README-v0.77-FA.md",
+      "sha256": "b40bcc432028c1f33094b8e9d5126de031681807baf6fa4e0177839840abd905",
+      "bytes": 5752
+    },
+    {
+      "path": "README.md",
+      "sha256": "cab2b660add977bdbbc0400cffbe013e24d477cee45ddfd7b09427ec7ac64351",
+      "bytes": 11542
+    },
+    {
+      "path": "RELEASE_MANIFEST.json",
+      "sha256": "d5474e81d5a30d520b30e779f85c93c6557423985e8cf09215b645ef2884d6b6",
+      "bytes": 1014
+    },
+    {
+      "path": "academy/CATALOG_COUNTS.csv",
+      "sha256": "6b2992f376d0f74851f10b512343302bf54cbcaee63b223f840806975ea3ab76",
+      "bytes": 1423
+    },
+    {
+      "path": "academy/README_FA.md",
+      "sha256": "035db1106db06f74308965bd82558a6d58fe91e71d2b9dd70239fb58983b0c66",
+      "bytes": 6806
+    },
+    {
+      "path": "academy/SAMPLE_23_TASKS.jsonl",
+      "sha256": "3f59c70b30348791a12977093245cf3ac2b20d2eb27e97a54353e26b919fc985",
+      "bytes": 37415
+    },
+    {
+      "path": "academy/catalog.json",
+      "sha256": "2c241178909936ecd082e2c51f39b24da08cf8155a46eaf9791b500f01a9938d",
+      "bytes": 88078
+    },
+    {
+      "path": "academy/shards/adult_content/0000.jsonl.gz",
+      "sha256": "cb578aec06cf4e7299e1cdf41fb931ba45a75fe65523de6592999eeaca0f88e2",
+      "bytes": 15159
+    },
+    {
+      "path": "academy/shards/adult_content/0001.jsonl.gz",
+      "sha256": "4d41dba2f9e1266c92a537a0b28c70bb0403c7ff8a5510dcdb9629c678569d05",
+      "bytes": 15103
+    },
+    {
+      "path": "academy/shards/adult_content/0002.jsonl.gz",
+      "sha256": "b38ea223cd621248efc8d5af6f28993adeb0ef3d1f4e724a8af79117d9793f79",
+      "bytes": 15028
+    },
+    {
+      "path": "academy/shards/adult_content/0003.jsonl.gz",
+      "sha256": "34975ec80bbdeedca2d1f48547072636ebeef1c7eab66bc52396563c5afc8965",
+      "bytes": 15135
+    },
+    {
+      "path": "academy/shards/adult_content/0004.jsonl.gz",
+      "sha256": "f4df57dad66efdcac5c2850c09ab97b91348ff81eb7da099b35063e5768afc6d",
+      "bytes": 15118
+    },
+    {
+      "path": "academy/shards/adult_content/0005.jsonl.gz",
+      "sha256": "97ac8424b49d1a4a9a6708b8b1c25c1070a22d6a56c995cf3d915f246f4f6002",
+      "bytes": 15132
+    },
+    {
+      "path": "academy/shards/adult_content/0006.jsonl.gz",
+      "sha256": "4ac0a1f8e2962d00e3d85cc9f9b86b2dc323d49adb0de55aa970f5fdc7b73ad1",
+      "bytes": 15044
+    },
+    {
+      "path": "academy/shards/adult_content/0007.jsonl.gz",
+      "sha256": "e7b20d7ac4cca0a099698dd84ad6efbee53e19ebcecddc9a8cc40b8a6926574d",
+      "bytes": 15155
+    },
+    {
+      "path": "academy/shards/adult_content/0008.jsonl.gz",
+      "sha256": "e383a35f81328605800af46953780021bdaece0b6ad32b6ee958f9e18ee5cd33",
+      "bytes": 15007
+    },
+    {
+      "path": "academy/shards/adult_content/0009.jsonl.gz",
+      "sha256": "365198a9316c76b6d1ade6bfbc307588fd022ff19359d3708afa8472e3ae46c8",
+      "bytes": 15188
+    },
+    {
+      "path": "academy/shards/adult_content/0010.jsonl.gz",
+      "sha256": "179ab7f2dcc3c6f7d3ed594cd1c9c182234456f75cc872c47b930a7a4d1b8fb0",
+      "bytes": 15124
+    },
+    {
+      "path": "academy/shards/adult_content/0011.jsonl.gz",
+      "sha256": "9f46938f80a3d9489915b45a67eb862a584fdbd05599ab2dc7d4517b4d448cb3",
+      "bytes": 15021
+    },
+    {
+      "path": "academy/shards/adult_content/0012.jsonl.gz",
+      "sha256": "eca69c67e6edd7bbc6e6adeb271856b4d8542d70cd628b2e3a7ac7331e424270",
+      "bytes": 15155
+    },
+    {
+      "path": "academy/shards/adult_content/0013.jsonl.gz",
+      "sha256": "6ffeaa0341476ad55c4b13a14f532642efe69dcee252b92620a65d16ea4f0a49",
+      "bytes": 15135
+    },
+    {
+      "path": "academy/shards/adult_content/0014.jsonl.gz",
+      "sha256": "0efea485792ce5590f1bcb7169e91383e29215c1f39065ff91e8cc7659c258a0",
+      "bytes": 15150
+    },
+    {
+      "path": "academy/shards/adult_content/0015.jsonl.gz",
+      "sha256": "1f0e4892d73e578e5fc779f22ef2a713e6d4379d55aa07ab96c5fd953b627488",
+      "bytes": 15075
+    },
+    {
+      "path": "academy/shards/adult_content/0016.jsonl.gz",
+      "sha256": "ab620eb1e023f2a93cea104d950d71190e66edb255b752a6a7581c041ec26a71",
+      "bytes": 15118
+    },
+    {
+      "path": "academy/shards/adult_content/0017.jsonl.gz",
+      "sha256": "4f0c16f5d3bae111d3ff70f4d4dcde0a2b0d78f1c27e1a44cbc74723b3bd72af",
+      "bytes": 15121
+    },
+    {
+      "path": "academy/shards/adult_content/0018.jsonl.gz",
+      "sha256": "87ca6fa3dd7e042bc803c80e7df5dce0ea90e1ba7b8f20f9140d306cb664a6e2",
+      "bytes": 15160
+    },
+    {
+      "path": "academy/shards/adult_content/0019.jsonl.gz",
+      "sha256": "445cdba4a390203ad28717eb7b8da44c6155117dd16068c028afe0a9b104bec9",
+      "bytes": 15072
+    },
+    {
+      "path": "academy/shards/adult_content/0020.jsonl.gz",
+      "sha256": "bf9e1980fdb3a71c3390677795f2fb5f4bcea6423556c6a3f6bee7b7d082f2e3",
+      "bytes": 14973
+    },
+    {
+      "path": "academy/shards/adult_content/0021.jsonl.gz",
+      "sha256": "85a7b0de3113135ea7282f2e57d52248aa627ce02d178dad3dcd7ff4995261b4",
+      "bytes": 15193
+    },
+    {
+      "path": "academy/shards/adult_content/0022.jsonl.gz",
+      "sha256": "6f2d044b02656a1b5af6dadbfff95c9bc7978de2f9cf9c8184dbc60f8efac6d9",
+      "bytes": 15120
+    },
+    {
+      "path": "academy/shards/adult_content/0023.jsonl.gz",
+      "sha256": "79e423077ef653a28edd3caeae5ee2549fe1a589ace80abb940273c8d62f6b46",
+      "bytes": 15209
+    },
+    {
+      "path": "academy/shards/adult_content/0024.jsonl.gz",
+      "sha256": "5b02a381784de312932c3bcd0e2271d497e5029729f80e52f1a070f6535795d1",
+      "bytes": 15055
+    },
+    {
+      "path": "academy/shards/adult_content/0025.jsonl.gz",
+      "sha256": "2c2fc05a78cccb03aadc6b02154fb1abe07f397eb9b980e020ee4b0ba036606a",
+      "bytes": 15116
+    },
+    {
+      "path": "academy/shards/adult_content/0026.jsonl.gz",
+      "sha256": "bbea446d1117b5398ff52640d4b451bc97f49271f9bad64c39c9227bc5f06703",
+      "bytes": 15149
+    },
+    {
+      "path": "academy/shards/adult_content/0027.jsonl.gz",
+      "sha256": "7cb515c69d50f38434c178eb3a4323cf0fe0248e2d93acccbc0a848a3e97048c",
+      "bytes": 15152
+    },
+    {
+      "path": "academy/shards/adult_content/0028.jsonl.gz",
+      "sha256": "36f505ea1ad5b6d28d1fca86b941fb52b4651d13c4fde9dbc2da8f333298057d",
+      "bytes": 15116
+    },
+    {
+      "path": "academy/shards/adult_content/0029.jsonl.gz",
+      "sha256": "f9c72c9c6f8e8cf8b43c6e6ad9a58e57d00597d500dec91b3204b7ed58e1843c",
+      "bytes": 15113
+    },
+    {
+      "path": "academy/shards/adult_content/0030.jsonl.gz",
+      "sha256": "4604b2a23804496b27056f6669a988d025e91935630235c178419455c5e29bd1",
+      "bytes": 15137
+    },
+    {
+      "path": "academy/shards/adult_content/0031.jsonl.gz",
+      "sha256": "6fc3e84c4f278805469fe799cf7df9e7ca31b00d8a7eb5a3de37b1fff7851a1d",
+      "bytes": 15077
+    },
+    {
+      "path": "academy/shards/adult_content/0032.jsonl.gz",
+      "sha256": "e44f24f1670bc84de130c49d9fcb22f83ca7ac06e78e546185a64378286b2be0",
+      "bytes": 15129
+    },
+    {
+      "path": "academy/shards/adult_content/0033.jsonl.gz",
+      "sha256": "ca0cfe5a672afad225b92ce6918fc8df9fad0d7cdb601565392478ed7fafd388",
+      "bytes": 15030
+    },
+    {
+      "path": "academy/shards/adult_content/0034.jsonl.gz",
+      "sha256": "73699982553f884c1b7caf1630cb946ab73137fbd178ac532c8db1aee4fab32a",
+      "bytes": 15173
+    },
+    {
+      "path": "academy/shards/adult_content/0035.jsonl.gz",
+      "sha256": "558507d9f7c3f2de0064148ff3ece6486c1a1258bd845129f2721d02355b63c6",
+      "bytes": 15126
+    },
+    {
+      "path": "academy/shards/android_recreation/0000.jsonl.gz",
+      "sha256": "ad35c24d8ab895938fca4846c30bfdbbd096b30b0091e90eaf26e23e3b777d51",
+      "bytes": 11690
+    },
+    {
+      "path": "academy/shards/android_recreation/0001.jsonl.gz",
+      "sha256": "9957c98dcc9c1f141b7454f31beb759d0f201faa8367477a9fa05cd4eed579e6",
+      "bytes": 11904
+    },
+    {
+      "path": "academy/shards/android_recreation/0002.jsonl.gz",
+      "sha256": "0d0e4331f23137e8d48b9db96e8ce44f5e7545546945e06f5928f55eacb05a8a",
+      "bytes": 11765
+    },
+    {
+      "path": "academy/shards/android_recreation/0003.jsonl.gz",
+      "sha256": "e1b6db8042610bc0b6140dcfc7e7b04af9630a6df0abdb9bc728867ebe8150b2",
+      "bytes": 7697
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0000.jsonl.gz",
+      "sha256": "58d676e9b5e1f78b18b6e5bc4c1b8760c39495edfaeea0fecdefcc23afdae52e",
+      "bytes": 11778
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0001.jsonl.gz",
+      "sha256": "ea9ff263af1474e1da6c6feb62d9cb85014603723e9dbb7f02a892a7df9bd63c",
+      "bytes": 11808
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0002.jsonl.gz",
+      "sha256": "a21d84df75b4febb0b8e170e5abc7266da543a525847c476e2259c3514c0b84d",
+      "bytes": 11806
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0003.jsonl.gz",
+      "sha256": "7e7983cec7ed746eee367bfaa977d8faa5e439e47fefb10eca9c141c9d2007bd",
+      "bytes": 11932
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0004.jsonl.gz",
+      "sha256": "dd55a815337f2dd2f9433fc14cd4b75978be38e40e19a857852e75d4438b5e0c",
+      "bytes": 11584
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0005.jsonl.gz",
+      "sha256": "806cffc71066852edea622cfb0e8f1dd25f2b80cd7c70caf4e83e8262b1c9c56",
+      "bytes": 11810
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0006.jsonl.gz",
+      "sha256": "b725cf80311b973154a54a9acd80f74984b61e3dc2ae85c8240700c6e4f4b51f",
+      "bytes": 11806
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0007.jsonl.gz",
+      "sha256": "b16e5fc8a34f3165b900c9df2a04b953f134dc879bcf7d270f52a6336b05a5cc",
+      "bytes": 11875
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0008.jsonl.gz",
+      "sha256": "ca14a66ed84500c188e7a4a28e3a531bad6e82027509c52c14654ea9ed38b398",
+      "bytes": 11841
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0009.jsonl.gz",
+      "sha256": "ab73fe54859ab8d5db2dd56cc323335e74c0f145c0e5d67ca1efeee7281837db",
+      "bytes": 11603
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0010.jsonl.gz",
+      "sha256": "9b4675398821ac5e07fd9ab900d86385c6121ad88583eddd02e048557b424469",
+      "bytes": 11886
+    },
+    {
+      "path": "academy/shards/chatgpt_mcp/0011.jsonl.gz",
+      "sha256": "a9d15c6ed75cd8bd6ace1b5d598ff810fadc2a17e7dd27d2aa4e89d35ed925a4",
+      "bytes": 11863
+    },
+    {
+      "path": "academy/shards/comprehension/0000.jsonl.gz",
+      "sha256": "2843eb272a06396116e188aad312f0bc092381be6336e14d7dbcea3671cd5ffe",
+      "bytes": 13723
+    },
+    {
+      "path": "academy/shards/comprehension/0001.jsonl.gz",
+      "sha256": "a530255f3e79089fc8b9258fdbfd103e9883c3c80d0d843ccbf46554ae8e44b7",
+      "bytes": 13878
+    },
+    {
+      "path": "academy/shards/comprehension/0002.jsonl.gz",
+      "sha256": "6eb2f7ec67e2abe344eb2c724bfe6483e603e49541dfca64ecda0af4e9cf03f3",
+      "bytes": 13796
+    },
+    {
+      "path": "academy/shards/comprehension/0003.jsonl.gz",
+      "sha256": "0f5aa2607f26bf50ba703e92e611326c02b1cbac2837eec78d95607622bfb25f",
+      "bytes": 13808
+    },
+    {
+      "path": "academy/shards/comprehension/0004.jsonl.gz",
+      "sha256": "9444ac9e6021a2288edd3d0e4e3a818d506644081b4a5c8797f1b038096d5332",
+      "bytes": 13741
+    },
+    {
+      "path": "academy/shards/comprehension/0005.jsonl.gz",
+      "sha256": "31908c3a209066af04da4c0f2bcc55c5f78b026ea5bd03eac1e38abe9d599747",
+      "bytes": 13798
+    },
+    {
+      "path": "academy/shards/comprehension/0006.jsonl.gz",
+      "sha256": "6dac05f56b17e34b5875d21dc0c6ce8b28c68246feb2184eb2588f876dccd919",
+      "bytes": 13872
+    },
+    {
+      "path": "academy/shards/comprehension/0007.jsonl.gz",
+      "sha256": "63236e8daadb7bb6fd92cdc5b343c103aa1761b20478d0b52b96230f37cae987",
+      "bytes": 13824
+    },
+    {
+      "path": "academy/shards/comprehension/0008.jsonl.gz",
+      "sha256": "8356ec907b546ba90a4d9477fa10c8dc56ae0515a4138cbed66cb23d3b273fe6",
+      "bytes": 13725
+    },
+    {
+      "path": "academy/shards/comprehension/0009.jsonl.gz",
+      "sha256": "6ea2e1c279b782cd55b1cf90146f968721519387ca779aadbd57a909fe0aebdc",
+      "bytes": 13760
+    },
+    {
+      "path": "academy/shards/comprehension/0010.jsonl.gz",
+      "sha256": "c052703cd04a58f3e91a2cf30fde3b8ba5c0fdee02fc0f181ca099ba24886254",
+      "bytes": 13824
+    },
+    {
+      "path": "academy/shards/comprehension/0011.jsonl.gz",
+      "sha256": "09aefffec9bef665571d4d8ff48ca565dadfbf1c17735f984013521c85a44071",
+      "bytes": 13807
+    },
+    {
+      "path": "academy/shards/comprehension/0012.jsonl.gz",
+      "sha256": "841b543393474c28036793db82eab029ec89157b15648175a42e8ebcdb72450f",
+      "bytes": 13687
+    },
+    {
+      "path": "academy/shards/comprehension/0013.jsonl.gz",
+      "sha256": "75bab99348d073413da5e4189fa30a1eeaa7225a222883cfd5d4ec80fff30f64",
+      "bytes": 13760
+    },
+    {
+      "path": "academy/shards/comprehension/0014.jsonl.gz",
+      "sha256": "352b3b9b2e3f2be9dabdb0708c338799b59c942df40809eb4b991df4ab10f418",
+      "bytes": 13844
+    },
+    {
+      "path": "academy/shards/comprehension/0015.jsonl.gz",
+      "sha256": "4792357707da4a4f0ea1df4658423c569e500258f1698c734272e3c7a5e58693",
+      "bytes": 13829
+    },
+    {
+      "path": "academy/shards/comprehension/0016.jsonl.gz",
+      "sha256": "ba76e45e91e060a99d4d325984f9c53fa112555f241dc84cdd882150a9b13011",
+      "bytes": 13703
+    },
+    {
+      "path": "academy/shards/comprehension/0017.jsonl.gz",
+      "sha256": "3b1c9b8ec79b49562acc194d8491efe3d9dc8f1b989f5e2a47ac7991f8caf0db",
+      "bytes": 13821
+    },
+    {
+      "path": "academy/shards/comprehension/0018.jsonl.gz",
+      "sha256": "d2d5289eb8850d0bf3ce5786a76cce41f1b022f12eca006309c41819619987ce",
+      "bytes": 13782
+    },
+    {
+      "path": "academy/shards/comprehension/0019.jsonl.gz",
+      "sha256": "a3674fc6fe3d414f0ca010f7e3cc669ae9e52b6027d75b3daa3bfec258af846f",
+      "bytes": 13871
+    },
+    {
+      "path": "academy/shards/comprehension/0020.jsonl.gz",
+      "sha256": "b389c081d3be181ed9f274bfd4a2513e51016cbd8cd0db9ee20c68a5db76e324",
+      "bytes": 13802
+    },
+    {
+      "path": "academy/shards/comprehension/0021.jsonl.gz",
+      "sha256": "1152f7348c48ee1c79c77d47d17dea84941215a6ce82f473015cec68d311063e",
+      "bytes": 13782
+    },
+    {
+      "path": "academy/shards/comprehension/0022.jsonl.gz",
+      "sha256": "e28305a0e707795ad7493b1939e4cfcccd8a0ef1bb95a7fad70dab04733adcf9",
+      "bytes": 13804
+    },
+    {
+      "path": "academy/shards/comprehension/0023.jsonl.gz",
+      "sha256": "2da3c0fd5e9dbd89ad46257315fddd59ef98542289c387e7e06a511c59bebbf2",
+      "bytes": 13803
+    },
+    {
+      "path": "academy/shards/comprehension/0024.jsonl.gz",
+      "sha256": "60d9a66c0490a83179b0b6a61e03d57c490f46697f4a8daad0ceba8fbca16444",
+      "bytes": 13749
+    },
+    {
+      "path": "academy/shards/comprehension/0025.jsonl.gz",
+      "sha256": "370f5bcffb5d1dbc24aae24dbcf341c68170a93d6dcab66b79ac76a7d97bb7b3",
+      "bytes": 13733
+    },
+    {
+      "path": "academy/shards/comprehension/0026.jsonl.gz",
+      "sha256": "3f82efa2ac50e98ac2614f86a069792a625c8a4af83abd0a7a5f90f5b634cfa2",
+      "bytes": 13807
+    },
+    {
+      "path": "academy/shards/comprehension/0027.jsonl.gz",
+      "sha256": "0b3355690912c31dd271b604b0c144cbf0ac61f72dd6cbc2b79f39b5609ff7c8",
+      "bytes": 13796
+    },
+    {
+      "path": "academy/shards/comprehension/0028.jsonl.gz",
+      "sha256": "5b9641f2b7cfe79fc29a4d5d32375e2ef87e4a5ce54ba6d28be7f7c4797116e2",
+      "bytes": 13788
+    },
+    {
+      "path": "academy/shards/comprehension/0029.jsonl.gz",
+      "sha256": "aab92cbdeb41ae2d409844e92a9b6cfd8ef3ce15392ddb3fd5a57e29f774e700",
+      "bytes": 13866
+    },
+    {
+      "path": "academy/shards/comprehension/0030.jsonl.gz",
+      "sha256": "5522adb98a538a004de6aaa2608a209e29fb8b5108180d3ba5596505ac550b11",
+      "bytes": 13798
+    },
+    {
+      "path": "academy/shards/comprehension/0031.jsonl.gz",
+      "sha256": "e8e724080bbbb065843790847d5cb4528564744ecc108a64d406838574e3f854",
+      "bytes": 13828
+    },
+    {
+      "path": "academy/shards/comprehension/0032.jsonl.gz",
+      "sha256": "cb0902e11c7a2c7ca4375d50d267a4d01d68c294b27bdf32561f8d576222b2bc",
+      "bytes": 13743
+    },
+    {
+      "path": "academy/shards/comprehension/0033.jsonl.gz",
+      "sha256": "485f3163168e46f1d02d7930bbb3f5de0ce95c4b75bc4ab6901887b303646699",
+      "bytes": 13879
+    },
+    {
+      "path": "academy/shards/comprehension/0034.jsonl.gz",
+      "sha256": "882d7cedf9a164d1a547d12c0eb7c22bcd4192b9d8ae2e58fb03b31bbc4b461f",
+      "bytes": 13796
+    },
+    {
+      "path": "academy/shards/comprehension/0035.jsonl.gz",
+      "sha256": "b3b3b5dfbcf7f72b11740be6ebf706ee0116fce2ef107012b3efcb60cd7f00ce",
+      "bytes": 13835
+    },
+    {
+      "path": "academy/shards/comprehension/0036.jsonl.gz",
+      "sha256": "19e0939650899a5b0f03593020c1dc5390584deab57d161f149a3cd7a297ba6b",
+      "bytes": 13737
+    },
+    {
+      "path": "academy/shards/comprehension/0037.jsonl.gz",
+      "sha256": "2f2afe0656888e72a90a8d285577190e00c46e705a7bdde2a6eef3ba20b611dd",
+      "bytes": 13789
+    },
+    {
+      "path": "academy/shards/comprehension/0038.jsonl.gz",
+      "sha256": "e19444013670e5ee0ec3bc6a8ac07a2c0df638fe03832c5fa819d8be4bde9874",
+      "bytes": 13767
+    },
+    {
+      "path": "academy/shards/comprehension/0039.jsonl.gz",
+      "sha256": "6137be74e507c0aa7709ac599ae2fb59a513bcdff3d71d0fa8eb07adc243a803",
+      "bytes": 13852
+    },
+    {
+      "path": "academy/shards/comprehension/0040.jsonl.gz",
+      "sha256": "eb3971e697c6490b3b6b6e4c0d209a157085a7bf04b184985bef662d46b479de",
+      "bytes": 13722
+    },
+    {
+      "path": "academy/shards/comprehension/0041.jsonl.gz",
+      "sha256": "e2e21a91413b8c9b901921b1d969ab4123af7405fd0a61a460383db4477cd68d",
+      "bytes": 13742
+    },
+    {
+      "path": "academy/shards/comprehension/0042.jsonl.gz",
+      "sha256": "cf8259243b92de9f004267f34eb05ab26a78d7a343dcf68d01b0d2ddde5d3047",
+      "bytes": 13851
+    },
+    {
+      "path": "academy/shards/comprehension/0043.jsonl.gz",
+      "sha256": "33dbdd597ecc71b0a677e731ee8e5552e203c6efa3f5f16f229de5fd62abaf3c",
+      "bytes": 13825
+    },
+    {
+      "path": "academy/shards/comprehension/0044.jsonl.gz",
+      "sha256": "030043ee8cc48bf5f400ca4131569c0f58ec20415d8dff4076e4258275de18d0",
+      "bytes": 13749
+    },
+    {
+      "path": "academy/shards/comprehension/0045.jsonl.gz",
+      "sha256": "10cc5318ee4d6c1dbbbb4b410bc407168ddcf9dd487de855dec2ef3af635c9a3",
+      "bytes": 13792
+    },
+    {
+      "path": "academy/shards/comprehension/0046.jsonl.gz",
+      "sha256": "2a432547a26cfcd6e14a4ce27d026b9f40b2178c1b9d651f9a5861b575bc847f",
+      "bytes": 13801
+    },
+    {
+      "path": "academy/shards/comprehension/0047.jsonl.gz",
+      "sha256": "5855b2485f5783f2f0458a69fd4f30168cf32d1206cf1e517938381218e6608e",
+      "bytes": 13872
+    },
+    {
+      "path": "academy/shards/comprehension/0048.jsonl.gz",
+      "sha256": "13c06d383e7da50c15530083bbc035b115cef4ea1895c721815ca60e0e96dc9b",
+      "bytes": 13751
+    },
+    {
+      "path": "academy/shards/comprehension/0049.jsonl.gz",
+      "sha256": "fc5f8a4ace0f20700623b9bb7f11642f9844fb6373f37be3c7a8f910867ce60e",
+      "bytes": 13869
+    },
+    {
+      "path": "academy/shards/comprehension/0050.jsonl.gz",
+      "sha256": "50d8025764225de7cae5f468d36808c4ffbe5657a12120ff31b20d31c5bd0d79",
+      "bytes": 13793
+    },
+    {
+      "path": "academy/shards/comprehension/0051.jsonl.gz",
+      "sha256": "5bc151218b8a2695cc8c2126b5d4ec06e79a8d2bd374dac380f5830ba7b5b639",
+      "bytes": 13804
+    },
+    {
+      "path": "academy/shards/comprehension/0052.jsonl.gz",
+      "sha256": "c06529d51c7c8eb523b7ad032eac7a94e3d76cca8620029976b5ea555b474414",
+      "bytes": 13707
+    },
+    {
+      "path": "academy/shards/comprehension/0053.jsonl.gz",
+      "sha256": "1c9017db6ab0fb2fea9a9a80aa8c53b89e6979f95281f14be73afef940073c05",
+      "bytes": 13815
+    },
+    {
+      "path": "academy/shards/comprehension/0054.jsonl.gz",
+      "sha256": "5d90a6689eab3cc63628bd0ba0458ecc71f76db64ccf0b1c76065d496b53b5b7",
+      "bytes": 13773
+    },
+    {
+      "path": "academy/shards/comprehension/0055.jsonl.gz",
+      "sha256": "4aa315e0b0ce142e28cb090b7f4791292794358e82af8f5f301368ed380ba34e",
+      "bytes": 13770
+    },
+    {
+      "path": "academy/shards/comprehension/0056.jsonl.gz",
+      "sha256": "0643972ad93ecd9eb87f11327bda8b7e8d36add30c8d5a1774a081c962a04d82",
+      "bytes": 13813
+    },
+    {
+      "path": "academy/shards/comprehension/0057.jsonl.gz",
+      "sha256": "613c14ac1914bd2e4bdc1d6c4e7af783514ded5b588a9e48b0a05709109462e7",
+      "bytes": 13831
+    },
+    {
+      "path": "academy/shards/comprehension/0058.jsonl.gz",
+      "sha256": "7d9156504c27391b3e558c8b76fea11642cd47f84df6ea6d78132ec874a27740",
+      "bytes": 13811
+    },
+    {
+      "path": "academy/shards/comprehension/0059.jsonl.gz",
+      "sha256": "7869c95d932f5c20dfc217f5b80d3985fa1f98f91e75abada9487ffb994efa38",
+      "bytes": 13733
+    },
+    {
+      "path": "academy/shards/conversation/0000.jsonl.gz",
+      "sha256": "bcee5b4af15794fbc7629183808d8a6f3087199d0d6a3ff38fcdddae6a5c90b6",
+      "bytes": 12706
+    },
+    {
+      "path": "academy/shards/conversation/0001.jsonl.gz",
+      "sha256": "1c87679113574c63f96e37c6e2cf63dfeff73dbf0a3c7cacdc1dfc3772b3a35e",
+      "bytes": 12688
+    },
+    {
+      "path": "academy/shards/conversation/0002.jsonl.gz",
+      "sha256": "fcaa6123562fe364be0afb6327cd71881c548311a14114a11a0ed587389366eb",
+      "bytes": 12659
+    },
+    {
+      "path": "academy/shards/conversation/0003.jsonl.gz",
+      "sha256": "dcda6682ea9af29a423adcc2dacaf6fa928d594a192b183ebc2bb0421a7bbfb9",
+      "bytes": 8189
+    },
+    {
+      "path": "academy/shards/cross_platform/0000.jsonl.gz",
+      "sha256": "34a73a0c4e4ed4a2ba4fad5f89279e7af094327d0d68e1176f32f8edee2f29c6",
+      "bytes": 12107
+    },
+    {
+      "path": "academy/shards/cross_platform/0001.jsonl.gz",
+      "sha256": "a6fbf531e46c08706b57e5ab69e49644b7a67c920e48fc12e639a63bf2b9e70d",
+      "bytes": 12110
+    },
+    {
+      "path": "academy/shards/cross_platform/0002.jsonl.gz",
+      "sha256": "e93f5688cb4abe604f1302a705c17ccec1359dafdc97805aa0701bb88b5fdb4c",
+      "bytes": 12162
+    },
+    {
+      "path": "academy/shards/cross_platform/0003.jsonl.gz",
+      "sha256": "a2f98bcb354273dc8c4882e6a5afb379cc8f2481f1b713ffb7d058b77b696039",
+      "bytes": 7869
+    },
+    {
+      "path": "academy/shards/crypto_social/0000.jsonl.gz",
+      "sha256": "41b473f024c69109401b1f67506617e90a2dc4ae89f61f1330de2389b2bd55e2",
+      "bytes": 12812
+    },
+    {
+      "path": "academy/shards/crypto_social/0001.jsonl.gz",
+      "sha256": "5f7553e0c2b728a0662120cfba5bcc0e1c55170bdd611ce38f7f52ad15653d86",
+      "bytes": 12564
+    },
+    {
+      "path": "academy/shards/crypto_social/0002.jsonl.gz",
+      "sha256": "7024aaa2b56432b60928fe23d56919fc466ea633a7f6147f25759e5d3a2cecbc",
+      "bytes": 12279
+    },
+    {
+      "path": "academy/shards/crypto_social/0003.jsonl.gz",
+      "sha256": "1652ad07b045e16a17d6736ec30fc91797a7272343ceaa97cdb6dcbe3773948f",
+      "bytes": 12198
+    },
+    {
+      "path": "academy/shards/crypto_social/0004.jsonl.gz",
+      "sha256": "027a933a2470a8646892ef352cd5030c720b039c596276b26d16f96a614df974",
+      "bytes": 13056
+    },
+    {
+      "path": "academy/shards/crypto_social/0005.jsonl.gz",
+      "sha256": "d0b14f170d9e7cd441e74cccd9f1cf68895e058c983bf833976248b211087eae",
+      "bytes": 13163
+    },
+    {
+      "path": "academy/shards/crypto_social/0006.jsonl.gz",
+      "sha256": "aa7626b54d1cea36542cec6c2dfe1eb344829e2e15d9185d9a0d92ed481cddd3",
+      "bytes": 11592
+    },
+    {
+      "path": "academy/shards/crypto_social/0007.jsonl.gz",
+      "sha256": "b2db03a36430d93042eb33616a8264d7dceb375032f008f7c744051fec708d40",
+      "bytes": 13149
+    },
+    {
+      "path": "academy/shards/crypto_social/0008.jsonl.gz",
+      "sha256": "a9fd28d2a857dbaca81512a184e4b247dab1cc7379aaf978394603bc53ae8171",
+      "bytes": 12557
+    },
+    {
+      "path": "academy/shards/crypto_social/0009.jsonl.gz",
+      "sha256": "08d40a6d61f4998a4fcf4aaaec59327c786d7d5550267c669756e5f6bea7630c",
+      "bytes": 12071
+    },
+    {
+      "path": "academy/shards/crypto_social/0010.jsonl.gz",
+      "sha256": "5203fede1711a1c7e5217094713fb865b649f83690cb8899c1dd87b6493498ca",
+      "bytes": 12876
+    },
+    {
+      "path": "academy/shards/crypto_social/0011.jsonl.gz",
+      "sha256": "e0cbf08a8670036a2eba44bbc85583b88fafa68ffbfba625617f8497156387de",
+      "bytes": 12247
+    },
+    {
+      "path": "academy/shards/crypto_social/0012.jsonl.gz",
+      "sha256": "a0fcfbde717a3e11af3b85e80a30aa434abe121b63e6ada08e184e56633ebd55",
+      "bytes": 12872
+    },
+    {
+      "path": "academy/shards/crypto_social/0013.jsonl.gz",
+      "sha256": "4ccae78c6063e25c76b7772dc1524271bcccf46898974b71fff815383c49ff6b",
+      "bytes": 12075
+    },
+    {
+      "path": "academy/shards/crypto_social/0014.jsonl.gz",
+      "sha256": "540967e78679cbc66a814a94df458036f4e4cb65789d21416c20dbc74c4874fa",
+      "bytes": 12692
+    },
+    {
+      "path": "academy/shards/crypto_social/0015.jsonl.gz",
+      "sha256": "e868c50bb56887df048b96ec45c3cce07d85bda8ad0885b90f9b3d2389e88089",
+      "bytes": 13148
+    },
+    {
+      "path": "academy/shards/crypto_social/0016.jsonl.gz",
+      "sha256": "e86460fc76b0700ad81f0643c41623b23f9298f237d7c11fc887fba300b60f1f",
+      "bytes": 11651
+    },
+    {
+      "path": "academy/shards/crypto_social/0017.jsonl.gz",
+      "sha256": "79eeca32605004525a974a718ed9a4fb971e64d24151fb3b3757019d4f1700cb",
+      "bytes": 13036
+    },
+    {
+      "path": "academy/shards/crypto_social/0018.jsonl.gz",
+      "sha256": "ec4023ef0134df9e5e312b13f2a135468b4844ecc0de61fce7b69e429be05580",
+      "bytes": 13037
+    },
+    {
+      "path": "academy/shards/crypto_social/0019.jsonl.gz",
+      "sha256": "88712a6b2840bdb26747300b13dca6ee1fa35ce2385457d7f36ca51645455caa",
+      "bytes": 12268
+    },
+    {
+      "path": "academy/shards/crypto_social/0020.jsonl.gz",
+      "sha256": "2f1c60a965dd1ca5c6f59c9a5aa29dd5507b5190f6324bf666d8ef031bbfed6b",
+      "bytes": 12311
+    },
+    {
+      "path": "academy/shards/crypto_social/0021.jsonl.gz",
+      "sha256": "217844684469f215c287a0b5300b11f3cce85e1033a977b0034182c294134f2a",
+      "bytes": 12674
+    },
+    {
+      "path": "academy/shards/crypto_social/0022.jsonl.gz",
+      "sha256": "0a66fa2cefa9df3868ecdaa6f75cbae0199822b431b6e80af7374a7261c50a21",
+      "bytes": 12878
+    },
+    {
+      "path": "academy/shards/crypto_social/0023.jsonl.gz",
+      "sha256": "563eef71c367d245b6d4a0c8ba7bcc37e308ee343b2d1e8841cbdb254cbbafb6",
+      "bytes": 11843
+    },
+    {
+      "path": "academy/shards/crypto_social/0024.jsonl.gz",
+      "sha256": "a13dd1a2748c5ec08c44c0a0c39ffc086f510f80f1687204d008735050f8e387",
+      "bytes": 12853
+    },
+    {
+      "path": "academy/shards/crypto_social/0025.jsonl.gz",
+      "sha256": "6c7aa7916b923a4c4ad77ba6cba5cdbb372115146fd99b09070a3d162b2b0b4e",
+      "bytes": 12355
+    },
+    {
+      "path": "academy/shards/deployment/0000.jsonl.gz",
+      "sha256": "9356faf3e5dee854e4c5a3dda3a0c32de9aef2ba7b91511b1bab59a4cf172198",
+      "bytes": 13601
+    },
+    {
+      "path": "academy/shards/deployment/0001.jsonl.gz",
+      "sha256": "bd9fc8f9be63eb8785402b12e0cf38479328d80ab6b7008c73a0c8a7ca172372",
+      "bytes": 13551
+    },
+    {
+      "path": "academy/shards/deployment/0002.jsonl.gz",
+      "sha256": "94a346e30c65aaa28f720e6670f3fb106f6fc913372717f6d0a7a49753ac5b5d",
+      "bytes": 13677
+    },
+    {
+      "path": "academy/shards/deployment/0003.jsonl.gz",
+      "sha256": "9b2aae51c07df6084fc8d809c6703baf4c8ef3ceaaca9573f6b7659e732188cf",
+      "bytes": 13622
+    },
+    {
+      "path": "academy/shards/deployment/0004.jsonl.gz",
+      "sha256": "9a4c30a31560b4d1ab2c5fba1e8e6c86a60a843145a7969fa5e7f4ad865ce94d",
+      "bytes": 13674
+    },
+    {
+      "path": "academy/shards/deployment/0005.jsonl.gz",
+      "sha256": "70eecc7cf911921b52a10d222ef35776c7d5e13dd76652e669e3557c669c3ec2",
+      "bytes": 13572
+    },
+    {
+      "path": "academy/shards/deployment/0006.jsonl.gz",
+      "sha256": "6d9ca49953a239f9a00453a0f7173080c7b49e67dfb7a6e0ce6c1eb69d81c8bd",
+      "bytes": 13588
+    },
+    {
+      "path": "academy/shards/deployment/0007.jsonl.gz",
+      "sha256": "413568f8e2027f151d42dee95cff5744bfa122f02a75a823e5e10ae467a26b42",
+      "bytes": 13673
+    },
+    {
+      "path": "academy/shards/deployment/0008.jsonl.gz",
+      "sha256": "d7fa0dd300553cc85cbac04333645b19afabd7a77b464824d29c9d03582b0ea8",
+      "bytes": 13540
+    },
+    {
+      "path": "academy/shards/deployment/0009.jsonl.gz",
+      "sha256": "92eb0648f1da4fb6b224c33e87980599212b6ec85166d247e74f8887377a411d",
+      "bytes": 13580
+    },
+    {
+      "path": "academy/shards/deployment/0010.jsonl.gz",
+      "sha256": "e4d32d814d1907d5bfee29ebb26018a67e0a4a1d54574cb0aeffd69a09c0f666",
+      "bytes": 13710
+    },
+    {
+      "path": "academy/shards/deployment/0011.jsonl.gz",
+      "sha256": "e307e716c427cc1ec6c43f12e6450f6b03a6ec93e0a4086368efb006068539f1",
+      "bytes": 13679
+    },
+    {
+      "path": "academy/shards/deployment/0012.jsonl.gz",
+      "sha256": "80c511f3c416ed16403768c0f6f51a39978313c447ac00c353830f29bcb6ebbc",
+      "bytes": 13634
+    },
+    {
+      "path": "academy/shards/deployment/0013.jsonl.gz",
+      "sha256": "f16ae00d61fde3b8aac1e6ef187294cc0768c69a1d181e181f918190ea931aab",
+      "bytes": 13541
+    },
+    {
+      "path": "academy/shards/deployment/0014.jsonl.gz",
+      "sha256": "75f8ee4123828568ff785986af7dbffba9648d84350937e6498183774997aeb1",
+      "bytes": 13637
+    },
+    {
+      "path": "academy/shards/deployment/0015.jsonl.gz",
+      "sha256": "d5abbe584e7defc094157954e748d3d5bec8e68008b330062ef85ed9453fff86",
+      "bytes": 13586
+    },
+    {
+      "path": "academy/shards/deployment/0016.jsonl.gz",
+      "sha256": "9b72ff7b49ef2a64e47bd19d54c06eb579fa8811b0ee8feca33ddc8980f630bb",
+      "bytes": 13686
+    },
+    {
+      "path": "academy/shards/deployment/0017.jsonl.gz",
+      "sha256": "4efc252280fbb0b7fc7ec50eb32b9e269462eb709ac5c4a6632721ac1786a7f8",
+      "bytes": 13541
+    },
+    {
+      "path": "academy/shards/deployment/0018.jsonl.gz",
+      "sha256": "6292d847aef1b2e988097be236cf15775c1784e185b63abcb39459a49de45d50",
+      "bytes": 13600
+    },
+    {
+      "path": "academy/shards/deployment/0019.jsonl.gz",
+      "sha256": "74cabeb7852d3387d4545c381aeb55242af837eadcfe7f6ab225b0f543d6c154",
+      "bytes": 13603
+    },
+    {
+      "path": "academy/shards/deployment/0020.jsonl.gz",
+      "sha256": "913a18c1c26011f90acfd8be08d711d86a844e8a897cd863201d980430e692b4",
+      "bytes": 13620
+    },
+    {
+      "path": "academy/shards/deployment/0021.jsonl.gz",
+      "sha256": "a4fd680ef304a0ee72767e51df8e100b42e9376ac2f8227cf9adfaa8af90dd30",
+      "bytes": 13558
+    },
+    {
+      "path": "academy/shards/deployment/0022.jsonl.gz",
+      "sha256": "2e5e6803cf251e1e0e32930e938f94cdf490377728f0730d492d1f569ae636b6",
+      "bytes": 13565
+    },
+    {
+      "path": "academy/shards/deployment/0023.jsonl.gz",
+      "sha256": "759d1f709e88233de1ae752c1d1011e0cf086ae40074eadbb94ca2ab7833dd32",
+      "bytes": 13699
+    },
+    {
+      "path": "academy/shards/deployment/0024.jsonl.gz",
+      "sha256": "f5839ed767a628c4d8be994d6f47cff641a18dcc6d5dc6f32d1ab98ca39ece30",
+      "bytes": 13639
+    },
+    {
+      "path": "academy/shards/deployment/0025.jsonl.gz",
+      "sha256": "06593dd15ba16e91ff443aad3839fdaf589ce41b9c410f2a26fb46e2a53e48e0",
+      "bytes": 13594
+    },
+    {
+      "path": "academy/shards/deployment/0026.jsonl.gz",
+      "sha256": "e0e336f755131d86c9900c42f716e6b140770484c97449ce9ac58ee212218aa3",
+      "bytes": 13613
+    },
+    {
+      "path": "academy/shards/deployment/0027.jsonl.gz",
+      "sha256": "4e028e5625165d9f22146c4e04701ced36a1b2e9fc096e40042f6e3eabe922be",
+      "bytes": 13642
+    },
+    {
+      "path": "academy/shards/deployment/0028.jsonl.gz",
+      "sha256": "c2bd6b8a016cab242f6896d2dfd856e16cc6984d9032707645c4583459e54b12",
+      "bytes": 13633
+    },
+    {
+      "path": "academy/shards/deployment/0029.jsonl.gz",
+      "sha256": "9a54d51ae52a7be2d77a54fa1390621efd1d52ee647c205eea8c04b8ac8d3f2d",
+      "bytes": 13554
+    },
+    {
+      "path": "academy/shards/deployment/0030.jsonl.gz",
+      "sha256": "f9973fc058936f2796d33aedd16801a26a393c3a118adfe11aa7ddc392e01bbd",
+      "bytes": 13554
+    },
+    {
+      "path": "academy/shards/deployment/0031.jsonl.gz",
+      "sha256": "ec8695cfb73dbd94c2621a4eb9c8d9c8aba3d4230f1a55371c1c35807b57462a",
+      "bytes": 13626
+    },
+    {
+      "path": "academy/shards/feedback_memory/0000.jsonl.gz",
+      "sha256": "6c1e4bef8b6308c7f8a9741a4515e181bcdbef85b53f9535eb2759163b341e86",
+      "bytes": 12575
+    },
+    {
+      "path": "academy/shards/feedback_memory/0001.jsonl.gz",
+      "sha256": "6e978c252dd203eaa3da352aaa6e1ce302d8375f63365a83ffd5b252a2f5faa1",
+      "bytes": 12326
+    },
+    {
+      "path": "academy/shards/feedback_memory/0002.jsonl.gz",
+      "sha256": "612bc22f63476ad0b0a22b75599b4ad0f589b519a261806deabf798f22c5fa54",
+      "bytes": 12440
+    },
+    {
+      "path": "academy/shards/feedback_memory/0003.jsonl.gz",
+      "sha256": "4a19ebea1bdafd4ce03e52b6c77158d672f59c6470565070030888cc8565992d",
+      "bytes": 12475
+    },
+    {
+      "path": "academy/shards/feedback_memory/0004.jsonl.gz",
+      "sha256": "0107952a611ece23f5ddf0b64e1703749c5db2d8f10c8c09bf3e624f1d225940",
+      "bytes": 12483
+    },
+    {
+      "path": "academy/shards/feedback_memory/0005.jsonl.gz",
+      "sha256": "9505f0df754419e88f53c8d1a90c506534eec4e36720bbab85014678e97e62ec",
+      "bytes": 12419
+    },
+    {
+      "path": "academy/shards/feedback_memory/0006.jsonl.gz",
+      "sha256": "27c7b8b435dcd99c706d99877d0b6099af79af641c14a8165c9be9d313828d76",
+      "bytes": 12444
+    },
+    {
+      "path": "academy/shards/feedback_memory/0007.jsonl.gz",
+      "sha256": "7a7629ca5635cdb3b369f5fcadbd0e04dc85a4901667e721318d5f91664f6ce6",
+      "bytes": 12395
+    },
+    {
+      "path": "academy/shards/file_export/0000.jsonl.gz",
+      "sha256": "23bb8ae5f1e44b4dd59fa7deb03d369d2bd532e1c7f1daa88adf947480bfec99",
+      "bytes": 13543
+    },
+    {
+      "path": "academy/shards/file_export/0001.jsonl.gz",
+      "sha256": "2589e79e88bb4ab5847411153c9c8b18311e5fdd0de7badcb418bc514cccb68f",
+      "bytes": 13672
+    },
+    {
+      "path": "academy/shards/file_export/0002.jsonl.gz",
+      "sha256": "e29edbb62f10487e50ebb8d805d540906e7176117a5ae42117006ecee1dc5f51",
+      "bytes": 13471
+    },
+    {
+      "path": "academy/shards/file_export/0003.jsonl.gz",
+      "sha256": "936bc6c371ed7f5f28174c1a771d91dba071b9dd105bcb7f57aad85936e408be",
+      "bytes": 13555
+    },
+    {
+      "path": "academy/shards/file_export/0004.jsonl.gz",
+      "sha256": "3e534f46ed52178bd13eb647dab44ac4763c5f12bfdc5cc6f18a6e59ad1e5044",
+      "bytes": 13329
+    },
+    {
+      "path": "academy/shards/file_export/0005.jsonl.gz",
+      "sha256": "5f088bf4b240be4dba1adb35d7889584ecfe673e839c7fac1225a9c853c5f7e1",
+      "bytes": 13501
+    },
+    {
+      "path": "academy/shards/file_export/0006.jsonl.gz",
+      "sha256": "0ea4cf5bae59a198e426ade88a9a41aea649c993cad053792a822ca2200f5923",
+      "bytes": 13461
+    },
+    {
+      "path": "academy/shards/file_export/0007.jsonl.gz",
+      "sha256": "f98df6efb7d63f870b3efed1854b9924fcb9d52136bc7b9e36ab900ab2724030",
+      "bytes": 13595
+    },
+    {
+      "path": "academy/shards/file_export/0008.jsonl.gz",
+      "sha256": "e93828a341242e866832619e37d2173ac53c116f71f5cd270bb16d5756ea7024",
+      "bytes": 13704
+    },
+    {
+      "path": "academy/shards/file_export/0009.jsonl.gz",
+      "sha256": "083e525ec3ae4e3c439d7fc10b367a13ccaaa0d972dd05c626d4a3d7710edbbf",
+      "bytes": 13365
+    },
+    {
+      "path": "academy/shards/file_export/0010.jsonl.gz",
+      "sha256": "1333b0f03dbd1481fa564cdaaeb5c4092b4739cf037840575d56aabb123163f4",
+      "bytes": 13486
+    },
+    {
+      "path": "academy/shards/file_export/0011.jsonl.gz",
+      "sha256": "4010307ab00f801fba59f98eeb818f6d4d8557186ac77f19582b908ed46227c1",
+      "bytes": 13715
+    },
+    {
+      "path": "academy/shards/file_export/0012.jsonl.gz",
+      "sha256": "bcfda837f95ef649e2c87ff52589faad3a21a9082b8bb4f769b8e15cf16af911",
+      "bytes": 13679
+    },
+    {
+      "path": "academy/shards/file_export/0013.jsonl.gz",
+      "sha256": "702585ec16d92837bd75c5cf640212614ab58dc024540542bd8365494c7e0505",
+      "bytes": 13383
+    },
+    {
+      "path": "academy/shards/file_export/0014.jsonl.gz",
+      "sha256": "4c81ff2e9b7427c839ec2744c6839803839232158545c1e066895c1beeabe084",
+      "bytes": 13576
+    },
+    {
+      "path": "academy/shards/file_export/0015.jsonl.gz",
+      "sha256": "0ffbb00bc6b056ee4f2a6770b65958ff2609fcc4a46f5ac57a9a3a194b36e0ed",
+      "bytes": 13653
+    },
+    {
+      "path": "academy/shards/file_export/0016.jsonl.gz",
+      "sha256": "51387d4de6e47c38e82e7f85b36a14aa9d4e1cef42a15d5f5fa2d14d0b55579e",
+      "bytes": 13393
+    },
+    {
+      "path": "academy/shards/file_export/0017.jsonl.gz",
+      "sha256": "7f42496f2f4918ec12dd03802ec25275731d64db2b7ec01c0594d34506d85bf7",
+      "bytes": 13543
+    },
+    {
+      "path": "academy/shards/file_export/0018.jsonl.gz",
+      "sha256": "08f41eee5d503c55bd795a95a7b9d035027c7fc218de913c4f31980c4496b48b",
+      "bytes": 4427
+    },
+    {
+      "path": "academy/shards/framing/0000.jsonl.gz",
+      "sha256": "1169d60d12457b66ad581f38464dbb7bb72fea3a78b77ce23b91e89fbdf57e50",
+      "bytes": 13242
+    },
+    {
+      "path": "academy/shards/framing/0001.jsonl.gz",
+      "sha256": "fae2c2774f6033a51360b6c45216d404883b195ed018c00232cd622e3cf23f45",
+      "bytes": 13387
+    },
+    {
+      "path": "academy/shards/framing/0002.jsonl.gz",
+      "sha256": "1979649e17911d404a7248f5b2e191238c9c0b3b546a7ad2de050010509a896b",
+      "bytes": 13264
+    },
+    {
+      "path": "academy/shards/framing/0003.jsonl.gz",
+      "sha256": "d9857cd39bc66e9082aae37a13266dae0c312b63f4dee1086a6320b3dd298e11",
+      "bytes": 13309
+    },
+    {
+      "path": "academy/shards/framing/0004.jsonl.gz",
+      "sha256": "c9493c5cd33c5c25174082a052f7b3e5274820416f948527d8bc712070277dee",
+      "bytes": 13224
+    },
+    {
+      "path": "academy/shards/framing/0005.jsonl.gz",
+      "sha256": "737189416130e15ba58190d2789dc309c80dd82990a79faa93a641a9ac5ca855",
+      "bytes": 13200
+    },
+    {
+      "path": "academy/shards/framing/0006.jsonl.gz",
+      "sha256": "a6d51f57cdd1b03f6f474f0a0b75f6e60cb906b5e4f70356aa700e5b77afe331",
+      "bytes": 13292
+    },
+    {
+      "path": "academy/shards/framing/0007.jsonl.gz",
+      "sha256": "4f848d760aa0bb3a80b7121c54952a0e0af623e3d3bb6a1c39c7280d1aaabb52",
+      "bytes": 13237
+    },
+    {
+      "path": "academy/shards/framing/0008.jsonl.gz",
+      "sha256": "8c1df84651bd22d122e2992a15522122d24087271ac42671f7b86890d2a2cdce",
+      "bytes": 13339
+    },
+    {
+      "path": "academy/shards/framing/0009.jsonl.gz",
+      "sha256": "948fce127dc89c4de8224e3657aac50d10fa9eeee19520ba7229e4094c369e51",
+      "bytes": 13361
+    },
+    {
+      "path": "academy/shards/framing/0010.jsonl.gz",
+      "sha256": "a113eeb7ba540ee90f9a36e2a72940bd269f02f527cd63d23701d002ccd7cb21",
+      "bytes": 13454
+    },
+    {
+      "path": "academy/shards/framing/0011.jsonl.gz",
+      "sha256": "066917123036f2f57323be1b78b91a2a611ed4e5f6228e14785a7bcd55488753",
+      "bytes": 13243
+    },
+    {
+      "path": "academy/shards/framing/0012.jsonl.gz",
+      "sha256": "9e098bf43f59ce2e2d327d5a8513fae608668d6e826d821bbec9803c57536fb2",
+      "bytes": 13178
+    },
+    {
+      "path": "academy/shards/framing/0013.jsonl.gz",
+      "sha256": "8fd9c495bfc3563eb9a3a793652d07250fde14bdbbfd3f5ed15cb4cdf21c7b2e",
+      "bytes": 13182
+    },
+    {
+      "path": "academy/shards/framing/0014.jsonl.gz",
+      "sha256": "4fe42ec15624d6f5e7b71e29d172331ac25aede66caea17b6c007c4545e9f697",
+      "bytes": 13212
+    },
+    {
+      "path": "academy/shards/framing/0015.jsonl.gz",
+      "sha256": "22a5dae37f68df49c8c04bff325d800bb61ac84d255c8d01fc804415ef1c653a",
+      "bytes": 13343
+    },
+    {
+      "path": "academy/shards/framing/0016.jsonl.gz",
+      "sha256": "7af764e8ae828bcff256d7194877dd656106da1c22aac966e2e8b6a2f69791af",
+      "bytes": 13275
+    },
+    {
+      "path": "academy/shards/framing/0017.jsonl.gz",
+      "sha256": "ddb00d05ee95bb0e45784d96a414e9d762f03674b97885980bf45c60e75ac12d",
+      "bytes": 13529
+    },
+    {
+      "path": "academy/shards/framing/0018.jsonl.gz",
+      "sha256": "3a8c2e549f954e0db905173db39d38b59d9c814c42c7bc0555763ab2a16b2581",
+      "bytes": 13371
+    },
+    {
+      "path": "academy/shards/framing/0019.jsonl.gz",
+      "sha256": "2a0f3d5f287c994b4a75c4c54d8b02c406c10314615158f384afe2be729c689a",
+      "bytes": 13321
+    },
+    {
+      "path": "academy/shards/framing/0020.jsonl.gz",
+      "sha256": "c5ba074f56a01010fe5012cd1ac0de1a3365c21525c90ad521a2728e88dc379a",
+      "bytes": 13335
+    },
+    {
+      "path": "academy/shards/framing/0021.jsonl.gz",
+      "sha256": "e92ee9346f3d1ff4c4d9a4c9b4b5c700b627a32de9eac8afb338ba79519f3177",
+      "bytes": 13286
+    },
+    {
+      "path": "academy/shards/framing/0022.jsonl.gz",
+      "sha256": "a93318c660e925dd4573e482434c3dd4402d581af41f537b3d629d8313cd9d4c",
+      "bytes": 13266
+    },
+    {
+      "path": "academy/shards/framing/0023.jsonl.gz",
+      "sha256": "9771b6f4046aed5d002ce2580d02454e23835dcf5b52764487c14e294115affc",
+      "bytes": 13351
+    },
+    {
+      "path": "academy/shards/framing/0024.jsonl.gz",
+      "sha256": "c5120d71809fe45f3ce4d59a72f6e0984bcba9d2d0df8a32571f221e423fb1b9",
+      "bytes": 13355
+    },
+    {
+      "path": "academy/shards/framing/0025.jsonl.gz",
+      "sha256": "06280ec637c281b3d59f79767562f45696584420aaa3c5c87cf4a01589fe4d4b",
+      "bytes": 13449
+    },
+    {
+      "path": "academy/shards/huggingface_discovery/0000.jsonl.gz",
+      "sha256": "1136d0a56e6118995204b8123822c47cf925e9b78338feee1fc8a8875573b75f",
+      "bytes": 14284
+    },
+    {
+      "path": "academy/shards/huggingface_discovery/0001.jsonl.gz",
+      "sha256": "d8b79d3e62ea65913373295b0d89bbe177120854d4c508ea84aa518b0ec6f400",
+      "bytes": 14323
+    },
+    {
+      "path": "academy/shards/huggingface_discovery/0002.jsonl.gz",
+      "sha256": "0dee93a14f5e43fb492253adbbb5cdfc3e310c9eb55b8a0cf3c4335bbbc731c4",
+      "bytes": 14282
+    },
+    {
+      "path": "academy/shards/huggingface_discovery/0003.jsonl.gz",
+      "sha256": "0522b7761cd444a6167e7ccf7fe69496779c8862a64de1c983c4a00e31facbb0",
+      "bytes": 6459
+    },
+    {
+      "path": "academy/shards/image_understanding/0000.jsonl.gz",
+      "sha256": "bab0a420d00de8dbb4f103b977197c0cf55df71cb2d6f324391a813c9db3cfa0",
+      "bytes": 11958
+    },
+    {
+      "path": "academy/shards/image_understanding/0001.jsonl.gz",
+      "sha256": "eb71f10b3daa74e2b64de61f72f393cdba6c505c78f102b6e5f8d21577a85b9d",
+      "bytes": 12026
+    },
+    {
+      "path": "academy/shards/image_understanding/0002.jsonl.gz",
+      "sha256": "aeae1be550c7990a6c94117b51f6f8f166139d04187b31019702cb62c87e17d5",
+      "bytes": 11966
+    },
+    {
+      "path": "academy/shards/image_understanding/0003.jsonl.gz",
+      "sha256": "3b07a30d9951a98c3b8bf028a4b53fafd67c7b2cfbf403b762eb26132c5e912c",
+      "bytes": 7728
+    },
+    {
+      "path": "academy/shards/image_workflows/0000.jsonl.gz",
+      "sha256": "7dd754aa07710b6782d5f3075bf5a4deb5b6ef4db39792ceacbc2533069cd582",
+      "bytes": 12363
+    },
+    {
+      "path": "academy/shards/image_workflows/0001.jsonl.gz",
+      "sha256": "5f9f77897d7712bdc4fbb81bb9883155bb4ee5866b732f85a1fe0811780ff820",
+      "bytes": 12254
+    },
+    {
+      "path": "academy/shards/image_workflows/0002.jsonl.gz",
+      "sha256": "95d8220957444ee88833c8990112a5543fa72c452a5f3155932160adf426785e",
+      "bytes": 12733
+    },
+    {
+      "path": "academy/shards/image_workflows/0003.jsonl.gz",
+      "sha256": "52f360278c0b15be842012dd1c0f632ba31b58aa88075017e0e08a881b6c19dc",
+      "bytes": 12184
+    },
+    {
+      "path": "academy/shards/image_workflows/0004.jsonl.gz",
+      "sha256": "23b968265235289ec1548b3329400a105cbb8df0b54b7dd8b84c3eb8c0103194",
+      "bytes": 12655
+    },
+    {
+      "path": "academy/shards/image_workflows/0005.jsonl.gz",
+      "sha256": "e1de4ceb78e89e4851fb7904541fdcfef715bb843f62544ad1cdbbfc6726d2d1",
+      "bytes": 11903
+    },
+    {
+      "path": "academy/shards/image_workflows/0006.jsonl.gz",
+      "sha256": "f86ffc38d59b6054729e5903f0657a7d507af478b4023e3f74093c1c4d5e1196",
+      "bytes": 12721
+    },
+    {
+      "path": "academy/shards/image_workflows/0007.jsonl.gz",
+      "sha256": "c1875daa81990a8b3d38624ba660166ac034e28eaaa02ede22cd9be3e058bf98",
+      "bytes": 12651
+    },
+    {
+      "path": "academy/shards/image_workflows/0008.jsonl.gz",
+      "sha256": "a58b68cbdc8a8a3c0159c355bbfd8ee8847391574c9487fa4af5d3a58430fc47",
+      "bytes": 12042
+    },
+    {
+      "path": "academy/shards/image_workflows/0009.jsonl.gz",
+      "sha256": "9cd13a5bc1f2bae2cf488cdb80a05a69e1ef623059a1bc39ed19597a1621bb49",
+      "bytes": 12410
+    },
+    {
+      "path": "academy/shards/image_workflows/0010.jsonl.gz",
+      "sha256": "23faaa6b74546f34a972a137939e09c2a0da499888232fa293777a9693b95e65",
+      "bytes": 12375
+    },
+    {
+      "path": "academy/shards/image_workflows/0011.jsonl.gz",
+      "sha256": "e85828cef563b96402a87d363fead71f12aec80a56fd4c57dc9c3fc696396d58",
+      "bytes": 12771
+    },
+    {
+      "path": "academy/shards/image_workflows/0012.jsonl.gz",
+      "sha256": "3ffe31a00829fd16d392dad42419fe45152e17754ac6d64f205ac65b0ae8242d",
+      "bytes": 11999
+    },
+    {
+      "path": "academy/shards/image_workflows/0013.jsonl.gz",
+      "sha256": "516f676d3a8230e036a0bb51321fc439245b3962ed91185d77afbf88b634491f",
+      "bytes": 12503
+    },
+    {
+      "path": "academy/shards/image_workflows/0014.jsonl.gz",
+      "sha256": "ceb4741267af43b9e431ad52276e1347cd66c65457fed4db114ef3ca892b6095",
+      "bytes": 12251
+    },
+    {
+      "path": "academy/shards/image_workflows/0015.jsonl.gz",
+      "sha256": "745039ca57dd8aa97e3899379ddf3e86d789d58e3b606d5b9de031349057603d",
+      "bytes": 12185
+    },
+    {
+      "path": "academy/shards/image_workflows/0016.jsonl.gz",
+      "sha256": "37630b097d269ed9443ed9453bde99d5b615f0898f6e80bb86a5ed42e67670ff",
+      "bytes": 12713
+    },
+    {
+      "path": "academy/shards/image_workflows/0017.jsonl.gz",
+      "sha256": "616a0881a3187b9d6ec0b56db076b137b8462e9bb28134944a0bab20dae9dbae",
+      "bytes": 12340
+    },
+    {
+      "path": "academy/shards/image_workflows/0018.jsonl.gz",
+      "sha256": "7bbd341d1365be8389bdd9e0e8ad3527913687501102b2b401285d7fbd2ae2cf",
+      "bytes": 12717
+    },
+    {
+      "path": "academy/shards/image_workflows/0019.jsonl.gz",
+      "sha256": "64e02f6032560d487c0af8c8ce7f7fead57c6403393775a4c673935ce62294e1",
+      "bytes": 11953
+    },
+    {
+      "path": "academy/shards/image_workflows/0020.jsonl.gz",
+      "sha256": "07049dfe2e9dc19b213115f3ddba187acd6a69bfdd0da93d47ca1f97e30f241f",
+      "bytes": 12984
+    },
+    {
+      "path": "academy/shards/image_workflows/0021.jsonl.gz",
+      "sha256": "602fe5f629a05da5fa2f47a9f852b9820c5f04ac54a8819bc420f790c9963300",
+      "bytes": 12883
+    },
+    {
+      "path": "academy/shards/image_workflows/0022.jsonl.gz",
+      "sha256": "bdd891373c34568d4f0d78c6c45cd36f453fa51e9d715e63e10b3316d1872020",
+      "bytes": 12170
+    },
+    {
+      "path": "academy/shards/image_workflows/0023.jsonl.gz",
+      "sha256": "38e491b0cd4501c47f202b01c44fed28623e21bc01ad7c0faebf42258f2aed39",
+      "bytes": 12212
+    },
+    {
+      "path": "academy/shards/image_workflows/0024.jsonl.gz",
+      "sha256": "1be01542f005c4693745c68c2810e22ea5bbbdd06609c69caacea4a99410c9a2",
+      "bytes": 12188
+    },
+    {
+      "path": "academy/shards/image_workflows/0025.jsonl.gz",
+      "sha256": "dc98d985eacb6d5b8550a3ecca7f1ef44d3b0527e4d58d5dfe9a49b7cb0e49e1",
+      "bytes": 12975
+    },
+    {
+      "path": "academy/shards/image_workflows/0026.jsonl.gz",
+      "sha256": "5b1123af49ee7efaf7dc455f994739bd20067ec5cd9fd9b082b71f43565de95a",
+      "bytes": 12144
+    },
+    {
+      "path": "academy/shards/image_workflows/0027.jsonl.gz",
+      "sha256": "c2769d80b28d74b35f77454af903257f1e073eed6a6c95b79edb88cd21298ec2",
+      "bytes": 12781
+    },
+    {
+      "path": "academy/shards/languages/0000.jsonl.gz",
+      "sha256": "98c114fcb1490ef126c893e39f8463db38d2952e23c6103a63d3adeed69d0c7e",
+      "bytes": 11978
+    },
+    {
+      "path": "academy/shards/languages/0001.jsonl.gz",
+      "sha256": "17b3ce379eafc0f0dffc5d6aeca7e4460d14722b95ea3e1c268bb2a5e4433d3f",
+      "bytes": 11935
+    },
+    {
+      "path": "academy/shards/languages/0002.jsonl.gz",
+      "sha256": "6b6377a7fa6391b4fcd4f244593fe32fc48d469628c469ed8ae2a6a4ad3fd468",
+      "bytes": 13738
+    },
+    {
+      "path": "academy/shards/languages/0003.jsonl.gz",
+      "sha256": "250343e7bebac054fedfbf51a03f428a1efb7373ed12081fa35f3304d6605b5b",
+      "bytes": 12906
+    },
+    {
+      "path": "academy/shards/languages/0004.jsonl.gz",
+      "sha256": "13019ce287fb2ee316daf88bc798ddaede37fb3e8d826d80bc69feab3ac8206b",
+      "bytes": 13681
+    },
+    {
+      "path": "academy/shards/languages/0005.jsonl.gz",
+      "sha256": "8bc5b2b07529dbfde1594acb6bfc3f0b19c24683901037ed41627cb2494a492b",
+      "bytes": 13415
+    },
+    {
+      "path": "academy/shards/languages/0006.jsonl.gz",
+      "sha256": "509b9bfd9ec48276fd6584a1051c1c36dd42c76d121406740b28041ad90e563d",
+      "bytes": 12116
+    },
+    {
+      "path": "academy/shards/languages/0007.jsonl.gz",
+      "sha256": "53320d0cda701571ed45552f98f7a6e4dd54fe717a221a06593d37e98060492b",
+      "bytes": 12790
+    },
+    {
+      "path": "academy/shards/languages/0008.jsonl.gz",
+      "sha256": "9fe1862e3aa73ccdd094430ce824f930d57002cbeb6b85d5b9c43be5e12e2ca3",
+      "bytes": 13302
+    },
+    {
+      "path": "academy/shards/languages/0009.jsonl.gz",
+      "sha256": "f1defed130d972980438d36529960fdcb296c3199aace7b32aa94bacefccd27c",
+      "bytes": 12390
+    },
+    {
+      "path": "academy/shards/languages/0010.jsonl.gz",
+      "sha256": "8bd6a42d4007e95508e229de5ed20c619df4413594f808bede01a1d7ef461983",
+      "bytes": 12991
+    },
+    {
+      "path": "academy/shards/languages/0011.jsonl.gz",
+      "sha256": "6db675b9642529852dcbce329809472ec25b5b3c09d66affe229afb499dbc785",
+      "bytes": 13160
+    },
+    {
+      "path": "academy/shards/languages/0012.jsonl.gz",
+      "sha256": "29cbf6f059d22c3249cdf62edd844e60720f1aa7e1c3fa6d6025becd6e3942f2",
+      "bytes": 12451
+    },
+    {
+      "path": "academy/shards/languages/0013.jsonl.gz",
+      "sha256": "5f57419de676bf724bab04937ebe2eeebd874c79b23185c4dccc279d02266b07",
+      "bytes": 13030
+    },
+    {
+      "path": "academy/shards/languages/0014.jsonl.gz",
+      "sha256": "377d470515af0956ba77de244ce5ddc9d9d27bc3724f3ada795b32f980796abd",
+      "bytes": 13414
+    },
+    {
+      "path": "academy/shards/languages/0015.jsonl.gz",
+      "sha256": "3b5019a0ec18b214b5bd26c1430340714975d14d39f026cbee1df390a835b506",
+      "bytes": 12871
+    },
+    {
+      "path": "academy/shards/languages/0016.jsonl.gz",
+      "sha256": "9726ed20a4f9e8198da2e0717d152c4acb25dbf5197d82aeebef7fb5fe6779f8",
+      "bytes": 13494
+    },
+    {
+      "path": "academy/shards/languages/0017.jsonl.gz",
+      "sha256": "62e12d9ee131236c95fcc347e3cc9e61f152f4d4da7f785d27eff94fe891738e",
+      "bytes": 12726
+    },
+    {
+      "path": "academy/shards/languages/0018.jsonl.gz",
+      "sha256": "ab302977e25f07de2a38a694bb1f663c1e84ff77df54ff689fbdf016d4493ad2",
+      "bytes": 12070
+    },
+    {
+      "path": "academy/shards/languages/0019.jsonl.gz",
+      "sha256": "6859507fff4f1d27b20ae1a01a9ded85ac9fb0286c902139ef5202d1e4a37bbb",
+      "bytes": 12761
+    },
+    {
+      "path": "academy/shards/languages/0020.jsonl.gz",
+      "sha256": "040425486c54f90816e2fa91ad967d88dfc61c9b7b53881c31fa28a2269b4c97",
+      "bytes": 13705
+    },
+    {
+      "path": "academy/shards/languages/0021.jsonl.gz",
+      "sha256": "e5a32f2b300479014e310be3b48f4e0ee964c2a1c5c92dfa70a79707a6746d9e",
+      "bytes": 13611
+    },
+    {
+      "path": "academy/shards/languages/0022.jsonl.gz",
+      "sha256": "2c63f4e52a6035bce234b8832780a8fab04bf7936b7dc86f06fd6037a268490f",
+      "bytes": 13650
+    },
+    {
+      "path": "academy/shards/languages/0023.jsonl.gz",
+      "sha256": "55fbdc0e8568750c56a582c0f4c2e44a98cdf118b3838b10d3ef5ecb07f4d458",
+      "bytes": 12503
+    },
+    {
+      "path": "academy/shards/languages/0024.jsonl.gz",
+      "sha256": "ba7fd93c78da9c0fd41a06187941b83437f034234110b0c76e63741fda190029",
+      "bytes": 11791
+    },
+    {
+      "path": "academy/shards/languages/0025.jsonl.gz",
+      "sha256": "cf67fe5861fdca4a521ad4cb1643e65aecd844dc318e3c17035d6d0480236dd8",
+      "bytes": 13048
+    },
+    {
+      "path": "academy/shards/languages/0026.jsonl.gz",
+      "sha256": "ecddbea8e521864f2d179ba087a5afdb4bc16d19baa8808315702239b1448d12",
+      "bytes": 13651
+    },
+    {
+      "path": "academy/shards/languages/0027.jsonl.gz",
+      "sha256": "e7084e5a79e73e778ac89d7d328168dd5e0fac30dddcd58d77dd12413f5a5248",
+      "bytes": 12797
+    },
+    {
+      "path": "academy/shards/languages/0028.jsonl.gz",
+      "sha256": "ec7908aed710f46512b2f706a0647953d32078133222a6bf905e69291c126147",
+      "bytes": 13656
+    },
+    {
+      "path": "academy/shards/languages/0029.jsonl.gz",
+      "sha256": "e128c771828fee198b70f91ba210267e64b937707df4e65c7fb2caa8043226e1",
+      "bytes": 12747
+    },
+    {
+      "path": "academy/shards/languages/0030.jsonl.gz",
+      "sha256": "e4a9a7bc71d1fd9dd18c59a7f21864e3b718860b1cc4460c7d42d30127723dfb",
+      "bytes": 12138
+    },
+    {
+      "path": "academy/shards/languages/0031.jsonl.gz",
+      "sha256": "fa6bd8b62d0f212001fb2a82bbda12bcf09ab7a01e9dae727ac88e8e8696f0b6",
+      "bytes": 13429
+    },
+    {
+      "path": "academy/shards/languages/0032.jsonl.gz",
+      "sha256": "8a3ff83dbfa285692f50674db61f169cbfe1439cc00447ce1ad3f2e98467fd5c",
+      "bytes": 12919
+    },
+    {
+      "path": "academy/shards/languages/0033.jsonl.gz",
+      "sha256": "730372620f20ce453cf6d0ab5950ea0a69e2511633a669963dc6341a999d29c0",
+      "bytes": 12380
+    },
+    {
+      "path": "academy/shards/languages/0034.jsonl.gz",
+      "sha256": "6a4c745086ea8eaac25aaae84eacd907fcda86163c1e66467ee60fa6aa7918d6",
+      "bytes": 13630
+    },
+    {
+      "path": "academy/shards/languages/0035.jsonl.gz",
+      "sha256": "2acb406ac98ac0d6dc21c421cb1598f8b9e3171ae6636d164c466f0a6fe5d479",
+      "bytes": 12700
+    },
+    {
+      "path": "academy/shards/model_routing/0000.jsonl.gz",
+      "sha256": "4db5b0f9b8dbcdc1b20de481934a13723b88a17b0aded406a818d54661326721",
+      "bytes": 13375
+    },
+    {
+      "path": "academy/shards/model_routing/0001.jsonl.gz",
+      "sha256": "5f75f8522857e5de79841276b6ea3aea49e22c096b52539d7461fd635e2692c3",
+      "bytes": 13367
+    },
+    {
+      "path": "academy/shards/model_routing/0002.jsonl.gz",
+      "sha256": "bff3caccad344109968d80fed18c6fa42d83fbda9962a6ca7f50f7e5d01956fb",
+      "bytes": 13339
+    },
+    {
+      "path": "academy/shards/model_routing/0003.jsonl.gz",
+      "sha256": "0e2eff9b41d4a7fd70513b2dc5ff9d900e0c37f8266348085dd4521725613054",
+      "bytes": 13395
+    },
+    {
+      "path": "academy/shards/model_routing/0004.jsonl.gz",
+      "sha256": "e5dea50871cd09c6a22b74ae3011ac22970f781d930ec00f5dc15a9be15bd489",
+      "bytes": 13335
+    },
+    {
+      "path": "academy/shards/model_routing/0005.jsonl.gz",
+      "sha256": "697b892dd49456974345e87d2d7d4e1725b0577f45e64f3e6527368a26bf71dc",
+      "bytes": 13355
+    },
+    {
+      "path": "academy/shards/model_routing/0006.jsonl.gz",
+      "sha256": "5cd461382ee822336f7cbc3850d97ae0879eb3f54f2835d9b04063b8050159c9",
+      "bytes": 13397
+    },
+    {
+      "path": "academy/shards/model_routing/0007.jsonl.gz",
+      "sha256": "a37730c3c6fd466edde197454396270c83d77d49d749eadc61541b1c29ed9b39",
+      "bytes": 13403
+    },
+    {
+      "path": "academy/shards/model_routing/0008.jsonl.gz",
+      "sha256": "d32701852bd705dab3e7286f3e135f6193b5e76f316b823921ad520d0a4c1855",
+      "bytes": 13335
+    },
+    {
+      "path": "academy/shards/model_routing/0009.jsonl.gz",
+      "sha256": "cf62699a89823c6451a39ea4cfc844742ec0389fc11565b610db8be6c1b77b1e",
+      "bytes": 13379
+    },
+    {
+      "path": "academy/shards/model_routing/0010.jsonl.gz",
+      "sha256": "88005418751852bcbb4a603c07ae6980a2dc5ece68edeb28fc1500f945d639a4",
+      "bytes": 13349
+    },
+    {
+      "path": "academy/shards/model_routing/0011.jsonl.gz",
+      "sha256": "0bf9bd29fb8d78b5d8fde108f3839cc38511986169ee3c8f3346af47a68f4968",
+      "bytes": 13413
+    },
+    {
+      "path": "academy/shards/model_routing/0012.jsonl.gz",
+      "sha256": "313567d0a2245a8f3d3ec7cdee6b2b0a0054dd99fe370f424311d257b1c2ab31",
+      "bytes": 13300
+    },
+    {
+      "path": "academy/shards/model_routing/0013.jsonl.gz",
+      "sha256": "69da01964b53e3b005983b23be8f0da04a10a9dca62a0488b0512e113498faac",
+      "bytes": 13328
+    },
+    {
+      "path": "academy/shards/model_routing/0014.jsonl.gz",
+      "sha256": "ee80857e52cbc4124a8db40bd4dc5275dc66955c2c6b74665766adb2fc40bb28",
+      "bytes": 13323
+    },
+    {
+      "path": "academy/shards/model_routing/0015.jsonl.gz",
+      "sha256": "70b0a958001683a6bcf00ca6998979465ddef6cc4c207ab93473e2ef71fa8c7d",
+      "bytes": 13379
+    },
+    {
+      "path": "academy/shards/model_routing/0016.jsonl.gz",
+      "sha256": "997af4bcf8609c9d58c2c46a7710a6453615fd773ccb5f799edce461fd24acfa",
+      "bytes": 13380
+    },
+    {
+      "path": "academy/shards/model_routing/0017.jsonl.gz",
+      "sha256": "e1f5c41bafc783da63847f6711c57fb7c06f0a72aa2c7305e712f6dbe2895ae9",
+      "bytes": 13415
+    },
+    {
+      "path": "academy/shards/model_routing/0018.jsonl.gz",
+      "sha256": "b787cdee1e7079883796f65848c5a0b53bdcb9492f4b14891403f16797043263",
+      "bytes": 13355
+    },
+    {
+      "path": "academy/shards/model_routing/0019.jsonl.gz",
+      "sha256": "14478ae48c1bfe52d39c5f2eb1b488252cce640c073ab2e95bdb0852c4d3cf99",
+      "bytes": 13379
+    },
+    {
+      "path": "academy/shards/model_routing/0020.jsonl.gz",
+      "sha256": "41f528da40edde73f89b1f9ff18d1d7a41ecba02f5ca5149ef2413a7933b6c21",
+      "bytes": 13304
+    },
+    {
+      "path": "academy/shards/model_routing/0021.jsonl.gz",
+      "sha256": "e40a04c1cb015edd60416ac966a162513c8bac7b69f249128ab3586f9a08fe75",
+      "bytes": 13395
+    },
+    {
+      "path": "academy/shards/model_routing/0022.jsonl.gz",
+      "sha256": "10242bf3768075653d9168001aa62ef15b9e4e92a1d9af27b4e972f2b4632435",
+      "bytes": 13356
+    },
+    {
+      "path": "academy/shards/model_routing/0023.jsonl.gz",
+      "sha256": "f93952a6268f346a5aa787a53201e171b3de1a1fd342c07cbe820d841491345b",
+      "bytes": 13405
+    },
+    {
+      "path": "academy/shards/model_routing/0024.jsonl.gz",
+      "sha256": "ce8b89f9667ca61437dfe3c480abed2aa9759ff6f111031675dcb8e199c2d79d",
+      "bytes": 13345
+    },
+    {
+      "path": "academy/shards/model_routing/0025.jsonl.gz",
+      "sha256": "1ac4227f5665803e825f807dde817ce376b76b5be4d52684cc52249f625e4905",
+      "bytes": 13319
+    },
+    {
+      "path": "academy/shards/model_routing/0026.jsonl.gz",
+      "sha256": "6d2cd04f01e09810477eac6016f052117211ef3026b455014b51e66620d2874b",
+      "bytes": 13309
+    },
+    {
+      "path": "academy/shards/model_routing/0027.jsonl.gz",
+      "sha256": "44158001f1e356ea21cc6e01f539747cad697104b9f65b299767e50c530cdc96",
+      "bytes": 13381
+    },
+    {
+      "path": "academy/shards/model_routing/0028.jsonl.gz",
+      "sha256": "d83f5b7a621eee88ad963cf43c59d6557ebdb6483877ee0d5acf2f2d2393bf5e",
+      "bytes": 13321
+    },
+    {
+      "path": "academy/shards/model_routing/0029.jsonl.gz",
+      "sha256": "92b43d724f3e08a63edbaa86197900cbb735bd0a6ad1ea26fe798aa7be54b416",
+      "bytes": 13396
+    },
+    {
+      "path": "academy/shards/model_routing/0030.jsonl.gz",
+      "sha256": "457aa9e31d8b92fa42b8bb0308a9343d6909633cbdb548bc16aeeb0ec6d82907",
+      "bytes": 13333
+    },
+    {
+      "path": "academy/shards/model_routing/0031.jsonl.gz",
+      "sha256": "ce178bbccca7a2144e99796e6c592ef93f732e4df7bcd66f92edeef613e2725c",
+      "bytes": 13388
+    },
+    {
+      "path": "academy/shards/request_understanding/0000.jsonl.gz",
+      "sha256": "2b5ae8a377f0f010586acd3f207095b9c6349c07cd4b26536c02d2480b30f8ac",
+      "bytes": 11827
+    },
+    {
+      "path": "academy/shards/request_understanding/0001.jsonl.gz",
+      "sha256": "6fd438e9ebca5b90e3d4ab7d3b417ef66bbc3343c1a7f784dd8ef61e2d7594f4",
+      "bytes": 11900
+    },
+    {
+      "path": "academy/shards/request_understanding/0002.jsonl.gz",
+      "sha256": "6e4b93541c324c58fd60524d6b2a7047d99db0279a0443a016fa1dd8ba30fbb4",
+      "bytes": 12132
+    },
+    {
+      "path": "academy/shards/request_understanding/0003.jsonl.gz",
+      "sha256": "34c8299ba0e69cdadb7eef6c9efd1e1163e532017c75b0047af07532b367426e",
+      "bytes": 12021
+    },
+    {
+      "path": "academy/shards/request_understanding/0004.jsonl.gz",
+      "sha256": "8e242e8e0e139630779bde855610e873767ae1db214c8530d2301905055375f4",
+      "bytes": 11894
+    },
+    {
+      "path": "academy/shards/request_understanding/0005.jsonl.gz",
+      "sha256": "50219660d9a36ef1b9c929556cafd189ac4af1a63a9a6ea0c07ad36528c3adb6",
+      "bytes": 11979
+    },
+    {
+      "path": "academy/shards/request_understanding/0006.jsonl.gz",
+      "sha256": "59806e4e2815dfb53fb501bb8e5131997163bd584e466b06811db75c12232be1",
+      "bytes": 12060
+    },
+    {
+      "path": "academy/shards/request_understanding/0007.jsonl.gz",
+      "sha256": "f380d69fd4d2ec0426d7efb329d9fbb20667be5a56d05f328ce03f8ed00f2292",
+      "bytes": 12099
+    },
+    {
+      "path": "academy/shards/request_understanding/0008.jsonl.gz",
+      "sha256": "5b8fc77c17d0854a41ed8a68f68071d42cd41a2ace0c9fd5498a35e12dc46e6e",
+      "bytes": 11871
+    },
+    {
+      "path": "academy/shards/request_understanding/0009.jsonl.gz",
+      "sha256": "b82d97077ae69f782bfa3069f764b6a1b944966ad03ebb766f5a9430cdecdb57",
+      "bytes": 11978
+    },
+    {
+      "path": "academy/shards/request_understanding/0010.jsonl.gz",
+      "sha256": "1ff59248589f3fff469a33fa28df95d3d2f29bb1251889240af3bb65b52f6de8",
+      "bytes": 12029
+    },
+    {
+      "path": "academy/shards/request_understanding/0011.jsonl.gz",
+      "sha256": "40fa4965a0dccf00869241ac4345ba48e6d0b84fbc1b1d2ce0cbfb037ede2678",
+      "bytes": 11750
+    },
+    {
+      "path": "academy/shards/self_learning/0000.jsonl.gz",
+      "sha256": "cd1aaba96aef7673309f8feaf379830328d8a51de88ee3c816b4d94557227a81",
+      "bytes": 12008
+    },
+    {
+      "path": "academy/shards/self_learning/0001.jsonl.gz",
+      "sha256": "307e59b146b6f21a9d8548b17f6d630f4845bf7ae2977783ae7d6906a09326d7",
+      "bytes": 12097
+    },
+    {
+      "path": "academy/shards/self_learning/0002.jsonl.gz",
+      "sha256": "76c50d6256075e2b28a272d7f90d9917aa9f3b3a4360d0053f40f7453a8b4025",
+      "bytes": 12074
+    },
+    {
+      "path": "academy/shards/self_learning/0003.jsonl.gz",
+      "sha256": "b2b2a8bc5eb8b72f190d4b344c091f3f283c34d504bc08546e960f20c3271b67",
+      "bytes": 5606
+    },
+    {
+      "path": "academy/shards/site_recreation/0000.jsonl.gz",
+      "sha256": "bad55de60be14e0f74049dacf4b4f3bb79e3f5bf37cd4f59b4349605d34caab5",
+      "bytes": 12561
+    },
+    {
+      "path": "academy/shards/site_recreation/0001.jsonl.gz",
+      "sha256": "de9fd7b12d5aca9a4d88a0e9c188d61d167d7c078e76ab32d38c112a399c10c6",
+      "bytes": 12518
+    },
+    {
+      "path": "academy/shards/site_recreation/0002.jsonl.gz",
+      "sha256": "eff3b2e5318132163e9b786996afefdae1347f8404cdc2dbbb834aed611f0f96",
+      "bytes": 12493
+    },
+    {
+      "path": "academy/shards/site_recreation/0003.jsonl.gz",
+      "sha256": "026027a15aa44f63c1680d76ff847199cd132394467c02a0beb3650181b4799f",
+      "bytes": 5836
+    },
+    {
+      "path": "academy/shards/site_security/0000.jsonl.gz",
+      "sha256": "a6a28eb5bc238f653cd77d382720eeacc76655ea6e9969a352fa9803eaccda75",
+      "bytes": 13321
+    },
+    {
+      "path": "academy/shards/site_security/0001.jsonl.gz",
+      "sha256": "57f598ec909ab4c2b1a31e7cad7d3cd3786515288ec4c09f002800fc154246e3",
+      "bytes": 13353
+    },
+    {
+      "path": "academy/shards/site_security/0002.jsonl.gz",
+      "sha256": "315d4ec83042ddccefb01c1697dcfa73d5c96ab56da201924c0c73012439982e",
+      "bytes": 13303
+    },
+    {
+      "path": "academy/shards/site_security/0003.jsonl.gz",
+      "sha256": "4ff7c8defbe0da773821bd10cde697844f50c62e067f02fd64e76cadbdac51a5",
+      "bytes": 13347
+    },
+    {
+      "path": "academy/shards/site_security/0004.jsonl.gz",
+      "sha256": "19028493e00885b5bf4f2353942a15a079d06912d590539b1a76a0230ba8bf5b",
+      "bytes": 13285
+    },
+    {
+      "path": "academy/shards/site_security/0005.jsonl.gz",
+      "sha256": "1b1f982de38644929ab653e6c9319f2b4e574f4bb8fc94a3eaf6ba280ee00cf1",
+      "bytes": 13376
+    },
+    {
+      "path": "academy/shards/site_security/0006.jsonl.gz",
+      "sha256": "21120f53947ec0c5171957d50b5b969b402a5ee44b892d51437f36f375e14227",
+      "bytes": 13266
+    },
+    {
+      "path": "academy/shards/site_security/0007.jsonl.gz",
+      "sha256": "89f39805fcd2b734857d429cd5eddb0bcf60f520d8a8179c45de539927665be0",
+      "bytes": 13319
+    },
+    {
+      "path": "academy/shards/site_security/0008.jsonl.gz",
+      "sha256": "6227cdbc9e2e7fa096be002cd903f5fcfd66e8be290d9a261ff5de94fb150e20",
+      "bytes": 13318
+    },
+    {
+      "path": "academy/shards/site_security/0009.jsonl.gz",
+      "sha256": "1936c16c739c9aa43baa832a2d5fd2cf3e91003f3d6235a35bf7aeff1a8d41d0",
+      "bytes": 13402
+    },
+    {
+      "path": "academy/shards/site_security/0010.jsonl.gz",
+      "sha256": "7dec12f7cbe43300397538209f986a62b8492710ef0a7762d3a1bc75df3d6868",
+      "bytes": 13287
+    },
+    {
+      "path": "academy/shards/site_security/0011.jsonl.gz",
+      "sha256": "a8bbceaeedc2b38ef59f20309aa7e1d90344773e6ea83c6124621e1946dc12a7",
+      "bytes": 13330
+    },
+    {
+      "path": "academy/shards/site_security/0012.jsonl.gz",
+      "sha256": "a0f7507274018bcdd2d38e6a6be86aae29ffae83cd43f55251b984c933d15847",
+      "bytes": 13254
+    },
+    {
+      "path": "academy/shards/site_security/0013.jsonl.gz",
+      "sha256": "667d067ac7f9793695bb898f97d26b234e784120a4aa0579524ee7b808328fe2",
+      "bytes": 13352
+    },
+    {
+      "path": "academy/shards/site_security/0014.jsonl.gz",
+      "sha256": "3fe671daa1324a111da25a444c966979a58b0d5789e61a5068a007f2576f6551",
+      "bytes": 13230
+    },
+    {
+      "path": "academy/shards/site_security/0015.jsonl.gz",
+      "sha256": "ac3e07817a2a9beb342b5e7d5eedcbc6bd55c5cfefc01dae79cd2beead591a5d",
+      "bytes": 13316
+    },
+    {
+      "path": "academy/shards/site_security/0016.jsonl.gz",
+      "sha256": "8ee992c91c872c34517e893fd9342ea15e90d6407aaad5ac4d15c703480cdf8a",
+      "bytes": 13306
+    },
+    {
+      "path": "academy/shards/site_security/0017.jsonl.gz",
+      "sha256": "567ee02e74b7bdd356c860bf7f2654215085c56f8c1b5d73c67f86e24c61d653",
+      "bytes": 13363
+    },
+    {
+      "path": "academy/shards/site_security/0018.jsonl.gz",
+      "sha256": "2a96c3161b51a8f11aa700d72631226e558bf76cc4976128d70ac7aeeb3e44e2",
+      "bytes": 13280
+    },
+    {
+      "path": "academy/shards/site_security/0019.jsonl.gz",
+      "sha256": "a247670e70c5605604ff9dfe02b6a91f0c46d50d470377fe3cbccb0ff4b53444",
+      "bytes": 13309
+    },
+    {
+      "path": "academy/shards/site_security/0020.jsonl.gz",
+      "sha256": "d49f3f56a39477aba10dc1f6dfbd1bb0b0c55e1984e550bc92600c2205531ef6",
+      "bytes": 13274
+    },
+    {
+      "path": "academy/shards/site_security/0021.jsonl.gz",
+      "sha256": "384b8bc3914085f56e193e3bceea759125d66efa3c824d022282853ea5e69950",
+      "bytes": 13404
+    },
+    {
+      "path": "academy/shards/site_security/0022.jsonl.gz",
+      "sha256": "193b61ded8ce179a7e9892390c52834addcb3ca3c63c9627fd8561308a35ac49",
+      "bytes": 13281
+    },
+    {
+      "path": "academy/shards/site_security/0023.jsonl.gz",
+      "sha256": "f815397e90d54b358fa99bdb5b53399653a7a316282b677179a890f67880630a",
+      "bytes": 13323
+    },
+    {
+      "path": "academy/shards/site_security/0024.jsonl.gz",
+      "sha256": "b4419bae060a740ec431ac771fa8cbbc214f6b44c5a737a7d7a7d869e7e018cc",
+      "bytes": 13253
+    },
+    {
+      "path": "academy/shards/site_security/0025.jsonl.gz",
+      "sha256": "6680208d33cd878c9088b82580fffe74b7cedbc6ecc9d8dbb536e62495b606f1",
+      "bytes": 13353
+    },
+    {
+      "path": "academy/shards/video_understanding/0000.jsonl.gz",
+      "sha256": "5b7abac1cb288d9f002a989e6b978e68d9cc2f2ee1ff17d11426fe09761d51f1",
+      "bytes": 11890
+    },
+    {
+      "path": "academy/shards/video_understanding/0001.jsonl.gz",
+      "sha256": "cd86d77f06619207a4262bc549487d0acfcdc05e7cbbea9bee835c5578dd6926",
+      "bytes": 11846
+    },
+    {
+      "path": "academy/shards/video_understanding/0002.jsonl.gz",
+      "sha256": "b8e2782ca8e51b32114b358e937bd09ddb0e5aa1e02a17bbd6f38455f8a4c022",
+      "bytes": 11796
+    },
+    {
+      "path": "academy/shards/video_understanding/0003.jsonl.gz",
+      "sha256": "29936aaa3d6e7e370c614b56a8712099155611e720d1ab8245faa0c9b4f2b7ee",
+      "bytes": 3501
+    },
+    {
+      "path": "academy/shards/video_workflows/0000.jsonl.gz",
+      "sha256": "565ae5b2b203e41b30b5af25d1179417f072adf84ce76e009edb7992d74277c0",
+      "bytes": 11515
+    },
+    {
+      "path": "academy/shards/video_workflows/0001.jsonl.gz",
+      "sha256": "3f5ce9e0bc6c789e31a3ce4ea7dc47a21b714c3b941b186efcc0245c06c1122b",
+      "bytes": 11390
+    },
+    {
+      "path": "academy/shards/video_workflows/0002.jsonl.gz",
+      "sha256": "55d4bc72cdf91e1f76f2586f709853c4a78011ee0a3eb4024ff49d5ce7fe18ae",
+      "bytes": 11502
+    },
+    {
+      "path": "academy/shards/video_workflows/0003.jsonl.gz",
+      "sha256": "aee9082cbf705adbde5cca42d0a3bcf605853377a166adcff9e08ec4c4fb0b83",
+      "bytes": 11477
+    },
+    {
+      "path": "academy/shards/video_workflows/0004.jsonl.gz",
+      "sha256": "23f3ab9cd1d8e0169caba52612cc22526318de33ad28ba0150f955fc27b48482",
+      "bytes": 11451
+    },
+    {
+      "path": "academy/shards/video_workflows/0005.jsonl.gz",
+      "sha256": "02eeb6be34100a7843f1e67129a6e203c35d9a1b405affebd5711266e67eae6a",
+      "bytes": 11641
+    },
+    {
+      "path": "academy/shards/video_workflows/0006.jsonl.gz",
+      "sha256": "6c5debd61400f2bc2d167fb66198cecd6b4499b82bd13ca323f9f5b69a0dfb32",
+      "bytes": 11400
+    },
+    {
+      "path": "academy/shards/video_workflows/0007.jsonl.gz",
+      "sha256": "dd241a9e34916904ecb5da8b0fcf0f70f79623b3ca30e616df5bf46aa1804317",
+      "bytes": 11546
+    },
+    {
+      "path": "academy/shards/video_workflows/0008.jsonl.gz",
+      "sha256": "2ac6046a23da7d16b84eb0f95f35e4791c6c8a736670105cd46b89eb5705acc0",
+      "bytes": 11432
+    },
+    {
+      "path": "academy/shards/video_workflows/0009.jsonl.gz",
+      "sha256": "cd1e0bace72b7a02677686fd62887f08a1f1c4c1b170dd3c44dbaeab588982f7",
+      "bytes": 11547
+    },
+    {
+      "path": "academy/shards/video_workflows/0010.jsonl.gz",
+      "sha256": "f31edc8e05d1463fedb08603730fab1b0ab961b1626e360ade90ab83b05c4b91",
+      "bytes": 11466
+    },
+    {
+      "path": "academy/shards/video_workflows/0011.jsonl.gz",
+      "sha256": "c395f4cd37edb23e485abe789b20730ba15cd1b3f00f3f35863188bb31cebc85",
+      "bytes": 11417
+    },
+    {
+      "path": "academy/shards/video_workflows/0012.jsonl.gz",
+      "sha256": "89f80bb8df76164fc03df215011b78a857b97884d3602fe62a25d7242ce3248c",
+      "bytes": 11513
+    },
+    {
+      "path": "academy/shards/video_workflows/0013.jsonl.gz",
+      "sha256": "dcce0355ef08f2d6ee99a0295ecbec20cc4eae2569ba456d05c6477bf8ab61af",
+      "bytes": 11469
+    },
+    {
+      "path": "academy/shards/video_workflows/0014.jsonl.gz",
+      "sha256": "42b847db9fd18185e84c45c80c17588d53acf3f0f3b10661504a6d01feed7126",
+      "bytes": 11449
+    },
+    {
+      "path": "academy/shards/video_workflows/0015.jsonl.gz",
+      "sha256": "07ae526ffdc0982257c7eeaddc4455fde306c825eef5b7e73b97cba5a1a8937d",
+      "bytes": 11476
+    },
+    {
+      "path": "academy/shards/video_workflows/0016.jsonl.gz",
+      "sha256": "39ad4eef6b4f7ddbf6b678bb8a411b5a2a5294737f64923b2f091dfdef9e9ccf",
+      "bytes": 11539
+    },
+    {
+      "path": "academy/shards/video_workflows/0017.jsonl.gz",
+      "sha256": "fe156b9f24b6d72c1a078df941306d6e74670252086b98c92d5e7c0554d3b3a7",
+      "bytes": 11508
+    },
+    {
+      "path": "academy/shards/video_workflows/0018.jsonl.gz",
+      "sha256": "6e4db9839fe09afac12b37b9044a96ebb01b61a9db2210901317a9604344182c",
+      "bytes": 11638
+    },
+    {
+      "path": "academy/shards/video_workflows/0019.jsonl.gz",
+      "sha256": "07b2600d413de55780f1be8216c2e16b4a2351699ccf9738218b95ffdc16f329",
+      "bytes": 11544
+    },
+    {
+      "path": "academy/shards/video_workflows/0020.jsonl.gz",
+      "sha256": "cf69a30f92dce99d5f08dc736da332d71db1850b7ea75b0791908acb76f95fc2",
+      "bytes": 11387
+    },
+    {
+      "path": "academy/shards/video_workflows/0021.jsonl.gz",
+      "sha256": "650433e7721441a7e3594b77068e54f2f45565f6fe832b0c245d7be2910ff904",
+      "bytes": 11563
+    },
+    {
+      "path": "academy/shards/web_app/0000.jsonl.gz",
+      "sha256": "4cb8aed395b86b61d9d689e1397cda96fb9ccf0b20e4293ba1c94a650c35430d",
+      "bytes": 13250
+    },
+    {
+      "path": "academy/shards/web_app/0001.jsonl.gz",
+      "sha256": "ef12473dcaa65d819ba3ff072478520a3dfe33d544ee5565e1c43203005a5563",
+      "bytes": 13437
+    },
+    {
+      "path": "academy/shards/web_app/0002.jsonl.gz",
+      "sha256": "a860554fe63326cca6ed8364f65b3b857bc915d7503f944d2b375b7dc8f82113",
+      "bytes": 12893
+    },
+    {
+      "path": "academy/shards/web_app/0003.jsonl.gz",
+      "sha256": "52ae524c266d44a5962039d0360fecb160ff289587f6a11ed8c8c1a789d4a69d",
+      "bytes": 13212
+    },
+    {
+      "path": "academy/shards/web_app/0004.jsonl.gz",
+      "sha256": "7c3cb6cde6c23228f6669c474cfb7fabce8925bb4fb8c7e6edfc9689eac74ef8",
+      "bytes": 13379
+    },
+    {
+      "path": "academy/shards/web_app/0005.jsonl.gz",
+      "sha256": "eee9ffd9d9411ebd7631224984dc5ea180c8eef7c036ab5aa7ff079160ef77a7",
+      "bytes": 12974
+    },
+    {
+      "path": "academy/shards/web_app/0006.jsonl.gz",
+      "sha256": "8fff0abd684fb73ae959dc810bee2e651e76a7e85bd99487d1dfe9c62583df51",
+      "bytes": 13291
+    },
+    {
+      "path": "academy/shards/web_app/0007.jsonl.gz",
+      "sha256": "0e6601587497f83a64bfd873a3f5cba0036709b36ec8d6ffaed480315449c0bb",
+      "bytes": 13180
+    },
+    {
+      "path": "academy/shards/web_app/0008.jsonl.gz",
+      "sha256": "e2444fb9ca57f0fb0834ffdf8be629ccc692e9f01d29b207bf9b5d89423f2b8e",
+      "bytes": 13232
+    },
+    {
+      "path": "academy/shards/web_app/0009.jsonl.gz",
+      "sha256": "98fdf685dd9312cb68ce0fb1b7bd9cf03c46853aedac3fc96e3a56525e1daacb",
+      "bytes": 13383
+    },
+    {
+      "path": "android/assets/home.html",
+      "sha256": "fd5fd81fee4d81effedbbc950dc644a0a1a7ccfb5be9f3d168683a5faee9863d",
+      "bytes": 12820
+    },
+    {
+      "path": "android/gradle-source/app/build.gradle",
+      "sha256": "877eb1be8d8ffdb876b975a6184cd6c2c4b6fa671fc2814e6a7f9e83fe910c08",
+      "bytes": 315
+    },
+    {
+      "path": "android/gradle-source/app/src/main/AndroidManifest.xml",
+      "sha256": "6a2dfc66c5f2d1f393764cc73b9b6040d09ce367d3927636e699519275848922",
+      "bytes": 595
+    },
+    {
+      "path": "android/gradle-source/app/src/main/assets/home.html",
+      "sha256": "fd5fd81fee4d81effedbbc950dc644a0a1a7ccfb5be9f3d168683a5faee9863d",
+      "bytes": 12820
+    },
+    {
+      "path": "android/gradle-source/app/src/main/java/ai/fezi/studio/MainActivity.java",
+      "sha256": "665b12cbdc05d93618d89d674dc334938e7dde193268e32545519a38dfb48ac8",
+      "bytes": 1004
+    },
+    {
+      "path": "android/gradle-source/build.gradle",
+      "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032",
+      "bytes": 69
+    },
+    {
+      "path": "android/gradle-source/settings.gradle",
+      "sha256": "931d9457e6132dbdfa9379a0e2fb93299904e7f3b59d2fd94bf34a0ab95f5d54",
+      "bytes": 276
+    },
+    {
+      "path": "app.js",
+      "sha256": "a1fe9b6dde485d632e4a19347f7c902e06e8e8f019bad874c864836adabc1485",
+      "bytes": 109
+    },
+    {
+      "path": "compose.editor.yaml",
+      "sha256": "3f1638c6a4213883e99f600a56b6cfe06ba0fe9d265a95627c0678411a760ff3",
+      "bytes": 915
+    },
+    {
+      "path": "compose.local.yaml",
+      "sha256": "8000648206fbd783131bc84ab1667d6d73582ac087ce3271a6fbc5c96de21579",
+      "bytes": 357
+    },
+    {
+      "path": "compose.stream.example.yaml",
+      "sha256": "0c292792e5b874a9c599d15e397e1b1abfaf79f2cb84620652aeab7f2018c4e5",
+      "bytes": 673
+    },
+    {
+      "path": "compose.telegram.yaml",
+      "sha256": "1c03f5d91b4f2a2a82249ade8e61b0414d7507319e4daff489bc9461ee46d8f5",
+      "bytes": 1184
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "66ee5201b4f86558770803b9138699040fe28ea0f32ef77b1abf793931c7d0ed",
+      "bytes": 709
+    },
+    {
+      "path": "config/arina-lora-training-plan.json",
+      "sha256": "d32c7f06dfa608d995bb81c3d29cd4f2312a279b074cc58af6cdee2bcbf73512",
+      "bytes": 1695
+    },
+    {
+      "path": "config/fezi-toolbox.json",
+      "sha256": "8fe241d2f309e47326b6f4e2762af4d1fd910e23bf4534c759074ce75ea78950",
+      "bytes": 25723
+    },
+    {
+      "path": "config/open-model-exclusions.json",
+      "sha256": "c401981ced96393803696074913b935b8ee3aa192e075c8444791c302bfb61bb",
+      "bytes": 865
+    },
+    {
+      "path": "config/open-models.json",
+      "sha256": "8c3493cf9e43ea0f208ee5e33ad240db89f0e2deb746c47e20d2146ab11bcf24",
+      "bytes": 9338
+    },
+    {
+      "path": "core/academy.js",
+      "sha256": "05ff669f04c18824e08318dd962ffa7ea2910d991499548ec1523f414113467b",
+      "bytes": 6158
+    },
+    {
+      "path": "core/agent.js",
+      "sha256": "350326de80b12087be49eed716295d1ba88c306bd4a7150d4d5880e93ef68845",
+      "bytes": 18726
+    },
+    {
+      "path": "core/arina-commerce.js",
+      "sha256": "8f40e7797c31b72c97d5ec782ab0a914ad41bac444e2a9350846c201a8ee1a29",
+      "bytes": 9178
+    },
+    {
+      "path": "core/arina-dance-director.js",
+      "sha256": "da976d9deae49d4806dad526663aa4ff16b572fa6ccc80f9cca59b72c0a08d08",
+      "bytes": 5084
+    },
+    {
+      "path": "core/arina-live.js",
+      "sha256": "9975fff5297c3e0fc76ddd9d9462fa983a47f53c03fcd4ffe838c81355cda20e",
+      "bytes": 3556
+    },
+    {
+      "path": "core/arina-room.js",
+      "sha256": "53ec2070f970de9fb3002371627f2fbdc7ec079cce4fd941d5154166af4b4a4e",
+      "bytes": 6651
+    },
+    {
+      "path": "core/arina-wallets.json",
+      "sha256": "4e28b52f6e2e5185a6cbd3ecf2b6cdbba28f4263a686edecfadd8b14e662b1d2",
+      "bytes": 2551
+    },
+    {
+      "path": "core/build-export.js",
+      "sha256": "e92e0618326ad907827691f98b9e9438e0ce472252a16729860b04ab1aaf64e8",
+      "bytes": 6524
+    },
+    {
+      "path": "core/desktop-tools.js",
+      "sha256": "f59469bf7ea7cba259c19e7237e085909b3f92cece69cf8229dfb5e304d04466",
+      "bytes": 4177
+    },
+    {
+      "path": "core/fezi-mcp-plugin.js",
+      "sha256": "783817b729ca84643882b01aedb27a75531ba839189f01855090446780db877c",
+      "bytes": 4886
+    },
+    {
+      "path": "core/fezi-router.js",
+      "sha256": "094ccc39b4f79e97279f971d72f8613463fd4bf0adcc2741cb1c40b72d15f718",
+      "bytes": 7628
+    },
+    {
+      "path": "core/fezi-toolbox.js",
+      "sha256": "de194e15522d9575665a3139d46c350a3c497c3f5a95c28d4daa3dc59177088b",
+      "bytes": 2658
+    },
+    {
+      "path": "core/huggingface.js",
+      "sha256": "ba65b95cc8d8f4f0f5d375559ab3693efcce299ade4eccc3e690d168975681dc",
+      "bytes": 941
+    },
+    {
+      "path": "core/local-models.js",
+      "sha256": "b85911d5dd402c8b900f8471fe44973b5e2f64e1aad58541efe0326716837f6a",
+      "bytes": 4773
+    },
+    {
+      "path": "core/model-registry.js",
+      "sha256": "06e2d4f650aa599f7b2db1e34cff1085127c9c23b613097b3ea0120e39675369",
+      "bytes": 6079
+    },
+    {
+      "path": "core/open-model-hub.js",
+      "sha256": "33aa54b3ff31cd6820afb3c5d6b12e1e86705416b2ba4c14c17f80a8ecd62646",
+      "bytes": 7710
+    },
+    {
+      "path": "core/specialist-worker.js",
+      "sha256": "ba51f0f0a57093f81e399c2e4ee3ac19cdc4f523ec4187df9bceb62db0e5060b",
+      "bytes": 3531
+    },
+    {
+      "path": "core/telegram-runtime.js",
+      "sha256": "59dcfa3a88217c533c6038078ac397925a994971e735c146560855f453fc702e",
+      "bytes": 10757
+    },
+    {
+      "path": "core/validation.js",
+      "sha256": "187cb517cd8f766c426a96d5edb17484cc0b5266ba2dbb37c7ecbbe4815c9ee0",
+      "bytes": 1579
+    },
+    {
+      "path": "core/web.js",
+      "sha256": "866edd302f30cfb43945e2f8558350d839a54dc4f12eae4e33a8d77944d6ff67",
+      "bytes": 6776
+    },
+    {
+      "path": "docs/ACTIVATE_NOW_FA.md",
+      "sha256": "357307cfc1f5dd108857c2430c61f954bf9e9c432669f8bbab1678f6871a04e1",
+      "bytes": 4666
+    },
+    {
+      "path": "docs/AGENT.md",
+      "sha256": "a02c7edcf3ca0dd7790d798d36c4a238bb5a6a167881aa4bcf4def6c90a60754",
+      "bytes": 6633
+    },
+    {
+      "path": "docs/ARINA_FULLHD_DANCE_FA.md",
+      "sha256": "a6f0eecc5bdd10151fed123b7d3b7742bef116b76fb936e7b92de5c9905cd75e",
+      "bytes": 7478
+    },
+    {
+      "path": "docs/ARINA_GALLERY_WALLET_FA.md",
+      "sha256": "cd88c509f2d80816128adc1b14c56ffb2dbf6b4106d09ceaebdb22f0ccf04f30",
+      "bytes": 4350
+    },
+    {
+      "path": "docs/ARINA_REFERENCE_FA.md",
+      "sha256": "9ab6f27c2673618afeb30ac6668cd1f6a7b93aa2f0e273d827ad073fd98cbfaa",
+      "bytes": 1164
+    },
+    {
+      "path": "docs/AVATAR_LIVE_FA.md",
+      "sha256": "cc93d26d8d00237b2e78523339012b4d78afd66e6ec882f98135644fa8d46ade",
+      "bytes": 5731
+    },
+    {
+      "path": "docs/BUILD_PIPELINES.md",
+      "sha256": "6a1452c9d6edfa876b53cb73a9e4b983d3280bcd4092dd9b574435fc957a6f8e",
+      "bytes": 3511
+    },
+    {
+      "path": "docs/DEPLOY.md",
+      "sha256": "dddbd226fee7fd7f03fab3dbf7bc689424a1e199b6b64b92adc489e6cf4eff43",
+      "bytes": 4849
+    },
+    {
+      "path": "docs/DESKTOP_EDITORS_FA.md",
+      "sha256": "58b527eda0e897b2bb0e07d52d77818c13b78646235eebf3defb709126307fd2",
+      "bytes": 3422
+    },
+    {
+      "path": "docs/FEZI_AGENT_FA.md",
+      "sha256": "fd83eba6097f6aa849bf4051c2a59a574db1a5e2bec9e6ca7dc2cd1c3d31c649",
+      "bytes": 3499
+    },
+    {
+      "path": "docs/FEZI_V13_INSTALL_AND_PLUGIN_FA.md",
+      "sha256": "2e23f104c03780ada5c611081e320f43248c4ddfef8bf785687d72796c8b1c2b",
+      "bytes": 6835
+    },
+    {
+      "path": "docs/GITHUB_TELEGRAM_SETUP_FA.md",
+      "sha256": "01895ead95788ac7951ec25ff3a87bb67a451f5292494f2f3729beb659f4ad33",
+      "bytes": 6968
+    },
+    {
+      "path": "docs/INTEGRATIONS.md",
+      "sha256": "ec4dd852b90523249cc0701b8b753e9c5e2ce7d64f4b84bd2abe1ff2c5600ed8",
+      "bytes": 2765
+    },
+    {
+      "path": "docs/LOCAL_AI_AND_PLUGIN.md",
+      "sha256": "cf6a356572cf38e93692dfdbdcace8fb1b3e7c35e1e2aeeee77deb6fd6ed235f",
+      "bytes": 3201
+    },
+    {
+      "path": "docs/MODELS_15_NEW_FA.md",
+      "sha256": "367b106f7924da15640eda6809d355f32175faa213609ca1cd43108caccb31c6",
+      "bytes": 3820
+    },
+    {
+      "path": "docs/OPEN_MODELS_INSTALL_FA.md",
+      "sha256": "3d553cc25301156a6e961afff9778e49fb5b38583ad63f13690734790946c5e2",
+      "bytes": 4191
+    },
+    {
+      "path": "docs/OPEN_MODEL_PERMISSION_FA_EN.md",
+      "sha256": "3601139feee10aed9d82b73345e89796a0dda61f00d3f0cd1088a1f469bfcfe5",
+      "bytes": 4399
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "sha256": "0a8f0773c6c66c1834c50a271827050fd16fc13349159ac4317394b8c782125e",
+      "bytes": 2733
+    },
+    {
+      "path": "docs/STREAMING_STACK_FA.md",
+      "sha256": "38c40f60acbbad0a305ae37ff63c4a6e77896e66d0ef97235dbbb4ab5bc8c888",
+      "bytes": 1821
+    },
+    {
+      "path": "examples/agent-bridges.json",
+      "sha256": "5cd270f7f25a09c05570c155cd900645b318b3f4494f5956f0638fdfb3dc82a1",
+      "bytes": 287
+    },
+    {
+      "path": "examples/custom-providers.json",
+      "sha256": "d199bdb43d95cbfa018a3edce7a7d898411a56b776ef992448f9eb2e2bcd22f8",
+      "bytes": 189
+    },
+    {
+      "path": "gpu-worker-reference/server.py",
+      "sha256": "534d609469e80a36248204abd596f18950da8c571611347013d70d95f36e570b",
+      "bytes": 5670
+    },
+    {
+      "path": "gpu-worker-reference/workflows/README.md",
+      "sha256": "6f482e5529173407a7decc83b682033c6d069d36fb49d01124279e954eec0557",
+      "bytes": 1110
+    },
+    {
+      "path": "integrations.js",
+      "sha256": "077dcd4d2aebc4b564d6780ed24c58e8b4411ca560a918ab67a9d6ec8d53002e",
+      "bytes": 12359
+    },
+    {
+      "path": "mcp.js",
+      "sha256": "cb635af54c6aba9462298504006047c2ed6f35d3a3da5efd403f4f5201e93d1a",
+      "bytes": 7348
+    },
+    {
+      "path": "models/README.md",
+      "sha256": "f2af3094092f804f7dc99aaf1adef69d26762c4cdb74e4391968ba32ec8fa968",
+      "bytes": 135
+    },
+    {
+      "path": "models/adapters/README.md",
+      "sha256": "ff759043a8acb4e4f792578ccc2f080b5a9b3b6289eb668b200d0073177aab75",
+      "bytes": 170
+    },
+    {
+      "path": "package.json",
+      "sha256": "d236d892aa41532190ab3b349c1f2006bf0b9e5e9a07a8f34a23c2d09d800e89",
+      "bytes": 1409
+    },
+    {
+      "path": "plugin/PLUGIN_SETUP.md",
+      "sha256": "f3559e06e8433b4db065cf428f61553349dba3046ea26e262dbe7b0b40e5c1bf",
+      "bytes": 1249
+    },
+    {
+      "path": "private/arina-gallery/arina-04.webp",
+      "sha256": "083e6979a2f06f67f0130b040163c94051def143ec63ea5887fbdc55f819f659",
+      "bytes": 117704
+    },
+    {
+      "path": "private/arina-gallery/arina-05.webp",
+      "sha256": "0275afe32f370dfc299999ff2c7bb3b62aea5fb604037e5f4326516bffac3e0d",
+      "bytes": 115806
+    },
+    {
+      "path": "private/arina-gallery/arina-06.webp",
+      "sha256": "3a64d4c6f87afbdd92d77cae371e6d376c33db60b0f3664d148cb89b559b37f2",
+      "bytes": 88972
+    },
+    {
+      "path": "private/arina-gallery/arina-07.webp",
+      "sha256": "fdd9d4e73bc02b25caf09ae8bfe70fa078f6b485596a9981b56b30eefb26173d",
+      "bytes": 85274
+    },
+    {
+      "path": "public/app.css",
+      "sha256": "65d74c0e745b9032c6bcc41d82e5a08cd7337e310ec34f173ffaff04ce45e8e1",
+      "bytes": 17248
+    },
+    {
+      "path": "public/app.js",
+      "sha256": "2948a4592381d5e802113e4c4bb05381c5d695ea47488ee77f634b8df917615b",
+      "bytes": 37955
+    },
+    {
+      "path": "public/arina-gallery/full/arina-01.webp",
+      "sha256": "5c2896a2edd480f2b1de3120d1dcee9c4b83120f56f53dfddf524c10d2069eb2",
+      "bytes": 158798
+    },
+    {
+      "path": "public/arina-gallery/full/arina-02.webp",
+      "sha256": "c6fe843feda2a30fc812c7a42b40ce79fbfbbbcdc0c561afed392534926f087f",
+      "bytes": 239046
+    },
+    {
+      "path": "public/arina-gallery/full/arina-03.webp",
+      "sha256": "f0f191d12799c655fabd1bf6b9155a101b2a0f5139c965eeff70d28cb2f8e8fc",
+      "bytes": 168650
+    },
+    {
+      "path": "public/arina-gallery/full/arina-08.webp",
+      "sha256": "bd89d1efca2ab4ccdb9eafa027dde9b816dc54d57ee7d0ad359823aca55e4c77",
+      "bytes": 98704
+    },
+    {
+      "path": "public/arina-gallery/full/arina-09.webp",
+      "sha256": "05495ef9b39b4e09716df263ad72097183cce9999b8d4bb674a5fbf2fa675a36",
+      "bytes": 158996
+    },
+    {
+      "path": "public/arina-gallery/full/arina-10.webp",
+      "sha256": "ab8b4023c2af385b0a414cac1735021349b48fdbe2142a0553edc8a885db3466",
+      "bytes": 152198
+    },
+    {
+      "path": "public/arina-gallery/gallery.css",
+      "sha256": "6a5d8969808fbd6dd43ccba06873115a1859aa08c428c26a3537d6fb1f074b07",
+      "bytes": 7114
+    },
+    {
+      "path": "public/arina-gallery/gallery.js",
+      "sha256": "21d1989261443423fad5caefb893651a094007949851297d8081db8cfb901ab9",
+      "bytes": 4110
+    },
+    {
+      "path": "public/arina-gallery/index.html",
+      "sha256": "28ace55b4de4ed7bb51ef88659294cf164c7933721849ab91e822c04f48c9fb0",
+      "bytes": 4006
+    },
+    {
+      "path": "public/arina-gallery/private.html",
+      "sha256": "e1d83de469c94f0560e09fb1caaf70176cadf666c1245bc8d42e93ffd8ca5c3d",
+      "bytes": 3724
+    },
+    {
+      "path": "public/arina-gallery/qr/ada-cardano.png",
+      "sha256": "04a123db67aa77b948f8f6d36369bcb56622cc84397a98dbc211b874a7a04204",
+      "bytes": 734
+    },
+    {
+      "path": "public/arina-gallery/qr/artibitrum.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/base.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/bch.png",
+      "sha256": "e0095c520532b99415ed7215052d787c2d965bfb4a66658180fc346789b252ce",
+      "bytes": 475
+    },
+    {
+      "path": "public/arina-gallery/qr/bnb.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/btc.png",
+      "sha256": "e5c5dd58f70fe1e235783ab3a2fbf3f31d1d14567e2acb2a84be6f96d36e7703",
+      "bytes": 457
+    },
+    {
+      "path": "public/arina-gallery/qr/dash.png",
+      "sha256": "cd85b804effefe95bb41ddf9dc91a2bec693f8b16af1c03901a02eaa311a1900",
+      "bytes": 455
+    },
+    {
+      "path": "public/arina-gallery/qr/doge.png",
+      "sha256": "2b4595f8daba102b4f7a734fd0c29014549dfa3a7f188cb1f10bc53cd6902ac1",
+      "bytes": 454
+    },
+    {
+      "path": "public/arina-gallery/qr/eth.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/polygon.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/sol.png",
+      "sha256": "a9597c6397cc026c078d8b783ff402f774a0c0f2a0d880508a26ae910e224d62",
+      "bytes": 537
+    },
+    {
+      "path": "public/arina-gallery/qr/ton.png",
+      "sha256": "d911ddcd3aa79d2aa6c96af94cb95057d7acf96e6527ec18e058490e816dd17c",
+      "bytes": 575
+    },
+    {
+      "path": "public/arina-gallery/qr/trx.png",
+      "sha256": "a57cd2dae84e49fe5a5948f0d089ff9ad7e0078a6040a171073165ee2f3b497f",
+      "bytes": 465
+    },
+    {
+      "path": "public/arina-gallery/qr/usdc-base.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/usdc-eth.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/usdc-sol.png",
+      "sha256": "a9597c6397cc026c078d8b783ff402f774a0c0f2a0d880508a26ae910e224d62",
+      "bytes": 537
+    },
+    {
+      "path": "public/arina-gallery/qr/usdt-bep20.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/usdt-erc20.png",
+      "sha256": "ec8e3bf8710824c9423b0a97fcb32fccb85e53eefe51ec9d35007bd6162f9650",
+      "bytes": 490
+    },
+    {
+      "path": "public/arina-gallery/qr/usdt-trc20.png",
+      "sha256": "a57cd2dae84e49fe5a5948f0d089ff9ad7e0078a6040a171073165ee2f3b497f",
+      "bytes": 465
+    },
+    {
+      "path": "public/arina-gallery/qr/vechain.png",
+      "sha256": "ed7eafc4f68d4564c93f39c4ccf7f928820d1c7990a2d70369f865c2daf981e9",
+      "bytes": 462
+    },
+    {
+      "path": "public/arina-gallery/qr/xrp.png",
+      "sha256": "1a6a2e880db7b394b39f7bb94d2bb614ee72c13fe45b1fb26ae37b47c1a0fde5",
+      "bytes": 459
+    },
+    {
+      "path": "public/arina-gallery/qr/zcash.png",
+      "sha256": "74cb85cd91f5a44506768d0f37d0327e3c8a2c95d9e7b83ce7d372887c80bc2d",
+      "bytes": 455
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-01.webp",
+      "sha256": "6bd9eb76ac8db4de8cc9e6794df8f2253498ee20399a8162eb1d5963918dd511",
+      "bytes": 42484
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-02.webp",
+      "sha256": "566d6584546835a15c24145a2015e98a5cb2cf224fd1c756f9525cb785bb2643",
+      "bytes": 64834
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-03.webp",
+      "sha256": "c87895d5049c47ac50d63dd614a60cc0201519029d0b00b7e221e00ee21c3d27",
+      "bytes": 46430
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-04.webp",
+      "sha256": "5cbc49da20b6b26199986cba85562cc1a0f4084c8d7f2c5fefd57954882369c7",
+      "bytes": 6538
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-05.webp",
+      "sha256": "5588d4e033bec25fe202d3bb38829b397318bc98083a38bdf6bb234f31affc43",
+      "bytes": 4954
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-06.webp",
+      "sha256": "9f0dd28906a0c13b74eb0865ca638324817d44eaf38b26691825b6610f07bbe1",
+      "bytes": 6794
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-07.webp",
+      "sha256": "10be73d92cc2379963155ae7aa6452f99a3c26bf71fb56a440b7343a9cb11b56",
+      "bytes": 5568
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-08.webp",
+      "sha256": "02c967cfd7d94a046d8dd5cd64656b20cca7b627bd917e9c797dde73cdfc61e8",
+      "bytes": 29196
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-09.webp",
+      "sha256": "c64627b88497c24d1d96de3a4afefebd3a3d97fcc0e1fae98a3b85ffcec024c5",
+      "bytes": 46450
+    },
+    {
+      "path": "public/arina-gallery/thumb/arina-10.webp",
+      "sha256": "d45f526ca64cb785030703d0a799440025b1b4d3cb0a686792504c4a562e124e",
+      "bytes": 45218
+    },
+    {
+      "path": "public/arina-gallery/wallet.css",
+      "sha256": "6d9d4c0707e899899dc5be4dd0428b84eaebd6bcc67a247086345fd9f62fdc3e",
+      "bytes": 4578
+    },
+    {
+      "path": "public/arina-gallery/wallet.html",
+      "sha256": "2871d851215d0ab6d6d215b11d893c7b329b0f2fdfd728bb66c4ca44ce873751",
+      "bytes": 4579
+    },
+    {
+      "path": "public/arina-gallery/wallet.js",
+      "sha256": "bba8ee39496950ce7674643aae3a9d5f7d1f91988ad5af3bbf2846e88051614b",
+      "bytes": 3418
+    },
+    {
+      "path": "public/arina-live/assets/arina-master.webp",
+      "sha256": "ecf54b01aeefda99f85540ddbc06eee01a07028d90518b029c999d19bcae5406",
+      "bytes": 178878
+    },
+    {
+      "path": "public/arina-live/assets/audio/arina-calm-original-92bpm.mp3",
+      "sha256": "076be29ae07f79268c470928cb492ecad35d5ea8383427234cc859a9a459aac9",
+      "bytes": 502430
+    },
+    {
+      "path": "public/arina-live/assets/audio/arina-fun-original-120bpm.mp3",
+      "sha256": "69367b1f797c9f8ab4f2a0f7399269c1c0dcda536fd57a22dd874d887fca7d5f",
+      "bytes": 385401
+    },
+    {
+      "path": "public/arina-live/assets/audio/arina-persian-original-108bpm.mp3",
+      "sha256": "bcb4c0c21bb7b07f963d7becdddb7b63511e1a3e30896726f84114500b7aba8b",
+      "bytes": 641610
+    },
+    {
+      "path": "public/arina-live/assets/audio/arina-pop-original-128bpm.mp3",
+      "sha256": "323d46c44ebb7fcd801bef6ab8c6830748ab773ca0a90218da20741d59c4b309",
+      "bytes": 361577
+    },
+    {
+      "path": "public/arina-live/assets/live.css",
+      "sha256": "d13007172a763a2f159765cc5bc6687cf6dcff9be875d8861f4abd224e296e2e",
+      "bytes": 16604
+    },
+    {
+      "path": "public/arina-live/assets/live.js",
+      "sha256": "7bce42fe72f1d180d2285bd9dddb1ae703c61bbe90a92e6b9825f093e2065ad8",
+      "bytes": 12399
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-01.webp",
+      "sha256": "02a6842a6e0d5d04586207629b81e93fb2bf1ed53f2430ff8ea1298676de4ed5",
+      "bytes": 22942
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-02.webp",
+      "sha256": "3813e0b06f0f99573fa101a1204d5cde45a38a0539744c6c0738f37214b4555f",
+      "bytes": 23276
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-03.webp",
+      "sha256": "73da4bb34b379efe65b571e17eb1cf8b19a0947bcae0fa3e31bea7c9a6e6fc2a",
+      "bytes": 23552
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-04.webp",
+      "sha256": "28c2bf38daa4f369a029cbd82d7c6cfbc449f7fd88e05f853e115e8c13950ee8",
+      "bytes": 22712
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-05.webp",
+      "sha256": "ff5df16080c7d0aaa754a920751cd1e012249503de293971d543e5a25e5c3f23",
+      "bytes": 21372
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-06.webp",
+      "sha256": "af9db580408643fd9da8bcbb27990d9ac42ca4ab209a7ec93a573551d6319ace",
+      "bytes": 20164
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-07.webp",
+      "sha256": "294bfbc5486876dcbcb9b8c2af131e0116c10edd526aed32bd2d4a41f230dc47",
+      "bytes": 21620
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-08.webp",
+      "sha256": "e1406c2a05900c1dabcf950da317b1df4f8325c0b93dc48a612d9b910e22f443",
+      "bytes": 22470
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-09.webp",
+      "sha256": "3f6aadd2f9c6c5cd958f75632294a92d9d6587942bd4a4eed61e115705fed1a7",
+      "bytes": 21724
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-10.webp",
+      "sha256": "bd44c33760af96a32dbe8756b0d4d7d95e07dcda03f63082490430a750126117",
+      "bytes": 20778
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-01.webp",
+      "sha256": "4cc6094c8de85068eedacd423ada52060d6c8b3b55427d69b5b920b7fee1091f",
+      "bytes": 11394
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-02.webp",
+      "sha256": "132e5cdf44b43bb73b7e2fbc81cee344a58f32676c68376d0696a852960fae06",
+      "bytes": 11882
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-03.webp",
+      "sha256": "07b745b785b049666786d0bb014435c8eb47de88719a23e537cef42765475d59",
+      "bytes": 11570
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-04.webp",
+      "sha256": "4aa90147a833c83eb9dccd81c2e08e4f14dc94fb985c195cc4624aefedf69147",
+      "bytes": 11390
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-05.webp",
+      "sha256": "9cc0da9201b5850e35870d4145bdec2027ebaa1e9a44414933084718bd3f7759",
+      "bytes": 11678
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-06.webp",
+      "sha256": "8e100b48cb499ab5aa409b0c5ac55f193de0946745970c7090456362a630a1a6",
+      "bytes": 11644
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-07.webp",
+      "sha256": "629401981e0e33ff8484472c23cc58042254a51792fb4d985a720f2b02f97317",
+      "bytes": 11034
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-08.webp",
+      "sha256": "a059b6248f8f8f3c8863a3b158fb82ae0f9a2531aaddf542c1c15f06fd68b04f",
+      "bytes": 11782
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-09.webp",
+      "sha256": "0294f844f12e8f64c3a45667feaadaafd8fd0dd4015ea3cd0e99a365c0c1831c",
+      "bytes": 12466
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-10.webp",
+      "sha256": "cac05588c136f26c5ce3b96bdd42daea120733ed93949b7ecbe0b6ae670a561d",
+      "bytes": 11408
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-11.webp",
+      "sha256": "cb7e80c8aee839bdb825105b64c21052666bb73e925dbe0c874c5dbaee2eb195",
+      "bytes": 12016
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-12.webp",
+      "sha256": "219f8a1e5d0a1d82e228827369b5f767e80ff9214c41d6890dfc4f1489fbbbb6",
+      "bytes": 12028
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-13.webp",
+      "sha256": "a1e615011d5a75d268a43d551c4ad4aaaab3eb65c9bd86905bb987b2343e5ac6",
+      "bytes": 11844
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-14.webp",
+      "sha256": "391f5207eb2f3ebc284896ec32800fb3d394df570298844a0b22f949e7d3ad3c",
+      "bytes": 11706
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-15.webp",
+      "sha256": "b57e260161010dd5362db208345e83764e4b765564cf03d08a780ea9e2a88112",
+      "bytes": 12326
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-16.webp",
+      "sha256": "a7ef6dd67115b0d81812041c829f73451dde2dd41c7d64f6045def51be6d1617",
+      "bytes": 11128
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-17.webp",
+      "sha256": "7d4e1bb15ca8b0f9d3c3cc7c6a6b35349eb1e92ff31d533f3422fec7f3270b07",
+      "bytes": 12212
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-18.webp",
+      "sha256": "e9b1bf67fe6f226f221c46e97bf9810b94903ff877f07eac22535da17d0155bf",
+      "bytes": 12528
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-19.webp",
+      "sha256": "63a14c47fde2f9512020887093a3fc6a416c44c593972dc4f5f51f038cd8392c",
+      "bytes": 12334
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-chill-20.webp",
+      "sha256": "e0b5caace16d29739cd818d755a28fb70f8eec2ba7505f3bb5bd5af63034e282",
+      "bytes": 11070
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-01.webp",
+      "sha256": "eb87f81da070c63ff4997f5827bca363bb6c41879d4cadadb0867d5a9d59928e",
+      "bytes": 11772
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-02.webp",
+      "sha256": "272da7f87ee53eb674e2af24da745f5541f61e58ca2b61666061fb89e049b61c",
+      "bytes": 11862
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-03.webp",
+      "sha256": "a3785cc5f054e16f4021e2f8f2c6036af18bafac5f070154a3c6b0226c3a0a09",
+      "bytes": 11776
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-04.webp",
+      "sha256": "7d4d51b2e5d4ea7e94214590df6df3d3af9272e19317a3910d07fb8789958869",
+      "bytes": 11940
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-05.webp",
+      "sha256": "b51239e5d7f2edeb7614539f672e08f8b2fc5166b66a354e2df54d2d814651c9",
+      "bytes": 11092
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-06.webp",
+      "sha256": "f04482f06a20c2f47e309c974e541e1a2750c82d1dcff36eddb30d2d26dfe22b",
+      "bytes": 10686
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-07.webp",
+      "sha256": "b3195e7ab361e30993fc0ffd12a76f02363e29b5f439e53034736b5804045d31",
+      "bytes": 12016
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-08.webp",
+      "sha256": "1b2c2bb8cf477f489762360c14e7e7ab7266992628e7b9c81ab53b2bd7181667",
+      "bytes": 11920
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-09.webp",
+      "sha256": "5edfec1064c47ab272072d246973a69433e65cf2466ebac5ab6cb4e8afe63d1b",
+      "bytes": 12110
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-10.webp",
+      "sha256": "1fec1e66163d997cf2548e36e83a485c304b1f5133e8f58416fb0857ca17f94e",
+      "bytes": 11294
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-11.webp",
+      "sha256": "3cf2c9404df86c9677c510091d0e3e66fbf0fa70b8040feac07000a6d5467620",
+      "bytes": 11656
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-12.webp",
+      "sha256": "cd212bbed5e9342019c043b2d16582feb4ce718e9727e20fa7bd42fd252afcc6",
+      "bytes": 11398
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-13.webp",
+      "sha256": "2d44d228cde1cf9f46920f60001b8596f4f5d88ebba9604bcf07797d6b603366",
+      "bytes": 10938
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-14.webp",
+      "sha256": "2fe6fc48a518f8b97ebf6a0969a467e8edfd2f147e0d081b683f4e2fbf3e3629",
+      "bytes": 11692
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-15.webp",
+      "sha256": "6220db07f673abd6a0c44f6e0065f9aa9a3a9c929002aede32be8c2914f975f9",
+      "bytes": 11456
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-16.webp",
+      "sha256": "cf86000f6ad7d22a757fdcf824fd7bc7b263e326c854f18af6bfd88cf1dd6f29",
+      "bytes": 11424
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-17.webp",
+      "sha256": "a16459c5f030c4ba82c09a0bfa796814f6edf6b3e082bf62ab8068a55feec292",
+      "bytes": 11554
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-18.webp",
+      "sha256": "febdf77449b1483f8dca1d862d2a5f83d293483427900e5da15e47eb2bccf736",
+      "bytes": 11984
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-19.webp",
+      "sha256": "7fab44d528e5d925b8c00e5049ccade0f9186b6e1f5b61a6c36c3873b7ee62a0",
+      "bytes": 11368
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-cute-20.webp",
+      "sha256": "2765b8b094685066c9e1fdc71b168ff208034dfe51bb5630856eda91ab6fb536",
+      "bytes": 11316
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-01.webp",
+      "sha256": "9cd835160760913db064d0edcf23a0c0dfa6354b71bbb650b657f1803f411ba3",
+      "bytes": 12094
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-02.webp",
+      "sha256": "2fea5e000627d9653f23af3cefaf2626943c7118a3b76e085eb2dd8cd632bea7",
+      "bytes": 13208
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-03.webp",
+      "sha256": "fc1d0c54068f0c7188e687e795ee84ce540cf753369c65e3154a91fe38b68a3b",
+      "bytes": 12894
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-04.webp",
+      "sha256": "1a7e0af493a490a2d1557640cfe6f9360ba283568994893726ab40f611e474e2",
+      "bytes": 11732
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-05.webp",
+      "sha256": "fc99212ba40bd6dfff3024da560926927c3d268bf50bf0a987994c0d1e4ee747",
+      "bytes": 12572
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-06.webp",
+      "sha256": "34f62bea98bf9d550aeb569d0af001a5438cad0095bf7c1567869956826357cb",
+      "bytes": 12582
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-07.webp",
+      "sha256": "fcab39e18e6cdd0e24d532cc343bad21f5fa33d28f868f60e804697f2bbd1742",
+      "bytes": 12304
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-08.webp",
+      "sha256": "0313656b0c3cc7313cb958846bef2437a571690f98bbca7738cf12b7705adb50",
+      "bytes": 13284
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-09.webp",
+      "sha256": "05f85fe8b7f3475909a5269793291f7cc9d68607a6d3d95d00e184f6ea7d7cdf",
+      "bytes": 12942
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-10.webp",
+      "sha256": "34cc97d7c330d62642893462d36430f597ced59cf9e09cbeb27182baf16c92f5",
+      "bytes": 12708
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-11.webp",
+      "sha256": "f5eed79938cc8d42553564c9ae1a7969a87cd62b150559a3810a2044c4429bbc",
+      "bytes": 12094
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-12.webp",
+      "sha256": "e79ecf2387b72c04599e6a26c4deabcd60f136d68865909b28ad05b4eecc8670",
+      "bytes": 13904
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-13.webp",
+      "sha256": "8b1c087973877ecc1df41dc84741f043554dc81e78de35ba1972311823b9ba1c",
+      "bytes": 11884
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-14.webp",
+      "sha256": "1c92749bbe29891d3520f3b525e50dca7eef71af6526b39495cabe47a2f11c78",
+      "bytes": 13562
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-15.webp",
+      "sha256": "74a12ebb74b3bc36724bf09709651d476b968e8ec84dea43c6667d2df2e34b9e",
+      "bytes": 12634
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-16.webp",
+      "sha256": "46110778d688b26e10d166d3c48c85333ee870f9cbb18f26f556d2be53705bb7",
+      "bytes": 12964
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-17.webp",
+      "sha256": "e7dc6fbf05ee31d13fac65166e0914a155b3d592475dfb775b6c7060da5ec754",
+      "bytes": 11982
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-18.webp",
+      "sha256": "dc3c323b25ac50c7e6659e12c069f58322e77f0d1c0951c517cbec31084e69b8",
+      "bytes": 12060
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-19.webp",
+      "sha256": "b9dcfa31d502a5cdda54701ee895f093fb3ef97df18fa6d84bb2ebef1d2b7902",
+      "bytes": 13378
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-elegant-20.webp",
+      "sha256": "c7dfc31c518c9726b239c529fece44505e29dc20202af32b03ce91c9d0c8249a",
+      "bytes": 12950
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-01.webp",
+      "sha256": "0e05f5321b5a5f8b3dbdeb4bfdf2bd1a34bc8cad562b40845f4c75562d05ddcd",
+      "bytes": 12074
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-02.webp",
+      "sha256": "f7b15906818a25487997a79c3662005c97dacec91883d31e7224a9b96be8c31d",
+      "bytes": 12468
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-03.webp",
+      "sha256": "593e4f6a3b993b0fb8d0f2dd2f933415e359a3c11e8eaecf086590bad0c02d76",
+      "bytes": 12254
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-04.webp",
+      "sha256": "229507abc36ef55147ab46a2392ea91bddf36f7ef55a50ddda1ae3f04adca378",
+      "bytes": 12120
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-05.webp",
+      "sha256": "734c7b556a875837d31d2fb33b4598bc3a6d95e570d28db5dd6e4e187c3af1c2",
+      "bytes": 11032
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-06.webp",
+      "sha256": "a04f595d21a3e676c0c0f2e1c4d76e109a7fb3261638f9102eec36647828c5b6",
+      "bytes": 12026
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-07.webp",
+      "sha256": "b954eeb1bcd79e115613bc21e863d4997a560415978b7d397885e5cb8ac1edf8",
+      "bytes": 11648
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-08.webp",
+      "sha256": "d3e6fe1b6208eb1e335dfb58343a150ec6bfe98b536b8fe36fdb8a5a24d12668",
+      "bytes": 12372
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-09.webp",
+      "sha256": "6c438b9acf09c683bddd5fff9e24b8ddb40d2200116106e9bcfd4a3bbcee401e",
+      "bytes": 12524
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-10.webp",
+      "sha256": "4861bbeb0f1e533b90e09f4abbdce5dd627da2867da67b17edd5d2951bc11315",
+      "bytes": 11974
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-11.webp",
+      "sha256": "78013c8c846dfe4e906570fc078e48870d7b9ff5da1547615caede72963af88f",
+      "bytes": 11846
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-12.webp",
+      "sha256": "2e5f9a9b412c9aa1111065fd0ecec73d997f52443bcec38d53ac1307b20e0595",
+      "bytes": 11652
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-13.webp",
+      "sha256": "c3241e8d07e08b28fa75e586eb0da79b94b7ab830f4f8fff2b3817e53f22f252",
+      "bytes": 12948
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-14.webp",
+      "sha256": "ea10c1f75917854f3fa8a6950257a048e714e72c8f2d1e1088b398bee4a7022b",
+      "bytes": 12990
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-15.webp",
+      "sha256": "f7cecc23a93a3e4ee502c39ef008c8c4017e3f89be31eb41bacdecc1be47e313",
+      "bytes": 12346
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-16.webp",
+      "sha256": "7bce7000125e74911e921dc8d5c0ffc897537dde5d094c0202d66c483646ac43",
+      "bytes": 11560
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-17.webp",
+      "sha256": "4c66738fb542a54c31584716601670d164274172cd9f10ca89b6e3624648af63",
+      "bytes": 12480
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-18.webp",
+      "sha256": "574a86c9442dd1e502e7f78f7e2b3f434e2ad065c7d628b8b2b1dad27d97ea6a",
+      "bytes": 12154
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-19.webp",
+      "sha256": "cf36021a7e9eb844554ab8cd33d6c09d27ac8ee4b4c8e123b196e2ed83547820",
+      "bytes": 11542
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-freestyle-20.webp",
+      "sha256": "3cb74a9ff83d821f191596ab86866a090f5bd9fafa6bfdf0ef56277351084459",
+      "bytes": 12670
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-01.webp",
+      "sha256": "8c850a037e5bab9fd04b332c478dca254f3d45ba3d0aa22070c9dd134b7a40d8",
+      "bytes": 10744
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-02.webp",
+      "sha256": "b6f76fb2f0cd0b1853e184a2b14cc8b671e49ecb95c8746a114d86d8009ed39e",
+      "bytes": 11054
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-03.webp",
+      "sha256": "5f19dac85878eb5bf19be441895e0a9384028f211b02579699a5708554c8644e",
+      "bytes": 12398
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-04.webp",
+      "sha256": "4a929f5c614cec0c17c1c4ef1d65b64a2913108f804f9487b7ef2db5210fd9b8",
+      "bytes": 10662
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-05.webp",
+      "sha256": "58fad883794f6254bbb633f1b66612d102307886611cbc76bc8d3a515f824c52",
+      "bytes": 11190
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-06.webp",
+      "sha256": "484865cbaee9e0700e16a083799e1a79af5544d132d592bd6f6a038e24ee7365",
+      "bytes": 11452
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-07.webp",
+      "sha256": "9c0dc706f0fbd394bf23e3ffd1df836cc2c4a8c620311c28638006e3ea11eadf",
+      "bytes": 10498
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-08.webp",
+      "sha256": "6e747076350f85aab6e7223129f3e1eebfc0cd36bce1e22b6a0aa0868fcdd522",
+      "bytes": 11230
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-09.webp",
+      "sha256": "fa13a997e5fe5c40d2afb9cbee2d3d891e3704fff33f048db347d76e655aedcb",
+      "bytes": 11648
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-10.webp",
+      "sha256": "6e26b4698ea37c52f691d084b4a84b1225f9e279fc4cd3480d510658d4517b51",
+      "bytes": 11460
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-11.webp",
+      "sha256": "312856431003faf56221f792da0c74ec53fccd6718da7443d55901b0dc2fe679",
+      "bytes": 10570
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-12.webp",
+      "sha256": "4226ad87f33a035c1018fefbc2ea98de764025af883948e8be19ada3ce8073f9",
+      "bytes": 11848
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-13.webp",
+      "sha256": "18f6a1941d8cba5c07a66a974ef914472907e9bdbb057cdeb1c90b743af24c7c",
+      "bytes": 11750
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-14.webp",
+      "sha256": "fd0d6ddcf26bd0d7034b7f708746fe98fa0e76f21bff0fca3d6bc50527005a30",
+      "bytes": 11244
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-15.webp",
+      "sha256": "02d00b1aafab4d7db025da2b1fd8e0467d7e2987526165154f9e6a476cdf6e33",
+      "bytes": 10736
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-16.webp",
+      "sha256": "c5c6a50235f8a98d6d9faec5ffe54ad39731a3f55ad0ca8787723bb17945a18f",
+      "bytes": 11556
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-17.webp",
+      "sha256": "14c4f8e7435478b80136dd227005c88bbc4fdff6ff9f4fc9fc641b9c003dc217",
+      "bytes": 10980
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-18.webp",
+      "sha256": "17f9d18c8702784560380ca0a4ead0a4738b56ab4623a2247a57b5bbf5884b9e",
+      "bytes": 10924
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-19.webp",
+      "sha256": "ed0b90e5b9c3c0150b7e5a7466ca020010ce9fc33e026fa16d546b2f66608b86",
+      "bytes": 10776
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-iranian-20.webp",
+      "sha256": "65be28af83388cffe75ff72cc33ad0c3ece1fece9ad40ac02413236900739bca",
+      "bytes": 10574
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-01.webp",
+      "sha256": "ca8898e513839fe801dff969f7252a905c93fac66602bdbefa06c2c9b8127811",
+      "bytes": 14122
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-02.webp",
+      "sha256": "69656536e57af570823a70fa23132b39f2c632cb4d51f50d61b7127ff92da94f",
+      "bytes": 13594
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-03.webp",
+      "sha256": "0822fc735b00c8e9390108f797ef333604df7fa7f2ad5a5a8c39d7276d8d2ca1",
+      "bytes": 13302
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-04.webp",
+      "sha256": "bae7ada9ad3b46071b9a5eba94b8051b96d6c7500af1125b31a4f41f47da1afe",
+      "bytes": 12576
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-05.webp",
+      "sha256": "92a91cc5dc0894d85aa3b0635e9a56e0760a610e51eb491bdea4905b78c87c2c",
+      "bytes": 12896
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-06.webp",
+      "sha256": "f46fe84f10f2b827a09cbe774cbcf77bcf238d2ac387317801aa0b9094006649",
+      "bytes": 12528
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-07.webp",
+      "sha256": "14864f07839290e27abd47384f01831db4c5ae67aa6d0f4261a25dc126c226d3",
+      "bytes": 13312
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-08.webp",
+      "sha256": "8328b5faf1593a950dc42ee076b7a3526f7b0fd409247b07d2d63ad2e02ac21b",
+      "bytes": 12266
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-09.webp",
+      "sha256": "092cec482451b3ddd8e7a5c85b8584164db8c2ea89607668c4b3091a3066beb8",
+      "bytes": 13608
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-10.webp",
+      "sha256": "53ed1f6f011ee04ca80fb117db8d7b7ef2ad0fb6047143f410eb489b3c5d4eea",
+      "bytes": 12878
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-11.webp",
+      "sha256": "4b4c53fa3c7dc78c18b6305f591ef6c0e4943dbab1a8491730d798577fee1888",
+      "bytes": 12966
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-12.webp",
+      "sha256": "94dbbf27b04ac50fbb0b92d8b632e9ecd1103e10a322e8415a39ce29689f5a37",
+      "bytes": 12992
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-13.webp",
+      "sha256": "39fc346e54172b14f0091b2c87ba5c3f95a91d40bd374f86bf6e5e84091ac304",
+      "bytes": 13352
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-14.webp",
+      "sha256": "1abfe1e8c9304058cab46a302319505acf90c7f8694482f7b37e483f680c8f00",
+      "bytes": 12762
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-15.webp",
+      "sha256": "8f146ef84b3016cb328b65de023a91f5e5b06018fa557bfc3e8d6ae594732e9a",
+      "bytes": 12426
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-16.webp",
+      "sha256": "79a7a96d6cd0f0722093cda22506d35da67d61b878c0e780f169c43274b7bdcc",
+      "bytes": 13328
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-17.webp",
+      "sha256": "3ae776ff60a44e9f963965a6f2d304a5531f8d3a038830df203b9bc8acda0df0",
+      "bytes": 13430
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-18.webp",
+      "sha256": "e32adef838823630ac7b85a3f6abc3b905f41dbc49b865c7b22363cecda6c782",
+      "bytes": 13174
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-19.webp",
+      "sha256": "cb2a2457e8b5dbd4f00b991c871e3a56c03683132435eb920f267e4409a220df",
+      "bytes": 13076
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-party-20.webp",
+      "sha256": "051c8d762fb6aff62bf1a9d38ef9a76879d3e7db865a5ae694857ae166c37a37",
+      "bytes": 12020
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-01.webp",
+      "sha256": "32a47829f6b72f365c97d4bcb6def7da71f3f74abab53f6620b61012805d6ed1",
+      "bytes": 12064
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-02.webp",
+      "sha256": "1ae501d8b16ee7f65b155c2cb4cb4e4c1f0534b7381fd61e9bb5ce6417643e2d",
+      "bytes": 12566
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-03.webp",
+      "sha256": "6f00acd32cd574132ef8df583ff5f4ecd8f94430d92815ac2ea3a9219d269a9a",
+      "bytes": 12286
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-04.webp",
+      "sha256": "a1f8738b637ed519d59429de81b1320169c15c4cdd4b1866998300da4607571e",
+      "bytes": 11502
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-05.webp",
+      "sha256": "083509b7542601c4c1a2b79d438a29d3212e83c55a4f6950ad31b5dc41515781",
+      "bytes": 11972
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-06.webp",
+      "sha256": "2acf631a73083850b9ed58219474556d981d8ff91fc2cc7886581141af5dfd07",
+      "bytes": 11020
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-07.webp",
+      "sha256": "4467da283eb6eae4d5c81cd4c9d16b321a11ba5045ce232c634071261491640d",
+      "bytes": 10662
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-08.webp",
+      "sha256": "c8931a09e7418be0822cfda26a44b17aa7f53a310746f278c427648608f66e2a",
+      "bytes": 13128
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-09.webp",
+      "sha256": "0dfc2af9f76812d777c9beda94cd4f7b5e0be5ec791c7d01e3d068f6a9f42969",
+      "bytes": 11798
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-10.webp",
+      "sha256": "ee312dbb49fe2a00e3d5339152665fa5ef1b88e7b81b51d77bd9f0e19c5cae1f",
+      "bytes": 11516
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-11.webp",
+      "sha256": "8d5152ab767bb41307c6938ccfd7f8cf7b33acb94e66d0b258f681d94b3f9dea",
+      "bytes": 10302
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-12.webp",
+      "sha256": "b067ddc3734dcd95aa6bbbda5886ec5bdfe4234f7b7d538b22982c12288333e9",
+      "bytes": 9738
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-13.webp",
+      "sha256": "706c511a74dd9eb4b5e7780f7b9b45f3c08300cf23463a8d14124ed49b4046ce",
+      "bytes": 11744
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-14.webp",
+      "sha256": "05a3a5b43fb1098ef0773a6676950417d12b2aefd723febd933c58aed629c1e6",
+      "bytes": 12054
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-15.webp",
+      "sha256": "e566dc56379fd8f2fbe1c96c6882b6b727daa058b91e3b4a5597856a306e7ddc",
+      "bytes": 11518
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-16.webp",
+      "sha256": "e6ab4ed2b822d9ac84454cd328ecec9f67c984efc5895f1553939f580888fec7",
+      "bytes": 11110
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-17.webp",
+      "sha256": "ab77eaadd12c03dc83022da2d74e61e7178c4eeed6d77349bda9570e3ebed28c",
+      "bytes": 10606
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-18.webp",
+      "sha256": "9b4b06d1c233be394cec08b634c9bdb325349765b656af362dd8386f753c8aef",
+      "bytes": 12148
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-19.webp",
+      "sha256": "74945aded302cec3bfdb119690123bfe8c693b0a9941c7bf38a7b07ad8e1f2f7",
+      "bytes": 11716
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-pose-20.webp",
+      "sha256": "30c54c126bebb258b78d71e7df615933bd0506601fcac411caf6248dae054bde",
+      "bytes": 11250
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-01.webp",
+      "sha256": "57fd8cff96c2be427b0543f0beb6cfe5e98dae769791b08d14cec620a685be38",
+      "bytes": 12990
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-02.webp",
+      "sha256": "8a3c3357f08fbc927f4452e8c7d262addc7ba0cdf3c6f1babab71cbe542a19b6",
+      "bytes": 12328
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-03.webp",
+      "sha256": "1caec42a3bd7d50f76db2230846585d4bffd0d63a16fdeaadb8fa41edb68ae5e",
+      "bytes": 12016
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-04.webp",
+      "sha256": "86f2210ffdedffb4ae3ae727d6e3192b04b7bb2478a289da6896d51377e7c6e6",
+      "bytes": 12730
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-05.webp",
+      "sha256": "d6adf1f56f37fbe9a168bcee87771357a38eba54a961a01b4c27967ed8e51c5d",
+      "bytes": 13260
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-06.webp",
+      "sha256": "df1672a94ead30af207339b10165630041887823070e85a644b6ddd966a13901",
+      "bytes": 12520
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-07.webp",
+      "sha256": "0cc70823b59a975b8adc760d0c3491454284f8a2f5c000ecd4daf1587d837059",
+      "bytes": 11840
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-08.webp",
+      "sha256": "6aef1223728b72a0d6954b93daf261c19ed3448b2a5516bfb66ef8c647da1031",
+      "bytes": 12084
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-09.webp",
+      "sha256": "8c2b8f75465e249613597392a3d4c62a27533d16b1a9ff54c27808a35d354e55",
+      "bytes": 13058
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-10.webp",
+      "sha256": "d6c6ac67290b69b3f13ddcb58ed9d448193850f351c8704c6f55104ea54f825f",
+      "bytes": 13036
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-11.webp",
+      "sha256": "fb017f7580045846cac4c31a4f626bbb07d4da028a552117d5fe3a5e5885fa6b",
+      "bytes": 12496
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-12.webp",
+      "sha256": "7e32fd5e93f331e6c3fcbc7595b1d505597ce8ccdcd21a35b3611f5948297d6e",
+      "bytes": 12118
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-13.webp",
+      "sha256": "d177f0b199e701dca041862ae9afbd349b2061b145b2e462f6f3453821dde1bb",
+      "bytes": 12240
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-14.webp",
+      "sha256": "955f7010641827edd2246d6f73b121d520b2770d13d9411cc48b4334ac6276b4",
+      "bytes": 12934
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-15.webp",
+      "sha256": "5d9b9462ca3e58ab2b1911c13eb4ba466b8a38528d147bf4812c9280a999c0ee",
+      "bytes": 11270
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-16.webp",
+      "sha256": "c0d661b2a9bd38973b1332d34f21bdf52cdd4c0350d516505ff3e0f45672f20a",
+      "bytes": 12880
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-17.webp",
+      "sha256": "5278443f81891b7c3d6a286973a62d0d1e8ba5dee532d46398d1cb4eb7e15633",
+      "bytes": 12440
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-18.webp",
+      "sha256": "0a67a9c90bcb3063199579fc325a9cdeb11426b88c6e565eb67f0a0c392cd720",
+      "bytes": 12388
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-19.webp",
+      "sha256": "b4e0eab33ab0317d0bf0ff8b772812e1632f742a1a3e743fa180748a0119e30e",
+      "bytes": 12636
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-rhythm-20.webp",
+      "sha256": "0b881b254f1ee7ad00c3169bd9e586108b991ffdf47be3f5fbb2df2d59d891fe",
+      "bytes": 13316
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-01.webp",
+      "sha256": "971590d26b6f644a3f41682e29a15c4a363d2fff09066dc98becefe9742fa2a3",
+      "bytes": 12130
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-02.webp",
+      "sha256": "70f771644916fd699a0a3bed28b6cbefdd27320c4fae0122013e0d3905835088",
+      "bytes": 13136
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-03.webp",
+      "sha256": "0a2a50e6fb3aee83757bd67d22e6a783db1f40408c8b6351ad7f26dc7c5c69d3",
+      "bytes": 14172
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-04.webp",
+      "sha256": "b4bc9b00c7133fe68708b5522cba093a91d9ffe48ebb58df70cf97b7efbaad2a",
+      "bytes": 12074
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-05.webp",
+      "sha256": "696b86349a1621ed0942876a20ceb1bd90d6ab28fcbd67d80c77458acf28464b",
+      "bytes": 12612
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-06.webp",
+      "sha256": "f29ba21984e667464896e8600ad9ef8d4090fcf68d494ba999f22935fe3f44a2",
+      "bytes": 12830
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-07.webp",
+      "sha256": "278b81e28d87daac52d71592e298f1bd4862de59979ee6bec21b8657013f20d5",
+      "bytes": 12648
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-08.webp",
+      "sha256": "35b7589e3dff87b6e844593f0ae85d4f7a248ae948ca57c1d391e1b58bc703d3",
+      "bytes": 13316
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-09.webp",
+      "sha256": "d6a3ba2f4acab74effe36a04eb14090601f50b4fc08c0dc635fca79ab9a50950",
+      "bytes": 11896
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-10.webp",
+      "sha256": "62ab6ee6ea5d5668af0d145ddc50f29dc09d9325fb95f736e401aaade1318e53",
+      "bytes": 12888
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-11.webp",
+      "sha256": "49fa40ccf749e191eae7544bcb0e5e15892297ba32ccfeedb8fa9bdb1eee3d0a",
+      "bytes": 12040
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-12.webp",
+      "sha256": "8f0d04349bd89cc61c046303cd0c96f8ea89e45e6a349bd1be641fb6bb2640a6",
+      "bytes": 12774
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-13.webp",
+      "sha256": "a9809ccc10d974f2e42b5135503c7907483ba1dcdebdf5ad9614cce7cfa2cda3",
+      "bytes": 12608
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-14.webp",
+      "sha256": "82fcc99dcfeb192c3826d2b36895c4b6769af7804a18c39d7a673653b1e426f9",
+      "bytes": 12376
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-15.webp",
+      "sha256": "b0ed8ab31aa6a4644ae03e1f016b4e7684b85186deb73714145ed75e491b4794",
+      "bytes": 12506
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-16.webp",
+      "sha256": "a3c83bc5ad1b40f9829dd222d48f0d9d2f5b1a78400187c2ec4a2b4f706dae83",
+      "bytes": 11728
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-17.webp",
+      "sha256": "c46206311394727a65e66d59497cb3bf93b725449ebf94ca73ceeee022cf0f9b",
+      "bytes": 12442
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-18.webp",
+      "sha256": "bfee2f2546909b6cf87235b639f1baae2e695d0f90cf9b060a8bd20ab158da51",
+      "bytes": 12798
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-19.webp",
+      "sha256": "2ef62dc4a0d3893640b77f772727835187dc5181dd7791cc4cd1fc0260b24888",
+      "bytes": 12392
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-sway-20.webp",
+      "sha256": "ca7565d617d0a6cb30d8ff3b42529e8d2af3ce68e2a5f18fb199361ff4b6f58f",
+      "bytes": 12838
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-01.webp",
+      "sha256": "a12744128a055639cb03d8a8053667566309d47e8be0c61bcb4f5d232c667396",
+      "bytes": 12884
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-02.webp",
+      "sha256": "f9dd8245cb001286bf55f79a788b6cf8ca119598c6338cd25383b21ba49ea89b",
+      "bytes": 13550
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-03.webp",
+      "sha256": "768d42a24d9934f9fa6d6c203dbcaa35baf98454e2fb8702435245374572f90a",
+      "bytes": 13214
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-04.webp",
+      "sha256": "0f7991af8a0c7edc211403664d9ef4b9503bc425b36f47da2c6ba6fcbf0d1729",
+      "bytes": 12772
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-05.webp",
+      "sha256": "f01239140f2ee14c74db7d14df75daa25263867a95a6293163c9e9b2dde2dec4",
+      "bytes": 11508
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-06.webp",
+      "sha256": "b1ba7a935c1f33d40f3a376c984e4107d7b32262828cc43a56f7fa722d4aaa86",
+      "bytes": 12502
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-07.webp",
+      "sha256": "255ed9948c278d55631192284a56f8911cd1a8a4f5934c0cee78f1b9dafd9b0c",
+      "bytes": 12120
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-08.webp",
+      "sha256": "feebc96b542de75c19bc730a266a2b83803de6024581d6061fa595404900b8f3",
+      "bytes": 13918
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-09.webp",
+      "sha256": "69aff218af6e44f8141100ffd4d04ec664f8a807bc2fc21bb6d5a4909372b624",
+      "bytes": 12682
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-10.webp",
+      "sha256": "93743aecc5b8c2aae1a90c8f81622b2b25bd7802aee438e3c9eaa9f78a6d505b",
+      "bytes": 12644
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-11.webp",
+      "sha256": "41fe6c51b28ffd37f70f00e04245a6bb8e541106193991ad5bdb8f04c57baa0f",
+      "bytes": 11092
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-12.webp",
+      "sha256": "f3fcd47ef5f79912ed4476599c9169ff33c7a346dabdcce0ea0cfe75c4b44b0c",
+      "bytes": 13494
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-13.webp",
+      "sha256": "be641ab5f4ca7c134cdb456a90613ca2afac2c37ab998e2416581057e9537dab",
+      "bytes": 12710
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-14.webp",
+      "sha256": "d6008409e4d677009678f66380a9d7881fe747e5bc24ae6157a6b4d4a2ed89e8",
+      "bytes": 12812
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-15.webp",
+      "sha256": "39f07b309b0f56b06b97e6c88de7e7b1eec5109af08fb199f23a4e4eed060e51",
+      "bytes": 11190
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-16.webp",
+      "sha256": "3ac8b43dc8b70a8d1af6d4606d046e4df52055485b170b3812f8b99e9013b303",
+      "bytes": 13612
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-17.webp",
+      "sha256": "7fb1d651ac2d0eadadc5bf0722cfd74d62913693a5324bf16df955940ab24bc7",
+      "bytes": 12716
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-18.webp",
+      "sha256": "a642bc3489e59e8732eecd8420947d23a85feb07f66420669054ea3becfc988c",
+      "bytes": 13482
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-19.webp",
+      "sha256": "860e122da847d0b59cef6947dba24cccc5512f43683462ca1e452b32a8201bf8",
+      "bytes": 12842
+    },
+    {
+      "path": "public/arina-live/assets/motions/dance-wave-20.webp",
+      "sha256": "20b279fc093583616b89b5c6732b3ea75e948d4b9996a624db1f127896f70626",
+      "bytes": 12240
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-01.webp",
+      "sha256": "7bd45206968aa49220c78c9e2284148f721b420e680ac03e5ec91ad66011ff54",
+      "bytes": 19022
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-02.webp",
+      "sha256": "f019dd615c0baef25af7a42856f780ddc80f70c1dda70187ad2371752e9d0cf7",
+      "bytes": 19318
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-03.webp",
+      "sha256": "9c6a648f813355e71b01e6411f5ae371f64d83d2499388b71e995350989e33ee",
+      "bytes": 18662
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-04.webp",
+      "sha256": "fa3d94cd238360c86d118a31436f9a983f7852ef8b402e5d92993a354dae4402",
+      "bytes": 19368
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-05.webp",
+      "sha256": "46acd1f3ba7354b3ad4ca3f3c7d702ba0827a31fe91c1cd5ef8e6f3bd881b4a7",
+      "bytes": 18744
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-06.webp",
+      "sha256": "caece94005ea506f88fb69183cec0e30553d8c0a74f68589a72847aff3bf7c41",
+      "bytes": 20192
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-07.webp",
+      "sha256": "2cfc1de7c5f1025a20c5c00ab3132fbd828f9ef72184b5c84c05f2845d06f238",
+      "bytes": 20122
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-08.webp",
+      "sha256": "ad608e6484c759e0271f3aa8c987425a76a5905a4c25eab9702b512e157336f0",
+      "bytes": 20074
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-09.webp",
+      "sha256": "6d7d284540ae17a1efaf5be94404a9dac11715eef565cd8f1fe7a093e163436f",
+      "bytes": 20196
+    },
+    {
+      "path": "public/arina-live/assets/motions/happy-10.webp",
+      "sha256": "865ba6463576ac0b9853c12cc2719df3d70ed3c54b3e9f7c1c555d2a6b116172",
+      "bytes": 20070
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-01.webp",
+      "sha256": "bf52c74f5a20a9dd6ebf7403ee6ae136abff884e0bd8a05b35ccdeeb0366b821",
+      "bytes": 18754
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-02.webp",
+      "sha256": "651215f0fd1952bd8703d8940e89325b3b88a8bcaacd808480921a58aaa0c22f",
+      "bytes": 19132
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-03.webp",
+      "sha256": "d7719cc6551aee31e06cbe75f5db5772f42867db9e1e322cfd973a6974db17cc",
+      "bytes": 17802
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-04.webp",
+      "sha256": "6811ea9776d732581146436746da02124fe87e559b44166aca44880383885601",
+      "bytes": 18180
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-05.webp",
+      "sha256": "0c65a7e1ba3843f62e2fc81736afda65933465d9a52dea29ecb3f493b42b3e56",
+      "bytes": 18626
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-06.webp",
+      "sha256": "49c3ba4eaa73045fe70ef62eabc54936a64bf7d8841ca8c3b9a44534f7d8969e",
+      "bytes": 19532
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-07.webp",
+      "sha256": "721fef3f47d9bea1b576c313a7cf10288815ab572d433c81fb222efee5a12a77",
+      "bytes": 19372
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-08.webp",
+      "sha256": "c679d9fc46d3737932e6ac62c92ca374cd35b638ade1143eabc72a6207694a13",
+      "bytes": 19238
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-09.webp",
+      "sha256": "0c628abca83996e65710f8e5b4b62035174461c300f62311334a32e248d345ba",
+      "bytes": 19536
+    },
+    {
+      "path": "public/arina-live/assets/motions/heart-10.webp",
+      "sha256": "625b4bd059a44353eb64361dd29b56f6a3eb9670fbbb7c5c82b8bdd1660dce57",
+      "bytes": 19732
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-01.webp",
+      "sha256": "720f6bce4caff525fec9e8276736067dfc34156528b9019f83811b48aaa5e414",
+      "bytes": 17996
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-02.webp",
+      "sha256": "beb21765d4b788b2f42ed7baffd4f8e6c69e41411b0e8b6d6b5755c27d17a309",
+      "bytes": 18376
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-03.webp",
+      "sha256": "307c384361f3db872fa1eec97fb73c36e322264485accffaf6dc147c469a4071",
+      "bytes": 18152
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-04.webp",
+      "sha256": "5d0b3823e1fb45c7ba6e13904c0bf4423ca1e2967e980227cd5e6a763b948fa4",
+      "bytes": 18248
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-05.webp",
+      "sha256": "4f5971f96d431deeed8af8193c38c04d60829ffd45bee2879aa27b16aa82eecc",
+      "bytes": 18390
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-06.webp",
+      "sha256": "b4f73742f29f9ef2f11873af4041f7de087824b03cf82ed46b63e038aae7816c",
+      "bytes": 19138
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-07.webp",
+      "sha256": "abbf367817f0730660ee54afc43836cdef1e6caa47037074f25cc4d9b5183a9e",
+      "bytes": 19160
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-08.webp",
+      "sha256": "a89a38fb51d397526fab883a7c2605648358e050beabc7cdeb64ec3a5ba83474",
+      "bytes": 18912
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-09.webp",
+      "sha256": "b40d8424f2de060323d3a93095423ff1bef7d05a79c637172fb0ceb696cc73c7",
+      "bytes": 19746
+    },
+    {
+      "path": "public/arina-live/assets/motions/idle-10.webp",
+      "sha256": "3d8b05728091d8cd664930bd97bcfbf36b431f20b33d86ddf76fcf5642e88b17",
+      "bytes": 19858
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-01.webp",
+      "sha256": "1678b1cd7074c0378d5731d1b5ea2b616af02c3eeff93e871eccfcc9488c6b6d",
+      "bytes": 17606
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-02.webp",
+      "sha256": "0ef774b6ef7988665ae0fb3b59db24e7d596d1e1a964474ab09e9d240247e986",
+      "bytes": 17594
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-03.webp",
+      "sha256": "c989d314a09e2abd1aa30f968d32f133496088dbd0ebb543d12355dea1871368",
+      "bytes": 17248
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-04.webp",
+      "sha256": "07b7881cde0658b31047e6564f2df25e2d2958363df50c4d34653cf99e979200",
+      "bytes": 17572
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-05.webp",
+      "sha256": "667ade97863914a06d49c6469c5122175d609177388d5e96a8e64371b575bca7",
+      "bytes": 17214
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-06.webp",
+      "sha256": "48e044e1113e283d2d0f2dcf993e920c6d9706ab4939f9e482aedbd4cdd19b36",
+      "bytes": 18684
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-07.webp",
+      "sha256": "42d96a0da1ea5393fb3604d966ca43ce05074015bc67b2df6e8f4f7f194f43ac",
+      "bytes": 18662
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-08.webp",
+      "sha256": "b89832b0bc55ec92ac9b720e0237ec9dc456d00d33e02cd09c8d4f9dece50e0d",
+      "bytes": 19098
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-09.webp",
+      "sha256": "aa8f70c5789c596f6e729dfb5a6f7e1383cb8dcf396d3b413d15a06374d6062b",
+      "bytes": 19168
+    },
+    {
+      "path": "public/arina-live/assets/motions/kiss-10.webp",
+      "sha256": "1fd2aa4284765a0528b053c127e17f8b9ca3df9c3da5f058dcfc3efa07b0fc6c",
+      "bytes": 18862
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-01.webp",
+      "sha256": "3b9a605039c460ca019d08f6c6f13daddd24b6c9be25f14617291b9938c66280",
+      "bytes": 18646
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-02.webp",
+      "sha256": "aeb690836ab9bc1aaa463ec2ea3807c4b1fb97087c159ed2ccedaa61b50ab799",
+      "bytes": 18712
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-03.webp",
+      "sha256": "e33792a1b6e95a8aa7675fd996e59b9a9e33089a793bca237dba5be5b2dd24dc",
+      "bytes": 18790
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-04.webp",
+      "sha256": "8401901d2e8366ca7b8f2ab0fb064ee2a43411604838e1829ce82403ab5ae80d",
+      "bytes": 18750
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-05.webp",
+      "sha256": "8de30be51e9e5705034b44872809d6bb8a995d36da83eb64e1071a7febe7d143",
+      "bytes": 18654
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-06.webp",
+      "sha256": "f0cac2efe83a5308f6312292d4f51481bc902291d4180953205eae0eba72dfc4",
+      "bytes": 20366
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-07.webp",
+      "sha256": "b572e6c7876819d8d392efa17e1e23e093ce63834e8e5326ed54f4fbd1c6b4fe",
+      "bytes": 20226
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-08.webp",
+      "sha256": "c66d219fd35e8cec99373bb0e32736466acb757a0d477a6ca263d8f1f27204c2",
+      "bytes": 20424
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-09.webp",
+      "sha256": "d805563bec018e3346e89606c71397e5c04c2d04964db37d8c54648c7c611e06",
+      "bytes": 20214
+    },
+    {
+      "path": "public/arina-live/assets/motions/reading-10.webp",
+      "sha256": "9fa1ab7e01441d9fe0ab1760d7164f71413a4ae54ea30bc182f898ba1c9e7f5c",
+      "bytes": 20280
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-01.webp",
+      "sha256": "9a9f9a6156ff119d0dae191d73e81083a2bc4da9a56c4e68f74473072add6a54",
+      "bytes": 17862
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-02.webp",
+      "sha256": "11cc863ec1f7ec8247d463ee0d6ed25163b9d86282b1507495e324d0d063d0f0",
+      "bytes": 17814
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-03.webp",
+      "sha256": "5980a13ff12b32b57d34594f5126f01124788a49210ddfe682a8958f050e60ae",
+      "bytes": 18062
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-04.webp",
+      "sha256": "1c35bb0696d6c33616c0951a782a2780add94e71eb2fd642b46a70e4819def54",
+      "bytes": 17896
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-05.webp",
+      "sha256": "cb0807feabefdde81bd0b72388ac90eae1e8b42f4b5455190eb570d654da5e8d",
+      "bytes": 18146
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-06.webp",
+      "sha256": "6833504d0e367ba035548240152b3b44fe5d6d09f3334f990eed75ba0115ea11",
+      "bytes": 18864
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-07.webp",
+      "sha256": "3b5cecc17cae5ada741d2a4fbc308289068bec388ddf1ffb5a57d68a5cd6895e",
+      "bytes": 18654
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-08.webp",
+      "sha256": "ce024b4052c1803f75835c216b50e18aa5f15cc138853ef3efad7e28b7828435",
+      "bytes": 19284
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-09.webp",
+      "sha256": "49817adc61129106f6a34af183e63f1ca9292e95be65401f92e1b1daf6036442",
+      "bytes": 19308
+    },
+    {
+      "path": "public/arina-live/assets/motions/return-10.webp",
+      "sha256": "0c6068a762fbfc7f0754ed55cdda272c7fdfe09f5675fbabec24405834e6512f",
+      "bytes": 19238
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-01.webp",
+      "sha256": "e1735fd95f4d205a2a037d30491acf9fd1193a44a3a721c0c2f89329d229a706",
+      "bytes": 19332
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-02.webp",
+      "sha256": "8540c9c958369c0b49a0386fd2c530b4eb8030e74af57faaed99a38f5f81dbd8",
+      "bytes": 19532
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-03.webp",
+      "sha256": "49e7cefda2ed951a1ba505fffbbd0cfd3391243846a3b539aac246b4e3ca43e5",
+      "bytes": 19514
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-04.webp",
+      "sha256": "281e4c118f14d3874f354e7177683e911574da442b70c94ed33d1e56464aa00b",
+      "bytes": 18810
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-05.webp",
+      "sha256": "ddbe8a5c07200179fcd5ed58115828b8f626a8fe414877dfbd67ca1bb29d52a9",
+      "bytes": 18468
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-06.webp",
+      "sha256": "dfe2640d4263d7c03ea44b3aba1760f956d41e4eecf94746ed2422e9b3681bdd",
+      "bytes": 19726
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-07.webp",
+      "sha256": "1cdac338abb7f69e981da384d65bf29c5afb31243b3bb5fc9e11f2d14ebe540c",
+      "bytes": 19590
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-08.webp",
+      "sha256": "f3d954b5bacb23207ff8231820dacc7360d0cad89352293d481fd9ab586b4dc6",
+      "bytes": 19484
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-09.webp",
+      "sha256": "51daf3b59663e90093f62a8fb6174a578681b638dc8dd1a6e886bc1b17e22085",
+      "bytes": 19562
+    },
+    {
+      "path": "public/arina-live/assets/motions/thanks-10.webp",
+      "sha256": "056822a76948ffcb2a9bc33671f7e3755786144669318dcb56f5350eb6c3271f",
+      "bytes": 19712
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-01.webp",
+      "sha256": "84eeb646c1a45d3eb5ce092b40cdfd040057a6e57890ead113d87b4f4af461be",
+      "bytes": 18166
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-02.webp",
+      "sha256": "3c1b4e1a19839187ad7412b23f0d75414b9011de73b140ccbac27f35771b2ed3",
+      "bytes": 18266
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-03.webp",
+      "sha256": "a2396b565693a3b03ebae1a8358a647ac09e169cf2024c1940b469330c33f518",
+      "bytes": 17830
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-04.webp",
+      "sha256": "c2bac52f99efa8e4484be5cd44d1303a496d8cb91c6b67f44ffd336d26efb8de",
+      "bytes": 17842
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-05.webp",
+      "sha256": "3e1c7a83d4ad9bb6c451ddaa608df723c33e5cded23063e140c6457092c49625",
+      "bytes": 18102
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-06.webp",
+      "sha256": "f4afc04b4c8efb8ba3645dc316e561c4559030c051555852ca0ba8495ccd20a6",
+      "bytes": 19024
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-07.webp",
+      "sha256": "760bf0c2740861958e3fa06936a94ffd0286101784e77d1dbbb3738eda6e3f27",
+      "bytes": 18460
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-08.webp",
+      "sha256": "6b7ded8f1f8696fbce5102e14b412047dfb03ea259494efaaae7f8801ff97aa5",
+      "bytes": 18720
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-09.webp",
+      "sha256": "78eeda2a4ac32d7533f0a1db3be234840bab1185aa728b95e1b8a3f98b510d6a",
+      "bytes": 19016
+    },
+    {
+      "path": "public/arina-live/assets/motions/thinking-10.webp",
+      "sha256": "af910c796687a9872178617f237272e688e1a796e43fe8e2440a387c001309a2",
+      "bytes": 19032
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-01.webp",
+      "sha256": "f445e76c9a501287564e218facb67d97f2f6cd303aef27971b5ed40364c99b27",
+      "bytes": 18580
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-02.webp",
+      "sha256": "7c91ce1bd15b0caa97549d50083d274a452aec44443c4d3bfef1de4584ae1626",
+      "bytes": 18874
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-03.webp",
+      "sha256": "9010c6572c20b9998565953a0a1000a0a4126b6b76d0aac51c494ba4183e172d",
+      "bytes": 18528
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-04.webp",
+      "sha256": "51ed502b3a5d23493a8add25911b6d13dffec20dda2be23e346b8e6159ee0a4c",
+      "bytes": 18818
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-05.webp",
+      "sha256": "25ca8593f09da6d4448933c8f431e1703fc93867acd3f153e085aeb7a3384e6f",
+      "bytes": 18682
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-06.webp",
+      "sha256": "fb26ab54681c51741f1695e46740116718094e1fb5897151926479fe64b07acc",
+      "bytes": 19538
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-07.webp",
+      "sha256": "68d071e14d2d33776cc9902463a3a377c353ef6084ebdd4bab67fe336c1b9016",
+      "bytes": 19414
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-08.webp",
+      "sha256": "de762fececcbb12c1f6bbf38a4cd4e4b06086cbdc131bb6570ae9967d477d7c4",
+      "bytes": 19898
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-09.webp",
+      "sha256": "f4c85c341e92f7b83e884c5379e8305e0b501bc47bbf125581e4b6e37f59abfa",
+      "bytes": 19350
+    },
+    {
+      "path": "public/arina-live/assets/motions/typing-10.webp",
+      "sha256": "de896e73d74a1588604bcbaa0df806f31cd7203e2049d20779a14cfbb75b3148",
+      "bytes": 19896
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-01.webp",
+      "sha256": "258f06d348d6d714d6a37f7d56ffb55c81c60cb2822a413d92b173e4c24e610f",
+      "bytes": 19536
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-02.webp",
+      "sha256": "70db1ba218f0511f6aa1be1a162cd1d211f2dcd60e280f23d8a5ed60e7f6ebe1",
+      "bytes": 18882
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-03.webp",
+      "sha256": "b8f3c955730e4b3193c222e4de4143c532e14c6cac8d1af6f201ed610bd7dcf6",
+      "bytes": 19086
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-04.webp",
+      "sha256": "8b1844c674c26b26f8da3738d8d1d6eaae73860b79a3b5750743a9cdfedb1d69",
+      "bytes": 19022
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-05.webp",
+      "sha256": "1de473eb972c56d2d0b798006ca63f24fd938a7b12ad69fa9366cbe2f9b0943c",
+      "bytes": 18690
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-06.webp",
+      "sha256": "9b9d134b0f85f8f9bca16a9a4a861cc14153276ac1e39a0eaed38d944e9e925e",
+      "bytes": 20700
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-07.webp",
+      "sha256": "dfc73287f0d3c64520eee3ae2fb8b7214162ed894b9b1b364486a0cd2f018a8d",
+      "bytes": 20600
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-08.webp",
+      "sha256": "727d05e80a1f57eacc51c270e582e13b202401fb8aada1ab558ce80dad5dccfe",
+      "bytes": 21520
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-09.webp",
+      "sha256": "55da3a9348ed8e0fa2660b55a6f6087a735aa48ea729502a4213151f55a85eb4",
+      "bytes": 21852
+    },
+    {
+      "path": "public/arina-live/assets/motions/wink-10.webp",
+      "sha256": "bcc29c6c4a07483068bd14e9c0ebabd18cbe2d8440339c26043b5d1e66c7de5c",
+      "bytes": 21888
+    },
+    {
+      "path": "public/arina-live/assets/storyboard-manifest.json",
+      "sha256": "5f9f63a8322dcb3d3623894827cdd43e45d6c80d564ede417f3bd3f2e52b01df",
+      "bytes": 21058
+    },
+    {
+      "path": "public/arina-live/index.html",
+      "sha256": "32b3a5b177ffde74db785efb4ed92d89bce5098187f0e03d45d8de94b04dd23f",
+      "bytes": 9838
+    },
+    {
+      "path": "public/avatar/avatar.css",
+      "sha256": "adbfbea529f930d2c360ea740ba6f023ade43fd31a5975dd6302304be72acc01",
+      "bytes": 5377
+    },
+    {
+      "path": "public/avatar/avatar.js",
+      "sha256": "c64c083c85d57a703bccc6d38e94b8325bffd505ac7a05fabfda689ca89f6e1a",
+      "bytes": 17633
+    },
+    {
+      "path": "public/avatar/engine.js",
+      "sha256": "82cea7c8c07c45b01d08a9ae6968377ce28c2dd454a9dfbf27f40e22f4c051eb",
+      "bytes": 3940
+    },
+    {
+      "path": "public/avatar/index.html",
+      "sha256": "c3dda5c44134cadda85afce70434d43639bc888e793fa0dd6bd7e08ba9b3a38c",
+      "bytes": 8052
+    },
+    {
+      "path": "public/brand/adrian.jpg",
+      "sha256": "85f70b750776c4d6e0212bb49459f06ac0d93d3a969bddd4d38e0f11ab8b031a",
+      "bytes": 50694
+    },
+    {
+      "path": "public/brand/arina.png",
+      "sha256": "e977f80f6401a31cf7de53419e2ccbf222b61cc4abaf25feabfd285c95cd1aeb",
+      "bytes": 293299
+    },
+    {
+      "path": "public/brand/elara.png",
+      "sha256": "6f6a41592b74053c13abd581d1e116a494568caddbbc2a0ec9afc4fdc24e3e89",
+      "bytes": 336424
+    },
+    {
+      "path": "public/brand/fezi-rabbit-f.png",
+      "sha256": "79f9e735e2798f622b031b1ec5ceda59af44c7fdca386e7e8290ff71d99cadc7",
+      "bytes": 898776
+    },
+    {
+      "path": "public/brand/manika.jpg",
+      "sha256": "bed9e9cd339c416725bb14b7b9eeaedc9d324fee6492f0292316bb9234f30c8e",
+      "bytes": 464013
+    },
+    {
+      "path": "public/free-ai/index.css",
+      "sha256": "00048328557bb6e557f480cf09c7c421e266439ea0b1307da8218a866e5beb18",
+      "bytes": 2864
+    },
+    {
+      "path": "public/free-ai/index.html",
+      "sha256": "e475f13cb61cd4c555b61bb1badb001580fbdc72204f0b2078f5636b1b186f31",
+      "bytes": 2502
+    },
+    {
+      "path": "public/free-ai/index.js",
+      "sha256": "f76be5c7413f6369f3ef10aad923165fe656c0dc07511f06e3630bd07f767e43",
+      "bytes": 2872
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "5961fdcb794c7ac5f851a2d8df99d44be09be5daaf1440ab2a8d5b1ea9296852",
+      "bytes": 8043
+    },
+    {
+      "path": "public/showcase.css",
+      "sha256": "7b29bb6e58b32b4fe62c4e664bd3e270386b2e1e93ff0572e03e9d3ae03492ce",
+      "bytes": 12860
+    },
+    {
+      "path": "public/showcase.html",
+      "sha256": "3e61aa7002b5a10afd4470a67b3f91cb97b24674b31869ff76c295d2dc98edc1",
+      "bytes": 10209
+    },
+    {
+      "path": "public/showcase.js",
+      "sha256": "783647429cd585b06b2c74487146b838741198ae13fd6552e25e51138d668a00",
+      "bytes": 1851
+    },
+    {
+      "path": "public/toolbox/index.css",
+      "sha256": "cd6ff731fb5ef859b3c62f5e84ace9fbcf3fa08aa5819746a2a065d7e4450094",
+      "bytes": 3557
+    },
+    {
+      "path": "public/toolbox/index.html",
+      "sha256": "b4844f68cf30131c54b7d6695980af4a28c4bf9a19f9468232fa0f42d218d76e",
+      "bytes": 3006
+    },
+    {
+      "path": "public/toolbox/index.js",
+      "sha256": "8dc98f52951384e31e65c97d79568b4516e73fa676864c25bce1725ed5eb4ad0",
+      "bytes": 3044
+    },
+    {
+      "path": "references/arina/1000265487.png",
+      "sha256": "5ac3ed7b821927525700401562a599d66980dbb09dcc0b9506de4f195e1dc022",
+      "bytes": 433516
+    },
+    {
+      "path": "references/arina/1000265509.png",
+      "sha256": "2d616f6d239cec872c14d04a8c83020124baa69cc336aeac0ac290baa15b9124",
+      "bytes": 420608
+    },
+    {
+      "path": "references/arina/1000265511.png",
+      "sha256": "af69306a43c65f72b9a86a4bdcd5cbcda25be89611d936d0a5efa420bb130641",
+      "bytes": 419238
+    },
+    {
+      "path": "references/arina/1000265513.png",
+      "sha256": "6dab6977b0b3fa68322c7da544f2e1e2e07e0002269cdea210ea0e9500d417da",
+      "bytes": 404421
+    },
+    {
+      "path": "references/arina/1000265520.png",
+      "sha256": "a0dc6663a53f099ee5dfc7d79210325d8b690da5db51534cc6c7ba79c2d6bd97",
+      "bytes": 327853
+    },
+    {
+      "path": "references/arina/1000265522.png",
+      "sha256": "f8ed50c08d93a183317b18b2356c1b28c522bc0326ef8e896531965c8435a78b",
+      "bytes": 351718
+    },
+    {
+      "path": "references/arina/1000265535.png",
+      "sha256": "03b8c3f41ca9693e4eae770a5d021c7fa4e446299ce442bdbc0d1cf4c4f2455c",
+      "bytes": 286871
+    },
+    {
+      "path": "references/arina/1000265542.png",
+      "sha256": "3b16a59fed7e1f830cc81d9f45727803e0e5c94c6199be3d8a56df8b1c7c20f5",
+      "bytes": 448401
+    },
+    {
+      "path": "references/arina/1000265545.png",
+      "sha256": "77e3ae7f0e214e22518cd399d0a248fc4232e0db1076ae04d9f4c4082c974b51",
+      "bytes": 481120
+    },
+    {
+      "path": "references/arina/1000265546.png",
+      "sha256": "f09cb219b0add052dc1775c9b1879ccb079b0c528e4e8c4ce6c734c4532280fc",
+      "bytes": 559732
+    },
+    {
+      "path": "references/arina/1000265577.png",
+      "sha256": "e145974afaaf3c367ac13e81f98cd3c48c53317a89ec36ed070fc01e2a937b51",
+      "bytes": 562513
+    },
+    {
+      "path": "references/arina/1000265794.png",
+      "sha256": "c2ae67dc7c4aaf76a1f556f63f29af194ac639f7c3f24fab930843628d5e02fe",
+      "bytes": 282426
+    },
+    {
+      "path": "references/arina/1000265798.png",
+      "sha256": "e977f80f6401a31cf7de53419e2ccbf222b61cc4abaf25feabfd285c95cd1aeb",
+      "bytes": 293299
+    },
+    {
+      "path": "references/arina/1000265957.png",
+      "sha256": "3fffef883066ef8393323c99575fa12ef7702e9df5df320ac49e9a0cf508e34d",
+      "bytes": 292575
+    },
+    {
+      "path": "references/arina/1000265958.png",
+      "sha256": "9314814e35c02816f7eb3d3e017c16bb84b4245cc71fc809be426bacbdfdf663",
+      "bytes": 284728
+    },
+    {
+      "path": "references/arina/1000265959.png",
+      "sha256": "8949e7bd8c0edab60a3b8e5bf90f6b1dc43a115dac3c1f5705cc03e360b0ba54",
+      "bytes": 299305
+    },
+    {
+      "path": "references/arina/1000265960.png",
+      "sha256": "dff8bec4323e80a850b83628b00c5e9eeabd4669aba8b3dca483c49f8e1ff6b8",
+      "bytes": 281759
+    },
+    {
+      "path": "references/arina/1000265961.png",
+      "sha256": "1266f6f314aa9b1c0ea4c46d87ccbfb97bec0aa1ab782836cba3fe362260fa71",
+      "bytes": 298366
+    },
+    {
+      "path": "references/arina/1000265962.png",
+      "sha256": "6cd52e6da63dbf9870cf38205ce92cc2f8a5dc9f1a6f1dbf6e41b3728388742e",
+      "bytes": 303863
+    },
+    {
+      "path": "references/arina/1000265963.png",
+      "sha256": "79e525f762e0fb451228fef486e58b8c710a6c76493b7b2c03d1ecd1e2feddf3",
+      "bytes": 292219
+    },
+    {
+      "path": "references/arina/1000265964.png",
+      "sha256": "fe73b5659b99deeee31834cb9769b2367184c5dc409b19726554b5263d9991dd",
+      "bytes": 283336
+    },
+    {
+      "path": "references/arina/1000265965.png",
+      "sha256": "ee3f730c0f73eccd327975258e719abd09450354bb210476bcf80fe31441fb98",
+      "bytes": 280950
+    },
+    {
+      "path": "references/arina/1000265966.png",
+      "sha256": "a233f501c3cdde6bc799ee0ed771cc3dade70227a32e9743622b1897f78c709b",
+      "bytes": 298554
+    },
+    {
+      "path": "references/arina/1000265968.png",
+      "sha256": "6d6db26601a290bc76cfb427bf6b1b18e1e4af770c638b51a5e81211f74928ce",
+      "bytes": 506813
+    },
+    {
+      "path": "references/arina/1000265969.png",
+      "sha256": "ddfd9544748224ce71c5b3f57de2b4afdbdd76aa112f844f325351a435621562",
+      "bytes": 554171
+    },
+    {
+      "path": "references/arina/1000266587.png",
+      "sha256": "ce3c12906f9e3575c047976df5bb3af13994d329b1193c3d5013700bb9d66b6f",
+      "bytes": 379623
+    },
+    {
+      "path": "references/arina/1000266589.png",
+      "sha256": "a6ea7765a2ed5ffca2fff87b18d712227b62f9b64a8588effc399148c5075e14",
+      "bytes": 437200
+    },
+    {
+      "path": "references/arina/1000266591.png",
+      "sha256": "9d2193b367f5b63c52ab612b0c6fb0a0e5260a02b7643189a4a59cddaa12746b",
+      "bytes": 318988
+    },
+    {
+      "path": "references/arina/1000266612.png",
+      "sha256": "c1e7da042c232093407915f4c43bcd881e9123d71eae3d820c96e9dee0e9bfa9",
+      "bytes": 441156
+    },
+    {
+      "path": "references/arina/1000266615.png",
+      "sha256": "b1df4e282001c980e23d16bf1a6cebd52f752aaa9093e5ffbd98d54c9010fc48",
+      "bytes": 514355
+    },
+    {
+      "path": "references/arina/1000266616.png",
+      "sha256": "468305e883d1840257b3b7e374cfecd58029ee86c02b7517a9f06d056781fa75",
+      "bytes": 469850
+    },
+    {
+      "path": "references/arina/1000266617.png",
+      "sha256": "9c092079522bf9db81b29d581edc3c13b5073371ef842122cdd5fe79916c5ec8",
+      "bytes": 463679
+    },
+    {
+      "path": "references/arina/1000266618.png",
+      "sha256": "d603292e1431921c8157c0b6e899d6e088c28faa05f593e4600c8c4bc4f86706",
+      "bytes": 426811
+    },
+    {
+      "path": "references/arina/1000266619.png",
+      "sha256": "9e871814ba474ca162fef1eb647bc9b4eacaaec25811297696c6d5063759914c",
+      "bytes": 439102
+    },
+    {
+      "path": "references/arina/1000266620.png",
+      "sha256": "55bdda46581ae6ba4a7d0e7597536f88a97ca7ba13586686f1b55d55b7ced3a2",
+      "bytes": 459023
+    },
+    {
+      "path": "references/arina/1000266624.png",
+      "sha256": "1161d8338e83985c17e426e5131e645d567efcdacf9098207ec6e98fbc34e185",
+      "bytes": 407125
+    },
+    {
+      "path": "references/arina/1000266625.png",
+      "sha256": "96bce3774e84e65a367bf97b73c05cb871f5b00cd9b27c6f48b6d9c9a1c20680",
+      "bytes": 507843
+    },
+    {
+      "path": "references/arina/1000266626.png",
+      "sha256": "50f99ef1e5f8c30a8f2bb908d181e33cdf0c2f8c7b436254082a6d82d9b0dfb1",
+      "bytes": 496326
+    },
+    {
+      "path": "references/arina/README.md",
+      "sha256": "f4af27791f937768dc10df5bbbdc2418b9171ec3cf5f97fd2a23cc3f6152dc73",
+      "bytes": 691
+    },
+    {
+      "path": "references/arina/dance-reference-new.png",
+      "sha256": "50f99ef1e5f8c30a8f2bb908d181e33cdf0c2f8c7b436254082a6d82d9b0dfb1",
+      "bytes": 496326
+    },
+    {
+      "path": "references/arina/extra-previous/1000265469.png",
+      "sha256": "c4ba60b962841a8580c3411adc934a506e8e202efc158d984f0569a8dbc37dd8",
+      "bytes": 521476
+    },
+    {
+      "path": "references/arina/extra-previous/1000265483.png",
+      "sha256": "04f1abdd26e1dbc612514b4208155d4dbd0420d00935a9a126380992fcafdb33",
+      "bytes": 415397
+    },
+    {
+      "path": "references/arina/extra-previous/1000265485.png",
+      "sha256": "b06d929487181f25e25990f9d9a62cdd312fa30d69e859f77a1c23b0bc5130bc",
+      "bytes": 443266
+    },
+    {
+      "path": "references/arina/extra-previous/1000265486.png",
+      "sha256": "8d25a7a88d1bf382d986d41aee80d811fd75d74a51f112d82140285ed038e8c2",
+      "bytes": 466275
+    },
+    {
+      "path": "references/arina/extra-previous/1000265488.png",
+      "sha256": "3b1e4c3f769f1c4775eb456127f33ac6780546ac0a9e1a1f6004d39374ecba24",
+      "bytes": 453418
+    },
+    {
+      "path": "references/arina/extra-previous/1000265489.png",
+      "sha256": "c5354306ef32e2d4cc61e7cc997f5646adfb6924db07f2a79c55b86bd518dcae",
+      "bytes": 439919
+    },
+    {
+      "path": "references/arina/extra-previous/1000265492.png",
+      "sha256": "b27205998961c2c1690f8307292f8031cef84af070dc587b985aa60f11bf7b4b",
+      "bytes": 533639
+    },
+    {
+      "path": "references/arina/extra-previous/1000265493.png",
+      "sha256": "42c54dd34878ce42063e88ac2c0abb3f1e1a19063ce394534e243b201f147abf",
+      "bytes": 534122
+    },
+    {
+      "path": "references/arina/extra-previous/1000266596.png",
+      "sha256": "9b10fe87bd3aa39f68fa9c02237dd394fa7fcfb5d846feeff840aa41de00ae06",
+      "bytes": 186344
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266639.png",
+      "sha256": "8fed99a5d7823f144af07e506fda0f95da0230e8507046f0c11807b9b259c91c",
+      "bytes": 441608
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266641.png",
+      "sha256": "e6154bb5a0e3417826452f7dd5dc271c3db83f9ba4e3d130cda074709975b7c8",
+      "bytes": 435963
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266642.png",
+      "sha256": "32d6265237be35151e4adf475aa8fdd1844147b701b5aab0e9e0476fda642055",
+      "bytes": 472949
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266643.png",
+      "sha256": "1bf6fc6e292501137c52714ff217e17d24a11a384f63f2745717b59241c4d4ff",
+      "bytes": 494665
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266644.png",
+      "sha256": "d357bcc7f8748574f74d5e1b2a9e0eab37d1d251b8091f5c4dfcd11c8075828d",
+      "bytes": 486875
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266645.png",
+      "sha256": "70d5ddf338bd9146db8aa8529fcbd09475815e2a3d91b25ed78c72f56a779a5c",
+      "bytes": 472183
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266646.png",
+      "sha256": "bbcc774bc6d0db2f8cabba9a73f86fe24b8351433748ece9e36be3d09ffcabca",
+      "bytes": 459201
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266647.png",
+      "sha256": "8e54c18925a908e5193fd111d7b183ef5fa64d3710045ceb62259e8ac2126446",
+      "bytes": 460541
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266648.png",
+      "sha256": "30451e535b560e4ed2b9602da433ba6e4d8610d4692fe7254ff5bbd327271f45",
+      "bytes": 474588
+    },
+    {
+      "path": "references/arina/fun-dance-batch-2026-11-01/1000266649.png",
+      "sha256": "b6168eb8e6cc453196b5358d04df1091f14092a51c3f5623303a91e36e9a5d9d",
+      "bytes": 457208
+    },
+    {
+      "path": "render-jobs/arina-energetic-60s.json",
+      "sha256": "2471040a4628340be6ebd7e38f49b1c3767cf6af4b29c4238df44de2b774bd65",
+      "bytes": 3085
+    },
+    {
+      "path": "render-jobs/arina-fun-120s.json",
+      "sha256": "d74b45b5146a284fa6054742f0721d2dbde492c5c63034ba83ad7e00f3c24175",
+      "bytes": 5819
+    },
+    {
+      "path": "render-jobs/arina-new-single-photos-15-gpu-jobs.json",
+      "sha256": "ddeb96d8892d96564a43fbc82591c492c672ea29aacbfe6ca39d834562430bee",
+      "bytes": 15143
+    },
+    {
+      "path": "render-jobs/arina-persian-60s.json",
+      "sha256": "1dcdc2125fd2e8db7b6198ece011e2f5523006acd276039488c8f23bc7bc1f1f",
+      "bytes": 2583
+    },
+    {
+      "path": "render-jobs/arina-pop-60s.json",
+      "sha256": "b1aba96f9d397e3d6507e7fd7d175d12d096641a5e5dabc09c97c5a6ceb2a1fe",
+      "bytes": 2771
+    },
+    {
+      "path": "render-jobs/arina-smooth-60s.json",
+      "sha256": "7b3033241416a8034c0972dd4f5a7b13def1f248075f184984d6fb2e962f0299",
+      "bytes": 2544
+    },
+    {
+      "path": "screenshots/FEZI-AGENT-Arina-Live-desktop-actual.png",
+      "sha256": "84ff46063a6dbceb4267b20b875eb1eedda975661fa3ed2703f1f16f48394427",
+      "bytes": 839106
+    },
+    {
+      "path": "screenshots/FEZI-AGENT-Arina-Live-desktop-chat-tested.png",
+      "sha256": "89cb53f4d7d8853dafadb2c8c8c170a5c3a069b4c5b1fc84ec03f526802f125a",
+      "bytes": 838718
+    },
+    {
+      "path": "screenshots/FEZI-AGENT-Arina-Live-mobile-actual.png",
+      "sha256": "b3308572f07e9da8f770d75a91fa139b7e8a3f3f16eba2edca60bbbd10cc1f7a",
+      "bytes": 416686
+    },
+    {
+      "path": "screenshots/FEZI-AGENT-Arina-Live-mobile-chat-tested.png",
+      "sha256": "f272e908b70e0a086348dec160efb77324a163ee991e3d85c4f801e600267de8",
+      "bytes": 140699
+    },
+    {
+      "path": "screenshots/FEZI-AGENT-Main-Builder-desktop-actual.png",
+      "sha256": "81884a30532ca72492092b5df4cab9985806e213bbcb7f274cb40387d94fc3ed",
+      "bytes": 752625
+    },
+    {
+      "path": "screenshots/FEZI-AGENT-Main-Builder-mobile-actual.png",
+      "sha256": "6c1c704f847cc1942067e4a84acf73d827a87740562fba13433915249bdfcf9c",
+      "bytes": 313448
+    },
+    {
+      "path": "scripts/arina-generate-plan.mjs",
+      "sha256": "eb04f908d8f23033b5f59c030f6a6f4bfe008a39d21da6758d713bb0257f4cc8",
+      "bytes": 763
+    },
+    {
+      "path": "scripts/arina-new-photos-render-plan.mjs",
+      "sha256": "63830e584845625578e0b696953efecd35da9c84442ed5d13fdef1561705a1c1",
+      "bytes": 3316
+    },
+    {
+      "path": "scripts/arina-video-pipeline.mjs",
+      "sha256": "8c6f323ea7b3671ab87b89acdcae067cfa27f8e7faa17eb16e386daccd0d39ef",
+      "bytes": 6976
+    },
+    {
+      "path": "scripts/build-academy.py",
+      "sha256": "497bb86757f2a4443e202cb06e4428febc2c2ce1bf19fa74a29718d932b75214",
+      "bytes": 29058
+    },
+    {
+      "path": "scripts/check-host.mjs",
+      "sha256": "a1e3c71364dd0b814e29c62e45cfb5fc3648a2f1f1e9d55196fdeedc0b4ca80c",
+      "bytes": 701
+    },
+    {
+      "path": "scripts/desktop-launch.mjs",
+      "sha256": "9bed349413cc57c21a7c09b7f8881aec5a9e4d1d8c56c4d59402d4daea2f5bbb",
+      "bytes": 2539
+    },
+    {
+      "path": "scripts/download-model.mjs",
+      "sha256": "fad503d1bc3f5666d4b3842e01162aae23c882e746396aaf8650086d6fbf48fa",
+      "bytes": 2259
+    },
+    {
+      "path": "scripts/generate-arina-original-music.py",
+      "sha256": "40e4403a93d1e8f20754e565ea4e549902ae3621ad8b21e423a21cfe728494b4",
+      "bytes": 2892
+    },
+    {
+      "path": "scripts/make-host-bundle.mjs",
+      "sha256": "3f0e5b13f0ba8e0456c9f44b6374808a67e62b27e75f5baa3925607888a8840c",
+      "bytes": 1345
+    },
+    {
+      "path": "scripts/mcp-smoke.mjs",
+      "sha256": "14ff8d09225cba2395cabd75fd37100feca5c1d7422eeb4be742d4ea8ce3b6a6",
+      "bytes": 1074
+    },
+    {
+      "path": "scripts/model-catalog.mjs",
+      "sha256": "72e372a7584a247956c5a151d1fef6421dd30568461b7e49f0694739642ade4d",
+      "bytes": 415
+    },
+    {
+      "path": "scripts/model-info.mjs",
+      "sha256": "d64c1daefcc05c342cf199b2dc3c35d93524b3b331165d942aab7a63a4424ffb",
+      "bytes": 163
+    },
+    {
+      "path": "scripts/publish-github.mjs",
+      "sha256": "f1cd0aac08beb0fe79d0f823806dc7c700927d73587ab4a50671681b29a3c1d8",
+      "bytes": 4053
+    },
+    {
+      "path": "scripts/qa-55m.mjs",
+      "sha256": "88e7157c964a096c59033e1307612538a77c4ac1b3032e505719e843139f56b6",
+      "bytes": 3274
+    },
+    {
+      "path": "scripts/run-academy.mjs",
+      "sha256": "bc2fb0bd84ca0cfa841ce257b3937c2456dfb247cfbe9cf75a12c86e3f00ebaf",
+      "bytes": 3765
+    },
+    {
+      "path": "scripts/stream-arina-from-clips.sh",
+      "sha256": "f710873723bdf77a4257bccc74929dec32f98536dfe8293e748d30b7757d281e",
+      "bytes": 1104
+    },
+    {
+      "path": "scripts/telegram-id.mjs",
+      "sha256": "3248899feb4c252d7390a98dc4e7b3092eeb6a67a3aadcc8d06b68c072634f90",
+      "bytes": 895
+    },
+    {
+      "path": "scripts/telegram-poll.mjs",
+      "sha256": "6f38e91b07b66e4fd269fe496fe4323ba0b3b173b6cf4c07a0ccaf577d1f69d8",
+      "bytes": 2918
+    },
+    {
+      "path": "scripts/telegram-preflight.mjs",
+      "sha256": "45d90725c47cfff668e17b55b028eb60b3f763166be892c891b7db0643b86fef",
+      "bytes": 2118
+    },
+    {
+      "path": "scripts/telegram-setup.mjs",
+      "sha256": "0d9cb23a26359657a5d0a06e514a1ebe4800f93ab10f93e80287f6240f4c27ad",
+      "bytes": 1498
+    },
+    {
+      "path": "scripts/toolbox-doctor.mjs",
+      "sha256": "e915f84bbd74db6b41c08cb2e08cfc8be50fee40baa56a1ca3c35b3642d0611e",
+      "bytes": 188
+    },
+    {
+      "path": "scripts/toolbox-installer.mjs",
+      "sha256": "eab9e8f204867f0d48b2c326f39b1253b3407e971dba0d6ffc536f173e6e660a",
+      "bytes": 3079
+    },
+    {
+      "path": "server.js",
+      "sha256": "1b1c14d22b308554931d2b154cbfd028f7c1f241bdcf58d96a5ca2f3828a6419",
+      "bytes": 64065
+    },
+    {
+      "path": "telegram.js",
+      "sha256": "6a7bd23d30c05cdc8070aa5426454a4459b4c324532d88d2979f10b678d7c9ad",
+      "bytes": 1454
+    },
+    {
+      "path": "tests/academy.test.js",
+      "sha256": "13de6fbd158656a5b5995e9b129db6ab010026795da0d8f076122726c11ee45a",
+      "bytes": 8872
+    },
+    {
+      "path": "tests/api-v077.test.js",
+      "sha256": "3064df67e421b83cacb7c5060b3701fdd5e80d407a3c1d471f30f3fac22c7373",
+      "bytes": 2796
+    },
+    {
+      "path": "tests/arina-commerce.test.js",
+      "sha256": "e0026b6052b8b6aa462b1748581bd7b106950101f5513ce75ed4aca332c656e9",
+      "bytes": 3147
+    },
+    {
+      "path": "tests/arina-fullhd-dance.test.js",
+      "sha256": "a5512c2fa6c4a833b3f501ffffd9b0dc260bb5593c077cf40950ccab1c0ab417",
+      "bytes": 4889
+    },
+    {
+      "path": "tests/arina-live.test.js",
+      "sha256": "d1f7151d24996aca29e36e29e2565ef2c1b266b9a924cef942bde2654689d07c",
+      "bytes": 2131
+    },
+    {
+      "path": "tests/avatar-5000.test.js",
+      "sha256": "11ac0ea6e1c424b53066b9f725acb10b58b00315e35d72b418a3886c1333d1c9",
+      "bytes": 2774
+    },
+    {
+      "path": "tests/avatar-gpu-gateway.test.js",
+      "sha256": "48c3fbed5b17dd0098e97beceba8f393014369ef41489f83c3e73627e606759e",
+      "bytes": 3364
+    },
+    {
+      "path": "tests/avatar-http.test.js",
+      "sha256": "75b47c1b8ecb139d2cf4f2dcb89689594ffbfde5e9df5b88976dbfad357924d1",
+      "bytes": 2863
+    },
+    {
+      "path": "tests/build-export.test.js",
+      "sha256": "2ce4e91e838e5dc66d187d98127583756695e496fece383a827639e980b6d87a",
+      "bytes": 1972
+    },
+    {
+      "path": "tests/desktop-tools.test.js",
+      "sha256": "3a369cbd0f93d9e51e7bfb5a031c7ebde66328cedf5e5514781bdd9c50e0bd51",
+      "bytes": 2437
+    },
+    {
+      "path": "tests/fezi-agent-brand-and-routing.test.js",
+      "sha256": "13b4da460fb26fed14fae82235cf46d71ba137f17b2e3c9c4aca3d1b8e2956a4",
+      "bytes": 3787
+    },
+    {
+      "path": "tests/github-telegram-readiness.test.js",
+      "sha256": "72878ca63c631ec34d2c850d6f018b8859fc56accf08e683b2e1ae02659fdb41",
+      "bytes": 1703
+    },
+    {
+      "path": "tests/integration.test.js",
+      "sha256": "424082cc16e96ee57d4162d9628b1965b355d92c86abd47d07e27eb0d3eb361a",
+      "bytes": 10355
+    },
+    {
+      "path": "tests/local-models.test.js",
+      "sha256": "38c38cebe1042cf5ef844fa19a94a83f3e4e3b8360e4970874a499606f0aeb23",
+      "bytes": 1321
+    },
+    {
+      "path": "tests/model-registry-v077.test.js",
+      "sha256": "cb6f58e44d14b1f3b4779cc92a9d2d6c0839ac23783993c97ad8893c501756cd",
+      "bytes": 5295
+    },
+    {
+      "path": "tests/open-model-hub.test.js",
+      "sha256": "1860d8a47ca45f17a86858c389d1425977a3132ecf399ebd5422948dd0088d42",
+      "bytes": 3769
+    },
+    {
+      "path": "tests/qa-5000-fixtures.json",
+      "sha256": "4ae46d96b607103e1fd4186e41a52e5c2bf5c395ea6a922ab7dd20bb2b942b6d",
+      "bytes": 583744
+    },
+    {
+      "path": "tests/quality-300.test.js",
+      "sha256": "f8173a8f88d0d30f991b5d3d72bdef6eebc4f91b02c3136889135bd823d38ef9",
+      "bytes": 22270
+    },
+    {
+      "path": "tests/quality-5000.test.js",
+      "sha256": "f8084e3fc81df5043c86f82f7396ede7b09dd5f34e866e5b72c3b384473cf528",
+      "bytes": 2486
+    },
+    {
+      "path": "tests/regressions-v08.test.js",
+      "sha256": "75374cedb9127ad6bb832444db5342be514a5c684863afc9fa9cf133f52f5073",
+      "bytes": 7436
+    },
+    {
+      "path": "tests/security-regression.test.js",
+      "sha256": "7f15f1d1fc3b5aa6192a03a72a329ea8255e029f357194e46353fae4b6df9a0d",
+      "bytes": 7567
+    },
+    {
+      "path": "tests/telegram-commands.test.js",
+      "sha256": "4113cd9198bb1846df318c2cf19ac98f8f01bfa5295973028eb1bc056e458032",
+      "bytes": 3571
+    },
+    {
+      "path": "tests/toolbox-v13.test.js",
+      "sha256": "78cf5c1b50b827941dde17bf02c44d3d3d8ee7c5efda9bcb52ccb464e31518d6",
+      "bytes": 3736
+    },
+    {
+      "path": "tools/configure-telegram.js",
+      "sha256": "a88148942e4e1cb65a8af9383e5e865fa48519126ec779f0a1c87ae113e692a7",
+      "bytes": 1113
+    },
+    {
+      "path": "tools/host-adapter.js",
+      "sha256": "e5b8c2841edfad583197251bd629c8d50b62b64312ebff2d94c189a0afd03b8a",
+      "bytes": 3064
+    },
+    {
+      "path": "training/README-FA.md",
+      "sha256": "812001ff14e8b86806d19cd32321a2cc20253008ca0a78d3a77d0d6c3be1dd45",
+      "bytes": 726
+    },
+    {
+      "path": "training/arina-chat-100.jsonl",
+      "sha256": "e3c0f324780397ff7fe04bbf9fbeb52c8e02174ab530f7bf19ea77f53b55b995",
+      "bytes": 29724
+    },
+    {
+      "path": "workers/avatar-gpu-bridge.py",
+      "sha256": "3d4d7ec818a2dac98cd2311ca1b2ced451cbfc766ef6797a8b6ec226d78408f2",
+      "bytes": 4824
+    }
+  ]
+}

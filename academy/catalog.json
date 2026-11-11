@@ -1,0 +1,2707 @@
+{
+  "schema_version": "1.0",
+  "product": "FEZI Studio Academy",
+  "release": "0.9.0",
+  "kind": "synthetic_combinatorial_task_and_evaluation_cards",
+  "warning": "These are generated task specifications, not completed exercises, not gold answers, not model fine-tuning, not measured capabilities.",
+  "categories": [
+    {
+      "id": "deployment",
+      "title_fa": "GitHub، هاست و استقرار",
+      "count": 8000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 13601,
+          "sha256": "9356faf3e5dee854e4c5a3dda3a0c32de9aef2ba7b91511b1bab59a4cf172198"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 13551,
+          "sha256": "bd9fc8f9be63eb8785402b12e0cf38479328d80ab6b7008c73a0c8a7ca172372"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 13677,
+          "sha256": "94a346e30c65aaa28f720e6670f3fb106f6fc913372717f6d0a7a49753ac5b5d"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 13622,
+          "sha256": "9b2aae51c07df6084fc8d809c6703baf4c8ef3ceaaca9573f6b7659e732188cf"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13674,
+          "sha256": "9a4c30a31560b4d1ab2c5fba1e8e6c86a60a843145a7969fa5e7f4ad865ce94d"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13572,
+          "sha256": "70eecc7cf911921b52a10d222ef35776c7d5e13dd76652e669e3557c669c3ec2"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 13588,
+          "sha256": "6d9ca49953a239f9a00453a0f7173080c7b49e67dfb7a6e0ce6c1eb69d81c8bd"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13673,
+          "sha256": "413568f8e2027f151d42dee95cff5744bfa122f02a75a823e5e10ae467a26b42"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13540,
+          "sha256": "d7fa0dd300553cc85cbac04333645b19afabd7a77b464824d29c9d03582b0ea8"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 13580,
+          "sha256": "92eb0648f1da4fb6b224c33e87980599212b6ec85166d247e74f8887377a411d"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 13710,
+          "sha256": "e4d32d814d1907d5bfee29ebb26018a67e0a4a1d54574cb0aeffd69a09c0f666"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 13679,
+          "sha256": "e307e716c427cc1ec6c43f12e6450f6b03a6ec93e0a4086368efb006068539f1"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 13634,
+          "sha256": "80c511f3c416ed16403768c0f6f51a39978313c447ac00c353830f29bcb6ebbc"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 13541,
+          "sha256": "f16ae00d61fde3b8aac1e6ef187294cc0768c69a1d181e181f918190ea931aab"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 13637,
+          "sha256": "75f8ee4123828568ff785986af7dbffba9648d84350937e6498183774997aeb1"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 13586,
+          "sha256": "d5abbe584e7defc094157954e748d3d5bec8e68008b330062ef85ed9453fff86"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 13686,
+          "sha256": "9b72ff7b49ef2a64e47bd19d54c06eb579fa8811b0ee8feca33ddc8980f630bb"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 13541,
+          "sha256": "4efc252280fbb0b7fc7ec50eb32b9e269462eb709ac5c4a6632721ac1786a7f8"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 13600,
+          "sha256": "6292d847aef1b2e988097be236cf15775c1784e185b63abcb39459a49de45d50"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 13603,
+          "sha256": "74cabeb7852d3387d4545c381aeb55242af837eadcfe7f6ab225b0f543d6c154"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 13620,
+          "sha256": "913a18c1c26011f90acfd8be08d711d86a844e8a897cd863201d980430e692b4"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 13558,
+          "sha256": "a4fd680ef304a0ee72767e51df8e100b42e9376ac2f8227cf9adfaa8af90dd30"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 13565,
+          "sha256": "2e5e6803cf251e1e0e32930e938f94cdf490377728f0730d492d1f569ae636b6"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 13699,
+          "sha256": "759d1f709e88233de1ae752c1d1011e0cf086ae40074eadbb94ca2ab7833dd32"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 13639,
+          "sha256": "f5839ed767a628c4d8be994d6f47cff641a18dcc6d5dc6f32d1ab98ca39ece30"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 13594,
+          "sha256": "06593dd15ba16e91ff443aad3839fdaf589ce41b9c410f2a26fb46e2a53e48e0"
+        },
+        {
+          "name": "0026.jsonl.gz",
+          "count": 250,
+          "bytes": 13613,
+          "sha256": "e0e336f755131d86c9900c42f716e6b140770484c97449ce9ac58ee212218aa3"
+        },
+        {
+          "name": "0027.jsonl.gz",
+          "count": 250,
+          "bytes": 13642,
+          "sha256": "4e028e5625165d9f22146c4e04701ced36a1b2e9fc096e40042f6e3eabe922be"
+        },
+        {
+          "name": "0028.jsonl.gz",
+          "count": 250,
+          "bytes": 13633,
+          "sha256": "c2bd6b8a016cab242f6896d2dfd856e16cc6984d9032707645c4583459e54b12"
+        },
+        {
+          "name": "0029.jsonl.gz",
+          "count": 250,
+          "bytes": 13554,
+          "sha256": "9a54d51ae52a7be2d77a54fa1390621efd1d52ee647c205eea8c04b8ac8d3f2d"
+        },
+        {
+          "name": "0030.jsonl.gz",
+          "count": 250,
+          "bytes": 13554,
+          "sha256": "f9973fc058936f2796d33aedd16801a26a393c3a118adfe11aa7ddc392e01bbd"
+        },
+        {
+          "name": "0031.jsonl.gz",
+          "count": 250,
+          "bytes": 13626,
+          "sha256": "ec8695cfb73dbd94c2621a4eb9c8d9c8aba3d4230f1a55371c1c35807b57462a"
+        }
+      ],
+      "guard": "دسترسی مجاز، بکاپ قبل از تغییر، حفاظت از کلیدها و تأیید عملیات تولیدی"
+    },
+    {
+      "id": "chatgpt_mcp",
+      "title_fa": "پلاگین ChatGPT و MCP",
+      "count": 3000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 11778,
+          "sha256": "58d676e9b5e1f78b18b6e5bc4c1b8760c39495edfaeea0fecdefcc23afdae52e"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 11808,
+          "sha256": "ea9ff263af1474e1da6c6feb62d9cb85014603723e9dbb7f02a892a7df9bd63c"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 11806,
+          "sha256": "a21d84df75b4febb0b8e170e5abc7266da543a525847c476e2259c3514c0b84d"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 11932,
+          "sha256": "7e7983cec7ed746eee367bfaa977d8faa5e439e47fefb10eca9c141c9d2007bd"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 11584,
+          "sha256": "dd55a815337f2dd2f9433fc14cd4b75978be38e40e19a857852e75d4438b5e0c"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 11810,
+          "sha256": "806cffc71066852edea622cfb0e8f1dd25f2b80cd7c70caf4e83e8262b1c9c56"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 11806,
+          "sha256": "b725cf80311b973154a54a9acd80f74984b61e3dc2ae85c8240700c6e4f4b51f"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 11875,
+          "sha256": "b16e5fc8a34f3165b900c9df2a04b953f134dc879bcf7d270f52a6336b05a5cc"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 11841,
+          "sha256": "ca14a66ed84500c188e7a4a28e3a531bad6e82027509c52c14654ea9ed38b398"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 11603,
+          "sha256": "ab73fe54859ab8d5db2dd56cc323335e74c0f145c0e5d67ca1efeee7281837db"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 11886,
+          "sha256": "9b4675398821ac5e07fd9ab900d86385c6121ad88583eddd02e048557b424469"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 11863,
+          "sha256": "a9d15c6ed75cd8bd6ace1b5d598ff810fadc2a17e7dd27d2aa4e89d35ed925a4"
+        }
+      ],
+      "guard": "محدودیت ابزار و پلن، HTTPS، مجوز کاربر، عدم افشای توکن، قابلیت بازگشت"
+    },
+    {
+      "id": "model_routing",
+      "title_fa": "انتخاب مدل و مدل‌های جدید",
+      "count": 8000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 13375,
+          "sha256": "4db5b0f9b8dbcdc1b20de481934a13723b88a17b0aded406a818d54661326721"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 13367,
+          "sha256": "5f75f8522857e5de79841276b6ea3aea49e22c096b52539d7461fd635e2692c3"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 13339,
+          "sha256": "bff3caccad344109968d80fed18c6fa42d83fbda9962a6ca7f50f7e5d01956fb"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 13395,
+          "sha256": "0e2eff9b41d4a7fd70513b2dc5ff9d900e0c37f8266348085dd4521725613054"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13335,
+          "sha256": "e5dea50871cd09c6a22b74ae3011ac22970f781d930ec00f5dc15a9be15bd489"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13355,
+          "sha256": "697b892dd49456974345e87d2d7d4e1725b0577f45e64f3e6527368a26bf71dc"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 13397,
+          "sha256": "5cd461382ee822336f7cbc3850d97ae0879eb3f54f2835d9b04063b8050159c9"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13403,
+          "sha256": "a37730c3c6fd466edde197454396270c83d77d49d749eadc61541b1c29ed9b39"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13335,
+          "sha256": "d32701852bd705dab3e7286f3e135f6193b5e76f316b823921ad520d0a4c1855"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 13379,
+          "sha256": "cf62699a89823c6451a39ea4cfc844742ec0389fc11565b610db8be6c1b77b1e"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 13349,
+          "sha256": "88005418751852bcbb4a603c07ae6980a2dc5ece68edeb28fc1500f945d639a4"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 13413,
+          "sha256": "0bf9bd29fb8d78b5d8fde108f3839cc38511986169ee3c8f3346af47a68f4968"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 13300,
+          "sha256": "313567d0a2245a8f3d3ec7cdee6b2b0a0054dd99fe370f424311d257b1c2ab31"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 13328,
+          "sha256": "69da01964b53e3b005983b23be8f0da04a10a9dca62a0488b0512e113498faac"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 13323,
+          "sha256": "ee80857e52cbc4124a8db40bd4dc5275dc66955c2c6b74665766adb2fc40bb28"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 13379,
+          "sha256": "70b0a958001683a6bcf00ca6998979465ddef6cc4c207ab93473e2ef71fa8c7d"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 13380,
+          "sha256": "997af4bcf8609c9d58c2c46a7710a6453615fd773ccb5f799edce461fd24acfa"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 13415,
+          "sha256": "e1f5c41bafc783da63847f6711c57fb7c06f0a72aa2c7305e712f6dbe2895ae9"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 13355,
+          "sha256": "b787cdee1e7079883796f65848c5a0b53bdcb9492f4b14891403f16797043263"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 13379,
+          "sha256": "14478ae48c1bfe52d39c5f2eb1b488252cce640c073ab2e95bdb0852c4d3cf99"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 13304,
+          "sha256": "41f528da40edde73f89b1f9ff18d1d7a41ecba02f5ca5149ef2413a7933b6c21"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 13395,
+          "sha256": "e40a04c1cb015edd60416ac966a162513c8bac7b69f249128ab3586f9a08fe75"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 13356,
+          "sha256": "10242bf3768075653d9168001aa62ef15b9e4e92a1d9af27b4e972f2b4632435"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 13405,
+          "sha256": "f93952a6268f346a5aa787a53201e171b3de1a1fd342c07cbe820d841491345b"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 13345,
+          "sha256": "ce8b89f9667ca61437dfe3c480abed2aa9759ff6f111031675dcb8e199c2d79d"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 13319,
+          "sha256": "1ac4227f5665803e825f807dde817ce376b76b5be4d52684cc52249f625e4905"
+        },
+        {
+          "name": "0026.jsonl.gz",
+          "count": 250,
+          "bytes": 13309,
+          "sha256": "6d2cd04f01e09810477eac6016f052117211ef3026b455014b51e66620d2874b"
+        },
+        {
+          "name": "0027.jsonl.gz",
+          "count": 250,
+          "bytes": 13381,
+          "sha256": "44158001f1e356ea21cc6e01f539747cad697104b9f65b299767e50c530cdc96"
+        },
+        {
+          "name": "0028.jsonl.gz",
+          "count": 250,
+          "bytes": 13321,
+          "sha256": "d83f5b7a621eee88ad963cf43c59d6557ebdb6483877ee0d5acf2f2d2393bf5e"
+        },
+        {
+          "name": "0029.jsonl.gz",
+          "count": 250,
+          "bytes": 13396,
+          "sha256": "92b43d724f3e08a63edbaa86197900cbb735bd0a6ad1ea26fe798aa7be54b416"
+        },
+        {
+          "name": "0030.jsonl.gz",
+          "count": 250,
+          "bytes": 13333,
+          "sha256": "457aa9e31d8b92fa42b8bb0308a9343d6909633cbdb548bc16aeeb0ec6d82907"
+        },
+        {
+          "name": "0031.jsonl.gz",
+          "count": 250,
+          "bytes": 13388,
+          "sha256": "ce178bbccca7a2144e99796e6c592ef93f732e4df7bcd66f92edeef613e2725c"
+        }
+      ],
+      "guard": "عدم ادعای بنچمارک اجرا‌نشده، تطبیق مجوز و سخت‌افزار، ثبت نسخه و منبع"
+    },
+    {
+      "id": "request_understanding",
+      "title_fa": "درک درخواست و پاسخ‌دهی",
+      "count": 3000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 11827,
+          "sha256": "2b5ae8a377f0f010586acd3f207095b9c6349c07cd4b26536c02d2480b30f8ac"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 11900,
+          "sha256": "6fd438e9ebca5b90e3d4ab7d3b417ef66bbc3343c1a7f784dd8ef61e2d7594f4"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12132,
+          "sha256": "6e4b93541c324c58fd60524d6b2a7047d99db0279a0443a016fa1dd8ba30fbb4"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 12021,
+          "sha256": "34c8299ba0e69cdadb7eef6c9efd1e1163e532017c75b0047af07532b367426e"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 11894,
+          "sha256": "8e242e8e0e139630779bde855610e873767ae1db214c8530d2301905055375f4"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 11979,
+          "sha256": "50219660d9a36ef1b9c929556cafd189ac4af1a63a9a6ea0c07ad36528c3adb6"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 12060,
+          "sha256": "59806e4e2815dfb53fb501bb8e5131997163bd584e466b06811db75c12232be1"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 12099,
+          "sha256": "f380d69fd4d2ec0426d7efb329d9fbb20667be5a56d05f328ce03f8ed00f2292"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 11871,
+          "sha256": "5b8fc77c17d0854a41ed8a68f68071d42cd41a2ace0c9fd5498a35e12dc46e6e"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 11978,
+          "sha256": "b82d97077ae69f782bfa3069f764b6a1b944966ad03ebb766f5a9430cdecdb57"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 12029,
+          "sha256": "1ff59248589f3fff469a33fa28df95d3d2f29bb1251889240af3bb65b52f6de8"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 11750,
+          "sha256": "40fa4965a0dccf00869241ac4345ba48e6d0b84fbc1b1d2ce0cbfb037ede2678"
+        }
+      ],
+      "guard": "عدم جعل واقعیت و امکانات، حفظ قیود کاربر، پرهیز از سؤال تکراری"
+    },
+    {
+      "id": "file_export",
+      "title_fa": "خروجی گرفتن از فایل",
+      "count": 4567,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 13543,
+          "sha256": "23bb8ae5f1e44b4dd59fa7deb03d369d2bd532e1c7f1daa88adf947480bfec99"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 13672,
+          "sha256": "2589e79e88bb4ab5847411153c9c8b18311e5fdd0de7badcb418bc514cccb68f"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 13471,
+          "sha256": "e29edbb62f10487e50ebb8d805d540906e7176117a5ae42117006ecee1dc5f51"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 13555,
+          "sha256": "936bc6c371ed7f5f28174c1a771d91dba071b9dd105bcb7f57aad85936e408be"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13329,
+          "sha256": "3e534f46ed52178bd13eb647dab44ac4763c5f12bfdc5cc6f18a6e59ad1e5044"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13501,
+          "sha256": "5f088bf4b240be4dba1adb35d7889584ecfe673e839c7fac1225a9c853c5f7e1"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 13461,
+          "sha256": "0ea4cf5bae59a198e426ade88a9a41aea649c993cad053792a822ca2200f5923"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13595,
+          "sha256": "f98df6efb7d63f870b3efed1854b9924fcb9d52136bc7b9e36ab900ab2724030"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13704,
+          "sha256": "e93828a341242e866832619e37d2173ac53c116f71f5cd270bb16d5756ea7024"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 13365,
+          "sha256": "083e525ec3ae4e3c439d7fc10b367a13ccaaa0d972dd05c626d4a3d7710edbbf"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 13486,
+          "sha256": "1333b0f03dbd1481fa564cdaaeb5c4092b4739cf037840575d56aabb123163f4"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 13715,
+          "sha256": "4010307ab00f801fba59f98eeb818f6d4d8557186ac77f19582b908ed46227c1"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 13679,
+          "sha256": "bcfda837f95ef649e2c87ff52589faad3a21a9082b8bb4f769b8e15cf16af911"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 13383,
+          "sha256": "702585ec16d92837bd75c5cf640212614ab58dc024540542bd8365494c7e0505"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 13576,
+          "sha256": "4c81ff2e9b7427c839ec2744c6839803839232158545c1e066895c1beeabe084"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 13653,
+          "sha256": "0ffbb00bc6b056ee4f2a6770b65958ff2609fcc4a46f5ac57a9a3a194b36e0ed"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 13393,
+          "sha256": "51387d4de6e47c38e82e7f85b36a14aa9d4e1cef42a15d5f5fa2d14d0b55579e"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 13543,
+          "sha256": "7f42496f2f4918ec12dd03802ec25275731d64db2b7ec01c0594d34506d85bf7"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 67,
+          "bytes": 4427,
+          "sha256": "08f41eee5d503c55bd795a95a7b9d035027c7fc218de913c4f31980c4496b48b"
+        }
+      ],
+      "guard": "قید سیستم‌عامل و ابزار امضا، جلوگیری از افشای secrets و آرشیو قابل بازیابی"
+    },
+    {
+      "id": "comprehension",
+      "title_fa": "پاسخگویی و درک مطلب",
+      "count": 15000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 13723,
+          "sha256": "2843eb272a06396116e188aad312f0bc092381be6336e14d7dbcea3671cd5ffe"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 13878,
+          "sha256": "a530255f3e79089fc8b9258fdbfd103e9883c3c80d0d843ccbf46554ae8e44b7"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 13796,
+          "sha256": "6eb2f7ec67e2abe344eb2c724bfe6483e603e49541dfca64ecda0af4e9cf03f3"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 13808,
+          "sha256": "0f5aa2607f26bf50ba703e92e611326c02b1cbac2837eec78d95607622bfb25f"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13741,
+          "sha256": "9444ac9e6021a2288edd3d0e4e3a818d506644081b4a5c8797f1b038096d5332"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13798,
+          "sha256": "31908c3a209066af04da4c0f2bcc55c5f78b026ea5bd03eac1e38abe9d599747"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 13872,
+          "sha256": "6dac05f56b17e34b5875d21dc0c6ce8b28c68246feb2184eb2588f876dccd919"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13824,
+          "sha256": "63236e8daadb7bb6fd92cdc5b343c103aa1761b20478d0b52b96230f37cae987"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13725,
+          "sha256": "8356ec907b546ba90a4d9477fa10c8dc56ae0515a4138cbed66cb23d3b273fe6"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 13760,
+          "sha256": "6ea2e1c279b782cd55b1cf90146f968721519387ca779aadbd57a909fe0aebdc"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 13824,
+          "sha256": "c052703cd04a58f3e91a2cf30fde3b8ba5c0fdee02fc0f181ca099ba24886254"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 13807,
+          "sha256": "09aefffec9bef665571d4d8ff48ca565dadfbf1c17735f984013521c85a44071"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 13687,
+          "sha256": "841b543393474c28036793db82eab029ec89157b15648175a42e8ebcdb72450f"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 13760,
+          "sha256": "75bab99348d073413da5e4189fa30a1eeaa7225a222883cfd5d4ec80fff30f64"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 13844,
+          "sha256": "352b3b9b2e3f2be9dabdb0708c338799b59c942df40809eb4b991df4ab10f418"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 13829,
+          "sha256": "4792357707da4a4f0ea1df4658423c569e500258f1698c734272e3c7a5e58693"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 13703,
+          "sha256": "ba76e45e91e060a99d4d325984f9c53fa112555f241dc84cdd882150a9b13011"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 13821,
+          "sha256": "3b1c9b8ec79b49562acc194d8491efe3d9dc8f1b989f5e2a47ac7991f8caf0db"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 13782,
+          "sha256": "d2d5289eb8850d0bf3ce5786a76cce41f1b022f12eca006309c41819619987ce"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 13871,
+          "sha256": "a3674fc6fe3d414f0ca010f7e3cc669ae9e52b6027d75b3daa3bfec258af846f"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 13802,
+          "sha256": "b389c081d3be181ed9f274bfd4a2513e51016cbd8cd0db9ee20c68a5db76e324"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 13782,
+          "sha256": "1152f7348c48ee1c79c77d47d17dea84941215a6ce82f473015cec68d311063e"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 13804,
+          "sha256": "e28305a0e707795ad7493b1939e4cfcccd8a0ef1bb95a7fad70dab04733adcf9"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 13803,
+          "sha256": "2da3c0fd5e9dbd89ad46257315fddd59ef98542289c387e7e06a511c59bebbf2"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 13749,
+          "sha256": "60d9a66c0490a83179b0b6a61e03d57c490f46697f4a8daad0ceba8fbca16444"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 13733,
+          "sha256": "370f5bcffb5d1dbc24aae24dbcf341c68170a93d6dcab66b79ac76a7d97bb7b3"
+        },
+        {
+          "name": "0026.jsonl.gz",
+          "count": 250,
+          "bytes": 13807,
+          "sha256": "3f82efa2ac50e98ac2614f86a069792a625c8a4af83abd0a7a5f90f5b634cfa2"
+        },
+        {
+          "name": "0027.jsonl.gz",
+          "count": 250,
+          "bytes": 13796,
+          "sha256": "0b3355690912c31dd271b604b0c144cbf0ac61f72dd6cbc2b79f39b5609ff7c8"
+        },
+        {
+          "name": "0028.jsonl.gz",
+          "count": 250,
+          "bytes": 13788,
+          "sha256": "5b9641f2b7cfe79fc29a4d5d32375e2ef87e4a5ce54ba6d28be7f7c4797116e2"
+        },
+        {
+          "name": "0029.jsonl.gz",
+          "count": 250,
+          "bytes": 13866,
+          "sha256": "aab92cbdeb41ae2d409844e92a9b6cfd8ef3ce15392ddb3fd5a57e29f774e700"
+        },
+        {
+          "name": "0030.jsonl.gz",
+          "count": 250,
+          "bytes": 13798,
+          "sha256": "5522adb98a538a004de6aaa2608a209e29fb8b5108180d3ba5596505ac550b11"
+        },
+        {
+          "name": "0031.jsonl.gz",
+          "count": 250,
+          "bytes": 13828,
+          "sha256": "e8e724080bbbb065843790847d5cb4528564744ecc108a64d406838574e3f854"
+        },
+        {
+          "name": "0032.jsonl.gz",
+          "count": 250,
+          "bytes": 13743,
+          "sha256": "cb0902e11c7a2c7ca4375d50d267a4d01d68c294b27bdf32561f8d576222b2bc"
+        },
+        {
+          "name": "0033.jsonl.gz",
+          "count": 250,
+          "bytes": 13879,
+          "sha256": "485f3163168e46f1d02d7930bbb3f5de0ce95c4b75bc4ab6901887b303646699"
+        },
+        {
+          "name": "0034.jsonl.gz",
+          "count": 250,
+          "bytes": 13796,
+          "sha256": "882d7cedf9a164d1a547d12c0eb7c22bcd4192b9d8ae2e58fb03b31bbc4b461f"
+        },
+        {
+          "name": "0035.jsonl.gz",
+          "count": 250,
+          "bytes": 13835,
+          "sha256": "b3b3b5dfbcf7f72b11740be6ebf706ee0116fce2ef107012b3efcb60cd7f00ce"
+        },
+        {
+          "name": "0036.jsonl.gz",
+          "count": 250,
+          "bytes": 13737,
+          "sha256": "19e0939650899a5b0f03593020c1dc5390584deab57d161f149a3cd7a297ba6b"
+        },
+        {
+          "name": "0037.jsonl.gz",
+          "count": 250,
+          "bytes": 13789,
+          "sha256": "2f2afe0656888e72a90a8d285577190e00c46e705a7bdde2a6eef3ba20b611dd"
+        },
+        {
+          "name": "0038.jsonl.gz",
+          "count": 250,
+          "bytes": 13767,
+          "sha256": "e19444013670e5ee0ec3bc6a8ac07a2c0df638fe03832c5fa819d8be4bde9874"
+        },
+        {
+          "name": "0039.jsonl.gz",
+          "count": 250,
+          "bytes": 13852,
+          "sha256": "6137be74e507c0aa7709ac599ae2fb59a513bcdff3d71d0fa8eb07adc243a803"
+        },
+        {
+          "name": "0040.jsonl.gz",
+          "count": 250,
+          "bytes": 13722,
+          "sha256": "eb3971e697c6490b3b6b6e4c0d209a157085a7bf04b184985bef662d46b479de"
+        },
+        {
+          "name": "0041.jsonl.gz",
+          "count": 250,
+          "bytes": 13742,
+          "sha256": "e2e21a91413b8c9b901921b1d969ab4123af7405fd0a61a460383db4477cd68d"
+        },
+        {
+          "name": "0042.jsonl.gz",
+          "count": 250,
+          "bytes": 13851,
+          "sha256": "cf8259243b92de9f004267f34eb05ab26a78d7a343dcf68d01b0d2ddde5d3047"
+        },
+        {
+          "name": "0043.jsonl.gz",
+          "count": 250,
+          "bytes": 13825,
+          "sha256": "33dbdd597ecc71b0a677e731ee8e5552e203c6efa3f5f16f229de5fd62abaf3c"
+        },
+        {
+          "name": "0044.jsonl.gz",
+          "count": 250,
+          "bytes": 13749,
+          "sha256": "030043ee8cc48bf5f400ca4131569c0f58ec20415d8dff4076e4258275de18d0"
+        },
+        {
+          "name": "0045.jsonl.gz",
+          "count": 250,
+          "bytes": 13792,
+          "sha256": "10cc5318ee4d6c1dbbbb4b410bc407168ddcf9dd487de855dec2ef3af635c9a3"
+        },
+        {
+          "name": "0046.jsonl.gz",
+          "count": 250,
+          "bytes": 13801,
+          "sha256": "2a432547a26cfcd6e14a4ce27d026b9f40b2178c1b9d651f9a5861b575bc847f"
+        },
+        {
+          "name": "0047.jsonl.gz",
+          "count": 250,
+          "bytes": 13872,
+          "sha256": "5855b2485f5783f2f0458a69fd4f30168cf32d1206cf1e517938381218e6608e"
+        },
+        {
+          "name": "0048.jsonl.gz",
+          "count": 250,
+          "bytes": 13751,
+          "sha256": "13c06d383e7da50c15530083bbc035b115cef4ea1895c721815ca60e0e96dc9b"
+        },
+        {
+          "name": "0049.jsonl.gz",
+          "count": 250,
+          "bytes": 13869,
+          "sha256": "fc5f8a4ace0f20700623b9bb7f11642f9844fb6373f37be3c7a8f910867ce60e"
+        },
+        {
+          "name": "0050.jsonl.gz",
+          "count": 250,
+          "bytes": 13793,
+          "sha256": "50d8025764225de7cae5f468d36808c4ffbe5657a12120ff31b20d31c5bd0d79"
+        },
+        {
+          "name": "0051.jsonl.gz",
+          "count": 250,
+          "bytes": 13804,
+          "sha256": "5bc151218b8a2695cc8c2126b5d4ec06e79a8d2bd374dac380f5830ba7b5b639"
+        },
+        {
+          "name": "0052.jsonl.gz",
+          "count": 250,
+          "bytes": 13707,
+          "sha256": "c06529d51c7c8eb523b7ad032eac7a94e3d76cca8620029976b5ea555b474414"
+        },
+        {
+          "name": "0053.jsonl.gz",
+          "count": 250,
+          "bytes": 13815,
+          "sha256": "1c9017db6ab0fb2fea9a9a80aa8c53b89e6979f95281f14be73afef940073c05"
+        },
+        {
+          "name": "0054.jsonl.gz",
+          "count": 250,
+          "bytes": 13773,
+          "sha256": "5d90a6689eab3cc63628bd0ba0458ecc71f76db64ccf0b1c76065d496b53b5b7"
+        },
+        {
+          "name": "0055.jsonl.gz",
+          "count": 250,
+          "bytes": 13770,
+          "sha256": "4aa315e0b0ce142e28cb090b7f4791292794358e82af8f5f301368ed380ba34e"
+        },
+        {
+          "name": "0056.jsonl.gz",
+          "count": 250,
+          "bytes": 13813,
+          "sha256": "0643972ad93ecd9eb87f11327bda8b7e8d36add30c8d5a1774a081c962a04d82"
+        },
+        {
+          "name": "0057.jsonl.gz",
+          "count": 250,
+          "bytes": 13831,
+          "sha256": "613c14ac1914bd2e4bdc1d6c4e7af783514ded5b588a9e48b0a05709109462e7"
+        },
+        {
+          "name": "0058.jsonl.gz",
+          "count": 250,
+          "bytes": 13811,
+          "sha256": "7d9156504c27391b3e558c8b76fea11642cd47f84df6ea6d78132ec874a27740"
+        },
+        {
+          "name": "0059.jsonl.gz",
+          "count": 250,
+          "bytes": 13733,
+          "sha256": "7869c95d932f5c20dfc217f5b80d3985fa1f98f91e75abada9487ffb994efa38"
+        }
+      ],
+      "guard": "دقت در نقل قول، عدم حدس درباره اطلاعات غایب و شفافیت عدم‌قطعیت"
+    },
+    {
+      "id": "web_app",
+      "title_fa": "کدنویسی سایت و تغییر دامنه",
+      "count": 2500,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 13250,
+          "sha256": "4cb8aed395b86b61d9d689e1397cda96fb9ccf0b20e4293ba1c94a650c35430d"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 13437,
+          "sha256": "ef12473dcaa65d819ba3ff072478520a3dfe33d544ee5565e1c43203005a5563"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12893,
+          "sha256": "a860554fe63326cca6ed8364f65b3b857bc915d7503f944d2b375b7dc8f82113"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 13212,
+          "sha256": "52ae524c266d44a5962039d0360fecb160ff289587f6a11ed8c8c1a789d4a69d"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13379,
+          "sha256": "7c3cb6cde6c23228f6669c474cfb7fabce8925bb4fb8c7e6edfc9689eac74ef8"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 12974,
+          "sha256": "eee9ffd9d9411ebd7631224984dc5ea180c8eef7c036ab5aa7ff079160ef77a7"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 13291,
+          "sha256": "8fff0abd684fb73ae959dc810bee2e651e76a7e85bd99487d1dfe9c62583df51"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13180,
+          "sha256": "0e6601587497f83a64bfd873a3f5cba0036709b36ec8d6ffaed480315449c0bb"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13232,
+          "sha256": "e2444fb9ca57f0fb0834ffdf8be629ccc692e9f01d29b207bf9b5d89423f2b8e"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 13383,
+          "sha256": "98fdf685dd9312cb68ce0fb1b7bd9cf03c46853aedac3fc96e3a56525e1daacb"
+        }
+      ],
+      "guard": "تغییر دامنه با دسترسی مالک، بکاپ، تست لینک‌ها، حفاظت از داده کاربران"
+    },
+    {
+      "id": "framing",
+      "title_fa": "تناسب تصویر و ویدیو با قاب و تم",
+      "count": 6500,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 13242,
+          "sha256": "1169d60d12457b66ad581f38464dbb7bb72fea3a78b77ce23b91e89fbdf57e50"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 13387,
+          "sha256": "fae2c2774f6033a51360b6c45216d404883b195ed018c00232cd622e3cf23f45"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 13264,
+          "sha256": "1979649e17911d404a7248f5b2e191238c9c0b3b546a7ad2de050010509a896b"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 13309,
+          "sha256": "d9857cd39bc66e9082aae37a13266dae0c312b63f4dee1086a6320b3dd298e11"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13224,
+          "sha256": "c9493c5cd33c5c25174082a052f7b3e5274820416f948527d8bc712070277dee"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13200,
+          "sha256": "737189416130e15ba58190d2789dc309c80dd82990a79faa93a641a9ac5ca855"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 13292,
+          "sha256": "a6d51f57cdd1b03f6f474f0a0b75f6e60cb906b5e4f70356aa700e5b77afe331"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13237,
+          "sha256": "4f848d760aa0bb3a80b7121c54952a0e0af623e3d3bb6a1c39c7280d1aaabb52"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13339,
+          "sha256": "8c1df84651bd22d122e2992a15522122d24087271ac42671f7b86890d2a2cdce"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 13361,
+          "sha256": "948fce127dc89c4de8224e3657aac50d10fa9eeee19520ba7229e4094c369e51"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 13454,
+          "sha256": "a113eeb7ba540ee90f9a36e2a72940bd269f02f527cd63d23701d002ccd7cb21"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 13243,
+          "sha256": "066917123036f2f57323be1b78b91a2a611ed4e5f6228e14785a7bcd55488753"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 13178,
+          "sha256": "9e098bf43f59ce2e2d327d5a8513fae608668d6e826d821bbec9803c57536fb2"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 13182,
+          "sha256": "8fd9c495bfc3563eb9a3a793652d07250fde14bdbbfd3f5ed15cb4cdf21c7b2e"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 13212,
+          "sha256": "4fe42ec15624d6f5e7b71e29d172331ac25aede66caea17b6c007c4545e9f697"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 13343,
+          "sha256": "22a5dae37f68df49c8c04bff325d800bb61ac84d255c8d01fc804415ef1c653a"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 13275,
+          "sha256": "7af764e8ae828bcff256d7194877dd656106da1c22aac966e2e8b6a2f69791af"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 13529,
+          "sha256": "ddb00d05ee95bb0e45784d96a414e9d762f03674b97885980bf45c60e75ac12d"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 13371,
+          "sha256": "3a8c2e549f954e0db905173db39d38b59d9c814c42c7bc0555763ab2a16b2581"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 13321,
+          "sha256": "2a0f3d5f287c994b4a75c4c54d8b02c406c10314615158f384afe2be729c689a"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 13335,
+          "sha256": "c5ba074f56a01010fe5012cd1ac0de1a3365c21525c90ad521a2728e88dc379a"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 13286,
+          "sha256": "e92ee9346f3d1ff4c4d9a4c9b4b5c700b627a32de9eac8afb338ba79519f3177"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 13266,
+          "sha256": "a93318c660e925dd4573e482434c3dd4402d581af41f537b3d629d8313cd9d4c"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 13351,
+          "sha256": "9771b6f4046aed5d002ce2580d02454e23835dcf5b52764487c14e294115affc"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 13355,
+          "sha256": "c5120d71809fe45f3ce4d59a72f6e0984bcba9d2d0df8a32571f221e423fb1b9"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 13449,
+          "sha256": "06280ec637c281b3d59f79767562f45696584420aaa3c5c87cf4a01589fe4d4b"
+        }
+      ],
+      "guard": "رعایت نسبت تصویر، خوانایی در اندازه واقعی، رضایت صاحب چهره و حقوق دارایی"
+    },
+    {
+      "id": "huggingface_discovery",
+      "title_fa": "کشف مدل‌ها و ابزارهای Hugging Face",
+      "count": 850,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 14284,
+          "sha256": "1136d0a56e6118995204b8123822c47cf925e9b78338feee1fc8a8875573b75f"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 14323,
+          "sha256": "d8b79d3e62ea65913373295b0d89bbe177120854d4c508ea84aa518b0ec6f400"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 14282,
+          "sha256": "0dee93a14f5e43fb492253adbbb5cdfc3e310c9eb55b8a0cf3c4335bbbc731c4"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 100,
+          "bytes": 6459,
+          "sha256": "0522b7761cd444a6167e7ccf7fe69496779c8862a64de1c983c4a00e31facbb0"
+        }
+      ],
+      "guard": "درستی شناسه با API زنده بررسی شود؛ مخازن، امتیازها و مجوزها حدس زده نشوند"
+    },
+    {
+      "id": "video_workflows",
+      "title_fa": "ساخت ویدیو",
+      "count": 5500,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 11515,
+          "sha256": "565ae5b2b203e41b30b5af25d1179417f072adf84ce76e009edb7992d74277c0"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 11390,
+          "sha256": "3f5ce9e0bc6c789e31a3ce4ea7dc47a21b714c3b941b186efcc0245c06c1122b"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 11502,
+          "sha256": "55d4bc72cdf91e1f76f2586f709853c4a78011ee0a3eb4024ff49d5ce7fe18ae"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 11477,
+          "sha256": "aee9082cbf705adbde5cca42d0a3bcf605853377a166adcff9e08ec4c4fb0b83"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 11451,
+          "sha256": "23f3ab9cd1d8e0169caba52612cc22526318de33ad28ba0150f955fc27b48482"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 11641,
+          "sha256": "02eeb6be34100a7843f1e67129a6e203c35d9a1b405affebd5711266e67eae6a"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 11400,
+          "sha256": "6c5debd61400f2bc2d167fb66198cecd6b4499b82bd13ca323f9f5b69a0dfb32"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 11546,
+          "sha256": "dd241a9e34916904ecb5da8b0fcf0f70f79623b3ca30e616df5bf46aa1804317"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 11432,
+          "sha256": "2ac6046a23da7d16b84eb0f95f35e4791c6c8a736670105cd46b89eb5705acc0"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 11547,
+          "sha256": "cd1e0bace72b7a02677686fd62887f08a1f1c4c1b170dd3c44dbaeab588982f7"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 11466,
+          "sha256": "f31edc8e05d1463fedb08603730fab1b0ab961b1626e360ade90ab83b05c4b91"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 11417,
+          "sha256": "c395f4cd37edb23e485abe789b20730ba15cd1b3f00f3f35863188bb31cebc85"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 11513,
+          "sha256": "89f80bb8df76164fc03df215011b78a857b97884d3602fe62a25d7242ce3248c"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 11469,
+          "sha256": "dcce0355ef08f2d6ee99a0295ecbec20cc4eae2569ba456d05c6477bf8ab61af"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 11449,
+          "sha256": "42b847db9fd18185e84c45c80c17588d53acf3f0f3b10661504a6d01feed7126"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 11476,
+          "sha256": "07ae526ffdc0982257c7eeaddc4455fde306c825eef5b7e73b97cba5a1a8937d"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 11539,
+          "sha256": "39ad4eef6b4f7ddbf6b678bb8a411b5a2a5294737f64923b2f091dfdef9e9ccf"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 11508,
+          "sha256": "fe156b9f24b6d72c1a078df941306d6e74670252086b98c92d5e7c0554d3b3a7"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 11638,
+          "sha256": "6e4db9839fe09afac12b37b9044a96ebb01b61a9db2210901317a9604344182c"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 11544,
+          "sha256": "07b2600d413de55780f1be8216c2e16b4a2351699ccf9738218b95ffdc16f329"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 11387,
+          "sha256": "cf69a30f92dce99d5f08dc736da332d71db1850b7ea75b0791908acb76f95fc2"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 11563,
+          "sha256": "650433e7721441a7e3594b77068e54f2f45565f6fe832b0c245d7be2910ff904"
+        }
+      ],
+      "guard": "دقت مدت زمان و نسبت قاب، پرهیز از جعل تصویر واقعی اشخاص بدون رضایت"
+    },
+    {
+      "id": "image_workflows",
+      "title_fa": "ساخت عکس",
+      "count": 7000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 12363,
+          "sha256": "7dd754aa07710b6782d5f3075bf5a4deb5b6ef4db39792ceacbc2533069cd582"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12254,
+          "sha256": "5f9f77897d7712bdc4fbb81bb9883155bb4ee5866b732f85a1fe0811780ff820"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12733,
+          "sha256": "95d8220957444ee88833c8990112a5543fa72c452a5f3155932160adf426785e"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 12184,
+          "sha256": "52f360278c0b15be842012dd1c0f632ba31b58aa88075017e0e08a881b6c19dc"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 12655,
+          "sha256": "23b968265235289ec1548b3329400a105cbb8df0b54b7dd8b84c3eb8c0103194"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 11903,
+          "sha256": "e1de4ceb78e89e4851fb7904541fdcfef715bb843f62544ad1cdbbfc6726d2d1"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 12721,
+          "sha256": "f86ffc38d59b6054729e5903f0657a7d507af478b4023e3f74093c1c4d5e1196"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 12651,
+          "sha256": "c1875daa81990a8b3d38624ba660166ac034e28eaaa02ede22cd9be3e058bf98"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 12042,
+          "sha256": "a58b68cbdc8a8a3c0159c355bbfd8ee8847391574c9487fa4af5d3a58430fc47"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 12410,
+          "sha256": "9cd13a5bc1f2bae2cf488cdb80a05a69e1ef623059a1bc39ed19597a1621bb49"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 12375,
+          "sha256": "23faaa6b74546f34a972a137939e09c2a0da499888232fa293777a9693b95e65"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 12771,
+          "sha256": "e85828cef563b96402a87d363fead71f12aec80a56fd4c57dc9c3fc696396d58"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 11999,
+          "sha256": "3ffe31a00829fd16d392dad42419fe45152e17754ac6d64f205ac65b0ae8242d"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 12503,
+          "sha256": "516f676d3a8230e036a0bb51321fc439245b3962ed91185d77afbf88b634491f"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 12251,
+          "sha256": "ceb4741267af43b9e431ad52276e1347cd66c65457fed4db114ef3ca892b6095"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 12185,
+          "sha256": "745039ca57dd8aa97e3899379ddf3e86d789d58e3b606d5b9de031349057603d"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 12713,
+          "sha256": "37630b097d269ed9443ed9453bde99d5b615f0898f6e80bb86a5ed42e67670ff"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 12340,
+          "sha256": "616a0881a3187b9d6ec0b56db076b137b8462e9bb28134944a0bab20dae9dbae"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 12717,
+          "sha256": "7bbd341d1365be8389bdd9e0e8ad3527913687501102b2b401285d7fbd2ae2cf"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 11953,
+          "sha256": "64e02f6032560d487c0af8c8ce7f7fead57c6403393775a4c673935ce62294e1"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 12984,
+          "sha256": "07049dfe2e9dc19b213115f3ddba187acd6a69bfdd0da93d47ca1f97e30f241f"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 12883,
+          "sha256": "602fe5f629a05da5fa2f47a9f852b9820c5f04ac54a8819bc420f790c9963300"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 12170,
+          "sha256": "bdd891373c34568d4f0d78c6c45cd36f453fa51e9d715e63e10b3316d1872020"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 12212,
+          "sha256": "38e491b0cd4501c47f202b01c44fed28623e21bc01ad7c0faebf42258f2aed39"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 12188,
+          "sha256": "1be01542f005c4693745c68c2810e22ea5bbbdd06609c69caacea4a99410c9a2"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 12975,
+          "sha256": "dc98d985eacb6d5b8550a3ecca7f1ef44d3b0527e4d58d5dfe9a49b7cb0e49e1"
+        },
+        {
+          "name": "0026.jsonl.gz",
+          "count": 250,
+          "bytes": 12144,
+          "sha256": "5b1123af49ee7efaf7dc455f994739bd20067ec5cd9fd9b082b71f43565de95a"
+        },
+        {
+          "name": "0027.jsonl.gz",
+          "count": 250,
+          "bytes": 12781,
+          "sha256": "c2769d80b28d74b35f77454af903257f1e073eed6a6c95b79edb88cd21298ec2"
+        }
+      ],
+      "guard": "پرهیز از جعل تصویر اشخاص و نقض حقوق دارایی‌های حفاظت‌شده"
+    },
+    {
+      "id": "adult_content",
+      "title_fa": "محتوای بزرگسالان و NSFW",
+      "count": 9000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 15159,
+          "sha256": "cb578aec06cf4e7299e1cdf41fb931ba45a75fe65523de6592999eeaca0f88e2"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 15103,
+          "sha256": "4d41dba2f9e1266c92a537a0b28c70bb0403c7ff8a5510dcdb9629c678569d05"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 15028,
+          "sha256": "b38ea223cd621248efc8d5af6f28993adeb0ef3d1f4e724a8af79117d9793f79"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 15135,
+          "sha256": "34975ec80bbdeedca2d1f48547072636ebeef1c7eab66bc52396563c5afc8965"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 15118,
+          "sha256": "f4df57dad66efdcac5c2850c09ab97b91348ff81eb7da099b35063e5768afc6d"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 15132,
+          "sha256": "97ac8424b49d1a4a9a6708b8b1c25c1070a22d6a56c995cf3d915f246f4f6002"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 15044,
+          "sha256": "4ac0a1f8e2962d00e3d85cc9f9b86b2dc323d49adb0de55aa970f5fdc7b73ad1"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 15155,
+          "sha256": "e7b20d7ac4cca0a099698dd84ad6efbee53e19ebcecddc9a8cc40b8a6926574d"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 15007,
+          "sha256": "e383a35f81328605800af46953780021bdaece0b6ad32b6ee958f9e18ee5cd33"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 15188,
+          "sha256": "365198a9316c76b6d1ade6bfbc307588fd022ff19359d3708afa8472e3ae46c8"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 15124,
+          "sha256": "179ab7f2dcc3c6f7d3ed594cd1c9c182234456f75cc872c47b930a7a4d1b8fb0"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 15021,
+          "sha256": "9f46938f80a3d9489915b45a67eb862a584fdbd05599ab2dc7d4517b4d448cb3"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 15155,
+          "sha256": "eca69c67e6edd7bbc6e6adeb271856b4d8542d70cd628b2e3a7ac7331e424270"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 15135,
+          "sha256": "6ffeaa0341476ad55c4b13a14f532642efe69dcee252b92620a65d16ea4f0a49"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 15150,
+          "sha256": "0efea485792ce5590f1bcb7169e91383e29215c1f39065ff91e8cc7659c258a0"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 15075,
+          "sha256": "1f0e4892d73e578e5fc779f22ef2a713e6d4379d55aa07ab96c5fd953b627488"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 15118,
+          "sha256": "ab620eb1e023f2a93cea104d950d71190e66edb255b752a6a7581c041ec26a71"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 15121,
+          "sha256": "4f0c16f5d3bae111d3ff70f4d4dcde0a2b0d78f1c27e1a44cbc74723b3bd72af"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 15160,
+          "sha256": "87ca6fa3dd7e042bc803c80e7df5dce0ea90e1ba7b8f20f9140d306cb664a6e2"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 15072,
+          "sha256": "445cdba4a390203ad28717eb7b8da44c6155117dd16068c028afe0a9b104bec9"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 14973,
+          "sha256": "bf9e1980fdb3a71c3390677795f2fb5f4bcea6423556c6a3f6bee7b7d082f2e3"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 15193,
+          "sha256": "85a7b0de3113135ea7282f2e57d52248aa627ce02d178dad3dcd7ff4995261b4"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 15120,
+          "sha256": "6f2d044b02656a1b5af6dadbfff95c9bc7978de2f9cf9c8184dbc60f8efac6d9"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 15209,
+          "sha256": "79e423077ef653a28edd3caeae5ee2549fe1a589ace80abb940273c8d62f6b46"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 15055,
+          "sha256": "5b02a381784de312932c3bcd0e2271d497e5029729f80e52f1a070f6535795d1"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 15116,
+          "sha256": "2c2fc05a78cccb03aadc6b02154fb1abe07f397eb9b980e020ee4b0ba036606a"
+        },
+        {
+          "name": "0026.jsonl.gz",
+          "count": 250,
+          "bytes": 15149,
+          "sha256": "bbea446d1117b5398ff52640d4b451bc97f49271f9bad64c39c9227bc5f06703"
+        },
+        {
+          "name": "0027.jsonl.gz",
+          "count": 250,
+          "bytes": 15152,
+          "sha256": "7cb515c69d50f38434c178eb3a4323cf0fe0248e2d93acccbc0a848a3e97048c"
+        },
+        {
+          "name": "0028.jsonl.gz",
+          "count": 250,
+          "bytes": 15116,
+          "sha256": "36f505ea1ad5b6d28d1fca86b941fb52b4651d13c4fde9dbc2da8f333298057d"
+        },
+        {
+          "name": "0029.jsonl.gz",
+          "count": 250,
+          "bytes": 15113,
+          "sha256": "f9c72c9c6f8e8cf8b43c6e6ad9a58e57d00597d500dec91b3204b7ed58e1843c"
+        },
+        {
+          "name": "0030.jsonl.gz",
+          "count": 250,
+          "bytes": 15137,
+          "sha256": "4604b2a23804496b27056f6669a988d025e91935630235c178419455c5e29bd1"
+        },
+        {
+          "name": "0031.jsonl.gz",
+          "count": 250,
+          "bytes": 15077,
+          "sha256": "6fc3e84c4f278805469fe799cf7df9e7ca31b00d8a7eb5a3de37b1fff7851a1d"
+        },
+        {
+          "name": "0032.jsonl.gz",
+          "count": 250,
+          "bytes": 15129,
+          "sha256": "e44f24f1670bc84de130c49d9fcb22f83ca7ac06e78e546185a64378286b2be0"
+        },
+        {
+          "name": "0033.jsonl.gz",
+          "count": 250,
+          "bytes": 15030,
+          "sha256": "ca0cfe5a672afad225b92ce6918fc8df9fad0d7cdb601565392478ed7fafd388"
+        },
+        {
+          "name": "0034.jsonl.gz",
+          "count": 250,
+          "bytes": 15173,
+          "sha256": "73699982553f884c1b7caf1630cb946ab73137fbd178ac532c8db1aee4fab32a"
+        },
+        {
+          "name": "0035.jsonl.gz",
+          "count": 250,
+          "bytes": 15126,
+          "sha256": "558507d9f7c3f2de0064148ff3ece6486c1a1258bd845129f2721d02355b63c6"
+        }
+      ],
+      "guard": "صرفاً بزرگسالان رضایتمند؛ بدون خردسالان، بهره‌کشی، محتوای غیررضایتمندانه، دورزدن قانون/مجوز یا محتوای بی‌مجوز"
+    },
+    {
+      "id": "languages",
+      "title_fa": "آموزش زبان‌ها و چندزبانگی",
+      "count": 9000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 11978,
+          "sha256": "98c114fcb1490ef126c893e39f8463db38d2952e23c6103a63d3adeed69d0c7e"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 11935,
+          "sha256": "17b3ce379eafc0f0dffc5d6aeca7e4460d14722b95ea3e1c268bb2a5e4433d3f"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 13738,
+          "sha256": "6b6377a7fa6391b4fcd4f244593fe32fc48d469628c469ed8ae2a6a4ad3fd468"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 12906,
+          "sha256": "250343e7bebac054fedfbf51a03f428a1efb7373ed12081fa35f3304d6605b5b"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13681,
+          "sha256": "13019ce287fb2ee316daf88bc798ddaede37fb3e8d826d80bc69feab3ac8206b"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13415,
+          "sha256": "8bc5b2b07529dbfde1594acb6bfc3f0b19c24683901037ed41627cb2494a492b"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 12116,
+          "sha256": "509b9bfd9ec48276fd6584a1051c1c36dd42c76d121406740b28041ad90e563d"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 12790,
+          "sha256": "53320d0cda701571ed45552f98f7a6e4dd54fe717a221a06593d37e98060492b"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13302,
+          "sha256": "9fe1862e3aa73ccdd094430ce824f930d57002cbeb6b85d5b9c43be5e12e2ca3"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 12390,
+          "sha256": "f1defed130d972980438d36529960fdcb296c3199aace7b32aa94bacefccd27c"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 12991,
+          "sha256": "8bd6a42d4007e95508e229de5ed20c619df4413594f808bede01a1d7ef461983"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 13160,
+          "sha256": "6db675b9642529852dcbce329809472ec25b5b3c09d66affe229afb499dbc785"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 12451,
+          "sha256": "29cbf6f059d22c3249cdf62edd844e60720f1aa7e1c3fa6d6025becd6e3942f2"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 13030,
+          "sha256": "5f57419de676bf724bab04937ebe2eeebd874c79b23185c4dccc279d02266b07"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 13414,
+          "sha256": "377d470515af0956ba77de244ce5ddc9d9d27bc3724f3ada795b32f980796abd"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 12871,
+          "sha256": "3b5019a0ec18b214b5bd26c1430340714975d14d39f026cbee1df390a835b506"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 13494,
+          "sha256": "9726ed20a4f9e8198da2e0717d152c4acb25dbf5197d82aeebef7fb5fe6779f8"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 12726,
+          "sha256": "62e12d9ee131236c95fcc347e3cc9e61f152f4d4da7f785d27eff94fe891738e"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 12070,
+          "sha256": "ab302977e25f07de2a38a694bb1f663c1e84ff77df54ff689fbdf016d4493ad2"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 12761,
+          "sha256": "6859507fff4f1d27b20ae1a01a9ded85ac9fb0286c902139ef5202d1e4a37bbb"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 13705,
+          "sha256": "040425486c54f90816e2fa91ad967d88dfc61c9b7b53881c31fa28a2269b4c97"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 13611,
+          "sha256": "e5a32f2b300479014e310be3b48f4e0ee964c2a1c5c92dfa70a79707a6746d9e"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 13650,
+          "sha256": "2c63f4e52a6035bce234b8832780a8fab04bf7936b7dc86f06fd6037a268490f"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 12503,
+          "sha256": "55fbdc0e8568750c56a582c0f4c2e44a98cdf118b3838b10d3ef5ecb07f4d458"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 11791,
+          "sha256": "ba7fd93c78da9c0fd41a06187941b83437f034234110b0c76e63741fda190029"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 13048,
+          "sha256": "cf67fe5861fdca4a521ad4cb1643e65aecd844dc318e3c17035d6d0480236dd8"
+        },
+        {
+          "name": "0026.jsonl.gz",
+          "count": 250,
+          "bytes": 13651,
+          "sha256": "ecddbea8e521864f2d179ba087a5afdb4bc16d19baa8808315702239b1448d12"
+        },
+        {
+          "name": "0027.jsonl.gz",
+          "count": 250,
+          "bytes": 12797,
+          "sha256": "e7084e5a79e73e778ac89d7d328168dd5e0fac30dddcd58d77dd12413f5a5248"
+        },
+        {
+          "name": "0028.jsonl.gz",
+          "count": 250,
+          "bytes": 13656,
+          "sha256": "ec7908aed710f46512b2f706a0647953d32078133222a6bf905e69291c126147"
+        },
+        {
+          "name": "0029.jsonl.gz",
+          "count": 250,
+          "bytes": 12747,
+          "sha256": "e128c771828fee198b70f91ba210267e64b937707df4e65c7fb2caa8043226e1"
+        },
+        {
+          "name": "0030.jsonl.gz",
+          "count": 250,
+          "bytes": 12138,
+          "sha256": "e4a9a7bc71d1fd9dd18c59a7f21864e3b718860b1cc4460c7d42d30127723dfb"
+        },
+        {
+          "name": "0031.jsonl.gz",
+          "count": 250,
+          "bytes": 13429,
+          "sha256": "fa6bd8b62d0f212001fb2a82bbda12bcf09ab7a01e9dae727ac88e8e8696f0b6"
+        },
+        {
+          "name": "0032.jsonl.gz",
+          "count": 250,
+          "bytes": 12919,
+          "sha256": "8a3ff83dbfa285692f50674db61f169cbfe1439cc00447ce1ad3f2e98467fd5c"
+        },
+        {
+          "name": "0033.jsonl.gz",
+          "count": 250,
+          "bytes": 12380,
+          "sha256": "730372620f20ce453cf6d0ab5950ea0a69e2511633a669963dc6341a999d29c0"
+        },
+        {
+          "name": "0034.jsonl.gz",
+          "count": 250,
+          "bytes": 13630,
+          "sha256": "6a4c745086ea8eaac25aaae84eacd907fcda86163c1e66467ee60fa6aa7918d6"
+        },
+        {
+          "name": "0035.jsonl.gz",
+          "count": 250,
+          "bytes": 12700,
+          "sha256": "2acb406ac98ac0d6dc21c421cb1598f8b9e3171ae6636d164c466f0a6fe5d479"
+        }
+      ],
+      "guard": "توجه به تفاوت لهجه و خط، پرهیز از ادعای تسلط کامل بدون ارزیابی"
+    },
+    {
+      "id": "site_security",
+      "title_fa": "امنیت وب‌سایت",
+      "count": 6500,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 13321,
+          "sha256": "a6a28eb5bc238f653cd77d382720eeacc76655ea6e9969a352fa9803eaccda75"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 13353,
+          "sha256": "57f598ec909ab4c2b1a31e7cad7d3cd3786515288ec4c09f002800fc154246e3"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 13303,
+          "sha256": "315d4ec83042ddccefb01c1697dcfa73d5c96ab56da201924c0c73012439982e"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 13347,
+          "sha256": "4ff7c8defbe0da773821bd10cde697844f50c62e067f02fd64e76cadbdac51a5"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13285,
+          "sha256": "19028493e00885b5bf4f2353942a15a079d06912d590539b1a76a0230ba8bf5b"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13376,
+          "sha256": "1b1f982de38644929ab653e6c9319f2b4e574f4bb8fc94a3eaf6ba280ee00cf1"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 13266,
+          "sha256": "21120f53947ec0c5171957d50b5b969b402a5ee44b892d51437f36f375e14227"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13319,
+          "sha256": "89f39805fcd2b734857d429cd5eddb0bcf60f520d8a8179c45de539927665be0"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 13318,
+          "sha256": "6227cdbc9e2e7fa096be002cd903f5fcfd66e8be290d9a261ff5de94fb150e20"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 13402,
+          "sha256": "1936c16c739c9aa43baa832a2d5fd2cf3e91003f3d6235a35bf7aeff1a8d41d0"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 13287,
+          "sha256": "7dec12f7cbe43300397538209f986a62b8492710ef0a7762d3a1bc75df3d6868"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 13330,
+          "sha256": "a8bbceaeedc2b38ef59f20309aa7e1d90344773e6ea83c6124621e1946dc12a7"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 13254,
+          "sha256": "a0f7507274018bcdd2d38e6a6be86aae29ffae83cd43f55251b984c933d15847"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 13352,
+          "sha256": "667d067ac7f9793695bb898f97d26b234e784120a4aa0579524ee7b808328fe2"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 13230,
+          "sha256": "3fe671daa1324a111da25a444c966979a58b0d5789e61a5068a007f2576f6551"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 13316,
+          "sha256": "ac3e07817a2a9beb342b5e7d5eedcbc6bd55c5cfefc01dae79cd2beead591a5d"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 13306,
+          "sha256": "8ee992c91c872c34517e893fd9342ea15e90d6407aaad5ac4d15c703480cdf8a"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 13363,
+          "sha256": "567ee02e74b7bdd356c860bf7f2654215085c56f8c1b5d73c67f86e24c61d653"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 13280,
+          "sha256": "2a96c3161b51a8f11aa700d72631226e558bf76cc4976128d70ac7aeeb3e44e2"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 13309,
+          "sha256": "a247670e70c5605604ff9dfe02b6a91f0c46d50d470377fe3cbccb0ff4b53444"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 13274,
+          "sha256": "d49f3f56a39477aba10dc1f6dfbd1bb0b0c55e1984e550bc92600c2205531ef6"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 13404,
+          "sha256": "384b8bc3914085f56e193e3bceea759125d66efa3c824d022282853ea5e69950"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 13281,
+          "sha256": "193b61ded8ce179a7e9892390c52834addcb3ca3c63c9627fd8561308a35ac49"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 13323,
+          "sha256": "f815397e90d54b358fa99bdb5b53399653a7a316282b677179a890f67880630a"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 13253,
+          "sha256": "b4419bae060a740ec431ac771fa8cbbc214f6b44c5a737a7d7a7d869e7e018cc"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 13353,
+          "sha256": "6680208d33cd878c9088b82580fffe74b7cedbc6ecc9d8dbb536e62495b606f1"
+        }
+      ],
+      "guard": "فقط سامانه‌های دارای مجوز، هیچ راهنمای نفوذ به دیگران یا سرقت اطلاعات"
+    },
+    {
+      "id": "crypto_social",
+      "title_fa": "ارز دیجیتال و شبکه‌های اجتماعی",
+      "count": 6500,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 12812,
+          "sha256": "41b473f024c69109401b1f67506617e90a2dc4ae89f61f1330de2389b2bd55e2"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12564,
+          "sha256": "5f7553e0c2b728a0662120cfba5bcc0e1c55170bdd611ce38f7f52ad15653d86"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12279,
+          "sha256": "7024aaa2b56432b60928fe23d56919fc466ea633a7f6147f25759e5d3a2cecbc"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 12198,
+          "sha256": "1652ad07b045e16a17d6736ec30fc91797a7272343ceaa97cdb6dcbe3773948f"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 13056,
+          "sha256": "027a933a2470a8646892ef352cd5030c720b039c596276b26d16f96a614df974"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 13163,
+          "sha256": "d0b14f170d9e7cd441e74cccd9f1cf68895e058c983bf833976248b211087eae"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 11592,
+          "sha256": "aa7626b54d1cea36542cec6c2dfe1eb344829e2e15d9185d9a0d92ed481cddd3"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 13149,
+          "sha256": "b2db03a36430d93042eb33616a8264d7dceb375032f008f7c744051fec708d40"
+        },
+        {
+          "name": "0008.jsonl.gz",
+          "count": 250,
+          "bytes": 12557,
+          "sha256": "a9fd28d2a857dbaca81512a184e4b247dab1cc7379aaf978394603bc53ae8171"
+        },
+        {
+          "name": "0009.jsonl.gz",
+          "count": 250,
+          "bytes": 12071,
+          "sha256": "08d40a6d61f4998a4fcf4aaaec59327c786d7d5550267c669756e5f6bea7630c"
+        },
+        {
+          "name": "0010.jsonl.gz",
+          "count": 250,
+          "bytes": 12876,
+          "sha256": "5203fede1711a1c7e5217094713fb865b649f83690cb8899c1dd87b6493498ca"
+        },
+        {
+          "name": "0011.jsonl.gz",
+          "count": 250,
+          "bytes": 12247,
+          "sha256": "e0cbf08a8670036a2eba44bbc85583b88fafa68ffbfba625617f8497156387de"
+        },
+        {
+          "name": "0012.jsonl.gz",
+          "count": 250,
+          "bytes": 12872,
+          "sha256": "a0fcfbde717a3e11af3b85e80a30aa434abe121b63e6ada08e184e56633ebd55"
+        },
+        {
+          "name": "0013.jsonl.gz",
+          "count": 250,
+          "bytes": 12075,
+          "sha256": "4ccae78c6063e25c76b7772dc1524271bcccf46898974b71fff815383c49ff6b"
+        },
+        {
+          "name": "0014.jsonl.gz",
+          "count": 250,
+          "bytes": 12692,
+          "sha256": "540967e78679cbc66a814a94df458036f4e4cb65789d21416c20dbc74c4874fa"
+        },
+        {
+          "name": "0015.jsonl.gz",
+          "count": 250,
+          "bytes": 13148,
+          "sha256": "e868c50bb56887df048b96ec45c3cce07d85bda8ad0885b90f9b3d2389e88089"
+        },
+        {
+          "name": "0016.jsonl.gz",
+          "count": 250,
+          "bytes": 11651,
+          "sha256": "e86460fc76b0700ad81f0643c41623b23f9298f237d7c11fc887fba300b60f1f"
+        },
+        {
+          "name": "0017.jsonl.gz",
+          "count": 250,
+          "bytes": 13036,
+          "sha256": "79eeca32605004525a974a718ed9a4fb971e64d24151fb3b3757019d4f1700cb"
+        },
+        {
+          "name": "0018.jsonl.gz",
+          "count": 250,
+          "bytes": 13037,
+          "sha256": "ec4023ef0134df9e5e312b13f2a135468b4844ecc0de61fce7b69e429be05580"
+        },
+        {
+          "name": "0019.jsonl.gz",
+          "count": 250,
+          "bytes": 12268,
+          "sha256": "88712a6b2840bdb26747300b13dca6ee1fa35ce2385457d7f36ca51645455caa"
+        },
+        {
+          "name": "0020.jsonl.gz",
+          "count": 250,
+          "bytes": 12311,
+          "sha256": "2f1c60a965dd1ca5c6f59c9a5aa29dd5507b5190f6324bf666d8ef031bbfed6b"
+        },
+        {
+          "name": "0021.jsonl.gz",
+          "count": 250,
+          "bytes": 12674,
+          "sha256": "217844684469f215c287a0b5300b11f3cce85e1033a977b0034182c294134f2a"
+        },
+        {
+          "name": "0022.jsonl.gz",
+          "count": 250,
+          "bytes": 12878,
+          "sha256": "0a66fa2cefa9df3868ecdaa6f75cbae0199822b431b6e80af7374a7261c50a21"
+        },
+        {
+          "name": "0023.jsonl.gz",
+          "count": 250,
+          "bytes": 11843,
+          "sha256": "563eef71c367d245b6d4a0c8ba7bcc37e308ee343b2d1e8841cbdb254cbbafb6"
+        },
+        {
+          "name": "0024.jsonl.gz",
+          "count": 250,
+          "bytes": 12853,
+          "sha256": "a13dd1a2748c5ec08c44c0a0c39ffc086f510f80f1687204d008735050f8e387"
+        },
+        {
+          "name": "0025.jsonl.gz",
+          "count": 250,
+          "bytes": 12355,
+          "sha256": "6c7aa7916b923a4c4ad77ba6cba5cdbb372115146fd99b09070a3d162b2b0b4e"
+        }
+      ],
+      "guard": "هیچ توصیه مالی قطعی، وعده سود یا درخواست کلید خصوصی"
+    },
+    {
+      "id": "feedback_memory",
+      "title_fa": "ثبت بازخورد و یادگیری از اشتباه",
+      "count": 2000,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 12575,
+          "sha256": "6c1e4bef8b6308c7f8a9741a4515e181bcdbef85b53f9535eb2759163b341e86"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12326,
+          "sha256": "6e978c252dd203eaa3da352aaa6e1ce302d8375f63365a83ffd5b252a2f5faa1"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12440,
+          "sha256": "612bc22f63476ad0b0a22b75599b4ad0f589b519a261806deabf798f22c5fa54"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 250,
+          "bytes": 12475,
+          "sha256": "4a19ebea1bdafd4ce03e52b6c77158d672f59c6470565070030888cc8565992d"
+        },
+        {
+          "name": "0004.jsonl.gz",
+          "count": 250,
+          "bytes": 12483,
+          "sha256": "0107952a611ece23f5ddf0b64e1703749c5db2d8f10c8c09bf3e624f1d225940"
+        },
+        {
+          "name": "0005.jsonl.gz",
+          "count": 250,
+          "bytes": 12419,
+          "sha256": "9505f0df754419e88f53c8d1a90c506534eec4e36720bbab85014678e97e62ec"
+        },
+        {
+          "name": "0006.jsonl.gz",
+          "count": 250,
+          "bytes": 12444,
+          "sha256": "27c7b8b435dcd99c706d99877d0b6099af79af641c14a8165c9be9d313828d76"
+        },
+        {
+          "name": "0007.jsonl.gz",
+          "count": 250,
+          "bytes": 12395,
+          "sha256": "7a7629ca5635cdb3b369f5fcadbd0e04dc85a4901667e721318d5f91664f6ce6"
+        }
+      ],
+      "guard": "داده شخصی حداقلی، امکان حذف اطلاعات، عدم ادعای تغییر خودکار وزن مدل"
+    },
+    {
+      "id": "conversation",
+      "title_fa": "مکالمه",
+      "count": 900,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 12706,
+          "sha256": "bcee5b4af15794fbc7629183808d8a6f3087199d0d6a3ff38fcdddae6a5c90b6"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12688,
+          "sha256": "1c87679113574c63f96e37c6e2cf63dfeff73dbf0a3c7cacdc1dfc3772b3a35e"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12659,
+          "sha256": "fcaa6123562fe364be0afb6327cd71881c548311a14114a11a0ed587389366eb"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 150,
+          "bytes": 8189,
+          "sha256": "dcda6682ea9af29a423adcc2dacaf6fa928d594a192b183ebc2bb0421a7bbfb9"
+        }
+      ],
+      "guard": "صادق، غیرتکراری، بدون وعده اجرای انجام‌نشده"
+    },
+    {
+      "id": "image_understanding",
+      "title_fa": "درک تصویر",
+      "count": 900,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 11958,
+          "sha256": "bab0a420d00de8dbb4f103b977197c0cf55df71cb2d6f324391a813c9db3cfa0"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12026,
+          "sha256": "eb71f10b3daa74e2b64de61f72f393cdba6c505c78f102b6e5f8d21577a85b9d"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 11966,
+          "sha256": "aeae1be550c7990a6c94117b51f6f8f166139d04187b31019702cb62c87e17d5"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 150,
+          "bytes": 7728,
+          "sha256": "3b07a30d9951a98c3b8bf028a4b53fafd67c7b2cfbf403b762eb26132c5e912c"
+        }
+      ],
+      "guard": "بدون شناسایی هویت افراد و حدس صفات حساس، نیازمند ورودی واقعی تصویر"
+    },
+    {
+      "id": "video_understanding",
+      "title_fa": "درک ویدیو",
+      "count": 800,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 11890,
+          "sha256": "5b7abac1cb288d9f002a989e6b978e68d9cc2f2ee1ff17d11426fe09761d51f1"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 11846,
+          "sha256": "cd86d77f06619207a4262bc549487d0acfcdc05e7cbbea9bee835c5578dd6926"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 11796,
+          "sha256": "b8e2782ca8e51b32114b358e937bd09ddb0e5aa1e02a17bbd6f38455f8a4c022"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 50,
+          "bytes": 3501,
+          "sha256": "29936aaa3d6e7e370c614b56a8712099155611e720d1ab8245faa0c9b4f2b7ee"
+        }
+      ],
+      "guard": "نیازمند ویدیوی واقعی؛ زمان، صدا و حرکت نباید حدس زده شوند"
+    },
+    {
+      "id": "site_recreation",
+      "title_fa": "بازسازی وب‌سایت",
+      "count": 850,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 12561,
+          "sha256": "bad55de60be14e0f74049dacf4b4f3bb79e3f5bf37cd4f59b4349605d34caab5"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12518,
+          "sha256": "de9fd7b12d5aca9a4d88a0e9c188d61d167d7c078e76ab32d38c112a399c10c6"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12493,
+          "sha256": "eff3b2e5318132163e9b786996afefdae1347f8404cdc2dbbb834aed611f0f96"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 100,
+          "bytes": 5836,
+          "sha256": "026027a15aa44f63c1680d76ff847199cd132394467c02a0beb3650181b4799f"
+        }
+      ],
+      "guard": "فقط دارایی عمومی یا متعلق به کاربر و دارای مجوز؛ بدون دورزدن ورود یا کپی کد اختصاصی"
+    },
+    {
+      "id": "android_recreation",
+      "title_fa": "بازسازی اپ اندروید",
+      "count": 900,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 11690,
+          "sha256": "ad35c24d8ab895938fca4846c30bfdbbd096b30b0091e90eaf26e23e3b777d51"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 11904,
+          "sha256": "9957c98dcc9c1f141b7454f31beb759d0f201faa8367477a9fa05cd4eed579e6"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 11765,
+          "sha256": "0d0e4331f23137e8d48b9db96e8ce44f5e7545546945e06f5928f55eacb05a8a"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 150,
+          "bytes": 7697,
+          "sha256": "e1b6db8042610bc0b6140dcfc7e7b04af9630a6df0abdb9bc728867ebe8150b2"
+        }
+      ],
+      "guard": "کپی تنها برای پروژه متعلق به کاربر یا دارای مجوز؛ بدون استخراج اسرار یا دورزدن DRM"
+    },
+    {
+      "id": "cross_platform",
+      "title_fa": "ساخت و بازسازی اپ Android/iOS",
+      "count": 900,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 12107,
+          "sha256": "34a73a0c4e4ed4a2ba4fad5f89279e7af094327d0d68e1176f32f8edee2f29c6"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12110,
+          "sha256": "a6fbf531e46c08706b57e5ab69e49644b7a67c920e48fc12e639a63bf2b9e70d"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12162,
+          "sha256": "e93f5688cb4abe604f1302a705c17ccec1359dafdc97805aa0701bb88b5fdb4c"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 150,
+          "bytes": 7869,
+          "sha256": "a2f98bcb354273dc8c4882e6a5afb379cc8f2481f1b713ffb7d058b77b696039"
+        }
+      ],
+      "guard": "احترام به مالکیت برنامه، امضای معتبر اپل و حقوق کدهای شخص ثالث"
+    },
+    {
+      "id": "self_learning",
+      "title_fa": "خودآموزی و بهبود",
+      "count": 850,
+      "shards": [
+        {
+          "name": "0000.jsonl.gz",
+          "count": 250,
+          "bytes": 12008,
+          "sha256": "cd1aaba96aef7673309f8feaf379830328d8a51de88ee3c816b4d94557227a81"
+        },
+        {
+          "name": "0001.jsonl.gz",
+          "count": 250,
+          "bytes": 12097,
+          "sha256": "307e59b146b6f21a9d8548b17f6d630f4845bf7ae2977783ae7d6906a09326d7"
+        },
+        {
+          "name": "0002.jsonl.gz",
+          "count": 250,
+          "bytes": 12074,
+          "sha256": "76c50d6256075e2b28a272d7f90d9917aa9f3b3a4360d0053f40f7453a8b4025"
+        },
+        {
+          "name": "0003.jsonl.gz",
+          "count": 100,
+          "bytes": 5606,
+          "sha256": "b2b2a8bc5eb8b72f190d4b344c091f3f283c34d504bc08546e960f20c3271b67"
+        }
+      ],
+      "guard": "بدون خودتغییری بی‌اجازه وزن‌ها یا استفاده از داده خصوصی بدون رضایت"
+    }
+  ],
+  "total_tasks": 103017,
+  "shard_size": 250,
+  "source_material": {
+    "huggingface_discovery": "https://huggingface.co/docs/huggingface_hub/main/guides/search",
+    "chatgpt_mcp": "https://help.openai.com/en/articles/12584461-developer-mode-and-full-mcp-connectors-in-chatgpt",
+    "deployment": "https://docs.github.com/en/actions",
+    "model_routing": "https://huggingface.co/docs/hub/api",
+    "android_recreation": "https://developer.android.com/build",
+    "cross_platform": "https://capacitorjs.com/docs",
+    "file_export": "https://docs.github.com/en/actions",
+    "site_security": "https://owasp.org/www-project-top-ten/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "openhands": {
+    "url":"https://owned-agent-worker.example.com/fezi/agent",
+    "secret":"REPLACE_WITH_SECRET_OF_24_CHARS_OR_MORE"
+  },
+  "opencode": {
+    "url":"https://owned-agent-worker.example.com/fezi/opencode",
+    "secret":"REPLACE_WITH_DIFFERENT_LONG_RANDOM_SECRET"
+  }
+}

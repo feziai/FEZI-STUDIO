@@ -1,6 +1,32 @@
 node_modules/
+data/
 .env
 .env.*
 !.env.example
+*.p12
+*.jks
+*.keystore
+*.log
+.DS_Store
+
+models/*.gguf
+models/*.gguf.download
+models/adapters/*.gguf
+# Never publish private/premium artwork, payment data, user uploads or credentials
+private/
+*.sqlite
+*.sqlite3
+*.db
 *.pem
 *.key
+*.p8
+config/*-private.json
+secrets/
+
+# Long unedited original Arina clip lives in the separate media package (>100MB Git limit).
+public/arina-live/assets/video/arina-three-minute-unedited.mp4
+
+# FEZI plugin hub temp files and export credentials
+plugin-hub/runtime-private/
+plugin-hub/*.secrets.json
+*.secret.env

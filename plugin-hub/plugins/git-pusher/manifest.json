@@ -1,0 +1,19 @@
+{
+  "slug": "git-pusher",
+  "name": "FEZI Git Pusher",
+  "chatgptPluginId": "plugins_6aee597b2af081918f3dcb35530cf384",
+  "currentChatgptVersion": "0.6.15",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/git-pusher",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

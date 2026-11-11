@@ -1,0 +1,22 @@
+{
+  "automation": "published, check plugin release",
+  "boss": "published, check plugin release",
+  "super": "published, check plugin release",
+  "studio": "published, check plugin release",
+  "finder": "published, check plugin release",
+  "website-controller": "published, check plugin release",
+  "ai-command": "published, check plugin release",
+  "wan2": "published, check plugin release",
+  "email": "published, check plugin release",
+  "website-builder": "published, check plugin release",
+  "agent-builder": "published, check plugin release",
+  "telegram": "published, check plugin release",
+  "skill-creator": "published, check plugin release",
+  "arina": "published, check plugin release",
+  "uncensored": "published, check plugin release",
+  "premium": "not published: remote update returned UNAVAILABLE",
+  "pay": "published, check plugin release",
+  "host": "not published: remote update returned UNAVAILABLE",
+  "git-pusher": "published, check plugin release",
+  "hostgpt": "published, check plugin release"
+}

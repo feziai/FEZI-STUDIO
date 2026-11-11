@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {searchFeziSkills,getFeziSkill} from '../core/fezi-master-bank.mjs';
+test('historical skill bank searchable without creating fake installations',async()=>{const s=await searchFeziSkills({q:'openrouter',limit:30});assert.ok(s.total>3000);assert.ok(s.results.length>0);assert.ok(s.results.every(x=>typeof x.id==='string'))});
+test('full skill source accessible with source evidence but not executable',async()=>{const s=await searchFeziSkills({q:'openrouter',limit:1});const result=await getFeziSkill(s.results[0].id);assert.equal(result.installed,false);assert.ok(result.source||result.content===null)});

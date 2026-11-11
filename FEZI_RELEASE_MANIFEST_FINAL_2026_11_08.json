@@ -1,0 +1,36 @@
+{
+  "release": "FEZI Studio integrated Node.js 22 site",
+  "date": "2026-11-08",
+  "includes": [
+    "single-site modules",
+    "FEZI Agent",
+    "private plugin links",
+    "Telegram bot maker",
+    "OpenRouter dynamic full-model catalog",
+    "price 20% markup",
+    "prepaid package intent + SQLite ledger",
+    "FeziPay embedded preview",
+    "language selection",
+    "historical skill bank .json.gz",
+    "original site assets and prior tools"
+  ],
+  "local_test_status": {
+    "node_test_pass": 5648,
+    "node_test_fail": 0,
+    "http_ok_routes": 18,
+    "http_unauthorized_routes": 4
+  },
+  "production_blockers": [
+    "new non-leaked credentials",
+    "HTTPS domain and host access",
+    "paid OpenRouter key and account",
+    "live Toman exchange rate",
+    "verified FeziPay payment processor",
+    "Telegram BotFather credentials and webhook",
+    "separate ChatGPT plugin installs",
+    "Docker deployment smoke test"
+  ],
+  "financial_status": "payment intents only, zero auto settlement",
+  "plugin_status": "Telegram Bot Maker v0.5.1 updated; ChatGPT private plugins remain independently authorized",
+  "notes": "Private API keys are not provided or embedded. Pricing markup is 20%. Multi-modal pay-per-use execution is not enabled by catalog display alone."
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "studio",
+    "name": "FEZI Studio AI",
+    "bio": "دستیار ساخت اپ، وب‌سایت و ابزارهای خلاقانه",
+    "path": "/studio",
+    "env": "TELEGRAM_FEZI_BOT_TOKEN",
+    "symbol": "✦",
+    "color": "#536bfc",
+    "icon": "/telegram-apps/icons/studio.svg"
+  },
+  {
+    "id": "arina",
+    "name": "Arina Live",
+    "bio": "شخصیت مجازی آرینا؛ چت، استریم و گالری",
+    "path": "/arina-live",
+    "env": "TELEGRAM_ARINA_BOT_TOKEN",
+    "symbol": "A",
+    "color": "#d45ddd",
+    "icon": "/telegram-apps/icons/arina.svg"
+  },
+  {
+    "id": "announcement",
+    "name": "FEZI Announcement",
+    "bio": "مرکز خصوصی فرمان و انتشار اطلاعیهٔ مجاز",
+    "path": "/fezipay/announcement.html",
+    "env": "ANNOUNCEMENT_BOT_TOKEN",
+    "symbol": "!",
+    "color": "#ed5a97",
+    "icon": "/telegram-apps/icons/announcement.svg"
+  },
+  {
+    "id": "maker",
+    "name": "Telegram Bot Maker",
+    "bio": "تبدیل پرامپت به سورس و مینی‌اپ ربات تلگرام",
+    "path": "/telegram-builder",
+    "env": "TELEGRAM_BOT_1_TOKEN",
+    "symbol": "B",
+    "color": "#22c5e5",
+    "icon": "/telegram-apps/icons/maker.svg"
+  },
+  {
+    "id": "pdh",
+    "name": "Persian Dark Horse AI",
+    "bio": "چت هوشمند و خدمات برند Persian Dark Horse",
+    "path": "/studio",
+    "env": "PDH_AI_TELEGRAM_BOT_TOKEN",
+    "symbol": "H",
+    "color": "#d4a54d",
+    "icon": "/telegram-apps/icons/pdh.svg"
+  },
+  {
+    "id": "pdh-main",
+    "name": "Persian Dark Horse",
+    "bio": "دستیار فارسی و انگلیسی و راهنمای خدمات",
+    "path": "/model-playground",
+    "env": "PERSIAN_DARK_HORSE_TG_BOT_TOKEN",
+    "symbol": "P",
+    "color": "#9a8cff",
+    "icon": "/telegram-apps/icons/pdh-main.svg"
+  },
+  {
+    "id": "kaizer",
+    "name": "Kaizer AI",
+    "bio": "پاسخ‌گویی و ابزارهای کمکی هوش مصنوعی",
+    "path": "/model-playground",
+    "env": "KAIZER_AI_BOT_TOKEN",
+    "symbol": "K",
+    "color": "#ed8b52",
+    "icon": "/telegram-apps/icons/kaizer.svg"
+  },
+  {
+    "id": "login",
+    "name": "FEZI Secure Login",
+    "bio": "ورود سریع با تلگرام و مدیریت اتصال حساب",
+    "path": "/telegram-connect",
+    "env": "TELEGRAM_LOGIN_BOT_TOKEN",
+    "symbol": "L",
+    "color": "#44a8b8",
+    "icon": "/telegram-apps/icons/login.svg"
+  },
+  {
+    "id": "pay",
+    "name": "FeziPay",
+    "bio": "نمایش خدمات و وضعیت پرداخت؛ تسویهٔ واقعی هنوز غیرفعال",
+    "path": "/fezipay/",
+    "env": "FEZIPAY_BOT_TOKEN",
+    "symbol": "₣",
+    "color": "#419fe1",
+    "icon": "/telegram-apps/icons/pay.svg"
+  },
+  {
+    "id": "image",
+    "name": "FEZI Image Lab",
+    "bio": "ابزار طراحی، تولید و مدیریت تصویر",
+    "path": "/studio?category=image",
+    "env": "TELEGRAM_BOT_2_TOKEN",
+    "symbol": "I",
+    "color": "#d96bca",
+    "icon": "/telegram-apps/icons/image.svg"
+  },
+  {
+    "id": "video",
+    "name": "FEZI Video Lab",
+    "bio": "استودیوی ویدیو و انتخاب مدل‌های قابل استفاده",
+    "path": "/video-studio",
+    "env": "TELEGRAM_BOT_5_TOKEN",
+    "symbol": "V",
+    "color": "#9b72f5",
+    "icon": "/telegram-apps/icons/video.svg"
+  },
+  {
+    "id": "code",
+    "name": "FEZI Code Pilot",
+    "bio": "ساخت کد و برنامه با ابزارهای کدنویسی",
+    "path": "/builder",
+    "env": "TELEGRAM_BOT_6_TOKEN",
+    "symbol": "{ }",
+    "color": "#48bb8c",
+    "icon": "/telegram-apps/icons/code.svg"
+  },
+  {
+    "id": "help",
+    "name": "FEZI Help Desk",
+    "bio": "راهنمای سرویس‌ها و پرسش‌های عمومی",
+    "path": "/faq",
+    "env": "TELEGRAM_BOT_8_TOKEN",
+    "symbol": "?",
+    "color": "#6c91fb",
+    "icon": "/telegram-apps/icons/help.svg"
+  }
+]

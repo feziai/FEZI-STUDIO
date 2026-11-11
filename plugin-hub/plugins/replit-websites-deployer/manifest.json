@@ -1,0 +1,23 @@
+{
+  "slug": "replit-websites-deployer",
+  "name": "Replit Websites Deployer",
+  "chatgptPluginId": "plugins_6af3d2e8ad34819184969f276177c2ca",
+  "currentChatgptVersion": "1.0.0",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "historical-export-available",
+  "mcpGatewayPath": "/mcp/hub/replit-websites-deployer",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": {
+    "filename": "Replit_Websites_Deployer_Plugin_v1.zip",
+    "sha256": "fec66f4e02207aafbd0c8e36af928c80f6506641baaeb78acf2a4e828a02479b",
+    "note": "historical source export; compare version with live plugin before publishing"
+  },
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

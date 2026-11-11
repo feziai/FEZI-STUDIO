@@ -1,0 +1,11 @@
+# FEZI Studio v1.3 — 2026-11-01
+- Added exact uploaded transparent rabbit F logo to the landing page and builder navigation; retained prior site layout.
+- Created 81-entry licensed-tools discovery directory with source links and detailed integration status (not installed).
+- Added authenticated server-side executable diagnostic endpoint and no-side-effect toolbox doctor script.
+- Added safe subset model/software installer with default dry-run and explicit apply; sources require manual setup.
+- Added private read-only MCP HTTP endpoint and tests, intentionally NOT claimed public OAuth-ready.
+- ComfyUI worker now accepts `animate` task (old worker only accepted `image`/`video`).
+- Kept Arina, album, wallets, Telegram and app builder unchanged.
+- No GPU/video model weights, trained LoRA, actual 24/7 streaming or hosted GitHub/Railway deployment provided by this package.
+- Added editable starters for Canvas mini-game, Godot 4 scene, Blender GLB Python scene; AI prompting adapts to Godot/Blender project types.
+- Added optional Docker SRS relay and FFmpeg 1080p30 pre-rendered playlist sender; NOT claimed automatically running online.

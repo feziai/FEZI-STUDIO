@@ -1,0 +1,2759 @@
+[
+  {
+    "id": "fezi-cinematic-blue-hour",
+    "slug": "cinematic-blue-hour",
+    "title": "Cinematic Blue-Hour City Portrait",
+    "titleFa": "تصویر سینمایی ساعت آبی شهر",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "Cinematic"
+    ],
+    "model": "",
+    "prompt": "Create an editorial portrait of an adult subject on a quiet city street at blue hour, 50mm lens, soft storefront reflections, authentic skin detail, subtle film grain, balanced magenta and blue highlights, natural posture, photorealistic composition.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-luxury-fashion-editorial",
+    "slug": "luxury-fashion-editorial",
+    "title": "Luxury Fashion Studio Editorial",
+    "titleFa": "ادیتوریال مد لوکس",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion",
+      "Editorial"
+    ],
+    "model": "",
+    "prompt": "Photograph an adult fashion model in a minimalist tailored outfit against an ivory studio background, 85mm lens, crisp fabric texture, directional softbox, controlled shadows, elegant pose, premium magazine art direction.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-02.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-sunlit-coffee-lifestyle",
+    "slug": "sunlit-coffee-lifestyle",
+    "title": "Sunlit Coffee Lifestyle",
+    "titleFa": "سبک زندگی کافه آفتابی",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Lifestyle",
+    "kind": "image",
+    "tags": [
+      "Lifestyle",
+      "Photography"
+    ],
+    "model": "",
+    "prompt": "A cozy morning photograph of an adult person by a cafe window holding a ceramic cup, gentle sunlight through curtains, shallow depth of field, candid expression, warm neutral color science, natural shadows.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-14.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-fantasy-botanical",
+    "slug": "fantasy-botanical",
+    "title": "Enchanted Botanical Garden",
+    "titleFa": "باغ گیاه‌شناسی فانتزی",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Fantasy",
+    "kind": "image",
+    "tags": [
+      "Fantasy",
+      "Nature"
+    ],
+    "model": "",
+    "prompt": "A lush enchanted botanical garden filled with luminous leaves and delicate flowers, an ancient glass greenhouse, atmospheric mist, detailed organic textures, watercolor-inspired light, cinematic wide composition.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-neon-product-shoot",
+    "slug": "neon-product-shoot",
+    "title": "Neon Tech Product Campaign",
+    "titleFa": "تبلیغ محصول تکنولوژی نئونی",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Product",
+    "kind": "image",
+    "tags": [
+      "Product",
+      "Advertising"
+    ],
+    "model": "",
+    "prompt": "Premium product photography of a compact wireless headset on a glossy plinth, white background with subtle blue and pink rim lights, accurate materials and reflections, commercial composition, legible space for headline, no lettering.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-05.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-handmade-paper-art",
+    "slug": "handmade-paper-art",
+    "title": "Layered Paper-Cut Landscape",
+    "titleFa": "منظره کاغذی چندلایه",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "3D",
+    "kind": "image",
+    "tags": [
+      "3D",
+      "Paper Craft"
+    ],
+    "model": "",
+    "prompt": "A handcrafted paper-cut landscape showing rolling mountains, rivers and tiny forests, layered pastel paper textures, soft studio shadows, clean top-down diorama composition and precise cut edges.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-beauty-natural-light",
+    "slug": "beauty-natural-light",
+    "title": "Natural-Light Beauty Portrait",
+    "titleFa": "پرتره زیبایی نور طبیعی",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Beauty",
+    "kind": "image",
+    "tags": [
+      "Beauty",
+      "Portrait"
+    ],
+    "model": "",
+    "prompt": "Close-up beauty portrait of an adult model in soft window light, 85mm lens, detailed eyelashes and natural pores, gentle warm skin tone, subtle makeup, off-white seamless background, authentic expression.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-food-hero-ad",
+    "slug": "food-hero-ad",
+    "title": "Artisan Dessert Commercial",
+    "titleFa": "تبلیغ حرفه‌ای دسر",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Food",
+    "kind": "image",
+    "tags": [
+      "Food",
+      "Commercial"
+    ],
+    "model": "",
+    "prompt": "Photograph an artisan strawberry dessert on a pale marble table, macro lens, realistic cream texture, fresh fruit, pastel blue and pink backdrops, soft bounce lighting, editorial food styling.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-08.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-cyberpunk-night",
+    "slug": "cyberpunk-night",
+    "title": "Rainy Cyberpunk Boulevard",
+    "titleFa": "خیابان سایبرپانک بارانی",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Cyberpunk",
+    "kind": "image",
+    "tags": [
+      "Cyberpunk",
+      "Cinematic"
+    ],
+    "model": "",
+    "prompt": "Wide cinematic view of a rain-soaked futuristic boulevard at night, layered neon signage without readable text, reflections on pavement, atmospheric perspective, richly detailed storefronts and passing silhouettes.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-minimal-logo-study",
+    "slug": "minimal-logo-study",
+    "title": "Minimal Brand Identity Study",
+    "titleFa": "هویت بصری مینیمال",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Branding",
+    "kind": "image",
+    "tags": [
+      "Branding",
+      "Logo"
+    ],
+    "model": "",
+    "prompt": "Create a clean brand presentation board for a fictional technology startup, two-color geometric icon studies, spacious grid, refined typographic hierarchy, crisp vector presentation on white backgrounds.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-slow-dolly-portrait",
+    "slug": "slow-dolly-portrait",
+    "title": "Slow Dolly-In Portrait Film",
+    "titleFa": "ویدیو پرتره با حرکت آرام دوربین",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Cinematic",
+    "kind": "video",
+    "tags": [
+      "Cinematic",
+      "Portrait"
+    ],
+    "model": "",
+    "prompt": "One continuous 6-second cinematic shot. Camera slowly dollies toward an adult subject standing by a softly lit window. Natural blinking and hair motion, consistent face and lighting, 24fps documentary realism, no jump cuts or text.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-nature-time-lapse",
+    "slug": "nature-time-lapse",
+    "title": "Golden Sunset Landscape Timelapse",
+    "titleFa": "تایم‌لپس غروب",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Nature",
+    "kind": "video",
+    "tags": [
+      "Nature",
+      "Landscape"
+    ],
+    "model": "",
+    "prompt": "A serene landscape at sunset with drifting clouds and subtle movement through wildflowers, locked tripod camera, gradual sky color changes, gentle natural motion, seamless 8-second scenic shot.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-12.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-fashion-walk-loop",
+    "slug": "fashion-walk-loop",
+    "title": "Editorial Fashion Walk",
+    "titleFa": "راه‌رفتن فشن ادیتوریال",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Fashion",
+    "kind": "video",
+    "tags": [
+      "Fashion",
+      "Motion"
+    ],
+    "model": "",
+    "prompt": "Full-body shot of an adult fashion model taking several natural steps on a clean studio runway. Stable tripod framing, subtle fabric movement, consistent clothing and identity, soft floor reflections, smooth 5-second shot.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-02.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-coffee-steam-closeup",
+    "slug": "coffee-steam-closeup",
+    "title": "Coffee Steam Close-up",
+    "titleFa": "نمای نزدیک بخار قهوه",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Food",
+    "kind": "video",
+    "tags": [
+      "Food",
+      "Commercial"
+    ],
+    "model": "",
+    "prompt": "Macro close-up of steam rising from a freshly poured coffee in a handmade ceramic mug, slow cinematic push-in, ambient morning window light, detailed liquid reflections, steady short take.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-14.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-creative-brief-template",
+    "slug": "creative-brief-template",
+    "title": "Creative Campaign Brief",
+    "titleFa": "فرم بریف کمپین",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Marketing",
+    "kind": "writing",
+    "tags": [
+      "Marketing",
+      "Writing"
+    ],
+    "model": "",
+    "prompt": "Act as a creative director. Create a concise campaign brief for [product], audience [audience], objective [goal]. Include audience insight, core message, visual mood, three creative routes, deliverables and success metrics.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-05.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-seo-landing-writer",
+    "slug": "seo-landing-writer",
+    "title": "SEO Landing Page Writer",
+    "titleFa": "تولید لندینگ سئو",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "SEO",
+    "kind": "writing",
+    "tags": [
+      "SEO",
+      "Writing"
+    ],
+    "model": "",
+    "prompt": "Write a helpful and accurate landing page about [topic] for [audience]. Provide title tag, meta description, one H1, logical H2s, useful FAQs, unique claims only, and a clear call to action. Do not invent statistics.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-full-stack-app-plan",
+    "slug": "full-stack-app-plan",
+    "title": "Full-Stack App Build Plan",
+    "titleFa": "طرح ساخت اپلیکیشن",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Coding",
+    "kind": "code",
+    "tags": [
+      "Coding",
+      "Website"
+    ],
+    "model": "",
+    "prompt": "Act as a senior full-stack engineer. Plan an app that [goal], list secure architecture, data model, authentication and API endpoints, then provide runnable code organized by file, tests and deployment instructions.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-telegram-bot-brief",
+    "slug": "telegram-bot-brief",
+    "title": "Telegram Bot Generator Brief",
+    "titleFa": "پرامپت ربات تلگرام",
+    "description": "Original FEZI Studio example · editable and copy-ready",
+    "category": "Bots",
+    "kind": "code",
+    "tags": [
+      "Bots",
+      "Coding"
+    ],
+    "model": "",
+    "prompt": "Build a bilingual Telegram bot for [business case], with clear command menu, opt-in notifications, strong secret handling, webhook verification, rate limiting, and a Node.js deployment walkthrough.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "reference-aixplore-winter-arc",
+    "slug": "aixplore-winter-arc",
+    "title": "Winter Arc 2026 Journey",
+    "titleFa": "",
+    "description": "External reference · source title/image shown for discovery. Full prompt must be imported from a licensed export.",
+    "category": "Lifestyle",
+    "kind": "image",
+    "tags": [
+      "Lifestyle"
+    ],
+    "model": "",
+    "prompt": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://aixplore.in/assets/images/prompts/1832.png",
+        "alt": "Winter Arc 2026 Journey"
+      }
+    ],
+    "sourceId": "aixplore",
+    "sourceUrl": "https://aixplore.in/prompts",
+    "rights": "link-and-preview-only",
+    "copyAllowed": false,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "reference-aixplore-dog",
+    "slug": "aixplore-dog",
+    "title": "AI Dog Photo Reference",
+    "titleFa": "",
+    "description": "External reference · source title/image shown for discovery. Full prompt must be imported from a licensed export.",
+    "category": "Animals",
+    "kind": "image",
+    "tags": [
+      "Animals"
+    ],
+    "model": "",
+    "prompt": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://aixplore.in/assets/images/prompts/dog.jpg",
+        "alt": "AI Dog Photo Reference"
+      }
+    ],
+    "sourceId": "aixplore",
+    "sourceUrl": "https://aixplore.in/prompts",
+    "rights": "link-and-preview-only",
+    "copyAllowed": false,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "reference-fashion-bombshell",
+    "slug": "fashion-bombshell",
+    "title": "Black Mini Dress Bombshell",
+    "titleFa": "",
+    "description": "External reference · source title/image shown for discovery. Full prompt must be imported from a licensed export.",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion"
+    ],
+    "model": "",
+    "prompt": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://www.fashiondiffusion.ai/_next/image?q=75&url=https%3A%2F%2Fzhiyi-image.oss-cn-hangzhou.aliyuncs.com%2Fdevops%2Fcomfyui%2Finput%2Fdemo%2Fweb-assets%2Ffd-web%2Fv20260824%2Fimages%2Fai-hot-prompts%2Fexample-01.webp&w=3840",
+        "alt": "Black Mini Dress Bombshell"
+      }
+    ],
+    "sourceId": "fashiondiffusion",
+    "sourceUrl": "https://www.fashiondiffusion.ai/ai-prompts/ai-hot-prompts",
+    "rights": "link-and-preview-only",
+    "copyAllowed": false,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "reference-fashion-denim",
+    "slug": "fashion-denim",
+    "title": "Low-Rise Denim Siren",
+    "titleFa": "",
+    "description": "External reference · source title/image shown for discovery. Full prompt must be imported from a licensed export.",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion"
+    ],
+    "model": "",
+    "prompt": "",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://www.fashiondiffusion.ai/_next/image?q=75&url=https%3A%2F%2Fzhiyi-image.oss-cn-hangzhou.aliyuncs.com%2Fdevops%2Fcomfyui%2Finput%2Fdemo%2Fweb-assets%2Ffd-web%2Fv20260824%2Fimages%2Fai-hot-prompts%2Fexample-02.webp&w=3840",
+        "alt": "Low-Rise Denim Siren"
+      }
+    ],
+    "sourceId": "fashiondiffusion",
+    "sourceUrl": "https://www.fashiondiffusion.ai/ai-prompts/ai-hot-prompts",
+    "rights": "link-and-preview-only",
+    "copyAllowed": false,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-arina-pink-bunny-stream",
+    "slug": "arina-pink-bunny-stream",
+    "title": "Arina Pink Bunny Stream",
+    "titleFa": "آرینا با کلاه خرگوشی",
+    "description": "FEZI original prompt with an owner-provided visual character reference; the image is a reference, not guaranteed output.",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "Avatar"
+    ],
+    "model": "",
+    "prompt": "An adult fictional streamer wearing a cozy pastel pink bunny hoodie in a warm pink gaming studio, authentic joyful laugh, fluffy bunny accessories, soft magenta lighting and natural close-up cinematography.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-01.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-saba-editorial-character",
+    "slug": "saba-editorial-character",
+    "title": "Saba Editorial Character",
+    "titleFa": "آواتار صبا",
+    "description": "FEZI original prompt with an owner-provided visual character reference; the image is a reference, not guaranteed output.",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion",
+      "Avatar"
+    ],
+    "model": "",
+    "prompt": "Editorial portrait of an adult woman wearing an olive outfit and elegant silk scarf in a warm natural studio, composed expression, soft beige background, professional portrait lens, lifelike textured clothing.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-02.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-arwin-cinematic-portrait",
+    "slug": "arwin-cinematic-portrait",
+    "title": "Arwin Cinematic Portrait",
+    "titleFa": "آواتار آروین",
+    "description": "FEZI original prompt with an owner-provided visual character reference; the image is a reference, not guaranteed output.",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "Avatar"
+    ],
+    "model": "",
+    "prompt": "Natural cinematic closeup of an adult man wearing a simple dark shirt in an atmospheric softly blurred interior, natural facial expression, structured lighting, editorial 85mm lens composition.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-carmella-sunshine-portrait",
+    "slug": "carmella-sunshine-portrait",
+    "title": "Carmella Sunshine Portrait",
+    "titleFa": "آواتار کارملا",
+    "description": "FEZI original prompt with an owner-provided visual character reference; the image is a reference, not guaranteed output.",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "Avatar"
+    ],
+    "model": "",
+    "prompt": "A sunny editorial portrait of an adult character with softly styled blonde hair, neat dark outfit, natural late afternoon park lighting, organic warm background bokeh and approachable expression.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-manika-fun-carnival",
+    "slug": "manika-fun-carnival",
+    "title": "Manika Carnival Lifestyle",
+    "titleFa": "آواتار مانیکا",
+    "description": "FEZI original prompt with an owner-provided visual character reference; the image is a reference, not guaranteed output.",
+    "category": "Lifestyle",
+    "kind": "image",
+    "tags": [
+      "Lifestyle",
+      "Avatar"
+    ],
+    "model": "",
+    "prompt": "Candid summertime lifestyle portrait of an adult woman in cheerful casual streetwear at an amusement park, colorful rides in softly blurred background, bright sunlight and inviting energetic mood.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-03.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02"
+  },
+  {
+    "id": "fezi-fashion-1-pearl-atelier-runway",
+    "slug": "fezi-fashion-1-pearl-atelier-runway",
+    "title": "Pearl Atelier Runway",
+    "titleFa": "مجموعه مد مرواریدی",
+    "description": "Original ready-to-use fashion prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult runway model in sculptural ivory couture with pearl-inspired details. Art direction: luxury runway lighting, silky motion in the fabric, full-length fashion photograph, editorial detail, crisp skin texture, polished floor reflection. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-02.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-13.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-fashion-2-city-streetwear-story",
+    "slug": "fezi-fashion-2-city-streetwear-story",
+    "title": "City Streetwear Story",
+    "titleFa": "استایل خیابانی شهر",
+    "description": "Original ready-to-use fashion prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult streetwear model in cobalt cargo jacket and black tailored trousers. Art direction: candid urban crosswalk, late afternoon soft shadows, 35mm lens, layered city backdrop, stylish but believable look. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-fashion-3-pastel-summer-campaign",
+    "slug": "fezi-fashion-3-pastel-summer-campaign",
+    "title": "Pastel Summer Campaign",
+    "titleFa": "کمپین تابستانی پاستلی",
+    "description": "Original ready-to-use fashion prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult fashion model wearing a lavender linen suit and simple accessories. Art direction: minimal sunlit Mediterranean terrace, warm backlight, 50mm lens, elegant body language, textured linen fabrics. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-02.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-fashion-4-midnight-satin-editorial",
+    "slug": "fezi-fashion-4-midnight-satin-editorial",
+    "title": "Midnight Satin Editorial",
+    "titleFa": "ادیتوریال ساتن نیمه‌شب",
+    "description": "Original ready-to-use fashion prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fashion",
+    "kind": "image",
+    "tags": [
+      "Fashion",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult fashion model wearing a midnight-blue satin evening gown. Art direction: dramatic runway spotlight, studio editorial photography, reflective satin highlights, confident walk, shallow depth of field. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-02.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-portrait-1-rooftop-blue-hour",
+    "slug": "fezi-portrait-1-rooftop-blue-hour",
+    "title": "Rooftop Blue Hour",
+    "titleFa": "پرتره پشت‌بام آبی",
+    "description": "Original ready-to-use portrait prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original adult subject on a city rooftop in early twilight. Art direction: cinematic blue-hour skyline, subtle rimlight, 85mm lens f/2.0, natural skin texture and relaxed face, soft bokeh. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-portrait-2-golden-window-portrait",
+    "slug": "fezi-portrait-2-golden-window-portrait",
+    "title": "Golden Window Portrait",
+    "titleFa": "پرتره کنار پنجره طلایی",
+    "description": "Original ready-to-use portrait prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult subject seated beside a tall window reading a book. Art direction: golden daylight through linen curtains, candid composition, authentic skin detail, 50mm photojournalistic lens. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-portrait-3-black-and-white-studio",
+    "slug": "fezi-portrait-3-black-and-white-studio",
+    "title": "Black and White Studio",
+    "titleFa": "پرتره سیاه و سفید استودیو",
+    "description": "Original ready-to-use portrait prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult subject in a minimalist black blazer in a photographic studio. Art direction: timeless monochrome medium-format headshot, single softbox, expressive eyes, classic Rembrandt lighting and rich tonal range. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-portrait-4-neon-umbrella-portrait",
+    "slug": "fezi-portrait-4-neon-umbrella-portrait",
+    "title": "Neon Umbrella Portrait",
+    "titleFa": "پرتره چتر نئونی",
+    "description": "Original ready-to-use portrait prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Portrait",
+    "kind": "image",
+    "tags": [
+      "Portrait",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult subject holding a transparent umbrella on a rainy street. Art direction: magenta street reflections and cyan rim light, 50mm lens, documentary realism, atmospheric rain, crisp eye focus. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-beauty-1-natural-freckles-beauty",
+    "slug": "fezi-beauty-1-natural-freckles-beauty",
+    "title": "Natural Freckles Beauty",
+    "titleFa": "زیبایی با کک‌ومک طبیعی",
+    "description": "Original ready-to-use beauty prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Beauty",
+    "kind": "image",
+    "tags": [
+      "Beauty",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A close-up beauty portrait of an adult subject with natural freckles. Art direction: soft diffused daylight, subtle lip sheen, real pores and vellus hair, 100mm portrait lens, clean composition. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-beauty-2-editorial-metallic-makeup",
+    "slug": "fezi-beauty-2-editorial-metallic-makeup",
+    "title": "Editorial Metallic Makeup",
+    "titleFa": "آرایش متالیک ادیتوریال",
+    "description": "Original ready-to-use beauty prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Beauty",
+    "kind": "image",
+    "tags": [
+      "Beauty",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult beauty model with artistic silver eye makeup. Art direction: dark studio backdrop, symmetrical close-up, precise light reflections and glossy details, runway editorial quality. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-beauty-3-soft-peach-skincare",
+    "slug": "fezi-beauty-3-soft-peach-skincare",
+    "title": "Soft Peach Skincare",
+    "titleFa": "کمپین مراقبت پوست هلویی",
+    "description": "Original ready-to-use beauty prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Beauty",
+    "kind": "image",
+    "tags": [
+      "Beauty",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A relaxed adult skincare campaign portrait with fresh natural makeup. Art direction: peach background, diffused softbox light, clean commercial portrait, dewy skin and fine natural texture. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-beauty-4-golden-shadow-makeup",
+    "slug": "fezi-beauty-4-golden-shadow-makeup",
+    "title": "Golden Shadow Makeup",
+    "titleFa": "آرایش سایه طلایی",
+    "description": "Original ready-to-use beauty prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Beauty",
+    "kind": "image",
+    "tags": [
+      "Beauty",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A close-up adult beauty model with warm gold eye shadow. Art direction: side lit from above, rich warm shadows, high-end beauty magazine photography, natural iris detail. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-07.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-lifestyle-1-morning-matcha-studio",
+    "slug": "fezi-lifestyle-1-morning-matcha-studio",
+    "title": "Morning Matcha Studio",
+    "titleFa": "صبح ماچا",
+    "description": "Original ready-to-use lifestyle prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Lifestyle",
+    "kind": "image",
+    "tags": [
+      "Lifestyle",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult woman enjoying a matcha latte in a cozy bright cafe. Art direction: wooden table, candid smile, sunlight reflecting on glass, Scandinavian interior, gentle warm analog film grain. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-03.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-03.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-lifestyle-2-cozy-reading-nook",
+    "slug": "fezi-lifestyle-2-cozy-reading-nook",
+    "title": "Cozy Reading Nook",
+    "titleFa": "گوشه مطالعه دنج",
+    "description": "Original ready-to-use lifestyle prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Lifestyle",
+    "kind": "image",
+    "tags": [
+      "Lifestyle",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult person reading beside a bookshelf under a soft lamp. Art direction: warm knit textures, comfortable home interior, natural relaxed pose, 35mm lifestyle photography. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-03.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-lifestyle-3-summer-bicycle-street",
+    "slug": "fezi-lifestyle-3-summer-bicycle-street",
+    "title": "Summer Bicycle Street",
+    "titleFa": "دوچرخه‌سواری تابستانی",
+    "description": "Original ready-to-use lifestyle prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Lifestyle",
+    "kind": "image",
+    "tags": [
+      "Lifestyle",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult cyclist leaning against a colorful bicycle in a quiet street. Art direction: pastel European town, flowering windows, daylight, candid street editorial, natural colors. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-03.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-lifestyle-4-artisan-coffee-break",
+    "slug": "fezi-lifestyle-4-artisan-coffee-break",
+    "title": "Artisan Coffee Break",
+    "titleFa": "استراحت با قهوه",
+    "description": "Original ready-to-use lifestyle prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Lifestyle",
+    "kind": "image",
+    "tags": [
+      "Lifestyle",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An inviting espresso cup on a wooden cafe table with a notebook. Art direction: soft background bokeh, rich crema, detailed ceramic texture, warm documentary food-lifestyle composition. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-14.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cinematic-1-one-shot-city-chase",
+    "slug": "fezi-cinematic-1-one-shot-city-chase",
+    "title": "One-Shot City Chase",
+    "titleFa": "تعقیب سینمایی در شهر",
+    "description": "Original ready-to-use cinematic prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cinematic",
+    "kind": "video",
+    "tags": [
+      "Cinematic",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A fictional adult protagonist running through a rain-slick futuristic city. Motion brief: single continuous tracking shot at shoulder height, dramatic neon reflections, smooth camera stabilization, cinematic 24fps motion. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cinematic-2-quiet-detective-reveal",
+    "slug": "fezi-cinematic-2-quiet-detective-reveal",
+    "title": "Quiet Detective Reveal",
+    "titleFa": "رونمایی کارآگاه",
+    "description": "Original ready-to-use cinematic prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cinematic",
+    "kind": "video",
+    "tags": [
+      "Cinematic",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A fictional adult detective standing near a foggy apartment window. Motion brief: slow camera dolly from profile toward face, noir shadows, cinematic shallow focus, a subtle emotional change. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-11.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cinematic-3-epic-desert-arrival",
+    "slug": "fezi-cinematic-3-epic-desert-arrival",
+    "title": "Epic Desert Arrival",
+    "titleFa": "ورود حماسی به کویر",
+    "description": "Original ready-to-use cinematic prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cinematic",
+    "kind": "video",
+    "tags": [
+      "Cinematic",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A lone fictional traveler approaching an enormous desert archway. Motion brief: wide 24mm lens, elegant crane-down move, wind carrying sand, cinematic golden-hour color grading. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-11.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cinematic-4-evening-river-film",
+    "slug": "fezi-cinematic-4-evening-river-film",
+    "title": "Evening River Film",
+    "titleFa": "فیلم کوتاه کنار رود",
+    "description": "Original ready-to-use cinematic prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cinematic",
+    "kind": "video",
+    "tags": [
+      "Cinematic",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An adult protagonist looking across a city river at dusk. Motion brief: smooth six-second push-in, reflective water and distant city lights, natural wind movement, quiet cinematic composition. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-11.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-nature-1-alpine-dawn-timelapse",
+    "slug": "fezi-nature-1-alpine-dawn-timelapse",
+    "title": "Alpine Dawn Timelapse",
+    "titleFa": "تایم‌لپس سپیده‌دم آلپ",
+    "description": "Original ready-to-use nature prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Nature",
+    "kind": "video",
+    "tags": [
+      "Nature",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An alpine peak emerging above a low blanket of clouds at dawn. Motion brief: steady tripod timelapse, sunlight gradually spreading across snow, realistic cloud movement and restrained saturation. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-12.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-nature-2-misty-waterfall-film",
+    "slug": "fezi-nature-2-misty-waterfall-film",
+    "title": "Misty Waterfall Film",
+    "titleFa": "آبشار مه‌آلود",
+    "description": "Original ready-to-use nature prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Nature",
+    "kind": "video",
+    "tags": [
+      "Nature",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A mossy waterfall inside a lush temperate rainforest. Motion brief: slow locked-camera motion of cascading water, soft rays through trees, peaceful natural atmosphere, detailed foliage. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-12.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-nature-3-ocean-morning-horizon",
+    "slug": "fezi-nature-3-ocean-morning-horizon",
+    "title": "Ocean Morning Horizon",
+    "titleFa": "افق صبح اقیانوس",
+    "description": "Original ready-to-use nature prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Nature",
+    "kind": "video",
+    "tags": [
+      "Nature",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An untouched ocean shore with soft breaking waves at sunrise. Motion brief: wide-angle landscape film, seamless water movement, sunrise reflection, natural colors, no people or text. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-12.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-nature-4-firefly-forest-evening",
+    "slug": "fezi-nature-4-firefly-forest-evening",
+    "title": "Firefly Forest Evening",
+    "titleFa": "جنگل کرم‌شب‌تاب",
+    "description": "Original ready-to-use nature prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Nature",
+    "kind": "video",
+    "tags": [
+      "Nature",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A forest clearing dotted with glowing fireflies at night. Motion brief: gentle slow pan through ferns, natural green bioluminescent mood, dreamy yet realistic environmental motion. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-fantasy-1-crystal-underwater-kingdom",
+    "slug": "fezi-fantasy-1-crystal-underwater-kingdom",
+    "title": "Crystal Underwater Kingdom",
+    "titleFa": "پادشاهی کریستالی زیر آب",
+    "description": "Original ready-to-use fantasy prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fantasy",
+    "kind": "image",
+    "tags": [
+      "Fantasy",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A glowing ancient coral palace beneath turquoise ocean water. Art direction: fantasy worldbuilding concept art, translucent jellyfish, shafts of sunlight, grand scale, luminous details. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-15.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-15.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-fantasy-2-moonlit-floating-library",
+    "slug": "fezi-fantasy-2-moonlit-floating-library",
+    "title": "Moonlit Floating Library",
+    "titleFa": "کتابخانه شناور مهتاب",
+    "description": "Original ready-to-use fantasy prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fantasy",
+    "kind": "image",
+    "tags": [
+      "Fantasy",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A magical library floating above a moonlit valley. Art direction: fantasy illustration, floating books and lanterns, elaborate stone architecture, depth, cinematic color. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-fantasy-3-enchanted-blossom-arch",
+    "slug": "fezi-fantasy-3-enchanted-blossom-arch",
+    "title": "Enchanted Blossom Arch",
+    "titleFa": "طاق گل‌های جادویی",
+    "description": "Original ready-to-use fantasy prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fantasy",
+    "kind": "image",
+    "tags": [
+      "Fantasy",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An ornate garden arch covered in luminous spring blossoms. Art direction: whimsical fantasy landscape, magical atmosphere, misty stepping-stone path and richly detailed flowers. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-fantasy-4-dragon-valley-sunset",
+    "slug": "fezi-fantasy-4-dragon-valley-sunset",
+    "title": "Dragon Valley Sunset",
+    "titleFa": "غروب دره اژدها",
+    "description": "Original ready-to-use fantasy prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Fantasy",
+    "kind": "image",
+    "tags": [
+      "Fantasy",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A distant mythical dragon soaring above a vast mountain valley. Art direction: epic fantasy environment painting, dramatic sunset, atmospheric perspective, sweeping composition. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-12.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-food-1-berry-cheesecake-hero",
+    "slug": "fezi-food-1-berry-cheesecake-hero",
+    "title": "Berry Cheesecake Hero",
+    "titleFa": "تبلیغ چیزکیک توت",
+    "description": "Original ready-to-use food prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Food",
+    "kind": "image",
+    "tags": [
+      "Food",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A tall artisan cheesecake topped with fresh berries and glazed strawberry sauce. Art direction: premium food photography, 90mm macro lens, glossy highlights, soft restaurant background, appetizing composition. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-08.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-08.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-food-2-chocolate-lava-pour",
+    "slug": "fezi-food-2-chocolate-lava-pour",
+    "title": "Chocolate Lava Pour",
+    "titleFa": "ریختن شکلات داغ",
+    "description": "Original ready-to-use food prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Food",
+    "kind": "image",
+    "tags": [
+      "Food",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A freshly baked chocolate lava cake with warm molten center. Art direction: tight food commercial macro, dark tabletop, slow chocolate movement, dramatic appetizing side lighting. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-08.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-food-3-fresh-citrus-splash",
+    "slug": "fezi-food-3-fresh-citrus-splash",
+    "title": "Fresh Citrus Splash",
+    "titleFa": "پاشش مرکبات تازه",
+    "description": "Original ready-to-use food prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Food",
+    "kind": "image",
+    "tags": [
+      "Food",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A chilled glass of sparkling citrus juice with lemon and orange slices. Art direction: bright beverage advertising, crisp condensation, lively splash, high-speed photo, clean pastel background. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-08.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-food-4-artisan-pizza-oven",
+    "slug": "fezi-food-4-artisan-pizza-oven",
+    "title": "Artisan Pizza Oven",
+    "titleFa": "پیتزا در تنور",
+    "description": "Original ready-to-use food prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Food",
+    "kind": "image",
+    "tags": [
+      "Food",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An artisan margherita pizza freshly removed from a wood-fired oven. Art direction: warm oven glow, detailed bubbling mozzarella, fresh basil, rustic commercial food photography. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-08.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-product-1-neon-gaming-headset",
+    "slug": "fezi-product-1-neon-gaming-headset",
+    "title": "Neon Gaming Headset",
+    "titleFa": "هدفون گیمینگ نئونی",
+    "description": "Original ready-to-use product prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Product",
+    "kind": "image",
+    "tags": [
+      "Product",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A premium unbranded gaming headset floating above a dark circular pedestal. Art direction: cyan and magenta neon rimlights, glossy product hero shot, high fidelity industrial design, no text or logos. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-05.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-05.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-product-2-minimal-ceramic-fragrance",
+    "slug": "fezi-product-2-minimal-ceramic-fragrance",
+    "title": "Minimal Ceramic Fragrance",
+    "titleFa": "بطری عطر مینیمال",
+    "description": "Original ready-to-use product prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Product",
+    "kind": "image",
+    "tags": [
+      "Product",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original luxury perfume bottle with a matte ceramic finish. Art direction: soft white architectural studio with delicate shadows, premium 3D product render, clean commercial layout. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-05.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-product-3-sport-smartwatch-launch",
+    "slug": "fezi-product-3-sport-smartwatch-launch",
+    "title": "Sport Smartwatch Launch",
+    "titleFa": "رونمایی ساعت هوشمند",
+    "description": "Original ready-to-use product prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Product",
+    "kind": "image",
+    "tags": [
+      "Product",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An unbranded contemporary smartwatch on an angular glass platform. Art direction: dramatic blue gradient studio lights, polished product details, clear watch silhouette, advertisement-grade render. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-05.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-product-4-organic-skincare-bottle",
+    "slug": "fezi-product-4-organic-skincare-bottle",
+    "title": "Organic Skincare Bottle",
+    "titleFa": "بطری محصولات پوستی ارگانیک",
+    "description": "Original ready-to-use product prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Product",
+    "kind": "image",
+    "tags": [
+      "Product",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An unbranded amber skincare bottle standing beside green leaves. Art direction: gentle morning sunlight, rippling water reflection, natural editorial product photograph, minimal styling. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-05.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-branding-1-friendly-tech-brandboard",
+    "slug": "fezi-branding-1-friendly-tech-brandboard",
+    "title": "Friendly Tech Brandboard",
+    "titleFa": "برد هویت برند فناوری",
+    "description": "Original ready-to-use branding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Branding",
+    "kind": "image",
+    "tags": [
+      "Branding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original identity board for a friendly technology studio. Art direction: white paper, cobalt blue and blush pink stationery, logo placeholder shapes only, grid layout, design mockup, no readable text. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-branding-2-modern-cafe-packaging",
+    "slug": "fezi-branding-2-modern-cafe-packaging",
+    "title": "Modern Cafe Packaging",
+    "titleFa": "بسته‌بندی کافه مدرن",
+    "description": "Original ready-to-use branding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Branding",
+    "kind": "image",
+    "tags": [
+      "Branding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original coffee packaging concept with matte cardboard and pastel labels. Art direction: flat lay on a pale backdrop, refined typography placeholder shapes, contemporary cafe brand system, soft daylight. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-14.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-branding-3-minimal-cosmetics-identity",
+    "slug": "fezi-branding-3-minimal-cosmetics-identity",
+    "title": "Minimal Cosmetics Identity",
+    "titleFa": "هویت برند محصولات آرایشی",
+    "description": "Original ready-to-use branding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Branding",
+    "kind": "image",
+    "tags": [
+      "Branding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original skincare packaging family in ivory and soft rose. Art direction: creative brand direction, several matching box mockups, elegant shadows, uncluttered commercial presentation. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-branding-4-creative-agency-stationery",
+    "slug": "fezi-branding-4-creative-agency-stationery",
+    "title": "Creative Agency Stationery",
+    "titleFa": "ست اداری آژانس خلاق",
+    "description": "Original ready-to-use branding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Branding",
+    "kind": "image",
+    "tags": [
+      "Branding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Original letterheads, business cards, and envelopes arranged in a neat flat lay. Art direction: minimal geometric patterns, blue and pink accent strips, premium paper texture, bright product photography. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-3d-1-cute-studio-robot",
+    "slug": "fezi-3d-1-cute-studio-robot",
+    "title": "Cute Studio Robot",
+    "titleFa": "ربات سه‌بعدی بامزه",
+    "description": "Original ready-to-use 3d prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "3D",
+    "kind": "image",
+    "tags": [
+      "3D",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A small friendly original white robot with blue digital eyes holding a pink heart. Art direction: high quality stylized 3D character render, soft white-pink studio lighting, rounded shapes, detailed materials. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-3d-2-isometric-dream-desk",
+    "slug": "fezi-3d-2-isometric-dream-desk",
+    "title": "Isometric Dream Desk",
+    "titleFa": "میز کار ایزومتریک رویایی",
+    "description": "Original ready-to-use 3d prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "3D",
+    "kind": "image",
+    "tags": [
+      "3D",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An isometric 3D miniature of a cozy creative workspace. Art direction: cute pastel furniture, glowing monitor, neatly arranged desktop items, soft shadows, polished toy-like 3D design. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-3d-3-clay-garden-village",
+    "slug": "fezi-3d-3-clay-garden-village",
+    "title": "Clay Garden Village",
+    "titleFa": "دهکده گِلی باغ",
+    "description": "Original ready-to-use 3d prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "3D",
+    "kind": "image",
+    "tags": [
+      "3D",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A tiny whimsical village built from colorful sculpted clay. Art direction: 3D claymation illustration, miniature houses, soft lighting, playful handcrafted details. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-3d-4-glass-sculpture-loop",
+    "slug": "fezi-3d-4-glass-sculpture-loop",
+    "title": "Glass Sculpture Loop",
+    "titleFa": "مجسمه شیشه‌ای",
+    "description": "Original ready-to-use 3d prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "3D",
+    "kind": "image",
+    "tags": [
+      "3D",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A smooth abstract transparent glass knot floating above a marble surface. Art direction: luxury 3D product scene, caustics and realistic refraction, minimal set, cinematic rim light. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cyberpunk-1-rainy-neon-alley",
+    "slug": "fezi-cyberpunk-1-rainy-neon-alley",
+    "title": "Rainy Neon Alley",
+    "titleFa": "کوچه بارانی نئونی",
+    "description": "Original ready-to-use cyberpunk prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cyberpunk",
+    "kind": "image",
+    "tags": [
+      "Cyberpunk",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A bustling futuristic pedestrian alley in rain at night. Art direction: cyberpunk concept art, detailed holographic signage without legible text, reflective puddles and atmospheric haze. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cyberpunk-2-retro-robot-workshop",
+    "slug": "fezi-cyberpunk-2-retro-robot-workshop",
+    "title": "Retro Robot Workshop",
+    "titleFa": "کارگاه ربات رترو",
+    "description": "Original ready-to-use cyberpunk prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cyberpunk",
+    "kind": "image",
+    "tags": [
+      "Cyberpunk",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A cluttered futuristic repair shop with retro robots and glowing screens. Art direction: cinematic cyberpunk interior, tungsten and blue neon contrast, finely detailed workbenches. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cyberpunk-3-neon-skybridge",
+    "slug": "fezi-cyberpunk-3-neon-skybridge",
+    "title": "Neon Skybridge",
+    "titleFa": "پل هوایی نئونی",
+    "description": "Original ready-to-use cyberpunk prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cyberpunk",
+    "kind": "image",
+    "tags": [
+      "Cyberpunk",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A futuristic elevated walkway between dense megacity towers. Art direction: wide-angle cinematic architecture, glowing cyan pathways, magenta haze, dramatic depth. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-cyberpunk-4-glowing-train-interior",
+    "slug": "fezi-cyberpunk-4-glowing-train-interior",
+    "title": "Glowing Train Interior",
+    "titleFa": "داخل قطار درخشان",
+    "description": "Original ready-to-use cyberpunk prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Cyberpunk",
+    "kind": "image",
+    "tags": [
+      "Cyberpunk",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An empty midnight metro car in a speculative future. Art direction: sci-fi cinematic lighting, blue glass displays, warm reflections, high-detail set design. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-anime-1-sky-lantern-anime",
+    "slug": "fezi-anime-1-sky-lantern-anime",
+    "title": "Sky Lantern Anime",
+    "titleFa": "انیمه فانوس‌های آسمان",
+    "description": "Original ready-to-use anime prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Anime",
+    "kind": "image",
+    "tags": [
+      "Anime",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original anime-style adventurer standing beneath a sky full of lanterns. Art direction: detailed hand-painted animation background, warm luminous clouds, whimsical emotion, fluid fabric shapes. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-06.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-06.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-anime-2-moon-garden-anime",
+    "slug": "fezi-anime-2-moon-garden-anime",
+    "title": "Moon Garden Anime",
+    "titleFa": "باغ ماه انیمه",
+    "description": "Original ready-to-use anime prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Anime",
+    "kind": "image",
+    "tags": [
+      "Anime",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original anime heroine in a moonlit botanical garden. Art direction: dynamic composition, delicate petals, rich painterly backgrounds, luminous cel shading. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-anime-3-coastal-train-anime",
+    "slug": "fezi-anime-3-coastal-train-anime",
+    "title": "Coastal Train Anime",
+    "titleFa": "قطار ساحلی انیمه",
+    "description": "Original ready-to-use anime prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Anime",
+    "kind": "image",
+    "tags": [
+      "Anime",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A quiet coastal railway crossing under a bright summer sky. Art direction: anime film background art, turquoise sea, gentle clouds, glowing midday light. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-09.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-anime-4-magic-tea-shop-anime",
+    "slug": "fezi-anime-4-magic-tea-shop-anime",
+    "title": "Magic Tea Shop Anime",
+    "titleFa": "چایخانه جادویی انیمه",
+    "description": "Original ready-to-use anime prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Anime",
+    "kind": "image",
+    "tags": [
+      "Anime",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A tiny magical tea house filled with glowing pastries and friendly creatures. Art direction: cozy original anime illustration, warm wood details, soft atmospheric lighting. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-06.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-architecture-1-nordic-minimal-home",
+    "slug": "fezi-architecture-1-nordic-minimal-home",
+    "title": "Nordic Minimal Home",
+    "titleFa": "خانه مینیمال اسکاندیناوی",
+    "description": "Original ready-to-use architecture prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Architecture",
+    "kind": "image",
+    "tags": [
+      "Architecture",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An airy modern living room with pale oak furniture and white linen sofas. Art direction: high-end architecture photograph, natural skylight, tasteful neutral colors, realistic building materials. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      },
+      {
+        "type": "image",
+        "url": "/prompts/media/b-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-architecture-2-brutalist-blue-museum",
+    "slug": "fezi-architecture-2-brutalist-blue-museum",
+    "title": "Brutalist Blue Museum",
+    "titleFa": "موزه آبی بروتالیست",
+    "description": "Original ready-to-use architecture prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Architecture",
+    "kind": "image",
+    "tags": [
+      "Architecture",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A sculptural museum of raw concrete surrounded by shallow water. Art direction: architectural competition visualization, crisp geometric lines, soft blue daylight, accurate perspective. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-architecture-3-biophilic-office-atrium",
+    "slug": "fezi-architecture-3-biophilic-office-atrium",
+    "title": "Biophilic Office Atrium",
+    "titleFa": "آتریوم اداری سبز",
+    "description": "Original ready-to-use architecture prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Architecture",
+    "kind": "image",
+    "tags": [
+      "Architecture",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A sunlit multi-level office atrium full of indoor trees and seating. Art direction: architectural photography, biophilic design, natural textures, realistic scale and daylight. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-architecture-4-luxury-rooftop-pool",
+    "slug": "fezi-architecture-4-luxury-rooftop-pool",
+    "title": "Luxury Rooftop Pool",
+    "titleFa": "استخر پشت‌بامی لوکس",
+    "description": "Original ready-to-use architecture prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Architecture",
+    "kind": "image",
+    "tags": [
+      "Architecture",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An infinity pool overlooking a dense coastal city at sunset. Art direction: premium architectural visualization, reflected warm sky, elegant minimal furniture, cinematic wide shot. Deliberate composition, professionally controlled lighting, color coherence, detailed texture, clean final image. No text or watermarks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-04.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-writing-1-short-story-architect",
+    "slug": "fezi-writing-1-short-story-architect",
+    "title": "Short Story Architect",
+    "titleFa": "معمار داستان کوتاه",
+    "description": "Original ready-to-use writing prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Writing",
+    "kind": "writing",
+    "tags": [
+      "Writing",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Write a compelling original short story about a character who discovers a surprising invitation. Requirements: clear beginning-middle-end, believable dialogue, emotional stakes, a distinctive setting, approximately 900 words, avoid clichés. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-writing-2-brand-voice-guide",
+    "slug": "fezi-writing-2-brand-voice-guide",
+    "title": "Brand Voice Guide",
+    "titleFa": "راهنمای لحن برند",
+    "description": "Original ready-to-use writing prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Writing",
+    "kind": "writing",
+    "tags": [
+      "Writing",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Draft a clear brand voice guide for a creative AI studio serving first-time users. Requirements: define personality, do/dont examples, sample microcopy, accessible warm professional tone, clear bilingual wording suggestions. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-writing-3-product-launch-email",
+    "slug": "fezi-writing-3-product-launch-email",
+    "title": "Product Launch Email",
+    "titleFa": "ایمیل معرفی محصول",
+    "description": "Original ready-to-use writing prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Writing",
+    "kind": "writing",
+    "tags": [
+      "Writing",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Write a friendly launch email for a new productivity feature. Requirements: subject line, preview text, concise benefits, one clear call-to-action, approachable voice and under 180 words. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-writing-4-youtube-script-builder",
+    "slug": "fezi-writing-4-youtube-script-builder",
+    "title": "YouTube Script Builder",
+    "titleFa": "فیلمنامه ویدیوی یوتیوب",
+    "description": "Original ready-to-use writing prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Writing",
+    "kind": "writing",
+    "tags": [
+      "Writing",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Create a structured explainer script on how AI tools can support creative teams. Requirements: strong hook, scene-by-scene voiceover, helpful visual notes, clear examples, accurate claims and a final takeaway. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-10.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-coding-1-accessible-landing-page",
+    "slug": "fezi-coding-1-accessible-landing-page",
+    "title": "Accessible Landing Page",
+    "titleFa": "صفحه فرود دسترس‌پذیر",
+    "description": "Original ready-to-use coding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Coding",
+    "kind": "code",
+    "tags": [
+      "Coding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Build a responsive landing page for a small creative service. Requirements: semantic HTML, mobile-first CSS, keyboard accessible navigation, lightweight JS, clear CTA, no fake features, output runnable files and tests. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-coding-2-task-app-with-storage",
+    "slug": "fezi-coding-2-task-app-with-storage",
+    "title": "Task App With Storage",
+    "titleFa": "اپ مدیریت وظایف",
+    "description": "Original ready-to-use coding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Coding",
+    "kind": "code",
+    "tags": [
+      "Coding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Build a simple personal task tracker with local browser persistence. Requirements: add/edit/delete tasks, keyboard navigation, filtering, accessible form labels, tidy mobile UI, document how to run. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-coding-3-telegram-bot-starter",
+    "slug": "fezi-coding-3-telegram-bot-starter",
+    "title": "Telegram Bot Starter",
+    "titleFa": "شروع ربات تلگرام",
+    "description": "Original ready-to-use coding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Coding",
+    "kind": "code",
+    "tags": [
+      "Coding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Create a secure Node.js Telegram bot starter for scheduling friendly reminders. Requirements: environment-based token, opt-in subscriptions, webhook or polling, language preference, error handling and unit tests. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-coding-4-image-gallery-app",
+    "slug": "fezi-coding-4-image-gallery-app",
+    "title": "Image Gallery App",
+    "titleFa": "اپ گالری تصویر",
+    "description": "Original ready-to-use coding prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Coding",
+    "kind": "code",
+    "tags": [
+      "Coding",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "Create a responsive image gallery with search, category filters and a lightbox. Requirements: lazy-loaded media, safe file handling, responsive grid, keyboard controls, source code and small automated tests. Return structured, practical results, identify assumptions and avoid inventing implementation claims.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-16.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-video-1-petal-reveal-macro",
+    "slug": "fezi-video-1-petal-reveal-macro",
+    "title": "Petal Reveal Macro",
+    "titleFa": "رونمایی گلبرگ ماکرو",
+    "description": "Original ready-to-use video prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Video",
+    "kind": "video",
+    "tags": [
+      "Video",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A close-up cinematic shot of a flower slowly opening as morning light appears. Motion brief: five-second macro camera push-in, gentle petal motion, photorealistic texture, shallow depth, single continuous shot. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-11.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-video-2-fashion-turn-and-smile",
+    "slug": "fezi-video-2-fashion-turn-and-smile",
+    "title": "Fashion Turn and Smile",
+    "titleFa": "چرخش فشن و لبخند",
+    "description": "Original ready-to-use video prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Video",
+    "kind": "video",
+    "tags": [
+      "Video",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original adult fashion character walking toward the camera and turning slightly. Motion brief: six-second dolly-back fashion video, steady framing, natural clothing dynamics, subtle smile, consistent identity. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-02.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-video-3-slow-motion-ocean-glass",
+    "slug": "fezi-video-3-slow-motion-ocean-glass",
+    "title": "Slow Motion Ocean Glass",
+    "titleFa": "موج شیشه‌ای اقیانوس",
+    "description": "Original ready-to-use video prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Video",
+    "kind": "video",
+    "tags": [
+      "Video",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "A turquoise sea wave curling toward a sunlit beach. Motion brief: five-second slow-motion environmental film, realistic foam and reflections, continuous motion, no logos. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-15.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  },
+  {
+    "id": "fezi-video-4-smartphone-ad-orbit",
+    "slug": "fezi-video-4-smartphone-ad-orbit",
+    "title": "Smartphone Ad Orbit",
+    "titleFa": "چرخش تبلیغاتی گوشی",
+    "description": "Original ready-to-use video prompt. Copy, customize, or send to FEZI Studio.",
+    "category": "Video",
+    "kind": "video",
+    "tags": [
+      "Video",
+      "FEZI Original",
+      "Copy Ready"
+    ],
+    "model": "",
+    "prompt": "An original unbranded smartphone hovering over a pale blue podium. Motion brief: six-second smooth product orbit, controlled studio lighting, realistic glass reflections, no readable UI or logos. Preserve temporal consistency and physically plausible movement across the shot. No watermarks, overlays or text. Frame composition: professional cinematic quality.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/prompts/media/a-11.webp",
+        "alt": "FEZI Studio original illustrative preview"
+      }
+    ],
+    "sourceId": "fezi-original",
+    "sourceUrl": "",
+    "rights": "original",
+    "copyAllowed": true,
+    "importedAt": "2026-11-02",
+    "previewNote": "Original illustrated concept; generated output will vary"
+  }
+]

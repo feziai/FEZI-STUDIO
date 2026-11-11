@@ -1,0 +1,26 @@
+{
+  "project": "FEZI Studio",
+  "release": "2026-11-07-social-login-full-audit-v1",
+  "based_on": "FEZI_STUDIO_GOOGLE_LOGOS_RUNTIME_GITHUB_SOURCE_2026_11_07.zip",
+  "added": [
+    "Google OAuth PKCE JWT no required npm",
+    "GitHub OAuth login + verified emails",
+    "Facebook Login",
+    "Telegram OIDC login",
+    "ChatGPT Sign-in partner gated indicator",
+    "social provider icons",
+    "oauth readiness endpoint",
+    "social login doctor",
+    "private ChatGPT plugin skills-only"
+  ],
+  "production_login_verified": false,
+  "production_payment_verified": false,
+  "cloud_model_runtime_verified": false,
+  "github_pushed": false,
+  "private_chatgpt_plugin_created": true,
+  "chatgpt_plugin_connected_to_live_mcp": false,
+  "private_chatgpt_plugin_url": "https://chatgpt.com/plugins/plugins_6aee66d7da5c8191878e86e2a54dbc49",
+  "node_required": ">=22",
+  "required_secrets_are_in_public_zip": false,
+  "notice": "Code tests are not production verification. See full audit."
+}

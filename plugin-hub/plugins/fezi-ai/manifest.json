@@ -1,0 +1,23 @@
+{
+  "slug": "fezi-ai",
+  "name": "FEZI AI",
+  "chatgptPluginId": "plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+  "currentChatgptVersion": "1.0.0",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "historical-export-available",
+  "mcpGatewayPath": "/mcp/hub/fezi-ai",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": {
+    "filename": "FEZI_AI_Universal_Agent_v1.0.0.zip",
+    "sha256": "34e4f049b1bec47dfd7e655b65968f56b42b5b6d2cb95a7609de4702d9acf90c",
+    "note": "historical source export; compare version with live plugin before publishing"
+  },
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

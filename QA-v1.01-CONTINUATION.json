@@ -1,0 +1,77 @@
+{
+  "product": "FEZI Studio",
+  "releaseVersion": "v1.01",
+  "codeBase": "FEZI_STUDIO_v1.01_FULL_RELEASE_READY.zip",
+  "baselineFiles": 1224,
+  "finalFiles": 1239,
+  "deletedBaselineFiles": [],
+  "changedBaselineFiles": [
+    ".env.example",
+    "core/studio-v15.js",
+    "package.json",
+    "public/studio/app.js",
+    "public/studio/index.html",
+    "server.js"
+  ],
+  "newFiles": [
+    "README-v1.01-CONTINUATION-FA.md",
+    "config/open-source-registry-v101.json",
+    "core/signup-captcha-v101.js",
+    "core/v101-expansion.js",
+    "public/v101/admin.js",
+    "public/v101/expansion.css",
+    "public/v101/marketplace.js",
+    "public/v101/registry.js",
+    "references/captcha/concept-original-01.png",
+    "references/captcha/concept-original-02.png",
+    "references/captcha/concept-original-03.png",
+    "references/captcha/concept-original-04.png",
+    "references/captcha/concept-original-05.png",
+    "scripts/release-doctor-v101.mjs",
+    "tests/v101-expansion.test.js"
+  ],
+  "preservationVerified": true,
+  "logoSha256": "79f9e735e2798f622b031b1ec5ceda59af44c7fdca386e7e8290ff71d99cadc7",
+  "logoMatchesOriginal": true,
+  "automatedTestResults": {
+    "tests": 5480,
+    "pass": 5480,
+    "fail": 0,
+    "skipped": 0
+  },
+  "testCommand": "npm test",
+  "httpE2E": "tests/v101-expansion.test.js",
+  "tools": {
+    "catalog": 289,
+    "priorityCounts": {
+      "P0": 30,
+      "P1": 54,
+      "P2": 184,
+      "P3": 21
+    },
+    "verifiedRunning": 0
+  },
+  "i18n": {
+    "languages": 8,
+    "servicesPerLanguage": 7,
+    "indexableLocalizedPages": 56,
+    "actual50LanguagesCompleted": false
+  },
+  "realWorldIntegrationStatus": {
+    "cryptoPaymentVerification": false,
+    "creatorSettlement": false,
+    "apiCreditsIssued": false,
+    "googleOAuth": false,
+    "appleOAuth": false,
+    "modelGPUInference": false,
+    "externalLiveStreaming": false,
+    "generatePromptCompleteArchiveImported": false,
+    "githubPush": false,
+    "cpanelDeployed": false
+  },
+  "notes": [
+    "All previous sources preserved, except the listed files modified in place.",
+    "Automated tests use local/fake or configured test adapters; they are not proof of live third-party connections.",
+    "Seller private media cannot be publicly downloaded without verified settlement."
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "snapshotDate": "2026-11-11",
+  "source": "live Plugin Creator read-only owned plugins listing",
+  "totalOwnedPrivatePlugins": 26,
+  "status": "REGISTERED_PRIVATE",
+  "githubPagesStatus": "PREPARED_NOT_DEPLOYED",
+  "backendStatus": "CONFIG_REQUIRED",
+  "entries": [
+    {
+      "slug": "fezi-studio",
+      "id": "plugins_6aee66d7da5c8191878e86e2a54dbc49",
+      "displayName": "FEZI Studio",
+      "version": "0.3.19",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee66d7da5c8191878e86e2a54dbc49",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "premium",
+      "id": "plugins_6aee769dcc7881919cd7829f1166dfcf",
+      "displayName": "FEZI Studio Premium",
+      "version": "1.1.9",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee769dcc7881919cd7829f1166dfcf",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "super-plugin",
+      "id": "plugins_6aee704a03fc8191b211748176057f35",
+      "displayName": "Super Plugin",
+      "version": "0.3.22",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee704a03fc8191b211748176057f35",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "gitfez",
+      "id": "plugins_6aee5e023dc4819188cd987094cf5441",
+      "displayName": "GitFez / Host Manager",
+      "version": "0.3.14",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee5e023dc4819188cd987094cf5441",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "git-pusher",
+      "id": "plugins_6aee597b2af081918f3dcb35530cf384",
+      "displayName": "FEZI Git Pusher",
+      "version": "0.6.16",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee597b2af081918f3dcb35530cf384",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "arina",
+      "id": "plugins_6aeea11809e88191a73963704e2ba340",
+      "displayName": "Arina Live",
+      "version": "0.1.10",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aeea11809e88191a73963704e2ba340",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "uncensored",
+      "id": "plugins_6aee79b01fd081918e1e4898a67a4253",
+      "displayName": "Uncensored GPT",
+      "version": "0.4.14",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee79b01fd081918e1e4898a67a4253",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezipay",
+      "id": "plugins_6aee634490288191b707850d23b96c03",
+      "displayName": "FeziPay",
+      "version": "0.8.15",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6aee634490288191b707850d23b96c03",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "hostgpt",
+      "id": "plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+      "displayName": "HostGPT AI Deploy Manager",
+      "version": "1.0.15",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-agent-builder",
+      "id": "plugins_6af010f67fac8191a27194c5258fd239",
+      "displayName": "FEZI Agent Builder",
+      "version": "0.1.10",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af010f67fac8191a27194c5258fd239",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-telegram-bot-maker",
+      "id": "plugins_6af005cefac8819186b101bfdd77ed74",
+      "displayName": "FEZI Telegram Bot Maker",
+      "version": "0.5.7",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af005cefac8819186b101bfdd77ed74",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "skill-creator",
+      "id": "plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+      "displayName": "FEZI Skill Creator",
+      "version": "1.1.1",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "plugin-finder",
+      "id": "plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+      "displayName": "Plugin Finder",
+      "version": "1.0.17",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "easygit",
+      "id": "plugins_6af3db32a214819185f3f0e82736c173",
+      "displayName": "EasyGit",
+      "version": "0.1.1",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3db32a214819185f3f0e82736c173",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "persian-type-studio",
+      "id": "plugins_6af3d85d8ac881918e82951d8185edef",
+      "displayName": "Persian Type Studio",
+      "version": "0.2.2",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3d85d8ac881918e82951d8185edef",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-ai",
+      "id": "plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+      "displayName": "FEZI AI",
+      "version": "1.0.2",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "replit-websites-deployer",
+      "id": "plugins_6af3d2e8ad34819184969f276177c2ca",
+      "displayName": "Replit Websites Deployer",
+      "version": "1.0.1",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3d2e8ad34819184969f276177c2ca",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-site-control",
+      "id": "plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+      "displayName": "FEZI Site Control",
+      "version": "1.0.1",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "plugin-boss",
+      "id": "plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+      "displayName": "Plugin Boss",
+      "version": "1.0.4",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-website-controller",
+      "id": "plugins_6af12c828d708191bbc2155205c342b0",
+      "displayName": "FEZI Website Controller",
+      "version": "1.0.7",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af12c828d708191bbc2155205c342b0",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-ai-command-center",
+      "id": "plugins_6af12b7fe94881919815cc5b117849ab",
+      "displayName": "FEZI AI Command Center",
+      "version": "1.0.5",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af12b7fe94881919815cc5b117849ab",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "wan2-free",
+      "id": "plugins_6af12a28838481919c2cc8d30dde6f7a",
+      "displayName": "Wan2 Free",
+      "version": "1.0.5",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af12a28838481919c2cc8d30dde6f7a",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "unlimited-email",
+      "id": "plugins_6af1241521248191a545a332773839ec",
+      "displayName": "Unlimited Email",
+      "version": "0.1.4",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af1241521248191a545a332773839ec",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-automation",
+      "id": "plugins_6af11f2ec0e48191845816afe7260920",
+      "displayName": "FEZI Automation",
+      "version": "1.1.7",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af11f2ec0e48191845816afe7260920",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "fezi-website-builder-pro",
+      "id": "plugins_6af11167471c81919bafaa4c613e1747",
+      "displayName": "FEZI Website Builder Pro",
+      "version": "1.2.6",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af11167471c81919bafaa4c613e1747",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    },
+    {
+      "slug": "plugin-saz",
+      "id": "plugins_6af3e2b7cdb081918d7991c0db2f9037",
+      "displayName": "Plugin-saz",
+      "version": "1.0.2",
+      "chatgptUrl": "https://chatgpt.com/plugins/plugins_6af3e2b7cdb081918d7991c0db2f9037",
+      "runtime": "NOT_VERIFIED",
+      "visibility": "PRIVATE"
+    }
+  ]
+}

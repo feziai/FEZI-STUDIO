@@ -1,0 +1,19 @@
+{
+  "slug": "gitfez",
+  "name": "GitFez / Host Manager",
+  "chatgptPluginId": "plugins_6aee5e023dc4819188cd987094cf5441",
+  "currentChatgptVersion": "0.3.12",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/gitfez",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

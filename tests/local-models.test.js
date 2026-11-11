@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';import os from 'node:os';import path from 'node:path';
+import {CATALOG,listLocalModels,modelInfo,modelPath,generateLocal,adapterFile} from '../core/local-models.js';
+test('model catalog includes three Qwen models plus two small licensed models',()=>{assert.equal(Object.keys(CATALOG).length,5);assert.equal(modelInfo('coder-mini').license,'Apache-2.0');assert.throws(()=>modelInfo('../../etc/passwd'),/Unknown local model/);assert.throws(()=>adapterFile('../secrets.gguf'),/Invalid LoRA/);assert.match(adapterFile('coder-fine-tune.gguf'),/adapters/);});
+test('no silent model download and no API-key required',async()=>{const models=await listLocalModels();assert.equal(models.length,5);assert.ok(models.every(m=>m.downloadUrl.startsWith('https://huggingface.co/')));assert.ok(models.every(m=>typeof m.installed==='boolean'));assert.match(modelPath('coder-mini'),/models/);});
+test('local inference disabled by default, no fake output',async()=>{const prev=process.env.LOCAL_AI_ENABLED;process.env.LOCAL_AI_ENABLED='false';try{await assert.rejects(generateLocal({model:'coder-mini',user:'hello'}),/LOCAL_AI_ENABLED/);}finally{if(prev===undefined)delete process.env.LOCAL_AI_ENABLED;else process.env.LOCAL_AI_ENABLED=prev;}});
