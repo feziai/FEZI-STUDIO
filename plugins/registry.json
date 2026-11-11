@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "note": "Catalog metadata only; does not activate runtimes or MCP connections.",
+  "plugins": [
+    {
+      "slug": "fezi-ai",
+      "name": "FEZI AI",
+      "sourceAvailability": "archive_present_review_required",
+      "providedArchives": [
+        "FEZI_AI_Universal_Agent_v1.0.0.zip"
+      ],
+      "sourceVersion": "1.0.0",
+      "sourceArchiveStatus": "historical-export-available",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-ai",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-studio",
+      "name": "FEZI Studio",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "0.3.18",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-studio",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-agent",
+      "name": "FEZI Agent",
+      "sourceAvailability": "archive_present_review_required",
+      "providedArchives": [
+        "FEZI_Agent_Connect_All_Persian_Studio_v3.zip",
+        "FEZI_AI_Universal_Agent_v1.0.0.zip"
+      ],
+      "sourceVersion": "unknown",
+      "sourceArchiveStatus": "historical-export-only",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-agent",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-ai-command-center",
+      "name": "FEZI AI Command Center",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.0.3",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-ai-command-center",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "super-plugin",
+      "name": "Super Plugin / Plugin Maker",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "0.3.21",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/super-plugin",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "plugin-finder",
+      "name": "Plugin Finder",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.0.16",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/plugin-finder",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "plugin-boss",
+      "name": "Plugin Boss",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.0.3",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/plugin-boss",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "gitfez",
+      "name": "GitFez",
+      "sourceAvailability": "archive_present_review_required",
+      "providedArchives": [
+        "GitFez_GitHub_App_Secure_Connector.zip"
+      ],
+      "sourceVersion": "0.3.12",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/gitfez",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "easygit",
+      "name": "EasyGit",
+      "sourceAvailability": "archive_present_review_required",
+      "providedArchives": [
+        "EasyGit_ChatGPT_Plugin_v0.1.0.zip"
+      ],
+      "sourceVersion": "0.1.0",
+      "sourceArchiveStatus": "historical-export-available",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/easygit",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-git-pusher",
+      "name": "FEZI Git Pusher",
+      "sourceAvailability": "not_supplied",
+      "providedArchives": [],
+      "sourceVersion": null,
+      "sourceArchiveStatus": "no-source-in-attachments",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-git-pusher",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-website-controller",
+      "name": "FEZI Website Controller",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.0.6",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-website-controller",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-site-control",
+      "name": "FEZI Site Control",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.0.0",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-site-control",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "hostbridge-ai",
+      "name": "HostBridge AI",
+      "sourceAvailability": "not_supplied",
+      "providedArchives": [],
+      "sourceVersion": null,
+      "sourceArchiveStatus": "no-source-in-attachments",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/hostbridge-ai",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-telegram-bot-maker",
+      "name": "FEZI Telegram Bot Maker",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "0.5.6",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-telegram-bot-maker",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezipay",
+      "name": "FEZIPAY",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "0.8.14",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezipay",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "persian-fonts",
+      "name": "Persian Fonts / Persian Type Studio",
+      "sourceAvailability": "archive_present_review_required",
+      "providedArchives": [
+        "Persian_Type_Studio_v0.1.0.zip"
+      ],
+      "sourceVersion": "unknown",
+      "sourceArchiveStatus": "historical-export-only",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/persian-fonts",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "skill-creator",
+      "name": "Skill Creator",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.1.0",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/skill-creator",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "replit-websites-deployer",
+      "name": "Replit Websites Deployer",
+      "sourceAvailability": "archive_present_review_required",
+      "providedArchives": [
+        "Replit_Websites_Deployer_Plugin_v1.zip"
+      ],
+      "sourceVersion": "1.0.0",
+      "sourceArchiveStatus": "historical-export-available",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/replit-websites-deployer",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "wan2-free",
+      "name": "Wan2 Free",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.0.4",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/wan2-free",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-automation",
+      "name": "FEZI Automation",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.1.6",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-automation",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "fezi-website-builder-pro",
+      "name": "FEZI Website Builder Pro",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.2.5",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/fezi-website-builder-pro",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "arina-fezi-live",
+      "name": "Arina FEZI Live",
+      "sourceAvailability": "not_supplied",
+      "providedArchives": [],
+      "sourceVersion": null,
+      "sourceArchiveStatus": "no-source-in-attachments",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/arina-fezi-live",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "uncensored",
+      "name": "Uncensored GPT",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "0.4.13",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/uncensored",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "premium",
+      "name": "FEZI Studio Premium",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "1.1.8",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/premium",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    },
+    {
+      "slug": "unlimited-email",
+      "name": "Unlimited Email / Plankton Mail",
+      "sourceAvailability": "metadata_only",
+      "providedArchives": [],
+      "sourceVersion": "0.1.3",
+      "sourceArchiveStatus": "metadata-only-no-current-source-export",
+      "mcp": {
+        "status": "needs_configuration",
+        "route": "/mcp/unlimited-email",
+        "backendConfigured": false,
+        "auth": "Bearer token required when implemented"
+      },
+      "runtime": "not_deployed",
+      "connectionClaimsAllowed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="PDH AI">
+<defs><radialGradient id="bg"><stop stop-color="#ffc66b" stop-opacity=".38"/><stop offset="1" stop-color="#0b0921"/></radialGradient><linearGradient id="h" x1="0" x2="1"><stop stop-color="#ffc66b"/><stop offset=".5" stop-color="#ffc66b"/><stop offset="1" stop-color="#211032"/></linearGradient></defs>
+<rect width="320" height="320" rx="48" fill="url(#bg)"/><g opacity=".5" stroke="#ffc66b"><circle cx="160" cy="146" r="125" fill="none"/><path d="M12 250h296"/></g>
+<path d="M47 315 Q61 240 122 230 L197 230 Q258 245 273 315" fill="#191736" stroke="#ffc66b" stroke-width="4"/>
+<path d="M74 150 Q55 55 130 43 Q205 10 246 99 Q262 161 238 232 L217 229 L205 102 Q157 79 106 120 L109 229 L82 230Z" fill="url(#h)" stroke="#170c26" stroke-width="5"/>
+<path d="M112 111 Q160 86 207 111 L211 181 Q209 231 161 244 Q108 222 108 181Z" fill="#edb69e"/>
+<path d="M107 157 Q130 146 147 157 M174 157 Q190 145 213 156" stroke="#2b1530" stroke-width="6" fill="none" stroke-linecap="round"/>
+<circle cx="133" cy="161" r="5" fill="#161026"/><circle cx="190" cy="161" r="5" fill="#161026"/>
+<path d="M145 200 Q161 210 179 200" stroke="#9e406f" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M105 111 Q137 82 166 109 Q202 83 218 120 Q204 91 222 72 Q166 30 116 71Z" fill="url(#h)"/>
+<path d="M78 126Q52 155 80 190M239 125Q269 156 242 193" stroke="#93fff5" stroke-width="13" fill="none" stroke-linecap="round"/>
+<circle cx="80" cy="159" r="18" fill="#261535" stroke="#ffc66b" stroke-width="6"/><circle cx="240" cy="159" r="18" fill="#261535" stroke="#ffc66b" stroke-width="6"/>
+<rect x="44" y="254" width="232" height="44" rx="16" fill="#101025" stroke="#ffc66b"/><text x="160" y="281" font-family="DejaVu Sans,Arial" font-weight="bold" font-size="18" fill="white" text-anchor="middle">PDH AI</text>
+</svg>

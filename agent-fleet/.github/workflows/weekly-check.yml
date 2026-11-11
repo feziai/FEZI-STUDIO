@@ -1,0 +1,17 @@
+name: FEZI Weekly Quality Check
+on:
+  schedule:
+    - cron: "25 7 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+# Runs tests only. Does NOT run Telegram bots continuously or auto-merge updates.

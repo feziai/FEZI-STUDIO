@@ -1,0 +1,16 @@
+{
+  "slug": "fezi-automation",
+  "name": "FEZI Automation",
+  "sourceAvailability": "metadata_only",
+  "providedArchives": [],
+  "sourceVersion": "1.1.6",
+  "sourceArchiveStatus": "metadata-only-no-current-source-export",
+  "mcp": {
+    "status": "needs_configuration",
+    "route": "/mcp/fezi-automation",
+    "backendConfigured": false,
+    "auth": "Bearer token required when implemented"
+  },
+  "runtime": "not_deployed",
+  "connectionClaimsAllowed": false
+}

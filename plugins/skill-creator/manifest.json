@@ -1,0 +1,16 @@
+{
+  "slug": "skill-creator",
+  "name": "Skill Creator",
+  "sourceAvailability": "metadata_only",
+  "providedArchives": [],
+  "sourceVersion": "1.1.0",
+  "sourceArchiveStatus": "metadata-only-no-current-source-export",
+  "mcp": {
+    "status": "needs_configuration",
+    "route": "/mcp/skill-creator",
+    "backendConfigured": false,
+    "auth": "Bearer token required when implemented"
+  },
+  "runtime": "not_deployed",
+  "connectionClaimsAllowed": false
+}

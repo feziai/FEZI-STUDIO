@@ -1,0 +1,16 @@
+{
+  "slug": "unlimited-email",
+  "name": "Unlimited Email / Plankton Mail",
+  "sourceAvailability": "metadata_only",
+  "providedArchives": [],
+  "sourceVersion": "0.1.3",
+  "sourceArchiveStatus": "metadata-only-no-current-source-export",
+  "mcp": {
+    "status": "needs_configuration",
+    "route": "/mcp/unlimited-email",
+    "backendConfigured": false,
+    "auth": "Bearer token required when implemented"
+  },
+  "runtime": "not_deployed",
+  "connectionClaimsAllowed": false
+}

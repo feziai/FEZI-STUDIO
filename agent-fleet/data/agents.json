@@ -1,0 +1,299 @@
+[
+  {
+    "id": "full_sexy_ai_models",
+    "name": "Creative AI Studio",
+    "role": "تولید محتوای خلاقانه مجاز، طراحی و ابزارهای تصویر",
+    "accent": "#ff70bd",
+    "icon": "🎨",
+    "avatar": "/assets/avatars/full_sexy_ai_models.svg",
+    "requiresToken": "BOT_TOKEN_FULL_SEXY_AI_MODELS"
+  },
+  {
+    "id": "super_plugin",
+    "name": "Super Plugin",
+    "role": "کاتالوگ اسکیل‌ها و پیشنهاد ابزار",
+    "accent": "#56cafa",
+    "icon": "🧩",
+    "avatar": "/assets/avatars/super_plugin.svg",
+    "requiresToken": "BOT_TOKEN_SUPER_PLUGIN"
+  },
+  {
+    "id": "fezi_studio",
+    "name": "Fezi Studio",
+    "role": "ابزارهای طراحی، متن و ساخت نمونه اولیه",
+    "accent": "#b27bfa",
+    "icon": "🎬",
+    "avatar": "/assets/avatars/fezi_studio.svg",
+    "requiresToken": "BOT_TOKEN_FEZI_STUDIO"
+  },
+  {
+    "id": "gitfez_plugin",
+    "name": "GitFez",
+    "role": "راهنمای GitHub و پروژه‌های متن‌باز",
+    "accent": "#ffc66b",
+    "icon": "🧑‍💻",
+    "avatar": "/assets/avatars/gitfez_plugin.svg",
+    "requiresToken": "BOT_TOKEN_GITFEZ_PLUGIN"
+  },
+  {
+    "id": "fezpay",
+    "name": "FezPay",
+    "role": "پرداخت شفاف، فاکتور و راهنمای خدمات",
+    "accent": "#f96b76",
+    "icon": "💳",
+    "avatar": "/assets/avatars/fezpay.svg",
+    "requiresToken": "BOT_TOKEN_FEZPAY"
+  },
+  {
+    "id": "plugin_finder",
+    "name": "Plugin Finder",
+    "role": "جست‌وجوی ابزارها با منابع مجاز",
+    "accent": "#ff70bd",
+    "icon": "🔎",
+    "avatar": "/assets/avatars/plugin_finder.svg",
+    "requiresToken": "BOT_TOKEN_PLUGIN_FINDER"
+  },
+  {
+    "id": "moderator",
+    "name": "Channel Moderator",
+    "role": "مدیریت و بازنشر با مجوز کانال",
+    "accent": "#56cafa",
+    "icon": "🛡️",
+    "avatar": "/assets/avatars/moderator.svg",
+    "requiresToken": "BOT_TOKEN_MODERATOR"
+  },
+  {
+    "id": "private_ai_lab",
+    "name": "Private AI Lab",
+    "role": "ابزارهای خلاقانه خصوصی و مطابق قوانین",
+    "accent": "#b27bfa",
+    "icon": "🖼️",
+    "avatar": "/assets/avatars/private_ai_lab.svg",
+    "requiresToken": "BOT_TOKEN_PRIVATE_AI_LAB"
+  },
+  {
+    "id": "arina",
+    "name": "Arina",
+    "role": "دستیار خلاق، طنز و تولید محتوا با افشای هویت AI",
+    "accent": "#ffc66b",
+    "icon": "✨",
+    "avatar": "/assets/avatars/arina.svg",
+    "requiresToken": "BOT_TOKEN_ARINA"
+  },
+  {
+    "id": "bot_factory",
+    "name": "Bot Factory",
+    "role": "ساخت نمونه ربات‌ها و مینی‌اپ‌ها",
+    "accent": "#f96b76",
+    "icon": "🤖",
+    "avatar": "/assets/avatars/bot_factory.svg",
+    "requiresToken": "BOT_TOKEN_BOT_FACTORY"
+  },
+  {
+    "id": "opensource_ai",
+    "name": "Open Source AI",
+    "role": "معرفی مدل‌ها و پروژه‌های دارای مجوز متن‌باز",
+    "accent": "#ff70bd",
+    "icon": "🌐",
+    "avatar": "/assets/avatars/opensource_ai.svg",
+    "requiresToken": "BOT_TOKEN_OPENSOURCE_AI"
+  },
+  {
+    "id": "plankton_mail",
+    "name": "Plankton Mail",
+    "role": "کمک به نامه‌نگاری و پیام‌های مجاز",
+    "accent": "#56cafa",
+    "icon": "✉️",
+    "avatar": "/assets/avatars/plankton_mail.svg",
+    "requiresToken": "BOT_TOKEN_PLANKTON_MAIL"
+  },
+  {
+    "id": "ai_subscription",
+    "name": "AI Subscription",
+    "role": "اشتراک ابزارهای دارای مجوز و تحویل واقعی",
+    "accent": "#b27bfa",
+    "icon": "🧾",
+    "avatar": "/assets/avatars/ai_subscription.svg",
+    "requiresToken": "BOT_TOKEN_AI_SUBSCRIPTION"
+  },
+  {
+    "id": "ai_model_market",
+    "name": "AI Model Market",
+    "role": "فروش مجاز خدمات مدل‌ها و نسخه‌های آزمایشی شفاف",
+    "accent": "#ffc66b",
+    "icon": "🛒",
+    "avatar": "/assets/avatars/ai_model_market.svg",
+    "requiresToken": "BOT_TOKEN_AI_MODEL_MARKET"
+  },
+  {
+    "id": "model_explorer",
+    "name": "Model Explorer",
+    "role": "مقایسه مدل‌های مجاز و قیمت‌ها",
+    "accent": "#f96b76",
+    "icon": "🧠",
+    "avatar": "/assets/avatars/model_explorer.svg",
+    "requiresToken": "BOT_TOKEN_MODEL_EXPLORER"
+  },
+  {
+    "id": "fezi_studio_extra",
+    "name": "Fezi Studio Plus",
+    "role": "توسعه نمونه‌های طراحی و وب‌اپ",
+    "accent": "#ff70bd",
+    "icon": "🪄",
+    "avatar": "/assets/avatars/fezi_studio_extra.svg",
+    "requiresToken": "BOT_TOKEN_FEZI_STUDIO_EXTRA"
+  },
+  {
+    "id": "arina_secondary",
+    "name": "Arina Creative",
+    "role": "ایده‌پردازی و خلاقیت",
+    "accent": "#56cafa",
+    "icon": "🌸",
+    "avatar": "/assets/avatars/arina_secondary.svg",
+    "requiresToken": "BOT_TOKEN_ARINA_SECONDARY"
+  },
+  {
+    "id": "fezi_news",
+    "name": "Fezi News",
+    "role": "خلاصه خبر با منبع و عدم ادعای خبر لحظه‌ای",
+    "accent": "#b27bfa",
+    "icon": "📰",
+    "avatar": "/assets/avatars/fezi_news.svg",
+    "requiresToken": "BOT_TOKEN_FEZI_NEWS"
+  },
+  {
+    "id": "pdh_ai",
+    "name": "PDH AI",
+    "role": "پژوهش و تحلیل اطلاعات",
+    "accent": "#ffc66b",
+    "icon": "📚",
+    "avatar": "/assets/avatars/pdh_ai.svg",
+    "requiresToken": "BOT_TOKEN_PDH_AI"
+  },
+  {
+    "id": "kaizer_ai",
+    "name": "Kaizer AI",
+    "role": "آموزش امنیت دفاعی و کدنویسی",
+    "accent": "#f96b76",
+    "icon": "🛡️",
+    "avatar": "/assets/avatars/kaizer_ai.svg",
+    "requiresToken": "BOT_TOKEN_KAIZER_AI"
+  },
+  {
+    "id": "persian_dark_horse",
+    "name": "Persian Dark Horse",
+    "role": "آموزش امنیت و سواد دیجیتال",
+    "accent": "#ff70bd",
+    "icon": "🐎",
+    "avatar": "/assets/avatars/persian_dark_horse.svg",
+    "requiresToken": "BOT_TOKEN_PERSIAN_DARK_HORSE"
+  },
+  {
+    "id": "general_bot",
+    "name": "General Assistant",
+    "role": "دستیار عمومی و برنامه‌ریزی",
+    "accent": "#56cafa",
+    "icon": "💬",
+    "avatar": "/assets/avatars/general_bot.svg",
+    "requiresToken": "BOT_TOKEN_GENERAL_BOT"
+  },
+  {
+    "id": "telegram_api_5",
+    "name": "Task Assistant 5",
+    "role": "مدیریت کارهای روزمره",
+    "accent": "#b27bfa",
+    "icon": "✅",
+    "avatar": "/assets/avatars/telegram_api_5.svg",
+    "requiresToken": "BOT_TOKEN_TELEGRAM_API_5"
+  },
+  {
+    "id": "telegram_bot_6",
+    "name": "Task Assistant 6",
+    "role": "گزارش و یادآوری",
+    "accent": "#ffc66b",
+    "icon": "⏰",
+    "avatar": "/assets/avatars/telegram_bot_6.svg",
+    "requiresToken": "BOT_TOKEN_TELEGRAM_BOT_6"
+  },
+  {
+    "id": "telegram_bot_8",
+    "name": "Task Assistant 8",
+    "role": "آموزش فناوری و راهنمایی",
+    "accent": "#f96b76",
+    "icon": "🎓",
+    "avatar": "/assets/avatars/telegram_bot_8.svg",
+    "requiresToken": "BOT_TOKEN_TELEGRAM_BOT_8"
+  },
+  {
+    "id": "arina_bot_2",
+    "name": "Arina Ideas",
+    "role": "ایده‌های بازی و مینی‌اپ",
+    "accent": "#ff70bd",
+    "icon": "🎮",
+    "avatar": "/assets/avatars/arina_bot_2.svg",
+    "requiresToken": "BOT_TOKEN_ARINA_BOT_2"
+  },
+  {
+    "id": "persian_dark_horse_v2",
+    "name": "Persian Dark Horse",
+    "role": "آموزش و تحلیل ریسک رمزارز",
+    "accent": "#b06eff",
+    "icon": "♞",
+    "avatar": "/assets/avatars/persian_dark_horse_v2.svg",
+    "requiresToken": "BOT_TOKEN_PERSIAN_DARK_HORSE_V2"
+  },
+  {
+    "id": "fezipay_next",
+    "name": "FeziPay Next",
+    "role": "صورت‌حساب و پرداخت شفاف",
+    "accent": "#ffc24a",
+    "icon": "◈",
+    "avatar": "/assets/avatars/fezipay_next.svg",
+    "requiresToken": "BOT_TOKEN_FEZIPAY_NEXT"
+  },
+  {
+    "id": "fezi_broadcast",
+    "name": "Fezi Broadcast",
+    "role": "انتشار محتوای رضایت‌محور",
+    "accent": "#fe6cbb",
+    "icon": "✦",
+    "avatar": "/assets/avatars/fezi_broadcast.svg",
+    "requiresToken": "BOT_TOKEN_FEZI_BROADCAST"
+  },
+  {
+    "id": "fezix_local",
+    "name": "FeziX Local AI",
+    "role": "مدیریت مدل‌های متن‌باز و محلی",
+    "accent": "#54f5c1",
+    "icon": "⬡",
+    "avatar": "/assets/avatars/fezix_local.svg",
+    "requiresToken": "BOT_TOKEN_FEZIX_LOCAL"
+  },
+  {
+    "id": "pdh_research",
+    "name": "PDH Research",
+    "role": "پژوهش و راستی‌آزمایی",
+    "accent": "#68b8ff",
+    "icon": "◎",
+    "avatar": "/assets/avatars/pdh_research.svg",
+    "requiresToken": "BOT_TOKEN_PDH_RESEARCH"
+  },
+  {
+    "id": "kaizer_guard",
+    "name": "Kaizer Guard",
+    "role": "امنیت دفاعی و تست مجاز",
+    "accent": "#fa7358",
+    "icon": "⛨",
+    "avatar": "/assets/avatars/kaizer_guard.svg",
+    "requiresToken": "BOT_TOKEN_KAIZER_GUARD"
+  },
+  {
+    "id": "fezi_navigator",
+    "name": "Fezi Navigator",
+    "role": "راهنمای وب و مدیریت گردش کار",
+    "accent": "#d6b0ff",
+    "icon": "➤",
+    "avatar": "/assets/avatars/fezi_navigator.svg",
+    "requiresToken": "BOT_TOKEN_FEZI_NAVIGATOR"
+  }
+]

@@ -1,0 +1,10 @@
+services:
+  fezi:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    ports:
+      - "10000:10000"
+    read_only: true
+    tmpfs:
+      - /tmp
