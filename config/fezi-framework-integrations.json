@@ -1,0 +1,21 @@
+{
+  "version": "2026-11-08",
+  "project": "FEZI Studio",
+  "purpose": "Technology discovery and integration status; entries are not claims of runtime readiness.",
+  "integrations": [
+    {"name":"Telegram Bot API","status":"implemented_optional","use":"BotFather, webhook, menus, bot factory","activation":"fresh bot tokens + real HTTPS domain"},
+    {"name":"grammY","status":"export_template","use":"Telegram framework for Node.js","activation":"npm install in exported project"},
+    {"name":"Telegraf","status":"export_template","use":"Telegram framework for Node.js","activation":"npm install in exported project"},
+    {"name":"aiogram","status":"export_template","use":"Telegram framework for Python","activation":"pip install in exported project"},
+    {"name":"Transformers","status":"future_worker","use":"CPU/GPU model inference","activation":"separate Python model worker with adequate hardware"},
+    {"name":"smolagents","status":"future_adapter","use":"task planning and tool calling","activation":"owner-reviewed Python service"},
+    {"name":"LangChain","status":"future_adapter","use":"memory, tools and RAG","activation":"configured database and adapters"},
+    {"name":"LiteLLM","status":"future_gateway","use":"OpenAI-compatible multi-provider routing","activation":"optional service with cost guard"},
+    {"name":"Flowise","status":"future_ui","use":"visual workflow and agent building","activation":"separately hosted service"},
+    {"name":"n8n","status":"reference_license_restricted","use":"internal automation only unless licensed","activation":"commercial license may be required for customer-facing workflow editing"},
+    {"name":"Open WebUI","status":"reference_license_review","use":"model management UI","activation":"review current license and deployment separation"},
+    {"name":"OpenRouter","status":"metadata_discovery_and_free_api_router","use":"free API models only","activation":"fresh OPENROUTER_API_KEY; provider quotas apply"},
+    {"name":"Hugging Face","status":"metadata_discovery","use":"discover model repositories","activation":"downloads and hardware require separate validation"},
+    {"name":"GitHub","status":"metadata_discovery_and_repository","use":"source code search and deployment","activation":"authorized integration with repository write permission"}
+  ]
+}

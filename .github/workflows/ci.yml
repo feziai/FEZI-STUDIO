@@ -1,0 +1,32 @@
+name: FEZI AGENT CI
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax validation
+        run: |
+          node --check server.js
+          node --check telegram.js
+          node --check core/telegram-runtime.js
+          node --check core/desktop-tools.js
+          node --check scripts/desktop-launch.mjs
+          node --check scripts/telegram-poll.mjs
+      - name: Automated tests
+        run: npm test
+      - name: Check for private files
+        run: |
+          test ! -e .env
+          test ! -d data
+          test ! -f models/*.gguf

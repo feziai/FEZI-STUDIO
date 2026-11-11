@@ -1,0 +1,103 @@
+{
+  "kind": "choreography-plan-not-video",
+  "source": "uploaded-storyboards + licensed motion-reference-footage",
+  "category": "persian",
+  "bpm": 108,
+  "durationSeconds": 60,
+  "requestedSeconds": 60,
+  "aspectRatio": "16:9",
+  "delivery": "1920x1080@30fps MP4",
+  "continuousCamera": true,
+  "segments": [
+    {
+      "moveId": "persian-bounce",
+      "category": "persian",
+      "startSecond": 0,
+      "endSecond": 6.667,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "persian-turn",
+      "category": "persian",
+      "startSecond": 6.667,
+      "endSecond": 15.556,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "persian-bounce",
+      "category": "persian",
+      "startSecond": 15.556,
+      "endSecond": 22.222,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "double-peace",
+      "category": "fun",
+      "startSecond": 22.222,
+      "endSecond": 28.889,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "persian-hands",
+      "category": "persian",
+      "startSecond": 28.889,
+      "endSecond": 35.556,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "persian-handwave",
+      "category": "persian",
+      "startSecond": 35.556,
+      "endSecond": 42.222,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "persian-sway",
+      "category": "persian",
+      "startSecond": 42.222,
+      "endSecond": 46.667,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "tiny-punch",
+      "category": "fun",
+      "startSecond": 46.667,
+      "endSecond": 55.556,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "persian-shoulder",
+      "category": "persian",
+      "startSecond": 55.556,
+      "endSecond": 60,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    }
+  ]
+}

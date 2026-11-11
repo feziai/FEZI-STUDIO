@@ -1,0 +1,13 @@
+{
+  "name": "fezi-studio-bot",
+  "version": "1.01.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/telegram-public.mjs",
+    "check": "node --check scripts/telegram-public.mjs"
+  }
+}

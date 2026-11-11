@@ -1,0 +1,82 @@
+{
+  "project": "FEZI Studio",
+  "canonical_name_fa": "فضی استودیو",
+  "runtime": {
+    "node_min_major": 22,
+    "single_website": true,
+    "primary_domain": "not configured"
+  },
+  "reference": "docs/FEZI_STUDIO_MASTER_SPEC_FA.md",
+  "agent_mission": "Build, edit, install, test, and publish websites and web apps",
+  "priorities": [
+    "Website builder agent",
+    "GitHub and deployment",
+    "Plugin skills & MCP",
+    "Telegram factory",
+    "Free-only chat API",
+    "Daily discovery",
+    "Experimental frameworks"
+  ],
+  "strict_requirements": {
+    "preserve_existing_files": true,
+    "preserve_brand_assets": true,
+    "secrets_in_git": false,
+    "require_real_runtime_tests": true,
+    "shell_sandbox": true,
+    "publish_medium_only_after_staging": true,
+    "model_fallback_paid": false
+  },
+  "status_schema": [
+    "READY",
+    "CONFIG REQUIRED",
+    "PLANNED"
+  ],
+  "modules": {
+    "website_and_agent": {
+      "source": "core/agent.js",
+      "requires_live_check": true
+    },
+    "agent_skills": {
+      "source": "agent-skills/library",
+      "requires_live_check": false
+    },
+    "agent_mcp": {
+      "source": "core/fezi-agent-mcp.mjs",
+      "requires_live_check": true
+    },
+    "agent_shell": {
+      "source": "core/fezi-agent-shell.mjs",
+      "requires_live_check": true
+    },
+    "telegram_factory": {
+      "source": "core/fezi-telegram-factory.mjs",
+      "requires_live_check": true
+    },
+    "plugins_hub": {
+      "source": "public/plugins/index.html",
+      "requires_live_check": true
+    },
+    "free_model_discovery": {
+      "source": "public/plugins/free-models.html",
+      "requires_live_check": true
+    },
+    "automated_daily_audit": {
+      "source": ".github/workflows/fezi-daily-audit.yml",
+      "requires_live_check": true
+    },
+    "site_container": {
+      "source": "compose.api-first.yaml",
+      "requires_live_check": true
+    }
+  },
+  "extra_frameworks": [
+    "Transformers",
+    "smolagents",
+    "LangChain",
+    "LiteLLM",
+    "Flowise",
+    "n8n",
+    "Open WebUI"
+  ],
+  "security_note": "Never paste, commit, embed, or log user-provided tokens. Rotate any tokens previously shared in chat or files."
+}

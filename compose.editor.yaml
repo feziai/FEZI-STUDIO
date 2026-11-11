@@ -1,0 +1,29 @@
+# Optional code-server worker for a trusted single-admin machine with Docker.
+# Bind ports to localhost only; use SSH tunnel / reverse proxy with HTTPS for remote access.
+# Do NOT run on shared cPanel hosting that prohibits Docker.
+services:
+  fezi-agent:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      APP_PASSWORD: ${APP_PASSWORD:?Set a strong password}
+      SESSION_SECRET: ${SESSION_SECRET:?Set a unique strong secret}
+      DATA_DIR: /data
+    volumes:
+      - fezi_data:/data
+    restart: unless-stopped
+  editor:
+    image: codercom/code-server:latest
+    command: ["--bind-addr", "0.0.0.0:8080", "/workspace/projects"]
+    environment:
+      PASSWORD: ${FEZI_EDITOR_PASSWORD:?Set separate editor password}
+    ports:
+      - "127.0.0.1:8443:8080"
+    volumes:
+      - fezi_data:/workspace
+    restart: unless-stopped
+volumes:
+  fezi_data:

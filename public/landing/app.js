@@ -1,0 +1,15 @@
+const $=s=>document.querySelector(s);
+const toast=(msg)=>{let el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove('show'),4200)};
+$('#navtoggle')?.addEventListener('click',()=>$('#nav').classList.toggle('open'));
+$('#nav')?.addEventListener('click',()=>$('#nav').classList.remove('open'));
+document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>location.assign(b.dataset.go)));
+document.querySelectorAll('[data-demo]').forEach(b=>b.addEventListener('click',()=>toast(b.dataset.demo)));
+document.querySelectorAll('[data-gift]').forEach(b=>b.addEventListener('click',()=>{toast('برای مشاهده هدیه‌ها و پرداخت تأییدشده وارد کیف پول آرینا شوید.');location.assign('/arina-wallet')}));
+let likes=0;$('#like')?.addEventListener('click',()=>{likes++;$('#likes').textContent=likes;toast('این لایک فقط در پیش‌نمایش محلی است؛ برای لایک عکس‌ها به آلبوم برو.');});
+$('#chat-form')?.addEventListener('submit',e=>{e.preventDefault();const t=$('#chat-input').value.trim();if(!t)return;try{sessionStorage.setItem('arina-pending-text',t)}catch{}location.assign('/arina-live')});
+document.querySelectorAll('[data-quick]').forEach(b=>b.addEventListener('click',()=>{$('#chat-input').value=b.dataset.quick;$('#chat-input').focus()}));
+document.querySelectorAll('[data-prompt]').forEach(b=>b.addEventListener('click',()=>{$('#prompt').value=b.dataset.prompt;document.querySelector('#agent').scrollIntoView({behavior:'smooth'});$('#prompt').focus()}));
+document.querySelectorAll('[data-service-prompt]').forEach(a=>a.addEventListener('click',()=>{try{sessionStorage.setItem('fezi-pending-prompt',a.dataset.servicePrompt)}catch{}}));
+$('#attach')?.addEventListener('click',()=>$('#files').click());$('#files')?.addEventListener('change',()=>{$('#file-status').textContent=Array.from($('#files').files).map(f=>f.name).join('، ');toast('فایل فقط روی گوشی انتخاب شده است؛ برای آپلود امن از محیط پروژه استفاده کن.')});
+$('#voice')?.addEventListener('click',()=>toast('ورودی صوتی در این بخش به سرور متصل نیست؛ می‌توانی درخواستت را بنویسی.'));
+$('#start-build')?.addEventListener('click',()=>{const t=$('#prompt').value.trim();if(!t){$('#build-feedback').textContent='ابتدا ایده خود را بنویس.';return}try{sessionStorage.setItem('fezi-pending-prompt',t)}catch{}location.assign('/builder')});

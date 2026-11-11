@@ -1,0 +1,611 @@
+{
+  "brand": "FEZI Studio — فضی استودیو",
+  "kind": "public-directory",
+  "snapshotDate": "2026-11-11",
+  "publicListing": true,
+  "publicPluginExecutions": false,
+  "disclaimer": "26 plugins registered as private in ChatGPT Plugin Creator on 2026-11-11. A GitHub Pages profile is NOT a live plugin runtime. MCP/gateway/AI/Telegram/FeziPay require external secure backend and verified connections.",
+  "plugins": [
+    {
+      "slug": "fezi-studio",
+      "name": "فضی استودیو",
+      "nameEn": "FEZI Studio",
+      "description": "مرکز هوش مصنوعی، ساخت وب‌اپ و مدیریت پروژه",
+      "descriptionEn": "AI studio and project builder",
+      "category": "studio",
+      "version": "0.3.19",
+      "chatgpt": {
+        "pluginId": "plugins_6aee66d7da5c8191878e86e2a54dbc49",
+        "url": "https://chatgpt.com/plugins/plugins_6aee66d7da5c8191878e86e2a54dbc49",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/fezi-hub/home",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-studio"
+      }
+    },
+    {
+      "slug": "premium",
+      "name": "فضی استودیو Premium",
+      "nameEn": "FEZI Studio Premium",
+      "description": "توسعه پیشرفته، مدل‌ها و گردش‌کارهای چندابزاری",
+      "descriptionEn": "Premium advanced development workflows",
+      "category": "studio",
+      "version": "1.1.9",
+      "chatgpt": {
+        "pluginId": "plugins_6aee769dcc7881919cd7829f1166dfcf",
+        "url": "https://chatgpt.com/plugins/plugins_6aee769dcc7881919cd7829f1166dfcf",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/studio",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/premium"
+      }
+    },
+    {
+      "slug": "super-plugin",
+      "name": "سوپر پلاگین",
+      "nameEn": "Super Plugin",
+      "description": "ساخت و به‌روزرسانی پلاگین‌ها و کتابخانه مشترک مهارت‌ها با تأیید مالک",
+      "descriptionEn": "Plugin building and skill orchestration",
+      "category": "developer",
+      "version": "0.3.22",
+      "chatgpt": {
+        "pluginId": "plugins_6aee704a03fc8191b211748176057f35",
+        "url": "https://chatgpt.com/plugins/plugins_6aee704a03fc8191b211748176057f35",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/telegram-builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/super-plugin"
+      }
+    },
+    {
+      "slug": "gitfez",
+      "name": "گیت‌فز — Host Manager",
+      "nameEn": "GitFez / Host Manager",
+      "description": "مخازن، کدنویسی، هاست و استقرار با مجوز",
+      "descriptionEn": "Repository and deployment planning",
+      "category": "developer",
+      "version": "0.3.14",
+      "chatgpt": {
+        "pluginId": "plugins_6aee5e023dc4819188cd987094cf5441",
+        "url": "https://chatgpt.com/plugins/plugins_6aee5e023dc4819188cd987094cf5441",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/gitfez"
+      }
+    },
+    {
+      "slug": "git-pusher",
+      "name": "فضی گیت پوشِر",
+      "nameEn": "FEZI Git Pusher",
+      "description": "آماده‌سازی مخزن، شاخه‌ها و انتشار نسخه",
+      "descriptionEn": "Git repository release workflows",
+      "category": "developer",
+      "version": "0.6.16",
+      "chatgpt": {
+        "pluginId": "plugins_6aee597b2af081918f3dcb35530cf384",
+        "url": "https://chatgpt.com/plugins/plugins_6aee597b2af081918f3dcb35530cf384",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/git-pusher"
+      }
+    },
+    {
+      "slug": "arina",
+      "name": "آرینا لایو",
+      "nameEn": "Arina Live",
+      "description": "آواتار مجازی و تجربه تعاملی",
+      "descriptionEn": "Virtual streamer and interactive avatar",
+      "category": "creative",
+      "version": "0.1.10",
+      "chatgpt": {
+        "pluginId": "plugins_6aeea11809e88191a73963704e2ba340",
+        "url": "https://chatgpt.com/plugins/plugins_6aeea11809e88191a73963704e2ba340",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/fezi-hub/arina",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/arina"
+      }
+    },
+    {
+      "slug": "uncensored",
+      "name": "Uncensored GPT",
+      "nameEn": "Uncensored GPT",
+      "description": "ابزار گفتگو و تولید محتوای خلاق",
+      "descriptionEn": "Creative chat and content workflows",
+      "category": "creative",
+      "version": "0.4.14",
+      "chatgpt": {
+        "pluginId": "plugins_6aee79b01fd081918e1e4898a67a4253",
+        "url": "https://chatgpt.com/plugins/plugins_6aee79b01fd081918e1e4898a67a4253",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/fezi-hub/chat",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/uncensored"
+      }
+    },
+    {
+      "slug": "fezipay",
+      "name": "فضی‌پی",
+      "nameEn": "FeziPay",
+      "description": "کیف پول و امکانات پرداختِ وابسته به تأیید",
+      "descriptionEn": "Wallet and verified payment experiences",
+      "category": "finance",
+      "version": "0.8.15",
+      "chatgpt": {
+        "pluginId": "plugins_6aee634490288191b707850d23b96c03",
+        "url": "https://chatgpt.com/plugins/plugins_6aee634490288191b707850d23b96c03",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/fezi-hub/fezipay",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezipay"
+      }
+    },
+    {
+      "slug": "hostgpt",
+      "name": "HostGPT AI — مدیریت انتشار",
+      "nameEn": "HostGPT AI Deploy Manager",
+      "description": "HostGPT / HostBridge AI؛ برنامه‌ریزی و مدیریت انتشار پروژه و هاست با مجوز کاربر",
+      "descriptionEn": "Project deployment guidance",
+      "category": "developer",
+      "version": "1.0.15",
+      "chatgpt": {
+        "pluginId": "plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+        "url": "https://chatgpt.com/plugins/plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/hostgpt"
+      }
+    },
+    {
+      "slug": "fezi-agent-builder",
+      "name": "فضی ایجنت — سازنده حرفه‌ای",
+      "nameEn": "FEZI Agent Builder",
+      "description": "سازنده و ویرایشگر وب‌سایت و اپ، همراه Skill Creator و برنامه توسعه پنج میلیون اسکیل",
+      "descriptionEn": "Website-first app builder, editor and skill creator; 49 curated skills, 5M target only",
+      "category": "developer",
+      "version": "0.1.10",
+      "chatgpt": {
+        "pluginId": "plugins_6af010f67fac8191a27194c5258fd239",
+        "url": "https://chatgpt.com/plugins/plugins_6af010f67fac8191a27194c5258fd239",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-agent-builder"
+      }
+    },
+    {
+      "slug": "fezi-telegram-bot-maker",
+      "name": "ربات‌ساز تلگرام FEZI",
+      "nameEn": "FEZI Telegram Bot Maker",
+      "description": "ساخت، مدیریت و بسته‌بندی ربات‌های تلگرام با اتصال BotFather و منوی FEZI Studio",
+      "descriptionEn": "Telegram bot generator and manager, BotFather flow and menu integration",
+      "category": "developer",
+      "version": "0.5.7",
+      "chatgpt": {
+        "pluginId": "plugins_6af005cefac8819186b101bfdd77ed74",
+        "url": "https://chatgpt.com/plugins/plugins_6af005cefac8819186b101bfdd77ed74",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/plugins/telegram-builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-telegram-bot-maker"
+      }
+    },
+    {
+      "slug": "skill-creator",
+      "name": "سازنده اسکیل",
+      "nameEn": "FEZI Skill Creator",
+      "description": "نوشتن و اعتبارسنجی فایل‌های SKILL.md برای پلاگین‌های FEZI",
+      "descriptionEn": "Skill authoring and validation for FEZI plugins",
+      "category": "developer",
+      "version": "1.1.1",
+      "chatgpt": {
+        "pluginId": "plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+        "url": "https://chatgpt.com/plugins/plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/fezi-agent/skill-creator",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/skill-creator"
+      }
+    },
+    {
+      "slug": "plugin-finder",
+      "name": "پلاگین‌یاب",
+      "nameEn": "Plugin Finder",
+      "description": "پیداکردن پلاگین‌ها، بررسی کد متن‌باز و آماده‌سازی ساخت پلاگین",
+      "descriptionEn": "Open-source plugins discovery and review",
+      "category": "developer",
+      "version": "1.0.17",
+      "chatgpt": {
+        "pluginId": "plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+        "url": "https://chatgpt.com/plugins/plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/plugins/chatgpt-builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/plugin-finder"
+      }
+    },
+    {
+      "slug": "easygit",
+      "name": "ایزی‌گیت",
+      "nameEn": "EasyGit",
+      "description": "مدیریت ساده مخزن GitHub، آپلود ZIP، تغییرات، Pull Request و انتشار با اجازه کاربر",
+      "descriptionEn": "Simplified authorized GitHub workflows",
+      "category": "developer",
+      "version": "0.1.1",
+      "chatgpt": {
+        "pluginId": "plugins_6af3db32a214819185f3f0e82736c173",
+        "url": "https://chatgpt.com/plugins/plugins_6af3db32a214819185f3f0e82736c173",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/easygit"
+      }
+    },
+    {
+      "slug": "persian-type-studio",
+      "name": "تایپوگرافی فارسی · Persian Fonts",
+      "nameEn": "Persian Type Studio",
+      "description": "چیدمان راست‌به‌چپ و فونت‌های فارسی برای طراحی پوستر و تصویر؛ نام پلاگین ساخته‌شده Persian Type Studio است",
+      "descriptionEn": "Persian RTL typography and poster preparation",
+      "category": "creative",
+      "version": "0.2.2",
+      "chatgpt": {
+        "pluginId": "plugins_6af3d85d8ac881918e82951d8185edef",
+        "url": "https://chatgpt.com/plugins/plugins_6af3d85d8ac881918e82951d8185edef",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/persian-type-studio"
+      }
+    },
+    {
+      "slug": "fezi-ai",
+      "name": "فضی AI",
+      "nameEn": "FEZI AI",
+      "description": "هماهنگ‌کننده مهارت‌های سایت، ربات، تصویر، کدنویسی، GitHub و انتشار با مجوز",
+      "descriptionEn": "Unified agent and tool router",
+      "category": "studio",
+      "version": "1.0.2",
+      "chatgpt": {
+        "pluginId": "plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+        "url": "https://chatgpt.com/plugins/plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/ai-chat",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-ai"
+      }
+    },
+    {
+      "slug": "replit-websites-deployer",
+      "name": "استقراردهنده وب‌سایت رپلیت",
+      "nameEn": "Replit Websites Deployer",
+      "description": "آماده‌سازی انتقال پروژه‌های مجاز Replit به GitHub و سرور مقصد",
+      "descriptionEn": "Replit-to-host deployment planning",
+      "category": "developer",
+      "version": "1.0.1",
+      "chatgpt": {
+        "pluginId": "plugins_6af3d2e8ad34819184969f276177c2ca",
+        "url": "https://chatgpt.com/plugins/plugins_6af3d2e8ad34819184969f276177c2ca",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/replit-websites-deployer"
+      }
+    },
+    {
+      "slug": "fezi-site-control",
+      "name": "کنترل سایت برای همه کاربران",
+      "nameEn": "FEZI Site Control",
+      "description": "ابزار عمومی مدیریت سایت‌های خودِ کاربر، همراه پیشنهاد تغییرات و بازگشت نسخه",
+      "descriptionEn": "Permission-scoped website operations",
+      "category": "developer",
+      "version": "1.0.1",
+      "chatgpt": {
+        "pluginId": "plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+        "url": "https://chatgpt.com/plugins/plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-site-control"
+      }
+    },
+    {
+      "slug": "plugin-boss",
+      "name": "مدیر پلاگین‌ها",
+      "nameEn": "Plugin Boss",
+      "description": "هماهنگ‌کننده کتابخانه مهارت و تغییرات تأییدشده بین پلاگین‌ها",
+      "descriptionEn": "Reviewed skills and plugin operations",
+      "category": "developer",
+      "version": "1.0.4",
+      "chatgpt": {
+        "pluginId": "plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+        "url": "https://chatgpt.com/plugins/plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/plugins/chatgpt-builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/plugin-boss"
+      }
+    },
+    {
+      "slug": "fezi-website-controller",
+      "name": "کنترلر خصوصی وب‌سایت فضی",
+      "nameEn": "FEZI Website Controller",
+      "description": "کنترل و اصلاح وب‌سایت‌های متعلق به مالک با مجوز محدود؛ ابزار خصوصی",
+      "descriptionEn": "Private owner-scoped website controller",
+      "category": "developer",
+      "version": "1.0.7",
+      "chatgpt": {
+        "pluginId": "plugins_6af12c828d708191bbc2155205c342b0",
+        "url": "https://chatgpt.com/plugins/plugins_6af12c828d708191bbc2155205c342b0",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-website-controller"
+      }
+    },
+    {
+      "slug": "fezi-ai-command-center",
+      "name": "مرکز فرماندهی هوش مصنوعی",
+      "nameEn": "FEZI AI Command Center",
+      "description": "هماهنگ‌سازی اسکیل‌ها، تحقیق، GitHub، ربات‌های تلگرام و گردش‌کارها",
+      "descriptionEn": "AI orchestration command center",
+      "category": "studio",
+      "version": "1.0.5",
+      "chatgpt": {
+        "pluginId": "plugins_6af12b7fe94881919815cc5b117849ab",
+        "url": "https://chatgpt.com/plugins/plugins_6af12b7fe94881919815cc5b117849ab",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/ai-chat",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-ai-command-center"
+      }
+    },
+    {
+      "slug": "wan2-free",
+      "name": "وان ۲ فری",
+      "nameEn": "Wan2 Free",
+      "description": "طراحی پرامپت و فرایند ساخت ویدیوی Wan؛ تحویل MP4 نیازمند اتصال واقعی و تأییدشده است",
+      "descriptionEn": "Wan video workflows and prompts",
+      "category": "creative",
+      "version": "1.0.5",
+      "chatgpt": {
+        "pluginId": "plugins_6af12a28838481919c2cc8d30dde6f7a",
+        "url": "https://chatgpt.com/plugins/plugins_6af12a28838481919c2cc8d30dde6f7a",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/wan2-free"
+      }
+    },
+    {
+      "slug": "unlimited-email",
+      "name": "ایمیل نامحدود",
+      "nameEn": "Unlimited Email",
+      "description": "مدیریت پیش‌نویس و جریان کار ایمیل؛ دریافت و ارسال واقعی نیازمند سرویس متصل است",
+      "descriptionEn": "Email workflow planning",
+      "category": "communication",
+      "version": "0.1.4",
+      "chatgpt": {
+        "pluginId": "plugins_6af1241521248191a545a332773839ec",
+        "url": "https://chatgpt.com/plugins/plugins_6af1241521248191a545a332773839ec",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/unlimited-email"
+      }
+    },
+    {
+      "slug": "fezi-automation",
+      "name": "اتوماسیون فضی",
+      "nameEn": "FEZI Automation",
+      "description": "گردش‌کارهای n8n، وب‌هوک، Telegram و GitHub با مجوزهای مشخص",
+      "descriptionEn": "n8n and workflow automation",
+      "category": "developer",
+      "version": "1.1.7",
+      "chatgpt": {
+        "pluginId": "plugins_6af11f2ec0e48191845816afe7260920",
+        "url": "https://chatgpt.com/plugins/plugins_6af11f2ec0e48191845816afe7260920",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": null,
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-automation"
+      }
+    },
+    {
+      "slug": "fezi-website-builder-pro",
+      "name": "سایت‌ساز حرفه‌ای فضی",
+      "nameEn": "FEZI Website Builder Pro",
+      "description": "ساخت و طراحی وب‌سایت، آماده‌سازی فایل انتشار و گردش‌کار GitHub",
+      "descriptionEn": "Professional website creation and workflows",
+      "category": "developer",
+      "version": "1.2.6",
+      "chatgpt": {
+        "pluginId": "plugins_6af11167471c81919bafaa4c613e1747",
+        "url": "https://chatgpt.com/plugins/plugins_6af11167471c81919bafaa4c613e1747",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/fezi-website-builder-pro"
+      }
+    },
+    {
+      "slug": "plugin-saz",
+      "name": "پلاگین‌ساز",
+      "nameEn": "Plugin-saz",
+      "description": "ساخت پلاگین، GPT، مهارت و طرح سرور MCP به زبان فارسی، با کنترل کیفیت و آماده‌سازی GitHub. اتصال عملیاتی نیازمند مجوز و سرویس مجزا است.",
+      "descriptionEn": "Design skills, GPT configurations, plugin packages and MCP server projects. Actual publishing and runtime require authorized connected services.",
+      "category": "developer",
+      "version": "1.0.2",
+      "chatgpt": {
+        "pluginId": "plugins_6af3e2b7cdb081918d7991c0db2f9037",
+        "url": "https://chatgpt.com/plugins/plugins_6af3e2b7cdb081918d7991c0db2f9037",
+        "access": "private",
+        "publicReady": false
+      },
+      "relatedWebTool": "/plugins/chatgpt-builder",
+      "listingPublic": true,
+      "mcp": {
+        "verification": "not-tested-on-production-host",
+        "endpoint": null,
+        "gatewayPath": "/mcp/hub/plugin-saz"
+      }
+    }
+  ],
+  "source": "Plugin Creator owned personal plugin list checked 2026-11-11; all 26 identifiers and versions verified. Metadata snapshots; no private plugin sources included.",
+  "verifiedPrivatePluginCount": 26,
+  "mcpGatewayDeploymentVerified": false,
+  "roadmap": [
+    {
+      "slug": "plankton-mail",
+      "name": "Plankton Mail",
+      "category": "communication",
+      "description": "برند ایمیل پیشنهادی؛ هنوز افزونه‌ای با همین نام در فهرست پلاگین‌های متعلق به حساب تأیید نشده است."
+    },
+    {
+      "slug": "api-horse",
+      "name": "API Horse",
+      "category": "developer",
+      "description": "مدیریت API مدل‌ها؛ در مرحله طراحی است و ساخت پلاگین نهایی تأیید نشده است."
+    },
+    {
+      "slug": "fezix-ai",
+      "name": "FEZIX AI",
+      "category": "studio",
+      "description": "خانواده مدل‌ها و ابزارهای FEZIX؛ وضعیت نصب به‌عنوان پلاگین مستقل ChatGPT تأیید نشده است."
+    },
+    {
+      "slug": "fezi-plugin-hub",
+      "name": "FEZI Plugin Hub",
+      "category": "studio",
+      "description": "وب‌سایت مرکزی، Plugin Factory و MCP Gateway؛ توسعه و استقرار این زیرساخت هنوز در برنامه است."
+    }
+  ]
+}

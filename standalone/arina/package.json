@@ -1,0 +1,14 @@
+{
+  "name": "fezi-arina-bot",
+  "version": "1.01.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/telegram-arina-miniapp.mjs",
+    "check": "node --check scripts/telegram-arina-miniapp.mjs",
+    "channel": "node scripts/telegram-arina-channel-publish.mjs"
+  }
+}

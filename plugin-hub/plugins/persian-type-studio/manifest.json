@@ -1,0 +1,23 @@
+{
+  "slug": "persian-type-studio",
+  "name": "Persian Type Studio",
+  "chatgptPluginId": "plugins_6af3d85d8ac881918e82951d8185edef",
+  "currentChatgptVersion": "0.1.1",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "historical-export-available",
+  "mcpGatewayPath": "/mcp/hub/persian-type-studio",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": {
+    "filename": "Persian_Type_Studio_v0.1.0.zip",
+    "sha256": "379aa03b4dfb404039eb8e655f6bf2d646adce286384607118c60d5efe2cac63",
+    "note": "historical source export; compare version with live plugin before publishing"
+  },
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

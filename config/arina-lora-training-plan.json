@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "status": "NOT_TRAINED",
+  "identity": "Arina (fictional adult virtual streamer)",
+  "trainingDataPermission": "Owner must confirm rights to each image and driving clip",
+  "baseModelId": "wan22-animate2-14b",
+  "secondaryImageLoRABase": "flux1-schnell",
+  "dataset": {
+    "faceReferences": "assets/arina/references/",
+    "motionStoryboards": "assets/arina/storyboards/",
+    "approvedDrivingVideos": "assets/arina/driving-videos/",
+    "captions": "assets/arina/captions.jsonl",
+    "exclude": [
+      "collage-as-frames",
+      "watermarked-images",
+      "unlicensed-dance-videos",
+      "other-identities"
+    ]
+  },
+  "proposedAdapters": [
+    {
+      "name": "arina-identity",
+      "purpose": "Face and wardrobe consistency",
+      "rank": 16,
+      "alpha": 16,
+      "learningRate": 0.0001
+    },
+    {
+      "name": "arina-expression",
+      "purpose": "Facial expressions and emotional performance",
+      "rank": 16,
+      "alpha": 16,
+      "learningRate": 0.0001
+    },
+    {
+      "name": "arina-motion",
+      "purpose": "Dance / sitting / keyboard movement conditioned on licensed driving videos",
+      "rank": 16,
+      "alpha": 16,
+      "learningRate": 0.0001
+    }
+  ],
+  "tests": {
+    "atLeastIndependentRenderTrials": 15,
+    "reviewFaceConsistency": true,
+    "reviewHands": true,
+    "reviewBackground": true,
+    "reviewTransitions": true,
+    "publishedMp4MustBeManuallyApproved": true
+  },
+  "constraints": [
+    "Not yet trained; model and GPU to be installed",
+    "Do not treat still frames as continuous motion",
+    "Training rights/weights license must be checked",
+    "Do not promise uninterrupted 1080p realtime generation"
+  ]
+}

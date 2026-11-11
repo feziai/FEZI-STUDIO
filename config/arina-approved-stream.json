@@ -1,0 +1,6 @@
+{
+  "approvedClips": [],
+  "info": "Add ONLY pre-rendered, personally approved and licensed MP4 filenames, never passwords. CPU photo previews are not live performer clips.",
+  "broadcastPlatforms": ["YouTube Live via RTMPS", "Instagram Live via platform-supported encoder ingest URL"],
+  "licensedBackgroundAudioOnly": true
+}

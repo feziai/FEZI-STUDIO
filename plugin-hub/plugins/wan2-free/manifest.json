@@ -1,0 +1,19 @@
+{
+  "slug": "wan2-free",
+  "name": "Wan2 Free",
+  "chatgptPluginId": "plugins_6af12a28838481919c2cc8d30dde6f7a",
+  "currentChatgptVersion": "1.0.4",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/wan2-free",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

@@ -1,0 +1,36 @@
+# A single server with bot + backend, polling mode: no public domain required.
+# Configure Telegram with BotFather token and your numeric ID in .env.
+# Telegram Bot API is outbound; both containers share network namespace to keep admin login on localhost.
+services:
+  app:
+    build: .
+    environment:
+      HOST: 127.0.0.1
+      PORT: 3000
+      APP_PASSWORD: ${APP_PASSWORD:?Required}
+      SESSION_SECRET: ${SESSION_SECRET:?Required}
+      DATA_DIR: /app/data
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://127.0.0.1:11434}
+      AI_PROVIDERS_JSON: ${AI_PROVIDERS_JSON:-[]}
+    volumes:
+      - fezi_data:/app/data
+    restart: unless-stopped
+  bot:
+    build: .
+    network_mode: service:app
+    depends_on:
+      - app
+    command: ["node", "scripts/telegram-poll.mjs"]
+    environment:
+      TELEGRAM_MODE: polling
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:?Required}
+      TELEGRAM_ALLOWED_USER_IDS: ${TELEGRAM_ALLOWED_USER_IDS:?Required}
+      TELEGRAM_BACKEND_URL: http://127.0.0.1:3000
+      PORT: 3000
+      APP_PASSWORD: ${APP_PASSWORD:?Required}
+      DATA_DIR: /app/data
+    volumes:
+      - fezi_data:/app/data
+    restart: unless-stopped
+volumes:
+  fezi_data:

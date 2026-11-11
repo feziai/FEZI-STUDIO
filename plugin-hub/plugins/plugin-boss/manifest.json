@@ -1,0 +1,19 @@
+{
+  "slug": "plugin-boss",
+  "name": "Plugin Boss",
+  "chatgptPluginId": "plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+  "currentChatgptVersion": "1.0.3",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/plugin-boss",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

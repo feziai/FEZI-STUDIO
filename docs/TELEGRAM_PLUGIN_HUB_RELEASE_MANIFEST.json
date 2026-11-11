@@ -1,0 +1,30 @@
+{
+  "product": "فضی استودیو / FEZI Studio",
+  "feature": "Telegram Plugin Builder in public Plugin Hub",
+  "base_archive": "FEZI_STUDIO_PUBLIC_PLUGINS_WEBSITE_2026_11_08.zip",
+  "updated_paths": [
+    "server.js",
+    "public/plugins/index.html",
+    "public/plugins/style.css"
+  ],
+  "added_paths": [
+    "core/telegram-plugin-hub.mjs",
+    "public/plugins/telegram-builder.html",
+    "public/plugins/telegram-builder.css",
+    "public/plugins/telegram-builder.js",
+    "tests/telegram-plugin-hub.test.mjs",
+    "docs/INSTALL_FA.md"
+  ],
+  "header_changed": false,
+  "botfather_token_included": false,
+  "remote_telegram_activation_tested": false,
+  "local_http_smoke": "pass: /plugins, /plugins/telegram-builder, JS, icon (200 OK); unauth connect 401; owner hosted list 200",
+  "unit_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "deployment_status": "source only - not pushed or deployed",
+  "public_capability": "designer, JSON/ZIP export",
+  "server_hosting_access": "owner session only",
+  "manual_steps": "Deploy on persistent HTTPS server, configure PUBLIC_BASE_URL, connect a BotFather token"
+}

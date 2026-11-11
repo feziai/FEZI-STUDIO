@@ -1,0 +1,19 @@
+{
+  "slug": "super-plugin",
+  "name": "Super Plugin",
+  "chatgptPluginId": "plugins_6aee704a03fc8191b211748176057f35",
+  "currentChatgptVersion": "0.3.21",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/super-plugin",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

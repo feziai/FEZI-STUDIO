@@ -1,0 +1,68 @@
+{
+  "release": "v1.01",
+  "date": "2026-11-03",
+  "type": "complete Node.js application package (not hosted or deployed)",
+  "baseline_folder": "FEZI_STUDIO_v1.01_RELEASE_CANDIDATE",
+  "baseline_file_count": 1204,
+  "baseline_files_removed": 0,
+  "new_files_in_package_vs_baseline": 14,
+  "package_files_before_reports": 1218,
+  "logo_original_sha256": "79f9e735e2798f622b031b1ec5ceda59af44c7fdca386e7e8290ff71d99cadc7",
+  "uploaded_logo_sha256": "79f9e735e2798f622b031b1ec5ceda59af44c7fdca386e7e8290ff71d99cadc7",
+  "logo_byte_identical": true,
+  "project_node_tests": {
+    "passed": 5479,
+    "total": 5479,
+    "log": "FEZI_v101_RELEASE_TEST.log",
+    "scope": "Node.js local unit/integration mocks; no provider/GPU E2E"
+  },
+  "project_http_smoke": {
+    "passed": 35,
+    "total": 35,
+    "log": "FEZI_v101_HTTP_SMOKE.log",
+    "scope": "local HTTP including auth, account recovery, owner knowledge, bot export and page routing"
+  },
+  "academy_fixture_checks": {
+    "passed": 250,
+    "total": 250,
+    "lessons_drafted": 25,
+    "lessons_verified": 0,
+    "scope": "three shared local fixture suites across 25 lessons, not 250 independent external tasks"
+  },
+  "public_prompt_library": {
+    "previous_copyable_prompts": 91,
+    "fezi_original_templates": 4000,
+    "templates_source": "original FEZI-generated; NOT GeneratePrompt archive and NOT scraped per-prompt image outputs",
+    "source_archive_full_imported": false
+  },
+  "new_modules": [
+    "prompt creator with logged-in moderated sharing",
+    "email verification with real provider configuration",
+    "password change and one-time recovery codes",
+    "Telegram bot ZIP generator without embedded secrets",
+    "private owner operations with event/evidence logs",
+    "local staged RAG index with owner verification and <=200MB limit",
+    "English/Farsi routes and alternative sitemap",
+    "Arina asset queue and actually rendered four-second CPU still-image preview",
+    "operator-gated external RTMPS stream script"
+  ],
+  "not_live_or_unverified": [
+    "GeneratePrompt full 4k real source archive and original media",
+    "Google/Apple OAuth callback flow without client credentials",
+    "real SMTP/Resend delivery without verified provider",
+    "inference via OpenAI API/Hugging Face/OpenRouter/Ollama/GPU without configured service",
+    "automatic external website self-editing or deployments",
+    "Arina lip-synced talking/dancing generation and 24/7 real broadcast",
+    "licensed Iranian copyrighted commercial music",
+    "live Telegram bot delivery and external payments",
+    "third-party database adapters (PostgreSQL/HF) are listed as unconnected"
+  ],
+  "knowledge_index": {
+    "verified_documents_initial": 0,
+    "draft_documents_initial": 0,
+    "max_bytes": 200000000,
+    "external_databases_connected_initial": 0,
+    "model_weights_trained": false
+  },
+  "privacy_policy": "Owner knowledge and operations are private; prompt sharing requires registered user and owner moderation; no API keys in downloadable Telegram sources; no false viewer counts."
+}

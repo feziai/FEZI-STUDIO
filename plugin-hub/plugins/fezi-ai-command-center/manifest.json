@@ -1,0 +1,19 @@
+{
+  "slug": "fezi-ai-command-center",
+  "name": "FEZI AI Command Center",
+  "chatgptPluginId": "plugins_6af12b7fe94881919815cc5b117849ab",
+  "currentChatgptVersion": "1.0.3",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/fezi-ai-command-center",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

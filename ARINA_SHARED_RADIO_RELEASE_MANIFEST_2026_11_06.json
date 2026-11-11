@@ -1,0 +1,22 @@
+{
+  "project": "FEZI Studio",
+  "component": "ARINA_SHARED_RADIO_TOKENS",
+  "release": "2026-11-06-shared-radio-wallet",
+  "defaultStation": "zeno",
+  "stationCount": 10,
+  "initialTokens": 2,
+  "earningIntervalMinutes": 5,
+  "switchesPerToken": 3,
+  "globalSwitchCooldownSeconds": 20,
+  "userSwitchCooldownSeconds": 45,
+  "verifiedGiftSwitches": 3,
+  "verifiedWalletDailySwitches": 3,
+  "sharedAcrossAllViewersInOneNodeProcess": true,
+  "radioStreamPlaybackGuaranteed": false,
+  "voiceAutoplayRequiresUserGesture": true,
+  "remoteDeploymentCompleted": false,
+  "tests": {"passed": 5579, "failed": 0},
+  "sourceBase": "FEZI_STUDIO_FREE_FIRST_PLAYGROUND_GITHUB_SOURCE_2026_11_06.zip",
+  "externalMedia": "public/arina-live/assets/video/arina-three-minute-unedited.mp4",
+  "notes": "Tokens are participation privileges, not cryptocurrency. Paid status is derived from the server's verified Arina commerce ledger."
+}

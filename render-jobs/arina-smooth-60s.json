@@ -1,0 +1,103 @@
+{
+  "kind": "choreography-plan-not-video",
+  "source": "uploaded-storyboards + licensed motion-reference-footage",
+  "category": "smooth",
+  "bpm": 92,
+  "durationSeconds": 60,
+  "requestedSeconds": 60,
+  "aspectRatio": "16:9",
+  "delivery": "1920x1080@30fps MP4",
+  "continuousCamera": true,
+  "segments": [
+    {
+      "moveId": "smooth-turn",
+      "category": "smooth",
+      "startSecond": 0,
+      "endSecond": 5.217,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "calm-bounce",
+      "category": "smooth",
+      "startSecond": 5.217,
+      "endSecond": 10.435,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "side-step",
+      "category": "smooth",
+      "startSecond": 10.435,
+      "endSecond": 15.652,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "happy-point",
+      "category": "fun",
+      "startSecond": 15.652,
+      "endSecond": 26.087,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "graceful-arm",
+      "category": "smooth",
+      "startSecond": 26.087,
+      "endSecond": 31.304,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "side-step",
+      "category": "smooth",
+      "startSecond": 31.304,
+      "endSecond": 36.522,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "smooth-turn",
+      "category": "smooth",
+      "startSecond": 36.522,
+      "endSecond": 46.957,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "air-kiss",
+      "category": "fun",
+      "startSecond": 46.957,
+      "endSecond": 57.391,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "gentle-wave",
+      "category": "smooth",
+      "startSecond": 57.391,
+      "endSecond": 60,
+      "beats": 4,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    }
+  ]
+}

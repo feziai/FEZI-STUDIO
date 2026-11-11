@@ -1,0 +1,9 @@
+(()=>{
+'use strict';const $=id=>document.getElementById(id);let active=null;const run=$('run'),stop=$('stop'),choose=$('models');
+function report(s){$('status').textContent=s.enabled?(s.ready?'آمادهٔ استفاده روی سرور':'نصب یا پیکربندی ناقص'):'غیرفعال — مدیر باید ابتدا روی سرور فعال کند';$('detail').textContent=(s.installed?'فایل اجرایی یافت شد':'فایل اجرایی پیدا نشد')+' | '+s.allowedModels.length+' مدل مجاز';choose.replaceChildren();for(const id of s.allowedModels){const op=document.createElement('option');op.value=id;op.textContent=id;choose.append(op)}choose.disabled=!s.ready;active=s.job;$('job').textContent=s.job?('آخرین کار: '+s.job.modelId+' — '+s.job.state+(s.job.error?' ('+s.job.error+')':'')):'پردازشی ثبت نشده است';run.disabled=!s.ready||s.job?.state==='running';stop.disabled=s.job?.state!=='running'}
+async function refresh(){try{const r=await fetch('/api/admin/heretic/status',{credentials:'same-origin',cache:'no-store'});if(!r.ok)throw Error(r.status===401?'ابتدا وارد حساب مدیر شو':'HTTP '+r.status);report(await r.json())}catch(e){$('status').textContent=e.message}}
+async function post(url,data){const r=await fetch(url,{method:'POST',headers:{'content-type':'application/json'},credentials:'same-origin',body:JSON.stringify(data)});const out=await r.json();if(!r.ok)throw Error(out.error||'Request failed');return out}
+run.addEventListener('click',async()=>{if(!choose.value||!confirm('پردازش مدل '+choose.value+' روی GPU سرور آغاز شود؟'))return;run.disabled=true;try{await post('/api/admin/heretic/run',{modelId:choose.value});await refresh()}catch(e){alert(e.message);await refresh()}});
+stop.addEventListener('click',async()=>{if(!confirm('پردازش فعال متوقف شود؟'))return;try{await post('/api/admin/heretic/stop',{});await refresh()}catch(e){alert(e.message)}});
+$('refresh').addEventListener('click',refresh);refresh();
+})();

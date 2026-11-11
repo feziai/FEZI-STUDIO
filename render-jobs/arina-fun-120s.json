@@ -1,0 +1,243 @@
+{
+  "kind": "choreography-plan-not-video",
+  "source": "uploaded-storyboards + licensed motion-reference-footage",
+  "category": "fun",
+  "bpm": 120,
+  "durationSeconds": 120,
+  "requestedSeconds": 120,
+  "aspectRatio": "16:9",
+  "delivery": "1920x1080@30fps MP4",
+  "continuousCamera": true,
+  "segments": [
+    {
+      "moveId": "paw-paw",
+      "category": "fun",
+      "startSecond": 0,
+      "endSecond": 4,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "silly-wiggle",
+      "category": "fun",
+      "startSecond": 4,
+      "endSecond": 10,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "double-peace",
+      "category": "fun",
+      "startSecond": 10,
+      "endSecond": 14,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "disco-point",
+      "category": "pop",
+      "startSecond": 14,
+      "endSecond": 20,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "air-kiss",
+      "category": "fun",
+      "startSecond": 20,
+      "endSecond": 24,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "kitty-claws",
+      "category": "fun",
+      "startSecond": 24,
+      "endSecond": 30,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "finger-guns",
+      "category": "fun",
+      "startSecond": 30,
+      "endSecond": 36,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "pop-groove",
+      "category": "pop",
+      "startSecond": 36,
+      "endSecond": 42,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "comic-shrug",
+      "category": "fun",
+      "startSecond": 42,
+      "endSecond": 46,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "double-peace",
+      "category": "fun",
+      "startSecond": 46,
+      "endSecond": 52,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "hug-pose",
+      "category": "fun",
+      "startSecond": 52,
+      "endSecond": 56,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "pop-heart",
+      "category": "pop",
+      "startSecond": 56,
+      "endSecond": 64,
+      "beats": 16,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "kitty-claws",
+      "category": "fun",
+      "startSecond": 64,
+      "endSecond": 68,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "comic-shrug",
+      "category": "fun",
+      "startSecond": 68,
+      "endSecond": 74,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "double-peace",
+      "category": "fun",
+      "startSecond": 74,
+      "endSecond": 78,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "disco-step",
+      "category": "pop",
+      "startSecond": 78,
+      "endSecond": 84,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "finger-heart",
+      "category": "fun",
+      "startSecond": 84,
+      "endSecond": 90,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "victory-bounce",
+      "category": "fun",
+      "startSecond": 90,
+      "endSecond": 94,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "kitty-claws",
+      "category": "fun",
+      "startSecond": 94,
+      "endSecond": 100,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "pop-hip-sway",
+      "category": "pop",
+      "startSecond": 100,
+      "endSecond": 106,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "happy-clap",
+      "category": "fun",
+      "startSecond": 106,
+      "endSecond": 110,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "fluffy-hat",
+      "category": "fun",
+      "startSecond": 110,
+      "endSecond": 114,
+      "beats": 8,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    },
+    {
+      "moveId": "paw-paw",
+      "category": "fun",
+      "startSecond": 114,
+      "endSecond": 120,
+      "beats": 12,
+      "transition": "pose-matched-video",
+      "camera": "fixed",
+      "requireFaceConsistency": true
+    }
+  ]
+}

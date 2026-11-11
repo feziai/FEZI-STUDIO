@@ -1,0 +1,37 @@
+{
+  "release": "FEZI Studio v1.4 Full Merged",
+  "source_base": "v1.3 FULL ZIP",
+  "base_files": 1030,
+  "result_files": 1089,
+  "original_files_removed": [],
+  "original_files_modified": [
+    "public/app.css",
+    "public/arina-live/assets/live.js",
+    "public/arina-live/index.html",
+    "public/index.html",
+    "public/showcase.html",
+    "public/showcase.js",
+    "public/toolbox/index.html",
+    "server.js"
+  ],
+  "new_files_added": 57,
+  "logo_sha256": "79f9e735e2798f622b031b1ec5ceda59af44c7fdca386e7e8290ff71d99cadc7",
+  "testing": {
+    "node_test": {
+      "passed": 5441,
+      "failed": 0
+    },
+    "http_smoke": {
+      "status": "passed",
+      "details": "public routes, images, builder, tool catalog, model hub, FAQ, auth gate, moderation, rates"
+    },
+    "browser_visual_screenshot": "not available; automated browser blocked navigation in this environment"
+  },
+  "limitations": [
+    "Not live GPU/video generation",
+    "Payment only if server-side verified provider configured",
+    "WhatsApp/cPanel external modifications require real credentials and implementation",
+    "Optional 70 MCP adapter templates not auto-installed",
+    "No public multi-user OAuth login yet"
+  ]
+}

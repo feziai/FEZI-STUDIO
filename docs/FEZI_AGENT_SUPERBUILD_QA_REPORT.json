@@ -1,0 +1,38 @@
+{
+  "project": "FEZI Studio",
+  "date": "2026-11-08",
+  "original_release_archive": "FEZI_STUDIO_MASTER_SPEC_AND_PREFLIGHT_FULL_2026_11_08.zip",
+  "new_plugin": {
+    "name": "fezi-agent-builder",
+    "id": "plugins_6af010f67fac8191a27194c5258fd239",
+    "version": "0.1.0",
+    "discovery": "PRIVATE",
+    "source_skill_files": 49
+  },
+  "local_site_skill_files_after_patch": 69,
+  "target_skills": 5000000,
+  "tests": {
+    "node_test_total": 5636,
+    "passed": 5636,
+    "failed": 0,
+    "flaky_test_note": "Two avatar tests failed once during concurrent run; passed individually and during complete rerun."
+  },
+  "smoke": {
+    "home": 200,
+    "builder": 200,
+    "plugins": 200,
+    "skill_creator": 200,
+    "global_widget": 200,
+    "skill_status": 200,
+    "unauthorized_save_draft": 401
+  },
+  "website": "SOURCE_PATCHED_NOT_DEPLOYED",
+  "github": "NO_REMOTE_WRITE_CONFIRMED",
+  "real_ai_provider": "REQUIRES_CONFIG",
+  "site_header_changed": false,
+  "notes": [
+    "49 real skill documents != 49 operational tools",
+    "5M is roadmap target, not existing set",
+    "The site home injects a global FEZI Agent launcher at response time."
+  ]
+}

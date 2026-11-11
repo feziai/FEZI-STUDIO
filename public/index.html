@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>FEZI AGENT — AI App Builder</title>
+  <link rel="stylesheet" href="/assets/app.css"><link rel="icon" type="image/png" href="/brand/fezi-site-f.png">
+</head>
+<body>
+  <div id="login" class="login-layout hidden">
+    <div class="login-card">
+      <div class="brand big"><img class="rabbit-logo" src="/brand/fezi-site-f.png" alt="FEZI Studio rabbit F logo"><span>FEZI <strong>AGENT</strong></span></div>
+      <div class="pill">FEZI AGENT · v0.77</div>
+      <h1 data-i18n="welcome">استودیوی برنامه‌نویسی هوشمند شما</h1>
+      <p data-i18n="loginHint">رمز مدیریتی تعیین‌شده در تنظیمات سرور را وارد کنید.</p>
+      <form id="loginForm"><input id="password" type="password" autocomplete="current-password" required placeholder="Admin password"><button type="submit" class="primary" data-i18n="login">ورود به استودیو</button></form>
+      <div id="loginError" class="message error hidden"></div>
+      <small>FEZI AGENT · هوش مصنوعی برنامه‌نویس</small>
+    </div>
+  </div>
+  <div id="workspace" class="workspace hidden">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><img class="rabbit-logo" src="/brand/fezi-site-f.png" alt="FEZI Studio rabbit F logo"><span>FEZI <strong>AGENT</strong></span></div>
+      <div class="side-header"><span data-i18n="projects">پروژه‌های من</span><button class="iconbtn" id="newProjectSmall" title="New Project">＋</button></div>
+      <div id="projects" class="project-list"></div>
+      <button class="side-create" id="newProject" data-i18n="newProject">＋ ساخت پروژه جدید</button>
+      <div class="sidebar-bottom"><div id="toolsShort" hidden></div>
+      <button class="side-link" type="button" id="agentSkillsBtn">▦ اسکیل‌های ساخت و ویرایش سایت</button>
+      <button class="side-link" id="allTools" hidden>◈ <span data-i18n="viewTools">مشاهده همه ابزارها</span></button>
+      <button class="side-link" id="logout">⇥ <span data-i18n="logout">خروج</span></button></div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="top-left"><button id="mobileMenu" class="iconbtn mobile-menu">☰</button><div><small class="eyebrow" data-i18n="workspace">محیط کار</small><h2 id="projectTitle">FEZI AGENT</h2></div><span class="status"><span class="dot"></span>Local-first</span></div>
+        <div class="top-actions"><button class="ghost" type="button" id="focusMode" aria-pressed="false" title="نمایش ساده چت؛ بخش ساخت پیشرفته محفوظ می‌ماند">◉ چت ساده</button><button class="ghost" id="newFile" data-i18n="newFile">+ فایل</button><button class="ghost" id="save" data-i18n="save">ذخیره</button><button class="ghost" id="export" data-i18n="export">دریافت ZIP</button><button class="ghost" id="buildExport">📱 خروجی موبایل / PWA</button><button class="ghost" id="desktopExport">⌘ محیط دسکتاپ</button><a class="ghost" href="/" target="_blank" rel="noopener">⌂ صفحه اصلی FEZI AGENT</a><a class="ghost" href="/avatar" target="_blank" rel="noopener">◉ Live Avatar</a><button class="ghost" id="importSite">↧ Import URL</button><button class="ghost" id="snapshots">↺ Restore</button><button class="ghost" id="hfModels" hidden>♢ Model catalog</button><button class="ghost" id="specialistOpen">✧ ابزارهای خلاق</button><a class="ghost" href="/admin/operations" target="_blank" rel="noopener">⚙ Owner Operations</a><a class="ghost" href="/admin/faq" target="_blank" rel="noopener">مدیریت FAQ</a><button class="ghost" id="academyOpen">✧ آکادمی ۱۰۳٬۰۱۷ تسک</button><button class="ghost publish-action" id="publish">⇧ Publish</button><button class="langbtn" id="language" title="Language">EN</button></div>
+      </header>
+      <section class="toolbar">
+        <div class="toolbar-title"><span class="ai-glyph">✦</span><span data-i18n="aiEngine">موتور هوش مصنوعی</span></div>
+        <select id="provider" hidden aria-hidden="true"><option value="auto">FEZI AGENT</option></select>
+        <input id="model" type="hidden" value=""><datalist id="modelSuggestions"></datalist>
+        <input id="team" type="checkbox" hidden>
+        <label class="agent-switch"><input id="autonomous" type="checkbox" checked> <strong>FEZI AGENT · حالت خودکار</strong></label>
+        <button class="ghost check" id="checkModels">↻ <span data-i18n="check">بررسی اتصال</span></button>
+        <span class="connection" id="connection">● <span data-i18n="unchecked">بررسی‌نشده</span></span>
+      </section>
+      <section class="workgrid">
+        <div class="editor-column">
+          <div class="panel-title"><span>⌘ <span data-i18n="files">فایل‌های پروژه</span></span><span class="subtle">کدنویسی و ساخت برنامه</span></div>
+          <div class="file-tabs" id="fileTabs"></div>
+          <div class="editor-shell"><div class="editor-tools"><span class="file-icon">{ }</span><span id="activeFilename">index.html</span><span class="editor-details" data-i18n="editorNote">ویرایشگر سبک داخلی</span></div><div class="code-area"><div class="line-numbers" id="lines">1</div><textarea id="code" autocomplete="off" spellcheck="false" wrap="off" aria-label="Code editor"></textarea></div></div>
+        </div>
+        <div class="preview-column"><div class="panel-title"><span>◉ <span data-i18n="preview">پیش‌نمایش زنده</span></span><div class="preview-options"><button class="viewbtn active" id="desktop" title="Desktop">▣</button><button class="viewbtn" id="mobile" title="Mobile">▯</button><button class="viewbtn" id="refreshPreview" title="Refresh">↻</button></div></div><div class="preview-shell"><div class="browserbar"><div class="circles"><i></i><i></i><i></i></div><span id="browserAddress">preview://index.html</span><span>🔒</span></div><div class="preview-content" id="previewWrap"><iframe id="previewFrame" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Site preview"></iframe></div></div><div class="preview-note" data-i18n="previewNote">پیش‌نمایش محدود به HTML، CSS و JavaScript است؛ اجرای Node.js به محیط ایزوله نیاز دارد.</div></div>
+        <div class="ai-column"><div class="panel-title"><span>✦ <span data-i18n="assistant">FEZI AGENT</span></span><span class="ai-status" data-i18n="ready">آماده</span></div><div id="agentStatus" class="agent-progress hidden"></div><div class="chat-messages" id="messages"><div class="assistant-msg" data-i18n="askHint">سایت یا تغییری را که می‌خواهی به فارسی یا انگلیسی بنویس. هوش مصنوعی کدهای موردنیاز را پیشنهاد می‌دهد و قبل از اعمال تغییرات می‌توانی آن‌ها را بررسی کنی.</div></div><div class="suggestions"><button data-prompt="یک سایت مدرن با رنگ‌های بادمجانی، مرجانی و یاسی طراحی کن">صفحه معرفی AI</button><button data-prompt="یک داشبورد حرفه‌ای با کارت‌های آماری، نمودار CSS و فهرست کاربران طراحی کن">داشبورد</button><button data-prompt="نسخه موبایل این سایت را بهتر کن و طراحی زیبا و حرفه‌ای به آن بده">بهبود موبایل</button></div><form class="promptbox" id="promptForm"><textarea id="prompt" rows="4" maxlength="6000" data-placeholder-fa="چه چیزی بسازیم یا تغییر بدهیم؟" placeholder="چه چیزی بسازیم یا تغییر بدهیم؟"></textarea><div class="prompt-actions"><small id="modelHint">● FEZI AGENT</small><button type="submit" id="generate" class="primary" data-i18n="generate">✦ تولید کد</button></div></form></div>
+      </section>
+      <div id="toast" class="toast hidden" role="status"></div>
+    </main>
+  </div>
+  <div id="modal" class="modal hidden"><div class="modal-card"><button class="close" id="modalClose">✕</button><div id="modalContent"></div></div></div>
+  <script src="/assets/agent-skills-ui.js" defer></script>
+  <script type="module" src="/assets/app.js"></script><script src="/assets/agent-ui-enhancements.js" defer></script>
+<div style="position:fixed;bottom:18px;left:18px;z-index:5"><a href="/ai-chat" style="background:#eaf6ff;border:1px solid #d3e8fc;border-radius:20px;color:#156dcc;padding:10px 18px;display:inline-block">✦ چت مدل‌ها</a> <a href="/pricing" style="background:white;border:1px solid #d3e8fc;border-radius:20px;color:#156dcc;padding:10px 18px;display:inline-block">★ شارژ</a></div></body></html>

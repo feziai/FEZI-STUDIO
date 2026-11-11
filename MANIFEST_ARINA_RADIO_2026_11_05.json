@@ -1,0 +1,26 @@
+{
+  "project": "FEZI Studio",
+  "date": "2026-11-05",
+  "base": "FEZI_STUDIO_ARINA_NATURAL_IDLE_FULL_2026_11_05.zip",
+  "feature": "Arina continuous loop + original three-minute sample + built-in radio + occasional motion",
+  "files": {
+    "public/arina-live/assets/video/arina-idle-loop-8s-original.mp4": {
+      "sha256": "2457fbbdb3af14494abe46b437a4de434152e313c23c54d53b51b21ac0bd03ae",
+      "bytes": 14785282
+    },
+    "public/arina-live/assets/video/arina-three-minute-unedited.mp4": {
+      "sha256": "313667742c599fc918a4bca15a88de08a6aa48f7caa3e12bd840bc83f5fed030",
+      "bytes": 118552126
+    }
+  },
+  "tests": {
+    "passed": 5562,
+    "failed": 0
+  },
+  "notes": [
+    "3-minute clip copied byte-identically",
+    "8-second clip copied byte-identically",
+    "radio: built-in original audio, not external radio stream",
+    "no secrets included"
+  ]
+}

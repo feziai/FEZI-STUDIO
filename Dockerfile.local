@@ -1,0 +1,13 @@
+# For dedicated CPU server with Docker; NOT designed for restricted cPanel hosting.
+FROM node:22-bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates git cmake g++ make python3 && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY package.json ./
+RUN npm install --no-save node-llama-cpp
+COPY server.js app.js integrations.js mcp.js telegram.js ./
+COPY core ./core
+COPY public ./public
+COPY models/README.md ./models/README.md
+ENV HOST=0.0.0.0 PORT=3000 LOCAL_MODEL_DIR=/app/models
+EXPOSE 3000
+CMD ["node", "server.js"]

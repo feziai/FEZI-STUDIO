@@ -1,0 +1,1269 @@
+{
+  "environment": {
+    "python": "3.13.5",
+    "node": "v22.16.0",
+    "node_fixture_port": "ephemeral (not persisted)"
+  },
+  "lesson_results": {
+    "CODE-00001": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00002": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00003": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00004": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00005": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00006": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00007": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00008": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00009": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00010": {
+      "scenario": "python_package",
+      "checks": [
+        {
+          "name": "valid dictionary becomes typed task",
+          "status": "passed"
+        },
+        {
+          "name": "Unicode title preserved",
+          "status": "passed"
+        },
+        {
+          "name": "numeric hours converted to float",
+          "status": "passed"
+        },
+        {
+          "name": "boolean hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "missing title rejected",
+          "status": "passed"
+        },
+        {
+          "name": "string hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "summary counts completed tasks",
+          "status": "passed"
+        },
+        {
+          "name": "JSON round-trip retains task",
+          "status": "passed"
+        },
+        {
+          "name": "extra secret ignored in serialized data",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00011": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00012": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00013": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00014": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00015": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00016": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00017": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00018": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00019": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00020": {
+      "scenario": "node_cpanel",
+      "checks": [
+        {
+          "name": "health GET returns 200",
+          "status": "passed"
+        },
+        {
+          "name": "health payload ok",
+          "status": "passed"
+        },
+        {
+          "name": "unknown route is 404",
+          "status": "passed"
+        },
+        {
+          "name": "empty list endpoint uses JSON",
+          "status": "passed"
+        },
+        {
+          "name": "valid task accepted",
+          "status": "passed"
+        },
+        {
+          "name": "bad JSON is rejected",
+          "status": "passed"
+        },
+        {
+          "name": "bad content type rejected",
+          "status": "passed"
+        },
+        {
+          "name": "negative hours rejected",
+          "status": "passed"
+        },
+        {
+          "name": "valid Unicode title survives",
+          "status": "passed"
+        },
+        {
+          "name": "info endpoint does not expose secrets",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00021": {
+      "scenario": "telegram_bot",
+      "checks": [
+        {
+          "name": "start responds to same chat",
+          "status": "passed"
+        },
+        {
+          "name": "help lists commands",
+          "status": "passed"
+        },
+        {
+          "name": "image routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "video routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "app routes to builder",
+          "status": "passed"
+        },
+        {
+          "name": "Persian message receives Persian answer",
+          "status": "passed"
+        },
+        {
+          "name": "missing chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "noninteger chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "too long payload rejected",
+          "status": "passed"
+        },
+        {
+          "name": "next polling offset deduplicates updates",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00022": {
+      "scenario": "telegram_bot",
+      "checks": [
+        {
+          "name": "start responds to same chat",
+          "status": "passed"
+        },
+        {
+          "name": "help lists commands",
+          "status": "passed"
+        },
+        {
+          "name": "image routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "video routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "app routes to builder",
+          "status": "passed"
+        },
+        {
+          "name": "Persian message receives Persian answer",
+          "status": "passed"
+        },
+        {
+          "name": "missing chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "noninteger chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "too long payload rejected",
+          "status": "passed"
+        },
+        {
+          "name": "next polling offset deduplicates updates",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00023": {
+      "scenario": "telegram_bot",
+      "checks": [
+        {
+          "name": "start responds to same chat",
+          "status": "passed"
+        },
+        {
+          "name": "help lists commands",
+          "status": "passed"
+        },
+        {
+          "name": "image routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "video routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "app routes to builder",
+          "status": "passed"
+        },
+        {
+          "name": "Persian message receives Persian answer",
+          "status": "passed"
+        },
+        {
+          "name": "missing chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "noninteger chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "too long payload rejected",
+          "status": "passed"
+        },
+        {
+          "name": "next polling offset deduplicates updates",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00024": {
+      "scenario": "telegram_bot",
+      "checks": [
+        {
+          "name": "start responds to same chat",
+          "status": "passed"
+        },
+        {
+          "name": "help lists commands",
+          "status": "passed"
+        },
+        {
+          "name": "image routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "video routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "app routes to builder",
+          "status": "passed"
+        },
+        {
+          "name": "Persian message receives Persian answer",
+          "status": "passed"
+        },
+        {
+          "name": "missing chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "noninteger chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "too long payload rejected",
+          "status": "passed"
+        },
+        {
+          "name": "next polling offset deduplicates updates",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    },
+    "CODE-00025": {
+      "scenario": "telegram_bot",
+      "checks": [
+        {
+          "name": "start responds to same chat",
+          "status": "passed"
+        },
+        {
+          "name": "help lists commands",
+          "status": "passed"
+        },
+        {
+          "name": "image routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "video routes to website",
+          "status": "passed"
+        },
+        {
+          "name": "app routes to builder",
+          "status": "passed"
+        },
+        {
+          "name": "Persian message receives Persian answer",
+          "status": "passed"
+        },
+        {
+          "name": "missing chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "noninteger chat rejected",
+          "status": "passed"
+        },
+        {
+          "name": "too long payload rejected",
+          "status": "passed"
+        },
+        {
+          "name": "next polling offset deduplicates updates",
+          "status": "passed"
+        }
+      ],
+      "passed": 10,
+      "failed": 0,
+      "status": "drafted",
+      "verified_example": true,
+      "external_status": "not_run"
+    }
+  },
+  "total_checks": 250,
+  "passed": 250,
+  "failed": 0,
+  "unexecuted_external": [
+    "live Telegram Bot API",
+    "deployment to real cPanel hosting",
+    "fine-tuning AI model weights"
+  ],
+  "notes": "Local fixtures only. Ten checks per lesson reuse scenario fixtures, not 250 independent production integrations.",
+  "started_utc": "2026-11-02"
+}

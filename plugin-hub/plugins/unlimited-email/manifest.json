@@ -1,0 +1,19 @@
+{
+  "slug": "unlimited-email",
+  "name": "Unlimited Email",
+  "chatgptPluginId": "plugins_6af1241521248191a545a332773839ec",
+  "currentChatgptVersion": "0.1.3",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/unlimited-email",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

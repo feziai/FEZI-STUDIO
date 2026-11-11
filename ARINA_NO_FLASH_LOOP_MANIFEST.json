@@ -1,0 +1,17 @@
+{
+  "project": "FEZI Studio",
+  "stage": "Arina natural seamless loop — no flash, no dissolve",
+  "date": "2026-11-06",
+  "input": "1000267688.mp4",
+  "cut_start_seconds": 3.8,
+  "cut_end_seconds": 59.78,
+  "loop_duration_seconds": 55.958333,
+  "fps": 24,
+  "resolution": "1280x720",
+  "transition": "direct cut; no white flash, no fade, no slowdown, no stand-up dance",
+  "radio": "web radio/audio remains separate; video is silent for no overlapping playback",
+  "scene_length_seconds": 60,
+  "video_file": "public/arina-live/assets/video/arina-approved-natural-loop.mp4",
+  "sha256": "8c8f61d5113254bedac41895f33bb669240fc7eddac422a592cec41fe2540910",
+  "deployment": "source and local assets tested; not published to GitHub or online hosting"
+}

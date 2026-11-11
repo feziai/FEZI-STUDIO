@@ -1,0 +1,46 @@
+name: Deploy FEZI AGENT to cPanel (SSH)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify SSH secrets
+        env:
+          HOST: ${{ secrets.CPANEL_HOST }}
+          USER: ${{ secrets.CPANEL_USER }}
+          KEY: ${{ secrets.CPANEL_SSH_KEY }}
+          DIR: ${{ secrets.CPANEL_APP_DIR }}
+          KNOWN_HOSTS: ${{ secrets.CPANEL_KNOWN_HOSTS }}
+        run: |
+          test -n "$HOST" && test -n "$USER" && test -n "$KEY" && test -n "$DIR" && test -n "$KNOWN_HOSTS"
+      - name: Prepare SSH
+        env:
+          SSH_KEY: ${{ secrets.CPANEL_SSH_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.CPANEL_KNOWN_HOSTS }}
+        run: |
+          umask 077
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
+          printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/id_ed25519 ~/.ssh/known_hosts
+      - name: Package app without secrets or cached models
+        run: |
+          tar --exclude=.git --exclude=.github --exclude=.env --exclude='data' --exclude='node_modules' --exclude='models/*.gguf' --exclude='QA' --exclude='tests/qa-5000-fixtures.json' -czf /tmp/fezi-agent.tgz .
+      - name: Deploy and restart Passenger
+        env:
+          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+          CPANEL_USER: ${{ secrets.CPANEL_USER }}
+          CPANEL_APP_DIR: ${{ secrets.CPANEL_APP_DIR }}
+          CPANEL_PORT: ${{ secrets.CPANEL_PORT }}
+        run: |
+          set -euo pipefail
+          PORT="${CPANEL_PORT:-22}"
+          [[ "$CPANEL_APP_DIR" =~ ^[a-zA-Z0-9_./-]+$ ]] || exit 1
+          ssh -p "$PORT" "$CPANEL_USER@$CPANEL_HOST" "mkdir -p '$CPANEL_APP_DIR'"
+          scp -P "$PORT" /tmp/fezi-agent.tgz "$CPANEL_USER@$CPANEL_HOST:$CPANEL_APP_DIR/fezi-agent.tgz"
+          ssh -p "$PORT" "$CPANEL_USER@$CPANEL_HOST" "cd '$CPANEL_APP_DIR' && tar -xzf fezi-agent.tgz && rm fezi-agent.tgz && mkdir -p tmp && touch tmp/restart.txt"

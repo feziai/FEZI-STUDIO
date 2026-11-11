@@ -1,0 +1,13 @@
+{
+  "name": "fezi-studio-integration-kit",
+  "version": "0.80.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/demo.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

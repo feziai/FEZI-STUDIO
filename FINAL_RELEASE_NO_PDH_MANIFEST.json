@@ -1,0 +1,69 @@
+{
+  "project": "FEZI Studio",
+  "release": "2026-11-06-final-no-pdh",
+  "status": "source_ready_not_deployed",
+  "removed_section": "Persian Dark Horse (new standalone section only)",
+  "removed_paths": [
+    "PERSIAN_DARK_HORSE_INTEGRATION_FA.md",
+    "PERSIAN_DARK_HORSE_RELEASE_MANIFEST.json",
+    "public/persian-dark-horse/index.html",
+    "scripts/import-pdh-source.py",
+    "tests/persian-dark-horse-section.test.js"
+  ],
+  "restored_paths": [
+    ".gitignore",
+    "public/fezi-hub/admin.html",
+    "public/fezi-hub/arina.html",
+    "public/fezi-hub/bot-maker.html",
+    "public/fezi-hub/bots.html",
+    "public/fezi-hub/chat.html",
+    "public/fezi-hub/fezipay.html",
+    "public/fezi-hub/home.html",
+    "public/fezi-hub/image.html",
+    "public/fezi-hub/models.html",
+    "public/fezi-hub/video.html",
+    "public/landing/index-fa.html",
+    "public/landing/index.html",
+    "public/model-playground/index.html",
+    "server.js"
+  ],
+  "preserved": [
+    "FEZI Agent free-first Playground",
+    "Arina live",
+    "shared radio token system",
+    "Telegram bot source",
+    "FEZI Studio tools"
+  ],
+  "original_github_source": "FEZI_STUDIO_ARINA_SHARED_RADIO_GITHUB_SOURCE_2026_11_06.zip",
+  "source_contains_media_over_100MB": false,
+  "notes": "Old preexisting Persian Dark Horse bot entries in Telegram app catalog were not removed, as only the newly added PDH standalone section was requested.",
+  "typing_reaction_clips": {
+    "typing-normal": "1000267730.mp4",
+    "typing-frustrated": "1000267729.mp4",
+    "typing-soft": "1000267728.mp4",
+    "typing-hair": "1000267731.mp4"
+  },
+  "local_tests": {
+    "passed": 5587,
+    "failed": 0
+  },
+  "local_http": {
+    "ok": [
+      "/",
+      "/model-playground",
+      "/playground",
+      "/arina-live",
+      "/fezi-hub/home",
+      "/api/arina/status"
+    ],
+    "removed_or_404_after_login": [
+      "/persian-dark-horse",
+      "/pdh",
+      "/api/persian-dark-horse/status"
+    ]
+  },
+  "node_required": ">=22",
+  "github_pushed": false,
+  "production_deployed": false,
+  "external_services_live_tested": false
+}

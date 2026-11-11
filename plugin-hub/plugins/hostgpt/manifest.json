@@ -1,0 +1,19 @@
+{
+  "slug": "hostgpt",
+  "name": "HostGPT AI Deploy Manager",
+  "chatgptPluginId": "plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+  "currentChatgptVersion": "1.0.14",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/hostgpt",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

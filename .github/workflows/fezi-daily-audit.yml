@@ -1,0 +1,22 @@
+name: FEZI Studio - Daily verified checks
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+permissions:
+  contents: read
+jobs:
+  safe-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression tests, no secrets and no deployment
+        run: npm test
+      - name: Safety status
+        run: |
+          echo 'FEZI daily checks completed. Discovery runs on deployed server when FEZI_DISCOVERY_AUTO_REFRESH=true.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No third-party code is installed, executed or deployed automatically.' >> "$GITHUB_STEP_SUMMARY"

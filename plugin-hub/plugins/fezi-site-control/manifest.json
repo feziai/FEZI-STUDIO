@@ -1,0 +1,19 @@
+{
+  "slug": "fezi-site-control",
+  "name": "FEZI Site Control",
+  "chatgptPluginId": "plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+  "currentChatgptVersion": "1.0.0",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/fezi-site-control",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

@@ -1,0 +1,30 @@
+# Local/VPS example only. Not supported on shared cPanel Node hosting.
+services:
+  studio:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATA_DIR: /app/data
+      OLLAMA_BASE_URL: http://ollama:11434
+      COOKIE_SECURE: "false" # Use HTTPS behind reverse proxy for public access.
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - fezi_data:/app/data
+    depends_on:
+      - ollama
+    security_opt:
+      - no-new-privileges:true
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    expose:
+      - "11434"
+    volumes:
+      - ollama_models:/root/.ollama
+volumes:
+  fezi_data: {}
+  ollama_models: {}

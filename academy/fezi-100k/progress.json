@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-11-03",
+  "curriculum_total": 100000,
+  "categories": 10,
+  "counts": {
+    "planned": 99975,
+    "drafted": 25,
+    "verified": 0,
+    "failed": 0,
+    "blocked": 0
+  },
+  "batch_id": "CODE-00001..CODE-00025",
+  "batch_size": 25,
+  "learning_materials": {
+    "lesson_files_created": 25,
+    "local_fixture_suites": 3,
+    "local_test_checks_expected": 250,
+    "examples_under_test": [
+      "python_package",
+      "node_cpanel",
+      "telegram_bot"
+    ],
+    "independent_production_integrations_verified": 0
+  },
+  "rag": {
+    "verified_index_count": 0,
+    "staged_lesson_count": 25,
+    "weights_changed": false
+  },
+  "note": "Every lesson is drafted; local example test passes do not mark whole lessons verified. Future batches require quality gate >=85."
+}

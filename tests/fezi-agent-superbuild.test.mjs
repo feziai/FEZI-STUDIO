@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {buildSkillDraft, targetStatus, slugifyTitle,saveDraft} from '../core/fezi-skill-factory.mjs';
+import {mkdtemp,readFile} from 'node:fs/promises';import {tmpdir} from 'node:os';import path from 'node:path';
+const good={name:'React Website Auditing',domain:'website-edit',goal:'Audit a React website for performance and accessible forms.',steps:['Inspect source and route map','Fix documented issues and rerun tests'],tests:['Lighthouse or equivalent measured regression results']};
+test('Fezi Agent skill creator validates and renders an actual draft file',()=>{const d=buildSkillDraft(good);assert.equal(d.status,'DRAFT');assert.match(d.skillMarkdown,/Acceptance tests/);assert.match(d.skillMarkdown,/name: fezi-website-edit/)});
+test('Fezi Agent skill creator rejects empty and untestable candidates',()=>{assert.throws(()=>buildSkillDraft({...good,steps:[]}),/two distinct/);assert.throws(()=>buildSkillDraft({...good,tests:[]}),/acceptance test/)});
+test('Fezi Agent skill creator confines user characters',()=>{const d=buildSkillDraft({...good,name:'<script>alert(1)</script>'});assert.doesNotMatch(d.id,/[<>]/);assert.ok(slugifyTitle('../../../')==='')});
+test('Fezi Agent reports target separate from real skills',()=>{const s=targetStatus({materializedCount:49});assert.equal(s.targetSkills,5_000_000);assert.equal(s.verifiedSkillDocuments,49);assert.equal(s.validatedSkills,0);assert.equal(s.targetAchieved,false)});
+test('Fezi Agent saves drafts in private folder',async()=>{const d=await mkdtemp(path.join(tmpdir(),'fezi-skill-'));const r=await saveDraft(good,{root:d});assert.equal(r.status,'DRAFT');const f=await readFile(path.join(d,'skill-creator-drafts',`${new Date().toISOString().slice(0,10)}-${r.draftId}.json`),'utf8');assert.equal(JSON.parse(f).id,r.id)});

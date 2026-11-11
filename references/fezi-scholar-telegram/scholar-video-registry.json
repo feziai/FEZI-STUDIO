@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "brand": "FEZI Studio",
+  "name": "FEZI Shared Video + Scholar Skill Bus",
+  "updated_utc": "2026-11-09",
+  "integration_status": "instructions_registered_no_shared_runtime_assumed",
+  "skills": [
+    {
+      "id": "fezi-five-second-video",
+      "kind": "authored_skill",
+      "default_duration_seconds": 5,
+      "provider_selection": "use connected video tool with real status polling",
+      "verified_schema_example": {
+        "tool": "VideoGen.generate_video_clip",
+        "supports_duration_seconds_5": true,
+        "known_args": [
+          "durationSeconds",
+          "prompt",
+          "aspectRatio",
+          "imageFileIds",
+          "startFrameFileId"
+        ]
+      },
+      "not_claimed": [
+        "free generation",
+        "always available",
+        "automatic MCP UI deployment"
+      ]
+    },
+    {
+      "id": "fezi-scholar-research",
+      "kind": "authored_skill",
+      "sources": [
+        {
+          "name": "OpenAlex",
+          "url": "https://help.openalex.org/api/",
+          "type": "scholarly metadata search"
+        },
+        {
+          "name": "Semantic Scholar",
+          "url": "https://api.semanticscholar.org/api-docs/graphs",
+          "type": "academic papers graph"
+        },
+        {
+          "name": "Crossref",
+          "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+          "type": "DOI verification"
+        },
+        {
+          "name": "Scholarly MCP reference",
+          "url": "https://github.com/M-Romdhani/scholarly-mcp",
+          "type": "third-party example; review license and code before use"
+        }
+      ],
+      "standards": [
+        "validate DOI",
+        "deduplicate",
+        "label abstract-only",
+        "flag retractions",
+        "cite source links"
+      ]
+    }
+  ],
+  "ui": {
+    "spec": "https://developers.openai.com/plugins/build/chatgpt-ui",
+    "implementation": "MCP tool + registered UI resource + host bridge",
+    "live": false
+  },
+  "interoperability": {
+    "plugin_boss": "catalog / approved routing",
+    "plugin_finder": "discover reviewed scholar/video providers",
+    "fezi_automation": "n8n job queue and webhook orchestration",
+    "fezi_studio": "video and research workspaces",
+    "super_plugin": "plugin skill packaging",
+    "other_owned_plugins": "reuse shared skill instructions with execution permission checks"
+  },
+  "security": {
+    "credentials": "never in archives",
+    "side_effects": "user-approved",
+    "copyright": "respect provider licenses and text access",
+    "records": "server-authoritative"
+  }
+}

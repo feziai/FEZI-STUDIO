@@ -1,0 +1,28 @@
+# API-first FEZI Studio on a single Node.js server; no local Ollama/GPU required.
+# Protect public traffic using an HTTPS reverse proxy (Caddy/Nginx) at PUBLIC_BASE_URL.
+services:
+  fezi-studio:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATA_DIR: /app/data
+      FEZI_AGENT_FREE_ONLY: "true"
+      FEZI_DISCOVERY_AUTO_REFRESH: ${FEZI_DISCOVERY_AUTO_REFRESH:-true}
+      FEZI_DISCOVERY_ADMIN_REFRESH: ${FEZI_DISCOVERY_ADMIN_REFRESH:-true}
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - fezi_data:/app/data
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/plugins/telegram/factory/status').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 8s
+      retries: 4
+      start_period: 40s
+volumes:
+  fezi_data: {}

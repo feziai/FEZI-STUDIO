@@ -1,0 +1,19 @@
+{
+  "slug": "uncensored",
+  "name": "Uncensored GPT",
+  "chatgptPluginId": "plugins_6aee79b01fd081918e1e4898a67a4253",
+  "currentChatgptVersion": "0.4.13",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "metadata-only-no-current-source-export",
+  "mcpGatewayPath": "/mcp/hub/uncensored",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": null,
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

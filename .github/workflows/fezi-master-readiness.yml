@@ -1,0 +1,30 @@
+name: FEZI Studio — master spec and readiness
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  source-readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify master specification and source readiness
+        run: npm run master:check
+      - name: Verify FEZI Website Controller, Scholar and Telegram source registry
+        run: npm run integration:doctor
+      - name: Regression tests
+        run: npm test
+      - name: No credentials are shipped
+        run: |
+          test ! -e .env
+          test ! -d secrets
+          test ! -f Dotenv.txt
+      - name: Publication disclaimer
+        run: echo 'This job does not deploy, provision GPUs, or validate live provider credentials.' >> "$GITHUB_STEP_SUMMARY"

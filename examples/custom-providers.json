@@ -1,0 +1,9 @@
+[
+  {
+    "id":"my-model",
+    "label":"My OpenAI-compatible server",
+    "baseUrl":"https://inference.example.com/v1",
+    "keyEnv":"MY_MODEL_API_KEY",
+    "model":"my-coding-model"
+  }
+]

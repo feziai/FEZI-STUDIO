@@ -1,0 +1,22 @@
+{
+  "project": "FEZI Studio",
+  "release": "2026-11-06-free-first-playground",
+  "default": "FEZI Agent",
+  "billing": "free-first; paid models locked by default",
+  "cloud_api_unlimited": false,
+  "updates": [
+    "core/free-playground-v101.js",
+    "server.js",
+    "public/model-playground/index.html",
+    "public/model-playground/style.css",
+    "public/model-playground/app.js",
+    "public/fezi-hub/chat.html",
+    "public/landing/index.html",
+    "tests/playground-free-first-20261106.test.js",
+    "FEZI_PLAYGROUND_FREE_FIRST_2026_11_06_FA.md"
+  ],
+  "version": "playground-free-first-v1",
+  "excluded_from_git": [
+    "public/arina-live/assets/video/arina-three-minute-unedited.mp4"
+  ]
+}

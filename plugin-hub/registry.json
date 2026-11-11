@@ -1,0 +1,220 @@
+{
+  "brand": "FEZI Studio — فضی استودیو",
+  "preparedAt": "2026-11-11",
+  "sourceWebsite": "FEZI_STUDIO_NODE22_PLUGIN_DIRECTORY_UPDATED_2026_11_11.zip",
+  "privatePluginCount": 25,
+  "pluginArchivesIncluded": [
+    "easygit",
+    "persian-type-studio",
+    "replit-websites-deployer",
+    "fezi-ai"
+  ],
+  "mcpHubRuntime": "included-unconfigured",
+  "chatgptPrivatePluginsAutomaticallyPublic": false,
+  "githubRunsMcpProcess": false,
+  "plugins": [
+    {
+      "slug": "fezi-studio",
+      "name": "FEZI Studio",
+      "version": "0.3.18",
+      "pluginId": "plugins_6aee66d7da5c8191878e86e2a54dbc49",
+      "mcpPath": "/mcp/hub/fezi-studio",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "premium",
+      "name": "FEZI Studio Premium",
+      "version": "1.1.8",
+      "pluginId": "plugins_6aee769dcc7881919cd7829f1166dfcf",
+      "mcpPath": "/mcp/hub/premium",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "super-plugin",
+      "name": "Super Plugin",
+      "version": "0.3.21",
+      "pluginId": "plugins_6aee704a03fc8191b211748176057f35",
+      "mcpPath": "/mcp/hub/super-plugin",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "gitfez",
+      "name": "GitFez / Host Manager",
+      "version": "0.3.12",
+      "pluginId": "plugins_6aee5e023dc4819188cd987094cf5441",
+      "mcpPath": "/mcp/hub/gitfez",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "git-pusher",
+      "name": "FEZI Git Pusher",
+      "version": "0.6.15",
+      "pluginId": "plugins_6aee597b2af081918f3dcb35530cf384",
+      "mcpPath": "/mcp/hub/git-pusher",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "arina",
+      "name": "Arina Live",
+      "version": "0.1.8",
+      "pluginId": "plugins_6aeea11809e88191a73963704e2ba340",
+      "mcpPath": "/mcp/hub/arina",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "uncensored",
+      "name": "Uncensored GPT",
+      "version": "0.4.13",
+      "pluginId": "plugins_6aee79b01fd081918e1e4898a67a4253",
+      "mcpPath": "/mcp/hub/uncensored",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "fezipay",
+      "name": "FeziPay",
+      "version": "0.8.14",
+      "pluginId": "plugins_6aee634490288191b707850d23b96c03",
+      "mcpPath": "/mcp/hub/fezipay",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "hostgpt",
+      "name": "HostGPT AI Deploy Manager",
+      "version": "1.0.14",
+      "pluginId": "plugin_asdk_app_sites_269e439e2fb48191b548441254a54a00",
+      "mcpPath": "/mcp/hub/hostgpt",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "fezi-agent-builder",
+      "name": "FEZI Agent Builder",
+      "version": "0.1.8",
+      "pluginId": "plugins_6af010f67fac8191a27194c5258fd239",
+      "mcpPath": "/mcp/hub/fezi-agent-builder",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "fezi-telegram-bot-maker",
+      "name": "FEZI Telegram Bot Maker",
+      "version": "0.5.6",
+      "pluginId": "plugins_6af005cefac8819186b101bfdd77ed74",
+      "mcpPath": "/mcp/hub/fezi-telegram-bot-maker",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "skill-creator",
+      "name": "FEZI Skill Creator",
+      "version": "1.1.0",
+      "pluginId": "plugins_6af002aa904c8191bcdbd2a0f7f7f83f",
+      "mcpPath": "/mcp/hub/skill-creator",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "plugin-finder",
+      "name": "Plugin Finder",
+      "version": "1.0.16",
+      "pluginId": "plugin_asdk_app_sites_7f59c2f312a081919eb5a0c4b8a78eae",
+      "mcpPath": "/mcp/hub/plugin-finder",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "easygit",
+      "name": "EasyGit",
+      "version": "0.1.0",
+      "pluginId": "plugins_6af3db32a214819185f3f0e82736c173",
+      "mcpPath": "/mcp/hub/easygit",
+      "sourceStatus": "historical-export"
+    },
+    {
+      "slug": "persian-type-studio",
+      "name": "Persian Type Studio",
+      "version": "0.1.1",
+      "pluginId": "plugins_6af3d85d8ac881918e82951d8185edef",
+      "mcpPath": "/mcp/hub/persian-type-studio",
+      "sourceStatus": "historical-export"
+    },
+    {
+      "slug": "fezi-ai",
+      "name": "FEZI AI",
+      "version": "1.0.0",
+      "pluginId": "plugins_6af3d3faa9f48191b4b8e29f97ac9868",
+      "mcpPath": "/mcp/hub/fezi-ai",
+      "sourceStatus": "historical-export"
+    },
+    {
+      "slug": "replit-websites-deployer",
+      "name": "Replit Websites Deployer",
+      "version": "1.0.0",
+      "pluginId": "plugins_6af3d2e8ad34819184969f276177c2ca",
+      "mcpPath": "/mcp/hub/replit-websites-deployer",
+      "sourceStatus": "historical-export"
+    },
+    {
+      "slug": "fezi-site-control",
+      "name": "FEZI Site Control",
+      "version": "1.0.0",
+      "pluginId": "plugins_6af3ce7cf96c8191ba43c9952c5f2eb8",
+      "mcpPath": "/mcp/hub/fezi-site-control",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "plugin-boss",
+      "name": "Plugin Boss",
+      "version": "1.0.3",
+      "pluginId": "plugins_6af16b9fffc0819187d1c0b7fc7840c5",
+      "mcpPath": "/mcp/hub/plugin-boss",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "fezi-website-controller",
+      "name": "FEZI Website Controller",
+      "version": "1.0.6",
+      "pluginId": "plugins_6af12c828d708191bbc2155205c342b0",
+      "mcpPath": "/mcp/hub/fezi-website-controller",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "fezi-ai-command-center",
+      "name": "FEZI AI Command Center",
+      "version": "1.0.3",
+      "pluginId": "plugins_6af12b7fe94881919815cc5b117849ab",
+      "mcpPath": "/mcp/hub/fezi-ai-command-center",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "wan2-free",
+      "name": "Wan2 Free",
+      "version": "1.0.4",
+      "pluginId": "plugins_6af12a28838481919c2cc8d30dde6f7a",
+      "mcpPath": "/mcp/hub/wan2-free",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "unlimited-email",
+      "name": "Unlimited Email",
+      "version": "0.1.3",
+      "pluginId": "plugins_6af1241521248191a545a332773839ec",
+      "mcpPath": "/mcp/hub/unlimited-email",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "fezi-automation",
+      "name": "FEZI Automation",
+      "version": "1.1.6",
+      "pluginId": "plugins_6af11f2ec0e48191845816afe7260920",
+      "mcpPath": "/mcp/hub/fezi-automation",
+      "sourceStatus": "metadata-only"
+    },
+    {
+      "slug": "fezi-website-builder-pro",
+      "name": "FEZI Website Builder Pro",
+      "version": "1.2.5",
+      "pluginId": "plugins_6af11167471c81919bafaa4c613e1747",
+      "mcpPath": "/mcp/hub/fezi-website-builder-pro",
+      "sourceStatus": "metadata-only"
+    }
+  ],
+  "allGatewayRoutesGenerated": true,
+  "actualUpstreamConnectionsConfigured": false,
+  "fullCurrentPluginSourceArchivesIncluded": false
+}

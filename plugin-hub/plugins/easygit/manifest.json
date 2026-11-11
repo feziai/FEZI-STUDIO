@@ -1,0 +1,23 @@
+{
+  "slug": "easygit",
+  "name": "EasyGit",
+  "chatgptPluginId": "plugins_6af3db32a214819185f3f0e82736c173",
+  "currentChatgptVersion": "0.1.0",
+  "chatgptVisibility": "PRIVATE",
+  "githubSourceStatus": "historical-export-available",
+  "mcpGatewayPath": "/mcp/hub/easygit",
+  "upstreamMcpConfigured": false,
+  "runtimeStatus": "not-deployed",
+  "providerOperationsActive": false,
+  "sourceExport": {
+    "filename": "EasyGit_ChatGPT_Plugin_v0.1.0.zip",
+    "sha256": "1a55e8b694993d343d448b8b499cd5b5ea396506a424412f28f932fe9030e205",
+    "note": "historical source export; compare version with live plugin before publishing"
+  },
+  "requiredAction": [
+    "Upload repo to private GitHub",
+    "Configure secret on hosting",
+    "For execution, deploy and connect plugin-specific MCP upstream",
+    "Confirm ChatGPT plugin MCP configuration and permissions"
+  ]
+}

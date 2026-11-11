@@ -1,0 +1,31 @@
+{
+  "name": "FEZI STUDIO unified Telegram factory + FEZI Agent MCP + daily free discovery",
+  "date": "2026-11-08",
+  "base_zip": "FEZI_STUDIO_GITHUB_API_FIRST_VOICE_TELEGRAM_FULL_2026_11_08.zip",
+  "source_folder": "FEZI_STUDIO/",
+  "patch_files": 30,
+  "new_files": 21,
+  "modified_files": 9,
+  "test_result": {
+    "node_test_passed": 5623,
+    "node_test_failed": 0,
+    "http_public_routes_passed": 8,
+    "server_auth_guards_tested": true
+  },
+  "not_yet_live": [
+    "Telegram BotFather tokens rotated and registered",
+    "real HTTPS + Telegram Webhook",
+    "OpenRouter free API credentials validated",
+    "real GitHub push/write permission",
+    "production hosting",
+    "GPU or CPU AI worker",
+    "public ChatGPT plugin sharing"
+  ],
+  "security": [
+    "No user-supplied Dotenv.txt copied",
+    "No live tokens included",
+    "Private MCP requires bearer token and cannot substitute OAuth",
+    "Shell only executes allowlisted commands",
+    "User-generated models are never automatically installed/executed"
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "label": "BNB",
+    "network": "BNB Smart Chain",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "USDT BEP20",
+    "network": "BNB Smart Chain",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "ETH",
+    "network": "Ethereum",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "USDT ERC20",
+    "network": "Ethereum",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "BTC",
+    "network": "Bitcoin",
+    "address": "bc1qt9gu52gnez4gq86qfdzcvpd9rjx7kc4srmssmn",
+    "verified": false
+  },
+  {
+    "label": "SOL",
+    "network": "Solana",
+    "address": "4hVx2LG5hygUPWxk1XNVeeqS9X8H7ngWpFyTEbfSAvSA",
+    "verified": false
+  },
+  {
+    "label": "TRX",
+    "network": "Tron",
+    "address": "TWCLiDUumxSegdbY2Qq6n25PaoGuDedovp",
+    "verified": false
+  },
+  {
+    "label": "USDT TRC20",
+    "network": "Tron",
+    "address": "TWCLiDUumxSegdbY2Qq6n25PaoGuDedovp",
+    "verified": false
+  },
+  {
+    "label": "TON",
+    "network": "TON",
+    "address": "UQD5B1s87qakuDlnkW3RyFkgUDhxjIxTD6SRK30yLUhnP8Cl",
+    "verified": false
+  },
+  {
+    "label": "Usdc Base",
+    "network": "Base",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "Usdc Eth",
+    "network": "Ethereum",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "Usdc Sol",
+    "network": "Solana",
+    "address": "4hVx2LG5hygUPWxk1XNVeeqS9X8H7ngWpFyTEbfSAvSA",
+    "verified": false
+  },
+  {
+    "label": "Ada cardano",
+    "network": "Cardano",
+    "address": "addr1qy4rgsjtfu2npgnurq2f8qszusyg9c2h4qsnusdp84f7zj8twteydfy047tv9a5djxkwd6j35yu96dxydhdcu05mefhs7v47nz",
+    "verified": false
+  },
+  {
+    "label": "Artibitrum",
+    "network": "Arbitrum — asset requires confirmation",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "Base",
+    "network": "Base — asset requires confirmation",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "Doge coin",
+    "network": "Dogecoin",
+    "address": "DN16CWU5G55HfvLfMbBTqVfHdtWwcr1KLm",
+    "verified": false
+  },
+  {
+    "label": "Polygon",
+    "network": "Polygon — asset requires confirmation",
+    "address": "0x50e30db8199daa52A24d88e458B65D91DC721B48",
+    "verified": false
+  },
+  {
+    "label": "Vechain",
+    "network": "VeChain",
+    "address": "0x14Cc495A76eCd89DC3a7a02B0Bf7260519da0282",
+    "verified": false
+  },
+  {
+    "label": "Xrp",
+    "network": "XRP Ledger — destination tag requires confirmation",
+    "address": "rKgwz3TZUUd3RcjpgDFKJneBr686mtZ7nh",
+    "verified": false
+  },
+  {
+    "label": "Zcash",
+    "network": "Zcash",
+    "address": "t1Tnv16LWZwMaSxnmJdgdpe8CChj5LyZrkP",
+    "verified": false
+  },
+  {
+    "label": "Bitcoin cash",
+    "network": "Bitcoin Cash",
+    "address": "qr5357j8uertuhnd4xvty8fy5dz65sa4a5eyu44tzp",
+    "verified": false
+  },
+  {
+    "label": "Dash",
+    "network": "Dash",
+    "address": "XhPinGvasdYXcE9yioVGxLvjvjNBRuAk8f",
+    "verified": false
+  }
+]
